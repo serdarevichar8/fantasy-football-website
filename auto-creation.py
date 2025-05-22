@@ -25,28 +25,37 @@ def df_to_table(data: pd.DataFrame):
     return t
 
 
-def header():
+
+
+
+def header(active_year: int = None):
     container = div(_class='header')
     logo = img(src=f'{root}/Assets/Fantasy-Football-App-LOGO.png', height=85, style='float: left;')
     heading = h1('Fantasy Football Luck Scores')
+
+    navbar = topnav(active_year=active_year)
     
     container.add(logo)
     container.add(heading)
+    container.add(br())
+    container.add(navbar)
 
     return container
 
 
-
-def topnav(years_weeks: list[(int,int)]):
+def topnav(active_year: int = None):
     container = div(_class='topnav')
 
     home = a('Home', href=f'{root}/')
     container.add(home)
 
-
+    years_weeks = [(2019,13), (2020,13), (2021,14), (2022,14), (2023,14), (2024,14)]
 
     for year, week in years_weeks:
-        dropdown = div(_class='dropdown')
+        if active_year == year:
+            dropdown = div(_class='dropdown active')
+        else:
+            dropdown = div(_class='dropdown')
         dropdown_button = a(year, href=f'{root}/{year}/', _class='dropdown-button')
         dropdown.add(dropdown_button)
 
@@ -63,6 +72,7 @@ def topnav(years_weeks: list[(int,int)]):
     container.add(champions)
 
     return container
+
 
 def content(title: str, scoreboard: pd.DataFrame = None, standings: pd.DataFrame = None):
     container = div(_class='content')
@@ -92,7 +102,11 @@ def content(title: str, scoreboard: pd.DataFrame = None, standings: pd.DataFrame
 
 df = pd.read_csv('/Users/serdarevichar/Library/CloudStorage/GoogleDrive-serdarevichar@gmail.com/My Drive/fantasy-football-database.csv', index_col = 'Unnamed: 0')
 
-#years = [2019]
+#print(header(active_year=2019))
+
+
+
+
 years = [2019,2020,2021,2022,2023,2024]
 
 for year in years:
@@ -108,8 +122,7 @@ for year in years:
 
 
         # Add in the pieces which make up the general template
-        doc.add(header())
-        doc.add(topnav(years_weeks=[(2019,13), (2020,13), (2021,14), (2022,14), (2023,14), (2024,14)]))
+        doc.add(header(active_year=year))
         scoreboard = df.loc[(df['Year'] == year) & (df['Week'] == i+1), ['Home Team','Home Score','Away Score','Away Team']].copy()
         standings = df.loc[(df['Year'] == year) & (df['Week'] <= i+1)].copy()
 
@@ -129,8 +142,10 @@ for year in years:
         for team in teams:
             wins = standings_data.loc[(standings_data['Team'] == team) & (standings_data['Win'] == 1), 'Win'].sum()
             losses = i + 1 - wins
-            records.append([team, wins, losses])
-        standings = pd.DataFrame(records, columns=['Team','Wins','Losses']).sort_values('Wins', ascending=False)
+            points_for = round(standings_data.loc[(standings_data['Team'] == team), 'Score'].sum(), 2)
+            points_against = round(standings_data.loc[(standings_data['Team'] == team), 'Opp Score'].sum(), 2)
+            records.append([team, wins, losses, points_for, points_against])
+        standings = pd.DataFrame(records, columns=['Team','Wins','Losses','Points For','Points Against']).sort_values(['Wins','Points For'], ascending=False)
 
 
         doc.add(content(title=f'{year} Week {i+1}', scoreboard=scoreboard, standings=standings))
