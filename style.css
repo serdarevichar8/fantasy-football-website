@@ -5,22 +5,24 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    --background: linear-gradient(white,#AAAAAA);
-    background-color: #333333;
+    background-color: #BBBBBB;
+}
+
+body div {
+    box-shadow: 0 6px 12px -3px #333333;
+    border-radius: 30px;
 }
 
 .header {
     background-color: cornflowerblue;
     padding: 20px;
     text-align: center;
-    border-radius: 30px;
     margin: 1%;
 }
 
 .topnav {
     background-color: #444444;
     overflow: hidden;
-    border-radius: 30px;
     margin: 1%;
 }
 
@@ -37,8 +39,6 @@ body {
     text-align: center;
 }
 
-
-
 .topnav a {
     float: left;
     display: block;
@@ -53,8 +53,9 @@ body {
 .dropdown {
     float: left;
     overflow: hidden;
+    box-shadow: none;
+    border-radius: 0;
 }
-
 
 .dropdown a {
     float: none;
@@ -65,7 +66,6 @@ body {
     border: none;
     cursor: pointer;
 }
-
 
 .dropdown-content {
     display: none;
@@ -91,13 +91,57 @@ body {
     color: black;
 }
 
+.content {
+    background-color: #EEEEEE;
+    margin: 1%;
+    text-align: center;
+    padding: 10px;
+}
 
+.content div {
+    margin: auto;
+}
 
+.content table {
+    margin: auto;
+    border: solid #333333;
+    border-collapse: collapse;
+}
 
+.content thead {
+    background-color: #79c179;
+    border: solid #333333;
+    height: 40px;
+}
 
+.content tbody tr {
+    height: 25px;
+}
 
+.content tbody tr:nth-child(even) {
+    background-color: #CCCCCC;
+}
 
+.content th, td {
+    width: 200px;
+    border-left: solid #333333;
+}
 
+.content h2 {
+    text-align: left;
+    padding: 5px;
+    margin: 0;
+    background-color: cornflowerblue;
+    color: #111111;
+    border: solid #333333;
+    border-bottom-style: none;
+}
+
+.scoreboard {
+    box-shadow: none;
+    border-radius: 0;
+    width: fit-content;
+}
 
 
 
@@ -123,14 +167,7 @@ body {
     border-radius: 30px;
 }
 
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 
 
-table {
-    margin: auto;
-}
+

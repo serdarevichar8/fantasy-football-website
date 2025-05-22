@@ -1,96 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .header {
-            background-color: cornflowerblue;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .topnav {
-            background-color: #444444;
-            overflow: hidden;
-        }
-
-        .topnav a {
-            padding: 20px 20px;
-            background-color: inherit;
-            color: white;
-            font-size: 16px;
-            width: 125px;
-            text-align: center;
-            float: left;
-            display: block;
-            text-decoration: none;
-        }
-
-        .topnav a:hover {
-            background-color: #AAAAAA;
-            color: black;
-        }
-
-        .dropdown {
-            float: left;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            top: 100%;
-            background-color: #444444;
-            width: 125px;
-            z-index: 1;
-        }
-
-        .dropdown-content a {
-            display: block;
-        }
-
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-    </style>
-
-</head>
-<body>
+<html>
+  <head>
+    <title>Fantasy Football</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
     <div class="header">
-        <h1>Test Page</h1>
+      <img height="85" src="/Assets/Fantasy-Football-App-LOGO.png" style="float: left;">
+      <h1>Fantasy Football Luck Scores</h1>
     </div>
-
     <div class="topnav">
-        <a href="index.html">Home</a>
-        <div class="dropdown">
-            <a href="#Dropdown">Dropdown</a>
-            <div class="dropdown-content">
-                <a href="#test1">Test 1</a>
-                <a href="#test2">Test 2</a>
-            </div>
+      <a href="/">Home</a>
+      <div class="dropdown">
+        <a class="dropdown-button" href="/2019/">2019</a>
+        <div class="dropdown-content">
+          <a href="/2019/week-1.html">Week 1</a>
+          <a href="/2019/week-2.html">Week 2</a>
+          <a href="/2019/week-3.html">Week 3</a>
+          <a href="/2019/week-4.html">Week 4</a>
+          <a href="/2019/week-5.html">Week 5</a>
+          <a href="/2019/week-6.html">Week 6</a>
+          <a href="/2019/week-7.html">Week 7</a>
+          <a href="/2019/week-8.html">Week 8</a>
+          <a href="/2019/week-9.html">Week 9</a>
+          <a href="/2019/week-10.html">Week 10</a>
+          <a href="/2019/week-11.html">Week 11</a>
+          <a href="/2019/week-12.html">Week 12</a>
+          <a href="/2019/week-13.html">Week 13</a>
         </div>
-        <a href="#Test">Test</a>
+      </div>
+      <div class="dropdown">
+        <a class="dropdown-button" href="/2020/">2020</a>
+        <div class="dropdown-content">
+          <a href="/2020/week-1.html">Week 1</a>
+          <a href="/2020/week-2.html">Week 2</a>
+          <a href="/2020/week-3.html">Week 3</a>
+          <a href="/2020/week-4.html">Week 4</a>
+          <a href="/2020/week-5.html">Week 5</a>
+          <a href="/2020/week-6.html">Week 6</a>
+          <a href="/2020/week-7.html">Week 7</a>
+          <a href="/2020/week-8.html">Week 8</a>
+          <a href="/2020/week-9.html">Week 9</a>
+          <a href="/2020/week-10.html">Week 10</a>
+          <a href="/2020/week-11.html">Week 11</a>
+          <a href="/2020/week-12.html">Week 12</a>
+          <a href="/2020/week-13.html">Week 13</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a class="dropdown-button" href="/2021/">2021</a>
+        <div class="dropdown-content">
+          <a href="/2021/week-1.html">Week 1</a>
+          <a href="/2021/week-2.html">Week 2</a>
+          <a href="/2021/week-3.html">Week 3</a>
+          <a href="/2021/week-4.html">Week 4</a>
+          <a href="/2021/week-5.html">Week 5</a>
+          <a href="/2021/week-6.html">Week 6</a>
+          <a href="/2021/week-7.html">Week 7</a>
+          <a href="/2021/week-8.html">Week 8</a>
+          <a href="/2021/week-9.html">Week 9</a>
+          <a href="/2021/week-10.html">Week 10</a>
+          <a href="/2021/week-11.html">Week 11</a>
+          <a href="/2021/week-12.html">Week 12</a>
+          <a href="/2021/week-13.html">Week 13</a>
+          <a href="/2021/week-14.html">Week 14</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a class="dropdown-button" href="/2022/">2022</a>
+        <div class="dropdown-content">
+          <a href="/2022/week-1.html">Week 1</a>
+          <a href="/2022/week-2.html">Week 2</a>
+          <a href="/2022/week-3.html">Week 3</a>
+          <a href="/2022/week-4.html">Week 4</a>
+          <a href="/2022/week-5.html">Week 5</a>
+          <a href="/2022/week-6.html">Week 6</a>
+          <a href="/2022/week-7.html">Week 7</a>
+          <a href="/2022/week-8.html">Week 8</a>
+          <a href="/2022/week-9.html">Week 9</a>
+          <a href="/2022/week-10.html">Week 10</a>
+          <a href="/2022/week-11.html">Week 11</a>
+          <a href="/2022/week-12.html">Week 12</a>
+          <a href="/2022/week-13.html">Week 13</a>
+          <a href="/2022/week-14.html">Week 14</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a class="dropdown-button" href="/2023/">2023</a>
+        <div class="dropdown-content">
+          <a href="/2023/week-1.html">Week 1</a>
+          <a href="/2023/week-2.html">Week 2</a>
+          <a href="/2023/week-3.html">Week 3</a>
+          <a href="/2023/week-4.html">Week 4</a>
+          <a href="/2023/week-5.html">Week 5</a>
+          <a href="/2023/week-6.html">Week 6</a>
+          <a href="/2023/week-7.html">Week 7</a>
+          <a href="/2023/week-8.html">Week 8</a>
+          <a href="/2023/week-9.html">Week 9</a>
+          <a href="/2023/week-10.html">Week 10</a>
+          <a href="/2023/week-11.html">Week 11</a>
+          <a href="/2023/week-12.html">Week 12</a>
+          <a href="/2023/week-13.html">Week 13</a>
+          <a href="/2023/week-14.html">Week 14</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a class="dropdown-button" href="/2024/">2024</a>
+        <div class="dropdown-content">
+          <a href="/2024/week-1.html">Week 1</a>
+          <a href="/2024/week-2.html">Week 2</a>
+          <a href="/2024/week-3.html">Week 3</a>
+          <a href="/2024/week-4.html">Week 4</a>
+          <a href="/2024/week-5.html">Week 5</a>
+          <a href="/2024/week-6.html">Week 6</a>
+          <a href="/2024/week-7.html">Week 7</a>
+          <a href="/2024/week-8.html">Week 8</a>
+          <a href="/2024/week-9.html">Week 9</a>
+          <a href="/2024/week-10.html">Week 10</a>
+          <a href="/2024/week-11.html">Week 11</a>
+          <a href="/2024/week-12.html">Week 12</a>
+          <a href="/2024/week-13.html">Week 13</a>
+          <a href="/2024/week-14.html">Week 14</a>
+        </div>
+      </div>
+      <a href="champion.html">Champions</a>
     </div>
-
-
-
-
-
-
-
-
-</body>
+    <div class="content">
+      <h1>2019 Week 1</h1>
+      <div class="scoreboard">
+        <h2>Weekly Scoreboard</h2>
+        <table id="scoreboard-table">
+          <thead>
+            <th>Home Team</th>
+            <th>Home Score</th>
+            <th>Away Score</th>
+            <th>Away Team</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Justin</td>
+              <td>158.02</td>
+              <td>113.2</td>
+              <td>The</td>
+            </tr>
+            <tr>
+              <td>Dante</td>
+              <td>107.92</td>
+              <td>126.14</td>
+              <td>Zach</td>
+            </tr>
+            <tr>
+              <td>Michael</td>
+              <td>112.68</td>
+              <td>134.32</td>
+              <td>McGwire</td>
+            </tr>
+            <tr>
+              <td>Andrew</td>
+              <td>128.54</td>
+              <td>141.26</td>
+              <td>Carter</td>
+            </tr>
+            <tr>
+              <td>Haris</td>
+              <td>135.8</td>
+              <td>101.82</td>
+              <td>Ethan</td>
+            </tr>
+            <tr>
+              <td>Noah </td>
+              <td>153.86</td>
+              <td>132.22</td>
+              <td>Nathan</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
 </html>
