@@ -2,6 +2,7 @@ import dominate
 from dominate.tags import *
 import pandas as pd
 
+root = '/fantasy-football-website'
 
 
 def df_to_table(data: pd.DataFrame):
@@ -26,7 +27,7 @@ def df_to_table(data: pd.DataFrame):
 
 def header():
     container = div(_class='header')
-    logo = img(src='/Assets/Fantasy-Football-App-LOGO.png', height=85, style='float: left;')
+    logo = img(src=f'{root}/Assets/Fantasy-Football-App-LOGO.png', height=85, style='float: left;')
     heading = h1('Fantasy Football Luck Scores')
     
     container.add(logo)
@@ -39,26 +40,26 @@ def header():
 def topnav(years_weeks: list[(int,int)]):
     container = div(_class='topnav')
 
-    home = a('Home', href='/')
+    home = a('Home', href=f'{root}/')
     container.add(home)
 
 
 
     for year, week in years_weeks:
         dropdown = div(_class='dropdown')
-        dropdown_button = a(year, href=f'/{year}/', _class='dropdown-button')
+        dropdown_button = a(year, href=f'{root}/{year}/', _class='dropdown-button')
         dropdown.add(dropdown_button)
 
         dropdown_content = div(_class='dropdown-content')
         for i in range(week):
-            _a = a(f'Week {i+1}', href=f'/{year}/week-{i+1}.html')
+            _a = a(f'Week {i+1}', href=f'{root}/{year}/week-{i+1}.html')
 
             dropdown_content.add(_a)
 
         dropdown.add(dropdown_content)
         container.add(dropdown)
 
-    champions = a('Champions', href='champion.html')
+    champions = a('Champions', href=f'{root}/champion.html')
     container.add(champions)
 
     return container
@@ -82,7 +83,7 @@ def content(title: str, scoreboard: pd.DataFrame):
 
 # Construct the body of the HTML
 doc = dominate.document(title='Fantasy Football')
-doc.head.add(link(rel='stylesheet', href='style.css'))
+doc.head.add(link(rel='stylesheet', href=f'{root}/style.css'))
 
 
 # Add in the pieces which make up the general template
