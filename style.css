@@ -99,7 +99,10 @@ body div {
 }
 
 .content div {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .content table {
@@ -130,14 +133,14 @@ body div {
 .content h2 {
     text-align: left;
     padding: 5px;
-    margin: 0;
+    margin-bottom: 0;
     background-color: cornflowerblue;
     color: #111111;
     border: solid #333333;
     border-bottom-style: none;
 }
 
-.scoreboard {
+.scoreboard, .standings {
     box-shadow: none;
     border-radius: 0;
     width: fit-content;
@@ -145,27 +148,6 @@ body div {
 
 
 
-
-
-
-.column {
-    float: left;
-    padding: 15px;
-}
-
-.left {
-    width: 18%;
-    background-color: #EEEEEE;
-    margin: 1%;
-    border-radius: 30px;
-}
-
-.right {
-    width: 78%;
-    background-color: #EEEEEE;
-    margin: 1%;
-    border-radius: 30px;
-}
 
 
 
