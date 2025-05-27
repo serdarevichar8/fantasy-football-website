@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin-left: 1%;
+      margin-right: 1%;
+      margin-top: 100px;
+    }
+
+    .topnav {
+      display: block;
+      background-color: #444444;
+      text-align: center;
+      border-radius: 30px;
+      /*overflow: hidden;*/
+      margin: 0;
+      color: white;
+    }
+
+    .dropdown {
+      display: flex;
+      width: 12.5%;
+      background-color: inherit;
+    }
+
+    .dropdown a {
+      display: block;
+      padding: 20px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .dropdown a:hover {
+      background-color: #AAAAAA;
+      color: black;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+  </style>
+</head>
+<body>
+
+
+
+  <div class="topnav">
+    <div class="dropdown">
+      <a href="#">Home</a>
+    </div>
+    <div class="dropdown">
+      <a href="#">2019</a>
+      <div class="dropdown-content">
+        <a href="#">Week 1</a>
+        <a href="#">Week 2</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <a href="#">2020</a>
+    </div>
+    <div class="dropdown">
+      <a href="#">2021</a>
+    </div>
+    <div class="dropdown">
+      <a href="#">2022</a>
+    </div>
+    <div class="dropdown">
+      <a href="#">2023</a>
+    </div>
+    <div class="dropdown">
+      <a href="#">2024</a>
+    </div>
+    <div class="dropdown">
+      <a href="#">Champions</a>
+    </div>
+  </div>
+</body>
+</html>
