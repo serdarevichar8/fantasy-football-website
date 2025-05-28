@@ -15,7 +15,9 @@ body div {
 
 .header {
     background-color: cornflowerblue;
-    padding: 20px;
+    /*padding: 20px;*/
+    padding-bottom: 20px;
+    padding-top: 20px;
     text-align: center;
     border-radius: 0;
 }
@@ -67,7 +69,7 @@ body div {
     position: absolute;
     background-color: #444444;
     z-index: 1;
-    width: 11.9%;
+    width: 12.3%;
 }
 
 .dropdown-content a {
@@ -124,7 +126,7 @@ body div {
 }
 
 .content th, td {
-    width: 200px;
+    width: 150px;
     border-left: solid #333333;
 }
 
@@ -138,7 +140,7 @@ body div {
     border-bottom-style: none;
 }
 
-.scoreboard, .standings, .champion-summary {
+.scoreboard, .standings, .champion-summary, .champion-years {
     box-shadow: none;
     border-radius: 0;
     width: fit-content;
