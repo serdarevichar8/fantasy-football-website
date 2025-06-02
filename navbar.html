@@ -11,24 +11,25 @@
     }
 
     body {
-      margin-left: 1%;
-      margin-right: 1%;
+      /* margin-left: 20%;
+      margin-right: 20%; */
       margin-top: 100px;
     }
 
     .topnav {
-      display: block;
+      display: flex;
       background-color: #444444;
       text-align: center;
       border-radius: 30px;
-      /*overflow: hidden;*/
-      margin: 0;
+      margin: 0 25%;
       color: white;
     }
 
     .dropdown {
-      display: flex;
-      width: 12.5%;
+      display: block;
+      position: relative;
+      
+      width: 25%;
       background-color: inherit;
     }
 
@@ -46,7 +47,9 @@
 
     .dropdown-content {
       display: none;
+      background-color: #444444;
       position: absolute;
+      width: 100%;
     }
 
     .dropdown:hover .dropdown-content {
@@ -64,26 +67,18 @@
       <a href="#">Home</a>
     </div>
     <div class="dropdown">
-      <a href="#">2019</a>
+      <a href="#">Year</a>
       <div class="dropdown-content">
-        <a href="#">Week 1</a>
-        <a href="#">Week 2</a>
+        <a href="#">2019</a>
+        <a href="#">2020</a>
+        <a href="#">2021</a>
+        <a href="#">2022</a>
+        <a href="#">2023</a>
+        <a href="#">2024</a>
       </div>
     </div>
     <div class="dropdown">
-      <a href="#">2020</a>
-    </div>
-    <div class="dropdown">
-      <a href="#">2021</a>
-    </div>
-    <div class="dropdown">
-      <a href="#">2022</a>
-    </div>
-    <div class="dropdown">
-      <a href="#">2023</a>
-    </div>
-    <div class="dropdown">
-      <a href="#">2024</a>
+      <a href="#">Teams</a>
     </div>
     <div class="dropdown">
       <a href="#">Champions</a>

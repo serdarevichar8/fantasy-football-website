@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fantasy Football</title>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+        <img height="85" src="{{ url_for('static', filename='Fantasy-Football-App-LOGO.png') }}" style="float: left;padding: 0px 20px">
+        <h1>Fantasy Football Luck Scores</h1><br>
+        <div class="topnav">
+          <div class="dropdown active">
+            <a href="/">Home</a>
+          </div>
+          <div class="dropdown">
+            <a class="dropdown-button" href="/season/2019">2019</a>
+            <div class="dropdown-content">
+              <a href="/fantasy-football-website/2019/week-1.html">Week 1</a>
+              <a href="/fantasy-football-website/2019/week-2.html">Week 2</a>
+              <a href="/fantasy-football-website/2019/week-3.html">Week 3</a>
+              <a href="/fantasy-football-website/2019/week-4.html">Week 4</a>
+              <a href="/fantasy-football-website/2019/week-5.html">Week 5</a>
+              <a href="/fantasy-football-website/2019/week-6.html">Week 6</a>
+              <a href="/fantasy-football-website/2019/week-7.html">Week 7</a>
+              <a href="/fantasy-football-website/2019/week-8.html">Week 8</a>
+              <a href="/fantasy-football-website/2019/week-9.html">Week 9</a>
+              <a href="/fantasy-football-website/2019/week-10.html">Week 10</a>
+              <a href="/fantasy-football-website/2019/week-11.html">Week 11</a>
+              <a href="/fantasy-football-website/2019/week-12.html">Week 12</a>
+              <a href="/fantasy-football-website/2019/week-13.html">Week 13</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a class="dropdown-button" href="/season/2020">2020</a>
+            <div class="dropdown-content">
+              <a href="/fantasy-football-website/2020/week-1.html">Week 1</a>
+              <a href="/fantasy-football-website/2020/week-2.html">Week 2</a>
+              <a href="/fantasy-football-website/2020/week-3.html">Week 3</a>
+              <a href="/fantasy-football-website/2020/week-4.html">Week 4</a>
+              <a href="/fantasy-football-website/2020/week-5.html">Week 5</a>
+              <a href="/fantasy-football-website/2020/week-6.html">Week 6</a>
+              <a href="/fantasy-football-website/2020/week-7.html">Week 7</a>
+              <a href="/fantasy-football-website/2020/week-8.html">Week 8</a>
+              <a href="/fantasy-football-website/2020/week-9.html">Week 9</a>
+              <a href="/fantasy-football-website/2020/week-10.html">Week 10</a>
+              <a href="/fantasy-football-website/2020/week-11.html">Week 11</a>
+              <a href="/fantasy-football-website/2020/week-12.html">Week 12</a>
+              <a href="/fantasy-football-website/2020/week-13.html">Week 13</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a class="dropdown-button" href="/season/2021">2021</a>
+            <div class="dropdown-content">
+              <a href="/fantasy-football-website/2021/week-1.html">Week 1</a>
+              <a href="/fantasy-football-website/2021/week-2.html">Week 2</a>
+              <a href="/fantasy-football-website/2021/week-3.html">Week 3</a>
+              <a href="/fantasy-football-website/2021/week-4.html">Week 4</a>
+              <a href="/fantasy-football-website/2021/week-5.html">Week 5</a>
+              <a href="/fantasy-football-website/2021/week-6.html">Week 6</a>
+              <a href="/fantasy-football-website/2021/week-7.html">Week 7</a>
+              <a href="/fantasy-football-website/2021/week-8.html">Week 8</a>
+              <a href="/fantasy-football-website/2021/week-9.html">Week 9</a>
+              <a href="/fantasy-football-website/2021/week-10.html">Week 10</a>
+              <a href="/fantasy-football-website/2021/week-11.html">Week 11</a>
+              <a href="/fantasy-football-website/2021/week-12.html">Week 12</a>
+              <a href="/fantasy-football-website/2021/week-13.html">Week 13</a>
+              <a href="/fantasy-football-website/2021/week-14.html">Week 14</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a class="dropdown-button" href="/season/2022">2022</a>
+            <div class="dropdown-content">
+              <a href="/fantasy-football-website/2022/week-1.html">Week 1</a>
+              <a href="/fantasy-football-website/2022/week-2.html">Week 2</a>
+              <a href="/fantasy-football-website/2022/week-3.html">Week 3</a>
+              <a href="/fantasy-football-website/2022/week-4.html">Week 4</a>
+              <a href="/fantasy-football-website/2022/week-5.html">Week 5</a>
+              <a href="/fantasy-football-website/2022/week-6.html">Week 6</a>
+              <a href="/fantasy-football-website/2022/week-7.html">Week 7</a>
+              <a href="/fantasy-football-website/2022/week-8.html">Week 8</a>
+              <a href="/fantasy-football-website/2022/week-9.html">Week 9</a>
+              <a href="/fantasy-football-website/2022/week-10.html">Week 10</a>
+              <a href="/fantasy-football-website/2022/week-11.html">Week 11</a>
+              <a href="/fantasy-football-website/2022/week-12.html">Week 12</a>
+              <a href="/fantasy-football-website/2022/week-13.html">Week 13</a>
+              <a href="/fantasy-football-website/2022/week-14.html">Week 14</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a class="dropdown-button" href="/season/2023">2023</a>
+            <div class="dropdown-content">
+              <a href="/fantasy-football-website/2023/week-1.html">Week 1</a>
+              <a href="/fantasy-football-website/2023/week-2.html">Week 2</a>
+              <a href="/fantasy-football-website/2023/week-3.html">Week 3</a>
+              <a href="/fantasy-football-website/2023/week-4.html">Week 4</a>
+              <a href="/fantasy-football-website/2023/week-5.html">Week 5</a>
+              <a href="/fantasy-football-website/2023/week-6.html">Week 6</a>
+              <a href="/fantasy-football-website/2023/week-7.html">Week 7</a>
+              <a href="/fantasy-football-website/2023/week-8.html">Week 8</a>
+              <a href="/fantasy-football-website/2023/week-9.html">Week 9</a>
+              <a href="/fantasy-football-website/2023/week-10.html">Week 10</a>
+              <a href="/fantasy-football-website/2023/week-11.html">Week 11</a>
+              <a href="/fantasy-football-website/2023/week-12.html">Week 12</a>
+              <a href="/fantasy-football-website/2023/week-13.html">Week 13</a>
+              <a href="/fantasy-football-website/2023/week-14.html">Week 14</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a class="dropdown-button" href="/season/2024">2024</a>
+            <div class="dropdown-content">
+              <a href="/fantasy-football-website/2024/week-1.html">Week 1</a>
+              <a href="/fantasy-football-website/2024/week-2.html">Week 2</a>
+              <a href="/fantasy-football-website/2024/week-3.html">Week 3</a>
+              <a href="/fantasy-football-website/2024/week-4.html">Week 4</a>
+              <a href="/fantasy-football-website/2024/week-5.html">Week 5</a>
+              <a href="/fantasy-football-website/2024/week-6.html">Week 6</a>
+              <a href="/fantasy-football-website/2024/week-7.html">Week 7</a>
+              <a href="/fantasy-football-website/2024/week-8.html">Week 8</a>
+              <a href="/fantasy-football-website/2024/week-9.html">Week 9</a>
+              <a href="/fantasy-football-website/2024/week-10.html">Week 10</a>
+              <a href="/fantasy-football-website/2024/week-11.html">Week 11</a>
+              <a href="/fantasy-football-website/2024/week-12.html">Week 12</a>
+              <a href="/fantasy-football-website/2024/week-13.html">Week 13</a>
+              <a href="/fantasy-football-website/2024/week-14.html">Week 14</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a class="dropdown-button" href="/fantasy-football-website/teams/">Teams</a>
+            <div class="dropdown-content">
+              <a href="/fantasy-football-website/Justin.html">Justin</a>
+              <a href="/fantasy-football-website/Dante.html">Dante</a>
+              <a href="/fantasy-football-website/Michael.html">Michael</a>
+              <a href="/fantasy-football-website/Andrew.html">Andrew</a>
+              <a href="/fantasy-football-website/Haris.html">Haris</a>
+              <a href="/fantasy-football-website/Noah .html">Noah </a>
+              <a href="/fantasy-football-website/Klapp.html">Klapp</a>
+              <a href="/fantasy-football-website/Zach.html">Zach</a>
+              <a href="/fantasy-football-website/McGwire.html">McGwire</a>
+              <a href="/fantasy-football-website/Carter.html">Carter</a>
+              <a href="/fantasy-football-website/Ethan.html">Ethan</a>
+              <a href="/fantasy-football-website/Nathan.html">Nathan</a>
+              <a href="/fantasy-football-website/Kevin.html">Kevin</a>
+              <a href="/fantasy-football-website/Tyler.html">Tyler</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a href="/champion">Champions</a>
+          </div>
+        </div>
+      </div>
+    <div class="content">
+      <h1>Documentation</h1>
+      <object data="/fantasy-football-website/Assets/Fantasy-Football.pdf" height="1000px" width="90%">Documentation</object>
+    </div>
+  </body>
+</html>
