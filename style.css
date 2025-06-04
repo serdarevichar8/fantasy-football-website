@@ -138,7 +138,7 @@ body div {
     border-bottom-style: none;
 }
 
-.scoreboard, .standings, .champion-summary, .champion-years, .team-summary {
+.scoreboard, .standings, .champion-summary, .champion-years, .team-summary, .season-summary {
     box-shadow: none;
     border-radius: 0;
     width: fit-content;

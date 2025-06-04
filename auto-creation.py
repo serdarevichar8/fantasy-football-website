@@ -307,9 +307,37 @@ def team_content(team: str, conn: sqlite3.Connection) -> div:
     return container
 
 
-# conn = sqlite3.connect('database/fantasy-football.db')
+def year_content(year: int, conn: sqlite3.Connection) -> div:
+    container = div(_class='content')
+    container.add(h1(f'{year} Data'))
+    
+    query = '''
+        SELECT
+            Team,
+            Record,
+            Ranking,
+            ROUND("Points For", 2) AS "Points For",
+            ROUND("Points Against", 2) AS "Points Against",
+            "Avg Points For",
+            "Avg Margin"
+        FROM season_totals
+    '''
 
-# team_content(team='Haris', conn=conn)
+    data = pd.read_sql(query + f"WHERE year = '{year}'", con=conn)
+
+    summary_div = div(_class='season-summary')
+    summary_title = h2('Season Summary')
+    summary_table = df_to_table(data=data)
+    summary_table['id'] = 'season-summary-table'
+    summary_div.add([summary_title, summary_table])
+    
+    container.add(summary_div)
+
+    return container
+
+# conn = sqlite3.connect('fantasy-football-website/database/fantasy-football.db')
+
+# print(year_content(2023, conn=conn).render())
 
 # conn.close()
 
@@ -375,8 +403,24 @@ def team_pages():
 
     conn.close()
 
+def year_pages():
+    conn = sqlite3.connect('fantasy-football-website/database/fantasy-football.db')
+
+    for year in years:
+        doc = dominate.document(title='Fantasy Football')
+        doc.head.add(link(rel='stylesheet', href=f'{root}/style.css'))
+        doc.add(header(active_year=year))
+
+        doc.add(year_content(year, conn=conn))
+
+        with open(f'fantasy-football-website/{year}/index.html','w') as file:
+            file.write(doc.render())
+
+    conn.close()
+
 # Call the constructing functions
 # home_page()
 # champion_page()
 # week_pages()
-team_pages()
+# team_pages()
+year_pages()
