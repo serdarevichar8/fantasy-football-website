@@ -1,7 +1,7 @@
 import sqlite3
 import pandas as pd
 
-conn = sqlite3.connect('fantasy-football.db')
+conn = sqlite3.connect('database/fantasy-football.db')
 
 
 df = pd.read_csv('/Users/serdarevichar/Library/CloudStorage/GoogleDrive-serdarevichar@gmail.com/My Drive/fantasy-football-database.csv', index_col = 'Unnamed: 0')
@@ -15,14 +15,12 @@ temp1.rename(columns={'Home Team':'Team', 'Home Score':'Score', 'Away Score':'Op
 temp2.rename(columns={'Away Team':'Team', 'Away Score':'Score', 'Home Score':'Opp Score'}, inplace=True)
 
 df_converted = pd.concat([temp1,temp2], axis=0, ignore_index=True)
-df_converted['Win'] = df_converted['Score'] > df_converted['Opp Score']
-df_converted['Win'] = df_converted['Win'].map(int)
-df_converted
+df_converted['Result'] = (df_converted['Score'] > df_converted['Opp Score']).map({True:'Win', False:'Loss'})
 
 df_converted.sort_values(['Year','Week'], inplace = True)
 
 # Create a table in DB
-# df_converted.to_sql('results', con=conn)
+df_converted.to_sql('results', con=conn, if_exists='replace')
 
 
 query = '''
@@ -54,7 +52,8 @@ view = '''
                 Team,
                 SUM(score) AS PF,
                 SUM("opp score") AS PA,
-                SUM(win) AS Wins,
+                COUNT(CASE WHEN result = 'Win' THEN 'Win' ELSE NULL END) AS Wins,
+                COUNT(CASE WHEN result = 'Loss' THEN 'Loss' ELSE NULL END) AS Losses,
                 MAX(week) AS season_length
 
             FROM results
@@ -70,11 +69,13 @@ view = '''
     SELECT
         Year,
         Team,
-        PF,
-        PA,
+        PF AS "Points For",
+        PA AS "Points Against",
         Wins,
-        season_length - Wins AS Losses,
-        Wins || '-' || (season_length - Wins) AS Record,
+        Losses,
+        Wins || '-' || Losses AS Record,
+        ROUND(PF / season_length, 2) AS "Avg Points For",
+        ROUND((PF - PA) / season_length, 2) AS "Avg Margin",
         ROW_NUMBER() OVER (PARTITION BY Year ORDER BY WINS DESC, PF DESC) AS Ranking
 
     FROM aggregate
@@ -93,7 +94,7 @@ c.execute(view)
 #print(pd.read_sql('SELECT * FROM season_totals', con=conn))
 
 
-season_totals = pd.read_sql('SELECT * FROM season_totals WHERE year IN (2020,2021,2022,2023)', con=conn)
+season_totals = pd.read_sql('SELECT * FROM season_totals WHERE year IN (2020,2021)', con=conn)
 print(season_totals.sort_values(['Year','Ranking'], ascending=[True, True]))
 
 
