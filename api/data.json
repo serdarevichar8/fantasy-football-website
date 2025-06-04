@@ -1,0 +1,8948 @@
+[
+  {
+    "Year":2019,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Justin",
+    "Score":158.02,
+    "Opp Score":113.2,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":107.92,
+    "Opp Score":126.14,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":112.68,
+    "Opp Score":134.32,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":128.54,
+    "Opp Score":141.26,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":135.8,
+    "Opp Score":101.82,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":153.86,
+    "Opp Score":132.22,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Klapp",
+    "Score":113.2,
+    "Opp Score":158.02,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":126.14,
+    "Opp Score":107.92,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":134.32,
+    "Opp Score":112.68,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":141.26,
+    "Opp Score":128.54,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":101.82,
+    "Opp Score":135.8,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":132.22,
+    "Opp Score":153.86,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Klapp",
+    "Score":106.3,
+    "Opp Score":99.32,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":96.86,
+    "Opp Score":127.22,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":119.52,
+    "Opp Score":99.6,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":105.82,
+    "Opp Score":107.22,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":143.14,
+    "Opp Score":112.86,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":102.38,
+    "Opp Score":122.56,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":99.32,
+    "Opp Score":106.3,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Justin",
+    "Score":127.22,
+    "Opp Score":96.86,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":99.6,
+    "Opp Score":119.52,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":107.22,
+    "Opp Score":105.82,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":112.86,
+    "Opp Score":143.14,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":122.56,
+    "Opp Score":102.38,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":99.84,
+    "Opp Score":132.84,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":95.42,
+    "Opp Score":121.6,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Justin",
+    "Score":124.56,
+    "Opp Score":126.52,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":125.76,
+    "Opp Score":114.66,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":108.72,
+    "Opp Score":181.58,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":152.14,
+    "Opp Score":123.44,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Klapp",
+    "Score":132.84,
+    "Opp Score":99.84,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":121.6,
+    "Opp Score":95.42,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":126.52,
+    "Opp Score":124.56,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":114.66,
+    "Opp Score":125.76,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":181.58,
+    "Opp Score":108.72,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":123.44,
+    "Opp Score":152.14,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Klapp",
+    "Score":110.0,
+    "Opp Score":78.38,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":76.2,
+    "Opp Score":94.5,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":124.7,
+    "Opp Score":122.28,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":96.18,
+    "Opp Score":105.9,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":89.52,
+    "Opp Score":121.78,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":146.48,
+    "Opp Score":162.32,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":78.38,
+    "Opp Score":110.0,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":94.5,
+    "Opp Score":76.2,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":122.28,
+    "Opp Score":124.7,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Justin",
+    "Score":105.9,
+    "Opp Score":96.18,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":121.78,
+    "Opp Score":89.52,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":162.32,
+    "Opp Score":146.48,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":66.04,
+    "Opp Score":116.82,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":163.82,
+    "Opp Score":114.76,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":147.3,
+    "Opp Score":100.86,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":89.4,
+    "Opp Score":127.62,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Justin",
+    "Score":164.64,
+    "Opp Score":101.92,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":172.16,
+    "Opp Score":172.26,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Klapp",
+    "Score":116.82,
+    "Opp Score":66.04,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":114.76,
+    "Opp Score":163.82,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":100.86,
+    "Opp Score":147.3,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":127.62,
+    "Opp Score":89.4,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":101.92,
+    "Opp Score":164.64,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":172.26,
+    "Opp Score":172.16,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Klapp",
+    "Score":183.4,
+    "Opp Score":122.04,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":107.34,
+    "Opp Score":63.12,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":111.82,
+    "Opp Score":120.6,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":131.96,
+    "Opp Score":120.0,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":109.8,
+    "Opp Score":110.82,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":136.74,
+    "Opp Score":110.02,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":122.04,
+    "Opp Score":183.4,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":63.12,
+    "Opp Score":107.34,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":120.6,
+    "Opp Score":111.82,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":120.0,
+    "Opp Score":131.96,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":110.82,
+    "Opp Score":109.8,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Justin",
+    "Score":110.02,
+    "Opp Score":136.74,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":85.22,
+    "Opp Score":120.44,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":110.64,
+    "Opp Score":120.36,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":70.9,
+    "Opp Score":137.86,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":101.96,
+    "Opp Score":102.44,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":122.62,
+    "Opp Score":94.36,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":99.48,
+    "Opp Score":93.44,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Klapp",
+    "Score":120.44,
+    "Opp Score":85.22,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":120.36,
+    "Opp Score":110.64,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":137.86,
+    "Opp Score":70.9,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":102.44,
+    "Opp Score":101.96,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":94.36,
+    "Opp Score":122.62,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Justin",
+    "Score":93.44,
+    "Opp Score":99.48,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Klapp",
+    "Score":111.18,
+    "Opp Score":110.18,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":155.5,
+    "Opp Score":108.74,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":144.92,
+    "Opp Score":146.08,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":149.76,
+    "Opp Score":81.38,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Justin",
+    "Score":94.4,
+    "Opp Score":138.9,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":128.86,
+    "Opp Score":121.36,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":110.18,
+    "Opp Score":111.18,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":108.74,
+    "Opp Score":155.5,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":146.08,
+    "Opp Score":144.92,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":81.38,
+    "Opp Score":149.76,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":138.9,
+    "Opp Score":94.4,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":121.36,
+    "Opp Score":128.86,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":161.64,
+    "Opp Score":137.32,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":109.78,
+    "Opp Score":108.56,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":133.12,
+    "Opp Score":117.5,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":122.36,
+    "Opp Score":115.3,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":100.66,
+    "Opp Score":115.8,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":107.34,
+    "Opp Score":93.14,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Klapp",
+    "Score":137.32,
+    "Opp Score":161.64,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":108.56,
+    "Opp Score":109.78,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":117.5,
+    "Opp Score":133.12,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Justin",
+    "Score":115.3,
+    "Opp Score":122.36,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":115.8,
+    "Opp Score":100.66,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":93.14,
+    "Opp Score":107.34,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Klapp",
+    "Score":91.98,
+    "Opp Score":124.02,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":118.88,
+    "Opp Score":84.92,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Justin",
+    "Score":169.84,
+    "Opp Score":147.38,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":117.64,
+    "Opp Score":151.92,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":91.82,
+    "Opp Score":114.42,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":150.86,
+    "Opp Score":111.88,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":124.02,
+    "Opp Score":91.98,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":84.92,
+    "Opp Score":118.88,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":147.38,
+    "Opp Score":169.84,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":151.92,
+    "Opp Score":117.64,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":114.42,
+    "Opp Score":91.82,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":111.88,
+    "Opp Score":150.86,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":128.54,
+    "Opp Score":105.5,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":93.32,
+    "Opp Score":117.38,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":88.24,
+    "Opp Score":99.94,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":118.06,
+    "Opp Score":80.96,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":138.78,
+    "Opp Score":120.0,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":132.86,
+    "Opp Score":128.32,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Klapp",
+    "Score":105.5,
+    "Opp Score":128.54,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Justin",
+    "Score":117.38,
+    "Opp Score":93.32,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":99.94,
+    "Opp Score":88.24,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":80.96,
+    "Opp Score":118.06,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":120.0,
+    "Opp Score":138.78,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":128.32,
+    "Opp Score":132.86,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Klapp",
+    "Score":99.6,
+    "Opp Score":156.08,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":119.0,
+    "Opp Score":121.84,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":134.12,
+    "Opp Score":115.78,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":100.58,
+    "Opp Score":64.26,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":85.56,
+    "Opp Score":123.58,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":84.64,
+    "Opp Score":117.46,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Justin",
+    "Score":156.08,
+    "Opp Score":99.6,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":121.84,
+    "Opp Score":119.0,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":115.78,
+    "Opp Score":134.12,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":64.26,
+    "Opp Score":100.58,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":123.58,
+    "Opp Score":85.56,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":117.46,
+    "Opp Score":84.64,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":142.04,
+    "Opp Score":114.2,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Justin",
+    "Score":99.94,
+    "Opp Score":139.16,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":117.22,
+    "Opp Score":113.16,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":100.06,
+    "Opp Score":98.18,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":107.82,
+    "Opp Score":107.8,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":108.2,
+    "Opp Score":128.4,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Klapp",
+    "Score":114.2,
+    "Opp Score":142.04,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":139.16,
+    "Opp Score":99.94,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":113.16,
+    "Opp Score":117.22,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":98.18,
+    "Opp Score":100.06,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":107.8,
+    "Opp Score":107.82,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":128.4,
+    "Opp Score":108.2,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":14,
+    "Playoff Flag":true,
+    "Team":"Justin",
+    "Score":89.42,
+    "Opp Score":97.56,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":14,
+    "Playoff Flag":true,
+    "Team":"Noah ",
+    "Score":104.3,
+    "Opp Score":119.8,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":14,
+    "Playoff Flag":true,
+    "Team":"Haris",
+    "Score":97.56,
+    "Opp Score":89.42,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":14,
+    "Playoff Flag":true,
+    "Team":"Klapp",
+    "Score":119.8,
+    "Opp Score":104.3,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Carter",
+    "Score":163.06,
+    "Opp Score":94.78,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Dante",
+    "Score":150.96,
+    "Opp Score":144.44,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Haris",
+    "Score":94.78,
+    "Opp Score":163.06,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Klapp",
+    "Score":144.44,
+    "Opp Score":150.96,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Carter",
+    "Score":116.72,
+    "Opp Score":125.36,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Dante",
+    "Score":125.36,
+    "Opp Score":116.72,
+    "Win":1
+  },
+  {
+    "Year":2019,
+    "Week":17,
+    "Playoff Flag":true,
+    "Team":"Carter",
+    "Score":116.72,
+    "Opp Score":125.36,
+    "Win":0
+  },
+  {
+    "Year":2019,
+    "Week":17,
+    "Playoff Flag":true,
+    "Team":"Dante",
+    "Score":125.36,
+    "Opp Score":116.72,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":148.6,
+    "Opp Score":88.8,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":136.54,
+    "Opp Score":120.5,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":149.94,
+    "Opp Score":118.76,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":106.46,
+    "Opp Score":151.02,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":102.7,
+    "Opp Score":130.28,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":88.8,
+    "Opp Score":148.6,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":120.5,
+    "Opp Score":136.54,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":118.76,
+    "Opp Score":149.94,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":151.02,
+    "Opp Score":106.46,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":130.28,
+    "Opp Score":102.7,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":94.34,
+    "Opp Score":115.38,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":177.06,
+    "Opp Score":139.76,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":138.72,
+    "Opp Score":123.58,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":162.22,
+    "Opp Score":121.6,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":133.02,
+    "Opp Score":105.28,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":115.38,
+    "Opp Score":94.34,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":139.76,
+    "Opp Score":177.06,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":123.58,
+    "Opp Score":138.72,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":121.6,
+    "Opp Score":162.22,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":105.28,
+    "Opp Score":133.02,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":164.84,
+    "Opp Score":169.5,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":120.02,
+    "Opp Score":112.76,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":123.68,
+    "Opp Score":134.1,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":119.6,
+    "Opp Score":135.7,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":147.68,
+    "Opp Score":113.58,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":169.5,
+    "Opp Score":164.84,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":112.76,
+    "Opp Score":120.02,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":134.1,
+    "Opp Score":123.68,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":135.7,
+    "Opp Score":119.6,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":113.58,
+    "Opp Score":147.68,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":108.02,
+    "Opp Score":112.0,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":97.5,
+    "Opp Score":161.9,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":87.3,
+    "Opp Score":113.04,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":130.66,
+    "Opp Score":130.52,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":140.88,
+    "Opp Score":92.54,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":112.0,
+    "Opp Score":108.02,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":161.9,
+    "Opp Score":97.5,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":113.04,
+    "Opp Score":87.3,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":130.52,
+    "Opp Score":130.66,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":92.54,
+    "Opp Score":140.88,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":126.28,
+    "Opp Score":82.3,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":123.86,
+    "Opp Score":95.14,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":88.54,
+    "Opp Score":141.36,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":108.46,
+    "Opp Score":149.04,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":154.72,
+    "Opp Score":106.2,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":82.3,
+    "Opp Score":126.28,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":95.14,
+    "Opp Score":123.86,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":141.36,
+    "Opp Score":88.54,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":149.04,
+    "Opp Score":108.46,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":106.2,
+    "Opp Score":154.72,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":119.02,
+    "Opp Score":98.42,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":85.28,
+    "Opp Score":66.52,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":128.22,
+    "Opp Score":165.4,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":120.7,
+    "Opp Score":102.34,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":73.48,
+    "Opp Score":134.54,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":98.42,
+    "Opp Score":119.02,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":66.52,
+    "Opp Score":85.28,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":165.4,
+    "Opp Score":128.22,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":102.34,
+    "Opp Score":120.7,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":134.54,
+    "Opp Score":73.48,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":109.16,
+    "Opp Score":151.9,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":102.52,
+    "Opp Score":194.26,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":136.32,
+    "Opp Score":88.6,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":105.26,
+    "Opp Score":124.48,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":81.42,
+    "Opp Score":149.78,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":151.9,
+    "Opp Score":109.16,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":194.26,
+    "Opp Score":102.52,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":88.6,
+    "Opp Score":136.32,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":124.48,
+    "Opp Score":105.26,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":149.78,
+    "Opp Score":81.42,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":117.46,
+    "Opp Score":98.92,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":109.34,
+    "Opp Score":122.86,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":128.36,
+    "Opp Score":136.44,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":136.22,
+    "Opp Score":125.84,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":132.92,
+    "Opp Score":79.74,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":98.92,
+    "Opp Score":117.46,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":122.86,
+    "Opp Score":109.34,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":136.44,
+    "Opp Score":128.36,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":125.84,
+    "Opp Score":136.22,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":79.74,
+    "Opp Score":132.92,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":124.68,
+    "Opp Score":119.82,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":117.06,
+    "Opp Score":173.9,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":60.56,
+    "Opp Score":157.04,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":125.16,
+    "Opp Score":105.3,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":76.8,
+    "Opp Score":93.54,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":119.82,
+    "Opp Score":124.68,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":173.9,
+    "Opp Score":117.06,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":157.04,
+    "Opp Score":60.56,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":105.3,
+    "Opp Score":125.16,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":93.54,
+    "Opp Score":76.8,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":90.3,
+    "Opp Score":138.76,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":100.68,
+    "Opp Score":70.92,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":124.34,
+    "Opp Score":111.16,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":141.02,
+    "Opp Score":109.24,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":115.92,
+    "Opp Score":86.78,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":138.76,
+    "Opp Score":90.3,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":70.92,
+    "Opp Score":100.68,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":111.16,
+    "Opp Score":124.34,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":109.24,
+    "Opp Score":141.02,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":86.78,
+    "Opp Score":115.92,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":138.8,
+    "Opp Score":125.36,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":93.0,
+    "Opp Score":108.14,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":127.82,
+    "Opp Score":148.76,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":148.82,
+    "Opp Score":125.08,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":97.18,
+    "Opp Score":136.0,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":125.36,
+    "Opp Score":138.8,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":108.14,
+    "Opp Score":93.0,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":148.76,
+    "Opp Score":127.82,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":125.08,
+    "Opp Score":148.82,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":136.0,
+    "Opp Score":97.18,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":140.9,
+    "Opp Score":63.62,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":131.32,
+    "Opp Score":143.44,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":118.1,
+    "Opp Score":89.78,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":169.64,
+    "Opp Score":107.58,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":153.8,
+    "Opp Score":132.28,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":63.62,
+    "Opp Score":140.9,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":143.44,
+    "Opp Score":131.32,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":89.78,
+    "Opp Score":118.1,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":107.58,
+    "Opp Score":169.64,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":132.28,
+    "Opp Score":153.8,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":96.34,
+    "Opp Score":102.62,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":132.08,
+    "Opp Score":138.32,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":101.66,
+    "Opp Score":99.0,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":126.8,
+    "Opp Score":98.6,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":112.72,
+    "Opp Score":182.94,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":102.62,
+    "Opp Score":96.34,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":138.32,
+    "Opp Score":132.08,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":99.0,
+    "Opp Score":101.66,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":98.6,
+    "Opp Score":126.8,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":182.94,
+    "Opp Score":112.72,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":14,
+    "Playoff Flag":true,
+    "Team":"Noah ",
+    "Score":140.68,
+    "Opp Score":123.42,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":14,
+    "Playoff Flag":true,
+    "Team":"Dante",
+    "Score":119.14,
+    "Opp Score":103.16,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":14,
+    "Playoff Flag":true,
+    "Team":"Andrew",
+    "Score":123.42,
+    "Opp Score":140.68,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":14,
+    "Playoff Flag":true,
+    "Team":"Carter",
+    "Score":103.16,
+    "Opp Score":119.14,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Ethan",
+    "Score":145.76,
+    "Opp Score":133.16,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Michael",
+    "Score":144.32,
+    "Opp Score":119.24,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Noah ",
+    "Score":133.16,
+    "Opp Score":145.76,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Dante",
+    "Score":119.24,
+    "Opp Score":144.32,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Ethan",
+    "Score":143.14,
+    "Opp Score":100.96,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Michael",
+    "Score":100.96,
+    "Opp Score":143.14,
+    "Win":0
+  },
+  {
+    "Year":2020,
+    "Week":17,
+    "Playoff Flag":true,
+    "Team":"Ethan",
+    "Score":143.14,
+    "Opp Score":100.96,
+    "Win":1
+  },
+  {
+    "Year":2020,
+    "Week":17,
+    "Playoff Flag":true,
+    "Team":"Michael",
+    "Score":100.96,
+    "Opp Score":143.14,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":108.94,
+    "Opp Score":128.56,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":128.06,
+    "Opp Score":93.72,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":123.28,
+    "Opp Score":159.56,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":165.18,
+    "Opp Score":55.62,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":114.6,
+    "Opp Score":154.78,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":128.56,
+    "Opp Score":108.94,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":93.72,
+    "Opp Score":128.06,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":159.56,
+    "Opp Score":123.28,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":55.62,
+    "Opp Score":165.18,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":154.78,
+    "Opp Score":114.6,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":130.44,
+    "Opp Score":116.88,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":130.3,
+    "Opp Score":113.06,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":193.8,
+    "Opp Score":127.52,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":111.82,
+    "Opp Score":110.5,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":157.92,
+    "Opp Score":120.92,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":116.88,
+    "Opp Score":130.44,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":113.06,
+    "Opp Score":130.3,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":127.52,
+    "Opp Score":193.8,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":110.5,
+    "Opp Score":111.82,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":120.92,
+    "Opp Score":157.92,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":109.74,
+    "Opp Score":137.78,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":111.82,
+    "Opp Score":144.34,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":139.62,
+    "Opp Score":104.3,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":137.32,
+    "Opp Score":116.28,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":107.74,
+    "Opp Score":122.34,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":137.78,
+    "Opp Score":109.74,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":144.34,
+    "Opp Score":111.82,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":104.3,
+    "Opp Score":139.62,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":116.28,
+    "Opp Score":137.32,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":122.34,
+    "Opp Score":107.74,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":105.36,
+    "Opp Score":122.22,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":168.42,
+    "Opp Score":123.12,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":170.7,
+    "Opp Score":110.72,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":96.78,
+    "Opp Score":108.32,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":115.18,
+    "Opp Score":94.96,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":122.22,
+    "Opp Score":105.36,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":123.12,
+    "Opp Score":168.42,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":110.72,
+    "Opp Score":170.7,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":108.32,
+    "Opp Score":96.78,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":94.96,
+    "Opp Score":115.18,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":108.58,
+    "Opp Score":160.54,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":177.86,
+    "Opp Score":154.2,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":108.56,
+    "Opp Score":176.92,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":144.08,
+    "Opp Score":149.02,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":136.9,
+    "Opp Score":80.58,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":160.54,
+    "Opp Score":108.58,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":154.2,
+    "Opp Score":177.86,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":176.92,
+    "Opp Score":108.56,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":149.02,
+    "Opp Score":144.08,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":80.58,
+    "Opp Score":136.9,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":148.68,
+    "Opp Score":127.54,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":163.0,
+    "Opp Score":140.98,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":145.2,
+    "Opp Score":106.7,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":108.28,
+    "Opp Score":126.16,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":114.72,
+    "Opp Score":88.7,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":127.54,
+    "Opp Score":148.68,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":140.98,
+    "Opp Score":163.0,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":106.7,
+    "Opp Score":145.2,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":126.16,
+    "Opp Score":108.28,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":88.7,
+    "Opp Score":114.72,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":136.38,
+    "Opp Score":123.24,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":162.16,
+    "Opp Score":139.44,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":52.84,
+    "Opp Score":87.58,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":130.06,
+    "Opp Score":112.34,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":127.84,
+    "Opp Score":106.32,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":123.24,
+    "Opp Score":136.38,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":139.44,
+    "Opp Score":162.16,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":87.58,
+    "Opp Score":52.84,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":112.34,
+    "Opp Score":130.06,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":106.32,
+    "Opp Score":127.84,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":105.2,
+    "Opp Score":96.62,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":118.26,
+    "Opp Score":120.98,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":104.76,
+    "Opp Score":150.5,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":81.22,
+    "Opp Score":107.2,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":88.76,
+    "Opp Score":152.06,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":96.62,
+    "Opp Score":105.2,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":120.98,
+    "Opp Score":118.26,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":150.5,
+    "Opp Score":104.76,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":107.2,
+    "Opp Score":81.22,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":152.06,
+    "Opp Score":88.76,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":81.08,
+    "Opp Score":123.28,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":118.68,
+    "Opp Score":113.16,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":136.88,
+    "Opp Score":142.44,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":83.16,
+    "Opp Score":96.22,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":112.24,
+    "Opp Score":91.88,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":123.28,
+    "Opp Score":81.08,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":113.16,
+    "Opp Score":118.68,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":142.44,
+    "Opp Score":136.88,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":96.22,
+    "Opp Score":83.16,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":91.88,
+    "Opp Score":112.24,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":108.2,
+    "Opp Score":124.14,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":83.7,
+    "Opp Score":102.64,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":119.18,
+    "Opp Score":121.12,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":115.98,
+    "Opp Score":170.14,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":115.14,
+    "Opp Score":122.72,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":124.14,
+    "Opp Score":108.2,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":102.64,
+    "Opp Score":83.7,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":121.12,
+    "Opp Score":119.18,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":170.14,
+    "Opp Score":115.98,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":122.72,
+    "Opp Score":115.14,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":169.28,
+    "Opp Score":153.28,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":145.26,
+    "Opp Score":91.42,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":118.82,
+    "Opp Score":145.6,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":137.48,
+    "Opp Score":98.2,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":82.34,
+    "Opp Score":99.68,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":153.28,
+    "Opp Score":169.28,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":91.42,
+    "Opp Score":145.26,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":145.6,
+    "Opp Score":118.82,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":98.2,
+    "Opp Score":137.48,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":99.68,
+    "Opp Score":82.34,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":89.84,
+    "Opp Score":80.12,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":160.18,
+    "Opp Score":154.92,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":114.78,
+    "Opp Score":104.46,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":132.2,
+    "Opp Score":145.48,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":93.6,
+    "Opp Score":113.16,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":80.12,
+    "Opp Score":89.84,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":154.92,
+    "Opp Score":160.18,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":104.46,
+    "Opp Score":114.78,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":145.48,
+    "Opp Score":132.2,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":113.16,
+    "Opp Score":93.6,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":143.9,
+    "Opp Score":131.52,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":139.42,
+    "Opp Score":116.16,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":125.88,
+    "Opp Score":118.72,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":145.6,
+    "Opp Score":115.92,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":100.94,
+    "Opp Score":118.76,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":131.52,
+    "Opp Score":143.9,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":116.16,
+    "Opp Score":139.42,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":118.72,
+    "Opp Score":125.88,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":115.92,
+    "Opp Score":145.6,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":118.76,
+    "Opp Score":100.94,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":115.92,
+    "Opp Score":131.12,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":57.18,
+    "Opp Score":161.34,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":153.84,
+    "Opp Score":117.62,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":154.42,
+    "Opp Score":141.4,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":133.82,
+    "Opp Score":136.42,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":131.12,
+    "Opp Score":115.92,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":161.34,
+    "Opp Score":57.18,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":117.62,
+    "Opp Score":153.84,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":141.4,
+    "Opp Score":154.42,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":136.42,
+    "Opp Score":133.82,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Nathan",
+    "Score":104.76,
+    "Opp Score":98.1,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Haris",
+    "Score":128.08,
+    "Opp Score":136.7,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Zach",
+    "Score":98.1,
+    "Opp Score":104.76,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Noah ",
+    "Score":136.7,
+    "Opp Score":128.08,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Andrew",
+    "Score":192.88,
+    "Opp Score":138.98,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Dante",
+    "Score":105.46,
+    "Opp Score":134.62,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Nathan",
+    "Score":138.98,
+    "Opp Score":192.88,
+    "Win":0
+  },
+  {
+    "Year":2021,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Noah ",
+    "Score":134.62,
+    "Opp Score":105.46,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":17,
+    "Playoff Flag":true,
+    "Team":"Andrew",
+    "Score":135.12,
+    "Opp Score":94.26,
+    "Win":1
+  },
+  {
+    "Year":2021,
+    "Week":17,
+    "Playoff Flag":true,
+    "Team":"Noah ",
+    "Score":94.26,
+    "Opp Score":135.12,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":132.06,
+    "Opp Score":147.5,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":110.46,
+    "Opp Score":116.82,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":117.9,
+    "Opp Score":64.2,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":134.02,
+    "Opp Score":123.12,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":132.6,
+    "Opp Score":88.72,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":117.48,
+    "Opp Score":96.78,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":147.5,
+    "Opp Score":132.06,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":116.82,
+    "Opp Score":110.46,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":64.2,
+    "Opp Score":117.9,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":123.12,
+    "Opp Score":134.02,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":88.72,
+    "Opp Score":132.6,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":96.78,
+    "Opp Score":117.48,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":80.58,
+    "Opp Score":138.52,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":100.86,
+    "Opp Score":148.16,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":148.92,
+    "Opp Score":93.7,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":103.76,
+    "Opp Score":107.36,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":129.6,
+    "Opp Score":134.18,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":118.18,
+    "Opp Score":106.9,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":138.52,
+    "Opp Score":80.58,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":148.16,
+    "Opp Score":100.86,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":93.7,
+    "Opp Score":148.92,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":107.36,
+    "Opp Score":103.76,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":134.18,
+    "Opp Score":129.6,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":106.9,
+    "Opp Score":118.18,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":73.96,
+    "Opp Score":102.2,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":128.8,
+    "Opp Score":126.52,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":127.58,
+    "Opp Score":94.8,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":87.34,
+    "Opp Score":77.04,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":141.8,
+    "Opp Score":80.7,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":106.16,
+    "Opp Score":93.28,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":102.2,
+    "Opp Score":73.96,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":126.52,
+    "Opp Score":128.8,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":94.8,
+    "Opp Score":127.58,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":77.04,
+    "Opp Score":87.34,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":80.7,
+    "Opp Score":141.8,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":93.28,
+    "Opp Score":106.16,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":127.24,
+    "Opp Score":113.96,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":125.08,
+    "Opp Score":85.28,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":79.2,
+    "Opp Score":107.86,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":150.22,
+    "Opp Score":133.8,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":102.46,
+    "Opp Score":107.5,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":134.68,
+    "Opp Score":180.24,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":113.96,
+    "Opp Score":127.24,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":85.28,
+    "Opp Score":125.08,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":107.86,
+    "Opp Score":79.2,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":133.8,
+    "Opp Score":150.22,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":107.5,
+    "Opp Score":102.46,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":180.24,
+    "Opp Score":134.68,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":153.08,
+    "Opp Score":129.74,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":90.96,
+    "Opp Score":125.74,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":116.76,
+    "Opp Score":115.26,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":75.76,
+    "Opp Score":142.7,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":120.42,
+    "Opp Score":95.4,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":120.64,
+    "Opp Score":104.08,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":129.74,
+    "Opp Score":153.08,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":125.74,
+    "Opp Score":90.96,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":115.26,
+    "Opp Score":116.76,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":142.7,
+    "Opp Score":75.76,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":95.4,
+    "Opp Score":120.42,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":104.08,
+    "Opp Score":120.64,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":101.24,
+    "Opp Score":115.32,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":136.56,
+    "Opp Score":114.5,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":93.62,
+    "Opp Score":138.8,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":97.88,
+    "Opp Score":95.62,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":101.24,
+    "Opp Score":82.5,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":106.2,
+    "Opp Score":88.52,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":115.32,
+    "Opp Score":101.24,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":114.5,
+    "Opp Score":136.56,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":138.8,
+    "Opp Score":93.62,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":95.62,
+    "Opp Score":97.88,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":82.5,
+    "Opp Score":101.24,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":88.52,
+    "Opp Score":106.2,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":114.92,
+    "Opp Score":99.54,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":103.9,
+    "Opp Score":96.92,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":157.14,
+    "Opp Score":97.26,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":123.3,
+    "Opp Score":84.56,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":100.52,
+    "Opp Score":78.54,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":74.82,
+    "Opp Score":105.32,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":99.54,
+    "Opp Score":114.92,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":96.92,
+    "Opp Score":103.9,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":97.26,
+    "Opp Score":157.14,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":84.56,
+    "Opp Score":123.3,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":78.54,
+    "Opp Score":100.52,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":105.32,
+    "Opp Score":74.82,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":119.78,
+    "Opp Score":107.54,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":140.9,
+    "Opp Score":94.32,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":167.54,
+    "Opp Score":139.1,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":135.18,
+    "Opp Score":130.78,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":74.94,
+    "Opp Score":145.62,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":124.6,
+    "Opp Score":156.1,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":107.54,
+    "Opp Score":119.78,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":94.32,
+    "Opp Score":140.9,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":139.1,
+    "Opp Score":167.54,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":130.78,
+    "Opp Score":135.18,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":145.62,
+    "Opp Score":74.94,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":156.1,
+    "Opp Score":124.6,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":87.8,
+    "Opp Score":129.5,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":125.84,
+    "Opp Score":125.4,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":74.32,
+    "Opp Score":141.18,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":114.5,
+    "Opp Score":105.2,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":170.14,
+    "Opp Score":100.22,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":106.32,
+    "Opp Score":102.86,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":129.5,
+    "Opp Score":87.8,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":125.4,
+    "Opp Score":125.84,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":141.18,
+    "Opp Score":74.32,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":105.2,
+    "Opp Score":114.5,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":100.22,
+    "Opp Score":170.14,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":102.86,
+    "Opp Score":106.32,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":117.68,
+    "Opp Score":102.7,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":116.4,
+    "Opp Score":102.56,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":102.34,
+    "Opp Score":139.04,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":123.0,
+    "Opp Score":88.6,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":97.9,
+    "Opp Score":106.92,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":122.48,
+    "Opp Score":104.38,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":102.7,
+    "Opp Score":117.68,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":102.56,
+    "Opp Score":116.4,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":139.04,
+    "Opp Score":102.34,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":88.6,
+    "Opp Score":123.0,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":106.92,
+    "Opp Score":97.9,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":104.38,
+    "Opp Score":122.48,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":92.8,
+    "Opp Score":116.7,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":113.62,
+    "Opp Score":105.3,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":124.34,
+    "Opp Score":99.0,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":132.26,
+    "Opp Score":66.94,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":123.68,
+    "Opp Score":95.86,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":128.38,
+    "Opp Score":122.42,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":116.7,
+    "Opp Score":92.8,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":105.3,
+    "Opp Score":113.62,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":99.0,
+    "Opp Score":124.34,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":66.94,
+    "Opp Score":132.26,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":95.86,
+    "Opp Score":123.68,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":122.42,
+    "Opp Score":128.38,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":113.3,
+    "Opp Score":183.76,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":135.82,
+    "Opp Score":114.76,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":109.74,
+    "Opp Score":123.72,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":104.16,
+    "Opp Score":135.94,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":99.5,
+    "Opp Score":99.74,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":100.44,
+    "Opp Score":98.82,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":183.76,
+    "Opp Score":113.3,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":114.76,
+    "Opp Score":135.82,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":123.72,
+    "Opp Score":109.74,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":135.94,
+    "Opp Score":104.16,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":99.74,
+    "Opp Score":99.5,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":98.82,
+    "Opp Score":100.44,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":127.9,
+    "Opp Score":147.82,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":108.0,
+    "Opp Score":82.3,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":67.76,
+    "Opp Score":112.74,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":145.28,
+    "Opp Score":143.06,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":113.3,
+    "Opp Score":94.78,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":125.72,
+    "Opp Score":96.42,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":147.82,
+    "Opp Score":127.9,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":82.3,
+    "Opp Score":108.0,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":112.74,
+    "Opp Score":67.76,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":143.06,
+    "Opp Score":145.28,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":94.78,
+    "Opp Score":113.3,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":96.42,
+    "Opp Score":125.72,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":90.4,
+    "Opp Score":143.26,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":97.2,
+    "Opp Score":124.78,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":101.36,
+    "Opp Score":112.08,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":75.68,
+    "Opp Score":90.9,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":121.58,
+    "Opp Score":131.56,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":112.48,
+    "Opp Score":95.46,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":143.26,
+    "Opp Score":90.4,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":124.78,
+    "Opp Score":97.2,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":112.08,
+    "Opp Score":101.36,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":90.9,
+    "Opp Score":75.68,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":131.56,
+    "Opp Score":121.58,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":95.46,
+    "Opp Score":112.48,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Andrew",
+    "Score":117.7,
+    "Opp Score":132.74,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Carter",
+    "Score":128.38,
+    "Opp Score":133.88,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Ethan",
+    "Score":132.74,
+    "Opp Score":117.7,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Noah ",
+    "Score":133.88,
+    "Opp Score":128.38,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Dante",
+    "Score":130.3,
+    "Opp Score":104.4,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Kevin",
+    "Score":96.46,
+    "Opp Score":116.58,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Ethan",
+    "Score":104.4,
+    "Opp Score":130.3,
+    "Win":0
+  },
+  {
+    "Year":2022,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Noah ",
+    "Score":116.58,
+    "Opp Score":96.46,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":17,
+    "Playoff Flag":true,
+    "Team":"Dante",
+    "Score":96.72,
+    "Opp Score":80.7,
+    "Win":1
+  },
+  {
+    "Year":2022,
+    "Week":17,
+    "Playoff Flag":true,
+    "Team":"Noah ",
+    "Score":80.7,
+    "Opp Score":96.72,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":116.24,
+    "Opp Score":99.54,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":114.64,
+    "Opp Score":94.62,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":102.32,
+    "Opp Score":125.26,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":133.14,
+    "Opp Score":105.18,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":85.9,
+    "Opp Score":76.26,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":117.44,
+    "Opp Score":98.16,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":99.54,
+    "Opp Score":116.24,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":94.62,
+    "Opp Score":114.64,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":125.26,
+    "Opp Score":102.32,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":105.18,
+    "Opp Score":133.14,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":76.26,
+    "Opp Score":85.9,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":98.16,
+    "Opp Score":117.44,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":101.56,
+    "Opp Score":89.14,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":140.3,
+    "Opp Score":120.8,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":104.48,
+    "Opp Score":104.26,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":114.48,
+    "Opp Score":132.34,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":102.0,
+    "Opp Score":137.94,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":123.94,
+    "Opp Score":90.02,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":89.14,
+    "Opp Score":101.56,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":120.8,
+    "Opp Score":140.3,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":104.26,
+    "Opp Score":104.48,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":132.34,
+    "Opp Score":114.48,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":137.94,
+    "Opp Score":102.0,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":90.02,
+    "Opp Score":123.94,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":180.24,
+    "Opp Score":130.72,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":158.06,
+    "Opp Score":79.96,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":172.38,
+    "Opp Score":152.88,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":121.56,
+    "Opp Score":124.2,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":72.76,
+    "Opp Score":135.64,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":116.06,
+    "Opp Score":103.18,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":130.72,
+    "Opp Score":180.24,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":79.96,
+    "Opp Score":158.06,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":152.88,
+    "Opp Score":172.38,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":124.2,
+    "Opp Score":121.56,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":135.64,
+    "Opp Score":72.76,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":103.18,
+    "Opp Score":116.06,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":115.9,
+    "Opp Score":95.4,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":106.74,
+    "Opp Score":95.34,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":125.98,
+    "Opp Score":80.44,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":122.52,
+    "Opp Score":108.32,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":135.86,
+    "Opp Score":120.88,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":153.28,
+    "Opp Score":123.64,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":95.4,
+    "Opp Score":115.9,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":95.34,
+    "Opp Score":106.74,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":80.44,
+    "Opp Score":125.98,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":108.32,
+    "Opp Score":122.52,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":120.88,
+    "Opp Score":135.86,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":123.64,
+    "Opp Score":153.28,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":109.54,
+    "Opp Score":171.26,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":131.28,
+    "Opp Score":75.16,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":125.66,
+    "Opp Score":104.34,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":100.02,
+    "Opp Score":100.6,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":109.04,
+    "Opp Score":106.9,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":113.52,
+    "Opp Score":167.32,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":171.26,
+    "Opp Score":109.54,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":75.16,
+    "Opp Score":131.28,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":104.34,
+    "Opp Score":125.66,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":100.6,
+    "Opp Score":100.02,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":106.9,
+    "Opp Score":109.04,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":167.32,
+    "Opp Score":113.52,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":110.36,
+    "Opp Score":94.48,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":114.02,
+    "Opp Score":85.9,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":111.2,
+    "Opp Score":131.4,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":89.64,
+    "Opp Score":103.44,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":133.78,
+    "Opp Score":134.04,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":119.78,
+    "Opp Score":131.84,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":94.48,
+    "Opp Score":110.36,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":85.9,
+    "Opp Score":114.02,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":131.4,
+    "Opp Score":111.2,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":103.44,
+    "Opp Score":89.64,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":134.04,
+    "Opp Score":133.78,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":131.84,
+    "Opp Score":119.78,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":81.96,
+    "Opp Score":119.2,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":82.86,
+    "Opp Score":140.56,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":121.18,
+    "Opp Score":123.46,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":124.14,
+    "Opp Score":104.56,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":118.94,
+    "Opp Score":127.94,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":96.4,
+    "Opp Score":114.66,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":119.2,
+    "Opp Score":81.96,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":140.56,
+    "Opp Score":82.86,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":123.46,
+    "Opp Score":121.18,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":104.56,
+    "Opp Score":124.14,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":127.94,
+    "Opp Score":118.94,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":114.66,
+    "Opp Score":96.4,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":136.06,
+    "Opp Score":138.86,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":151.88,
+    "Opp Score":97.86,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":108.06,
+    "Opp Score":163.22,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":146.16,
+    "Opp Score":99.88,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":93.8,
+    "Opp Score":142.02,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":97.76,
+    "Opp Score":117.7,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":138.86,
+    "Opp Score":136.06,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":97.86,
+    "Opp Score":151.88,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":163.22,
+    "Opp Score":108.06,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":99.88,
+    "Opp Score":146.16,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":142.02,
+    "Opp Score":93.8,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":117.7,
+    "Opp Score":97.76,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":111.18,
+    "Opp Score":94.22,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":93.68,
+    "Opp Score":183.96,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":93.48,
+    "Opp Score":110.02,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":69.14,
+    "Opp Score":95.8,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":102.08,
+    "Opp Score":90.62,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":100.02,
+    "Opp Score":151.4,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":94.22,
+    "Opp Score":111.18,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":183.96,
+    "Opp Score":93.68,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":110.02,
+    "Opp Score":93.48,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":95.8,
+    "Opp Score":69.14,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":90.62,
+    "Opp Score":102.08,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":151.4,
+    "Opp Score":100.02,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":117.88,
+    "Opp Score":137.16,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":110.66,
+    "Opp Score":125.6,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":99.82,
+    "Opp Score":77.7,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":109.66,
+    "Opp Score":133.22,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":124.34,
+    "Opp Score":143.32,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":122.08,
+    "Opp Score":106.02,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":137.16,
+    "Opp Score":117.88,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":125.6,
+    "Opp Score":110.66,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":77.7,
+    "Opp Score":99.82,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":133.22,
+    "Opp Score":109.66,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":143.32,
+    "Opp Score":124.34,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":106.02,
+    "Opp Score":122.08,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":112.06,
+    "Opp Score":124.5,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":123.66,
+    "Opp Score":81.88,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":115.48,
+    "Opp Score":79.08,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":96.4,
+    "Opp Score":119.14,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":125.96,
+    "Opp Score":92.44,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":114.3,
+    "Opp Score":152.12,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":124.5,
+    "Opp Score":112.06,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":81.88,
+    "Opp Score":123.66,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":79.08,
+    "Opp Score":115.48,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":119.14,
+    "Opp Score":96.4,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":92.44,
+    "Opp Score":125.96,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":152.12,
+    "Opp Score":114.3,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":128.46,
+    "Opp Score":81.92,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":145.92,
+    "Opp Score":138.34,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":149.66,
+    "Opp Score":132.24,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":119.66,
+    "Opp Score":136.78,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":81.76,
+    "Opp Score":140.6,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":93.38,
+    "Opp Score":103.78,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":81.92,
+    "Opp Score":128.46,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":138.34,
+    "Opp Score":145.92,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":132.24,
+    "Opp Score":149.66,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":136.78,
+    "Opp Score":119.66,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":140.6,
+    "Opp Score":81.76,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":103.78,
+    "Opp Score":93.38,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":107.58,
+    "Opp Score":152.54,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":116.2,
+    "Opp Score":159.66,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":127.3,
+    "Opp Score":103.28,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":124.76,
+    "Opp Score":98.32,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":152.96,
+    "Opp Score":104.98,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":99.52,
+    "Opp Score":129.24,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":152.54,
+    "Opp Score":107.58,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":159.66,
+    "Opp Score":116.2,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":103.28,
+    "Opp Score":127.3,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":98.32,
+    "Opp Score":124.76,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":104.98,
+    "Opp Score":152.96,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":129.24,
+    "Opp Score":99.52,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":70.42,
+    "Opp Score":76.74,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":128.26,
+    "Opp Score":125.92,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":127.12,
+    "Opp Score":133.14,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":97.14,
+    "Opp Score":122.4,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":91.42,
+    "Opp Score":153.84,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":82.18,
+    "Opp Score":147.04,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":76.74,
+    "Opp Score":70.42,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":125.92,
+    "Opp Score":128.26,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":133.14,
+    "Opp Score":127.12,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":122.4,
+    "Opp Score":97.14,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":153.84,
+    "Opp Score":91.42,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":147.04,
+    "Opp Score":82.18,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Andrew",
+    "Score":115.16,
+    "Opp Score":111.2,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Ethan",
+    "Score":109.12,
+    "Opp Score":106.56,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Michael",
+    "Score":111.2,
+    "Opp Score":115.16,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Kevin",
+    "Score":106.56,
+    "Opp Score":109.12,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Haris",
+    "Score":113.78,
+    "Opp Score":100.28,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Carter",
+    "Score":159.2,
+    "Opp Score":140.1,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Andrew",
+    "Score":100.28,
+    "Opp Score":113.78,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Ethan",
+    "Score":140.1,
+    "Opp Score":159.2,
+    "Win":0
+  },
+  {
+    "Year":2023,
+    "Week":17,
+    "Playoff Flag":true,
+    "Team":"Haris",
+    "Score":165.34,
+    "Opp Score":98.02,
+    "Win":1
+  },
+  {
+    "Year":2023,
+    "Week":17,
+    "Playoff Flag":true,
+    "Team":"Carter",
+    "Score":98.02,
+    "Opp Score":165.34,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":155.7,
+    "Opp Score":100.18,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":90.76,
+    "Opp Score":110.78,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":123.66,
+    "Opp Score":125.52,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":105.74,
+    "Opp Score":129.02,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":130.66,
+    "Opp Score":105.08,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":99.38,
+    "Opp Score":89.16,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":100.18,
+    "Opp Score":155.7,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":110.78,
+    "Opp Score":90.76,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":125.52,
+    "Opp Score":123.66,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":129.02,
+    "Opp Score":105.74,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":105.08,
+    "Opp Score":130.66,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":1,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":89.16,
+    "Opp Score":99.38,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":103.54,
+    "Opp Score":102.86,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":151.48,
+    "Opp Score":152.84,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":119.82,
+    "Opp Score":102.42,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":143.86,
+    "Opp Score":105.9,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":95.3,
+    "Opp Score":94.44,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":125.34,
+    "Opp Score":133.86,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":102.86,
+    "Opp Score":103.54,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":152.84,
+    "Opp Score":151.48,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":102.42,
+    "Opp Score":119.82,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":105.9,
+    "Opp Score":143.86,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":94.44,
+    "Opp Score":95.3,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":2,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":133.86,
+    "Opp Score":125.34,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":126.08,
+    "Opp Score":62.48,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":103.72,
+    "Opp Score":125.84,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":152.66,
+    "Opp Score":121.68,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":146.06,
+    "Opp Score":86.66,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":96.12,
+    "Opp Score":113.34,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":114.38,
+    "Opp Score":144.78,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":62.48,
+    "Opp Score":126.08,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":125.84,
+    "Opp Score":103.72,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":121.68,
+    "Opp Score":152.66,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":86.66,
+    "Opp Score":146.06,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":113.34,
+    "Opp Score":96.12,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":3,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":144.78,
+    "Opp Score":114.38,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":110.38,
+    "Opp Score":85.72,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":123.94,
+    "Opp Score":110.82,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":116.48,
+    "Opp Score":87.0,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":104.1,
+    "Opp Score":141.02,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":128.72,
+    "Opp Score":136.54,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":100.3,
+    "Opp Score":114.0,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":85.72,
+    "Opp Score":110.38,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":110.82,
+    "Opp Score":123.94,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":87.0,
+    "Opp Score":116.48,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":141.02,
+    "Opp Score":104.1,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":136.54,
+    "Opp Score":128.72,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":4,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":114.0,
+    "Opp Score":100.3,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":148.04,
+    "Opp Score":150.5,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":74.46,
+    "Opp Score":122.48,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":106.22,
+    "Opp Score":104.36,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":112.34,
+    "Opp Score":151.5,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":132.12,
+    "Opp Score":97.14,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":159.88,
+    "Opp Score":111.54,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":150.5,
+    "Opp Score":148.04,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":122.48,
+    "Opp Score":74.46,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":104.36,
+    "Opp Score":106.22,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":151.5,
+    "Opp Score":112.34,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":97.14,
+    "Opp Score":132.12,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":5,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":111.54,
+    "Opp Score":159.88,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":105.76,
+    "Opp Score":114.62,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":96.36,
+    "Opp Score":137.1,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":137.7,
+    "Opp Score":115.26,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":111.44,
+    "Opp Score":131.42,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":92.68,
+    "Opp Score":139.9,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":87.7,
+    "Opp Score":153.36,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":114.62,
+    "Opp Score":105.76,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":137.1,
+    "Opp Score":96.36,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":115.26,
+    "Opp Score":137.7,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":131.42,
+    "Opp Score":111.44,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":139.9,
+    "Opp Score":92.68,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":6,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":153.36,
+    "Opp Score":87.7,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":86.34,
+    "Opp Score":114.7,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":121.84,
+    "Opp Score":111.5,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":107.16,
+    "Opp Score":67.46,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":122.56,
+    "Opp Score":87.54,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":147.34,
+    "Opp Score":137.58,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":100.52,
+    "Opp Score":99.14,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":114.7,
+    "Opp Score":86.34,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":111.5,
+    "Opp Score":121.84,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":67.46,
+    "Opp Score":107.16,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":87.54,
+    "Opp Score":122.56,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":137.58,
+    "Opp Score":147.34,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":7,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":99.14,
+    "Opp Score":100.52,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":150.28,
+    "Opp Score":145.72,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":142.68,
+    "Opp Score":113.82,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":104.46,
+    "Opp Score":117.16,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":137.54,
+    "Opp Score":98.68,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":114.34,
+    "Opp Score":107.94,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":123.92,
+    "Opp Score":124.06,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":145.72,
+    "Opp Score":150.28,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":113.82,
+    "Opp Score":142.68,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":117.16,
+    "Opp Score":104.46,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":98.68,
+    "Opp Score":137.54,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":107.94,
+    "Opp Score":114.34,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":8,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":124.06,
+    "Opp Score":123.92,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":140.04,
+    "Opp Score":74.26,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":131.0,
+    "Opp Score":92.24,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":94.64,
+    "Opp Score":121.76,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":122.94,
+    "Opp Score":118.76,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":141.92,
+    "Opp Score":146.48,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":141.9,
+    "Opp Score":130.0,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":74.26,
+    "Opp Score":140.04,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":92.24,
+    "Opp Score":131.0,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":121.76,
+    "Opp Score":94.64,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":118.76,
+    "Opp Score":122.94,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":146.48,
+    "Opp Score":141.92,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":9,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":130.0,
+    "Opp Score":141.9,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":106.54,
+    "Opp Score":79.88,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":94.6,
+    "Opp Score":113.84,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":95.88,
+    "Opp Score":152.32,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":109.6,
+    "Opp Score":65.04,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":138.1,
+    "Opp Score":134.62,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":116.98,
+    "Opp Score":115.04,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":79.88,
+    "Opp Score":106.54,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":113.84,
+    "Opp Score":94.6,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":152.32,
+    "Opp Score":95.88,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":65.04,
+    "Opp Score":109.6,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":134.62,
+    "Opp Score":138.1,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":10,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":115.04,
+    "Opp Score":116.98,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":128.32,
+    "Opp Score":146.48,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":80.38,
+    "Opp Score":93.64,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":101.14,
+    "Opp Score":106.08,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":112.46,
+    "Opp Score":149.18,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":120.86,
+    "Opp Score":139.24,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":134.14,
+    "Opp Score":124.14,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":146.48,
+    "Opp Score":128.32,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":93.64,
+    "Opp Score":80.38,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":106.08,
+    "Opp Score":101.14,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":149.18,
+    "Opp Score":112.46,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":139.24,
+    "Opp Score":120.86,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":11,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":124.14,
+    "Opp Score":134.14,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":98.9,
+    "Opp Score":112.4,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":105.26,
+    "Opp Score":131.5,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":140.98,
+    "Opp Score":105.18,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":111.96,
+    "Opp Score":106.36,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":107.2,
+    "Opp Score":117.26,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":143.72,
+    "Opp Score":130.46,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":112.4,
+    "Opp Score":98.9,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":131.5,
+    "Opp Score":105.26,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":105.18,
+    "Opp Score":140.98,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":106.36,
+    "Opp Score":111.96,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":117.26,
+    "Opp Score":107.2,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":12,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":130.46,
+    "Opp Score":143.72,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":125.72,
+    "Opp Score":109.9,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":141.04,
+    "Opp Score":135.68,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":129.76,
+    "Opp Score":105.72,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":100.9,
+    "Opp Score":131.2,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":64.94,
+    "Opp Score":114.96,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":127.2,
+    "Opp Score":120.1,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":109.9,
+    "Opp Score":125.72,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":135.68,
+    "Opp Score":141.04,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":105.72,
+    "Opp Score":129.76,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":131.2,
+    "Opp Score":100.9,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":114.96,
+    "Opp Score":64.94,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":13,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":120.1,
+    "Opp Score":127.2,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Ethan",
+    "Score":106.56,
+    "Opp Score":156.3,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Noah ",
+    "Score":111.72,
+    "Opp Score":130.28,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Nathan",
+    "Score":107.68,
+    "Opp Score":114.34,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Dante",
+    "Score":147.36,
+    "Opp Score":157.62,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Michael",
+    "Score":72.52,
+    "Opp Score":119.14,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Carter",
+    "Score":147.4,
+    "Opp Score":108.7,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Andrew",
+    "Score":156.3,
+    "Opp Score":106.56,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Tyler",
+    "Score":130.28,
+    "Opp Score":111.72,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Kevin",
+    "Score":114.34,
+    "Opp Score":107.68,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Zach",
+    "Score":157.62,
+    "Opp Score":147.36,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"McGwire",
+    "Score":119.14,
+    "Opp Score":72.52,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":14,
+    "Playoff Flag":false,
+    "Team":"Haris",
+    "Score":108.7,
+    "Opp Score":147.4,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Dante",
+    "Score":150.24,
+    "Opp Score":153.82,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Carter",
+    "Score":105.18,
+    "Opp Score":119.1,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Zach",
+    "Score":153.82,
+    "Opp Score":150.24,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":15,
+    "Playoff Flag":true,
+    "Team":"Noah ",
+    "Score":119.1,
+    "Opp Score":105.18,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Kevin",
+    "Score":136.02,
+    "Opp Score":139.88,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Andrew",
+    "Score":117.28,
+    "Opp Score":134.34,
+    "Win":0
+  },
+  {
+    "Year":2024,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Zach",
+    "Score":139.88,
+    "Opp Score":136.02,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":16,
+    "Playoff Flag":true,
+    "Team":"Noah ",
+    "Score":134.34,
+    "Opp Score":117.28,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":17,
+    "Playoff Flag":true,
+    "Team":"Zach",
+    "Score":128.6,
+    "Opp Score":89.22,
+    "Win":1
+  },
+  {
+    "Year":2024,
+    "Week":17,
+    "Playoff Flag":true,
+    "Team":"Noah ",
+    "Score":89.22,
+    "Opp Score":128.6,
+    "Win":0
+  }
+]
