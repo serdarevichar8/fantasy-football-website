@@ -2,6 +2,7 @@ import dominate
 from dominate.tags import *
 import pandas as pd
 import numpy as np
+import sqlite3
 
 root = '/fantasy-football-website'
 
@@ -47,7 +48,22 @@ def df_to_table(data: pd.DataFrame):
 
 
 
-def header(active_year: int = None):
+def header(active_year: int = None) -> div:
+    '''
+    Creates the blue header div, adds in the logo and heading at the top
+
+    Takes an input for the active page in the navbar. This is passed directly to topnav()
+    
+    Parameters
+    ----------
+    active_year : int
+        The active page to be highlighted in navbar (deprecated naming)
+    
+    Returns
+    -------
+    div
+        div container for the entire header
+    '''
     container = div(_class='header')
     logo = img(src=f'{root}/Assets/Fantasy-Football-App-LOGO.png', height=85, style='float: left;padding: 0px 20px')
     heading = h1('Fantasy Football Luck Scores')
@@ -62,7 +78,20 @@ def header(active_year: int = None):
     return container
 
 
-def topnav(active_year: int = None):
+def topnav(active_year: int = None) -> div:
+    '''
+    Creates the navbar with dropdowns. Called by the header() function
+
+    Parameters
+    ----------
+    active_year : int
+        Active page to be highlighted by the navbar (deprecated naming convention)
+
+    Returns
+    -------
+    div
+        div container for navbar
+    '''
     container = div(_class='topnav')
 
     if active_year == 'home':
@@ -97,7 +126,7 @@ def topnav(active_year: int = None):
 
     team_dropdown_content = div(_class='dropdown-content')
     for team in teams:
-        _a = a(f'{team}', href=f'{root}/{team}.html')
+        _a = a(f'{team}', href=f'{root}/teams/{team}.html')
 
         team_dropdown_content.add(_a)
 
@@ -115,7 +144,28 @@ def topnav(active_year: int = None):
 
 # Function which creates the content for each of the individual week pages
 # Editing this will change the structure of all the individual week pages
-def week_content(year: int, week: int):
+def week_content(year: int, week: int) -> div:
+    '''
+    Function which creates the content for each of the individual week pages
+
+    Includes
+    --------
+    * Weekly scoreboard
+        Simply shows each of the matchups in the week
+    * Updated Standings
+        Table which shows the standings as of that week
+
+    Parameters
+    ----------
+    year : int
+        which season to pull matchups from
+    week : int
+        which week in the season
+
+    Returns
+    -------
+    div
+    '''
     container = div(_class='content')
 
     title = h1(f'{year} Week {week}')
@@ -163,7 +213,14 @@ def week_content(year: int, week: int):
 
 # Function which creates home page content
 # Edit this for the content on the home page
-def home_content():
+def home_content() -> div:
+    '''
+    Function which creates the home page content
+
+    Includes:
+    ---------
+    * Documentation PDF
+    '''
     container = div(_class='content')
     container.add(h1('Documentation'))
 
@@ -175,7 +232,15 @@ def home_content():
 
 # Function which creates champion page content
 # Edit this for the content on the champion page
-def champion_content():
+def champion_content() -> div:
+    '''
+    Function which creates the champion page content
+
+    Includes:
+    ---------
+    * Summary Table for each season
+    * List of all Champions
+    '''
     container = div(_class='content')
     container.add(h1('League Champions'))
 
@@ -211,6 +276,42 @@ def champion_content():
     container.add(years_div)
 
     return container
+
+
+def team_content(team: str, conn: sqlite3.Connection) -> div:
+    container = div(_class='content')
+    container.add(h1(f'{team} Data'))
+    
+    query = '''
+        SELECT
+            Year,
+            Record,
+            Ranking,
+            ROUND("Points For", 2) AS "Points For",
+            ROUND("Points Against", 2) AS "Points Against",
+            "Avg Points For",
+            "Avg Margin"
+        FROM season_totals
+    '''
+
+    data = pd.read_sql(query + f"WHERE team = '{team}'", con=conn)
+
+    summary_div = div(_class='team-summary')
+    summary_title = h2('Team Summary')
+    summary_table = df_to_table(data=data)
+    summary_table['id'] = 'team-summary-table'
+    summary_div.add([summary_title, summary_table])
+    
+    container.add(summary_div)
+
+    return container
+
+
+# conn = sqlite3.connect('database/fantasy-football.db')
+
+# team_content(team='Haris', conn=conn)
+
+# conn.close()
 
 
 
@@ -259,9 +360,23 @@ def champion_page():
     with open(f'fantasy-football-website/champion.html','w') as file:
         file.write(doc.render())
 
+def team_pages():
+    conn = sqlite3.connect('fantasy-football-website/database/fantasy-football.db')
 
+    for team in teams:
+        doc = dominate.document(title='Fantasy Football')
+        doc.head.add(link(rel='stylesheet', href=f'{root}/style.css'))
+        doc.add(header(active_year='team'))
+
+        doc.add(team_content(team=team, conn=conn))
+
+        with open(f'fantasy-football-website/teams/{team}.html','w') as file:
+            file.write(doc.render())
+
+    conn.close()
 
 # Call the constructing functions
-home_page()
-#champion_page()
-#week_pages()
+# home_page()
+# champion_page()
+# week_pages()
+team_pages()
