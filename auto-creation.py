@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import sqlite3
 
-root = '/fantasy-football-website'
+root = '/fantasy-football-website/'
 
 df = pd.read_csv('/Users/serdarevichar/Library/CloudStorage/GoogleDrive-serdarevichar@gmail.com/My Drive/fantasy-football-database.csv', index_col = 'Unnamed: 0')
 df['Home Team'] = df['Home Team'].replace({'The':'Klapp'})
@@ -27,13 +27,15 @@ teams = df_converted['Team'].unique()
 years = df_converted['Year'].unique()
 years_weeks = [(year, df_converted.loc[(df_converted['Year'] == year) & (df_converted['Playoff Flag'] == False), 'Week'].max()) for year in years]
 
-def df_to_table(data: pd.DataFrame):
+def df_to_table(data: pd.DataFrame) -> table:
     t = table()
     head = thead()
     body = tbody()
 
+    column_row = tr()
     for column in data.columns:
-        head.add(th(column))
+        column_row.add(th(column))
+    head.add(column_row)
     
     for row in data.values:
         r = tr()
@@ -65,7 +67,7 @@ def header(active_year: int = None) -> div:
         div container for the entire header
     '''
     container = div(_class='header')
-    logo = img(src=f'{root}/Assets/Fantasy-Football-App-LOGO.png', height=85, style='float: left;padding: 0px 20px')
+    logo = img(src=f'{root}Assets/Fantasy-Football-App-LOGO.png', height=85, style='float: left;padding: 0px 20px')
     heading = h1('Fantasy Football Luck Scores')
 
     navbar = topnav(active_year=active_year)
@@ -95,9 +97,9 @@ def topnav(active_year: int = None) -> div:
     container = div(_class='topnav')
 
     if active_year == 'home':
-        home = div(a('Home', href=f'{root}/'), _class='dropdown active')
+        home = div(a('Home', href=f'{root}'), _class='dropdown active')
     else:
-        home = div(a('Home', href=f'{root}/'), _class='dropdown')
+        home = div(a('Home', href=f'{root}'), _class='dropdown')
     container.add(home)
 
     for year, week in years_weeks:
@@ -105,12 +107,12 @@ def topnav(active_year: int = None) -> div:
             dropdown = div(_class='dropdown active')
         else:
             dropdown = div(_class='dropdown')
-        dropdown_button = a(year, href=f'{root}/{year}/', _class='dropdown-button')
+        dropdown_button = a(year, href=f'{root}seasons/{year}/', _class='dropdown-button')
         dropdown.add(dropdown_button)
 
         dropdown_content = div(_class='dropdown-content')
         for i in range(week):
-            _a = a(f'Week {i+1}', href=f'{root}/{year}/week-{i+1}.html')
+            _a = a(f'Week {i+1}', href=f'{root}seasons/{year}/week-{i+1}.html')
 
             dropdown_content.add(_a)
 
@@ -121,12 +123,12 @@ def topnav(active_year: int = None) -> div:
         team_dropdown = div(_class='dropdown active')
     else:
         team_dropdown = div(_class='dropdown')
-    team_dropdown_button = a('Teams', href=f'{root}/teams/', _class='dropdown-button')
+    team_dropdown_button = a('Teams', href=f'{root}teams/', _class='dropdown-button')
     team_dropdown.add(team_dropdown_button)
 
     team_dropdown_content = div(_class='dropdown-content')
     for team in teams:
-        _a = a(f'{team}', href=f'{root}/teams/{team}.html')
+        _a = a(f'{team}', href=f'{root}teams/{team}.html')
 
         team_dropdown_content.add(_a)
 
@@ -134,9 +136,9 @@ def topnav(active_year: int = None) -> div:
     container.add(team_dropdown)
 
     if active_year == 'champion':
-        champions = div(a('Champions', href=f'{root}/champion.html'), _class='dropdown active')
+        champions = div(a('Champions', href=f'{root}champion.html'), _class='dropdown active')
     else:
-        champions = div(a('Champions', href=f'{root}/champion.html'), _class='dropdown')
+        champions = div(a('Champions', href=f'{root}champion.html'), _class='dropdown')
     container.add(champions)
 
     return container
@@ -296,6 +298,24 @@ def team_content(team: str, conn: sqlite3.Connection) -> div:
 
     data = pd.read_sql(query + f"WHERE team = '{team}'", con=conn)
 
+    # total_pf = data['Points For'].sum()
+    # total_pa = data['Points Against'].sum()
+    # total_wins = data['Wins'].sum()
+    # total_losses = data['Losses'].sum()
+    # total_avg_margin = round((total_pf - total_pa) / (total_wins + total_losses), 2)
+    # total_record = f'{total_wins}-{total_losses}'
+
+    # data.loc['Total'] = ['',
+    #                     '',
+    #                     total_pf,
+    #                     total_pa,
+    #                     total_wins,
+    #                     total_losses,
+    #                     total_record,
+    #                     '',
+    #                     total_avg_margin,
+    #                     '']
+
     summary_div = div(_class='team-summary')
     summary_title = h2('Team Summary')
     summary_table = df_to_table(data=data)
@@ -358,18 +378,18 @@ def week_pages():
 
         for week in weeks:
             doc = dominate.document(title='Fantasy Football')
-            doc.head.add(link(rel='stylesheet', href=f'{root}/style.css'))
+            doc.head.add(link(rel='stylesheet', href=f'{root}style.css'))
             doc.add(header(active_year=year))
 
             doc.add(week_content(year=year, week=week))
 
-            with open(f'fantasy-football-website/{year}/week-{week}.html','w') as file:
+            with open(f'fantasy-football-website/seasons/{year}/week-{week}.html','w') as file:
                 file.write(doc.render())
 
 # Construct and write the home page
 def home_page():
     doc = dominate.document(title='Fantasy Football')
-    doc.head.add(link(rel='stylesheet', href=f'{root}/style.css'))
+    doc.head.add(link(rel='stylesheet', href=f'{root}style.css'))
     doc.add(header(active_year='home'))
 
     doc.add(home_content())
@@ -380,7 +400,7 @@ def home_page():
 # Construct and write the champion page
 def champion_page():
     doc = dominate.document(title='Fantasy Football')
-    doc.head.add(link(rel='stylesheet', href=f'{root}/style.css'))
+    doc.head.add(link(rel='stylesheet', href=f'{root}style.css'))
     doc.add(header(active_year='champion'))
 
     doc.add(champion_content())
@@ -388,12 +408,13 @@ def champion_page():
     with open(f'fantasy-football-website/champion.html','w') as file:
         file.write(doc.render())
 
+# Construct and write the team pages
 def team_pages():
     conn = sqlite3.connect('fantasy-football-website/database/fantasy-football.db')
 
     for team in teams:
         doc = dominate.document(title='Fantasy Football')
-        doc.head.add(link(rel='stylesheet', href=f'{root}/style.css'))
+        doc.head.add(link(rel='stylesheet', href=f'{root}style.css'))
         doc.add(header(active_year='team'))
 
         doc.add(team_content(team=team, conn=conn))
@@ -403,24 +424,25 @@ def team_pages():
 
     conn.close()
 
+# Construct and write the year pages
 def year_pages():
     conn = sqlite3.connect('fantasy-football-website/database/fantasy-football.db')
 
     for year in years:
         doc = dominate.document(title='Fantasy Football')
-        doc.head.add(link(rel='stylesheet', href=f'{root}/style.css'))
+        doc.head.add(link(rel='stylesheet', href=f'{root}style.css'))
         doc.add(header(active_year=year))
 
         doc.add(year_content(year, conn=conn))
 
-        with open(f'fantasy-football-website/{year}/index.html','w') as file:
+        with open(f'fantasy-football-website/seasons/{year}/index.html','w') as file:
             file.write(doc.render())
 
     conn.close()
 
 # Call the constructing functions
-# home_page()
-# champion_page()
-# week_pages()
-# team_pages()
+home_page()
+champion_page()
+week_pages()
+team_pages()
 year_pages()
