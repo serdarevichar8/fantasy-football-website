@@ -144,7 +144,19 @@ body div {
     width: fit-content;
 }
 
+.stats {
+    box-shadow: none;
+    width: fit-content;
+    text-align: left;
+}
 
+.stats ul {
+    background-color: #CCCCCC;
+    border-style: solid;
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+}
 
 
 
