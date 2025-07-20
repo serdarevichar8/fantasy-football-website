@@ -2,84 +2,190 @@
 <html>
   <head>
     <title>Fantasy Football</title>
-    
+    <link href="/fantasy-football-website/style.css" rel="stylesheet">
+    <link href="/fantasy-football-website/Assets/Fantasy-Football-App-LOGO.png" rel="icon" type="image/png">
 
     <style>
-      * {
-        box-sizing: border-box;
-      }
-      body {
-        margin: 0;
-      }
-
-      .header {
-        background-color: cornflowerblue;
-        display: flex;
-        padding: 10px;
-      }
-
-      .topnav {
-        background-color: inherit;
-        display: flex;
-        align-items: center;
-        margin: 10px;
-        border-style: solid;
-        border-radius: 30px;
-        width: 50%;
-      }
-      
-      .dropdown {
-        position: relative;
-        width: 25%;
-        margin: 5px;
-      }
-
-      .dropdown a {
-        background-color: #BBBBBB;
-        display: block;
-        /* margin: 5px; */
-        padding: 20px 30px;
-        text-align: center;
-        border-radius: 30px;
-        width: 100%;
-        text-decoration: none;
-        color: black;
-      }
-      
-      .dropdown-content {
-        display: none;
+      #logo {
         position: absolute;
+        left: 1%;
       }
 
-      .dropdown a:hover {
-        background: #888888;
+      .playoffs {
+        background-color: #bbbbbb;
+        width: fit-content;
+        padding: 20px;
       }
 
-      .dropdown:hover .dropdown-content {
-        display: block;
+      #playoff-bracket {
+        display:flex;
+        flex-direction:row;
+        font-size:small;
+        padding:32px;
+        text-align: left;
+        margin: 0;
+        box-shadow: none;
+      }
+      .round{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        width:200px;
+        list-style:none;
+        padding:0;
+      }
+        .round .spacer{ flex-grow:1; }
+        .round .spacer:first-child,
+        .round .spacer:last-child{ flex-grow:.5; }
+
+        .round .game-spacer{
+          flex-grow:1;
+        }
+
+      li.game{
+        padding-left:20px;
       }
 
+        li.game.winner{
+          font-weight:bold;
+        }
+        li.game span{
+          float:right;
+          margin-right:5px;
+        }
 
+        li.game-top{ border-bottom:1px solid #111; }
+
+        li.game-spacer{ 
+          border-right:1px solid #111;
+          min-height:40px;
+        }
+
+        li.game-bottom{ 
+          border-top:1px solid #111;
+        }
     </style>
   </head>
   <body>
     <div class="header">
-      <div class="logo">
-        <img height="100px" src="/fantasy-football-website/Assets/Fantasy-Football-App-LOGO.png">
+      <div>
+        <img id="logo" height="85" src="/fantasy-football-website/Assets/Fantasy-Football-App-LOGO.png">
+        <h1>Fantasy Football Luck Scores</h1><br>
       </div>
       <div class="topnav">
         <div class="dropdown active">
           <a href="/fantasy-football-website/">Home</a>
         </div>
         <div class="dropdown">
-          <a class="dropdown-button" href="/fantasy-football-website/2019/">Seasons</a>
+          <a class="dropdown-button" href="/fantasy-football-website/seasons/2019/">2019</a>
           <div class="dropdown-content">
-            <a class="dropdown-button" href="/fantasy-football-website/2019/">2019</a>
-            <a href="/fantasy-football-website/2020/">2020</a>
-            <a href="/fantasy-football-website/2021/">2021</a>
-            <a href="/fantasy-football-website/2022/">2022</a>
-            <a href="/fantasy-football-website/2023/">2023</a>
-            <a href="/fantasy-football-website/2024/">2024</a>
+            <a href="/fantasy-football-website/seasons/2019/week-1.html">Week 1</a>
+            <a href="/fantasy-football-website/seasons/2019/week-2.html">Week 2</a>
+            <a href="/fantasy-football-website/seasons/2019/week-3.html">Week 3</a>
+            <a href="/fantasy-football-website/seasons/2019/week-4.html">Week 4</a>
+            <a href="/fantasy-football-website/seasons/2019/week-5.html">Week 5</a>
+            <a href="/fantasy-football-website/seasons/2019/week-6.html">Week 6</a>
+            <a href="/fantasy-football-website/seasons/2019/week-7.html">Week 7</a>
+            <a href="/fantasy-football-website/seasons/2019/week-8.html">Week 8</a>
+            <a href="/fantasy-football-website/seasons/2019/week-9.html">Week 9</a>
+            <a href="/fantasy-football-website/seasons/2019/week-10.html">Week 10</a>
+            <a href="/fantasy-football-website/seasons/2019/week-11.html">Week 11</a>
+            <a href="/fantasy-football-website/seasons/2019/week-12.html">Week 12</a>
+            <a href="/fantasy-football-website/seasons/2019/week-13.html">Week 13</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a class="dropdown-button" href="/fantasy-football-website/seasons/2020/">2020</a>
+          <div class="dropdown-content">
+            <a href="/fantasy-football-website/seasons/2020/week-1.html">Week 1</a>
+            <a href="/fantasy-football-website/seasons/2020/week-2.html">Week 2</a>
+            <a href="/fantasy-football-website/seasons/2020/week-3.html">Week 3</a>
+            <a href="/fantasy-football-website/seasons/2020/week-4.html">Week 4</a>
+            <a href="/fantasy-football-website/seasons/2020/week-5.html">Week 5</a>
+            <a href="/fantasy-football-website/seasons/2020/week-6.html">Week 6</a>
+            <a href="/fantasy-football-website/seasons/2020/week-7.html">Week 7</a>
+            <a href="/fantasy-football-website/seasons/2020/week-8.html">Week 8</a>
+            <a href="/fantasy-football-website/seasons/2020/week-9.html">Week 9</a>
+            <a href="/fantasy-football-website/seasons/2020/week-10.html">Week 10</a>
+            <a href="/fantasy-football-website/seasons/2020/week-11.html">Week 11</a>
+            <a href="/fantasy-football-website/seasons/2020/week-12.html">Week 12</a>
+            <a href="/fantasy-football-website/seasons/2020/week-13.html">Week 13</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a class="dropdown-button" href="/fantasy-football-website/seasons/2021/">2021</a>
+          <div class="dropdown-content">
+            <a href="/fantasy-football-website/seasons/2021/week-1.html">Week 1</a>
+            <a href="/fantasy-football-website/seasons/2021/week-2.html">Week 2</a>
+            <a href="/fantasy-football-website/seasons/2021/week-3.html">Week 3</a>
+            <a href="/fantasy-football-website/seasons/2021/week-4.html">Week 4</a>
+            <a href="/fantasy-football-website/seasons/2021/week-5.html">Week 5</a>
+            <a href="/fantasy-football-website/seasons/2021/week-6.html">Week 6</a>
+            <a href="/fantasy-football-website/seasons/2021/week-7.html">Week 7</a>
+            <a href="/fantasy-football-website/seasons/2021/week-8.html">Week 8</a>
+            <a href="/fantasy-football-website/seasons/2021/week-9.html">Week 9</a>
+            <a href="/fantasy-football-website/seasons/2021/week-10.html">Week 10</a>
+            <a href="/fantasy-football-website/seasons/2021/week-11.html">Week 11</a>
+            <a href="/fantasy-football-website/seasons/2021/week-12.html">Week 12</a>
+            <a href="/fantasy-football-website/seasons/2021/week-13.html">Week 13</a>
+            <a href="/fantasy-football-website/seasons/2021/week-14.html">Week 14</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a class="dropdown-button" href="/fantasy-football-website/seasons/2022/">2022</a>
+          <div class="dropdown-content">
+            <a href="/fantasy-football-website/seasons/2022/week-1.html">Week 1</a>
+            <a href="/fantasy-football-website/seasons/2022/week-2.html">Week 2</a>
+            <a href="/fantasy-football-website/seasons/2022/week-3.html">Week 3</a>
+            <a href="/fantasy-football-website/seasons/2022/week-4.html">Week 4</a>
+            <a href="/fantasy-football-website/seasons/2022/week-5.html">Week 5</a>
+            <a href="/fantasy-football-website/seasons/2022/week-6.html">Week 6</a>
+            <a href="/fantasy-football-website/seasons/2022/week-7.html">Week 7</a>
+            <a href="/fantasy-football-website/seasons/2022/week-8.html">Week 8</a>
+            <a href="/fantasy-football-website/seasons/2022/week-9.html">Week 9</a>
+            <a href="/fantasy-football-website/seasons/2022/week-10.html">Week 10</a>
+            <a href="/fantasy-football-website/seasons/2022/week-11.html">Week 11</a>
+            <a href="/fantasy-football-website/seasons/2022/week-12.html">Week 12</a>
+            <a href="/fantasy-football-website/seasons/2022/week-13.html">Week 13</a>
+            <a href="/fantasy-football-website/seasons/2022/week-14.html">Week 14</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a class="dropdown-button" href="/fantasy-football-website/seasons/2023/">2023</a>
+          <div class="dropdown-content">
+            <a href="/fantasy-football-website/seasons/2023/week-1.html">Week 1</a>
+            <a href="/fantasy-football-website/seasons/2023/week-2.html">Week 2</a>
+            <a href="/fantasy-football-website/seasons/2023/week-3.html">Week 3</a>
+            <a href="/fantasy-football-website/seasons/2023/week-4.html">Week 4</a>
+            <a href="/fantasy-football-website/seasons/2023/week-5.html">Week 5</a>
+            <a href="/fantasy-football-website/seasons/2023/week-6.html">Week 6</a>
+            <a href="/fantasy-football-website/seasons/2023/week-7.html">Week 7</a>
+            <a href="/fantasy-football-website/seasons/2023/week-8.html">Week 8</a>
+            <a href="/fantasy-football-website/seasons/2023/week-9.html">Week 9</a>
+            <a href="/fantasy-football-website/seasons/2023/week-10.html">Week 10</a>
+            <a href="/fantasy-football-website/seasons/2023/week-11.html">Week 11</a>
+            <a href="/fantasy-football-website/seasons/2023/week-12.html">Week 12</a>
+            <a href="/fantasy-football-website/seasons/2023/week-13.html">Week 13</a>
+            <a href="/fantasy-football-website/seasons/2023/week-14.html">Week 14</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a class="dropdown-button" href="/fantasy-football-website/seasons/2024/">2024</a>
+          <div class="dropdown-content">
+            <a href="/fantasy-football-website/seasons/2024/week-1.html">Week 1</a>
+            <a href="/fantasy-football-website/seasons/2024/week-2.html">Week 2</a>
+            <a href="/fantasy-football-website/seasons/2024/week-3.html">Week 3</a>
+            <a href="/fantasy-football-website/seasons/2024/week-4.html">Week 4</a>
+            <a href="/fantasy-football-website/seasons/2024/week-5.html">Week 5</a>
+            <a href="/fantasy-football-website/seasons/2024/week-6.html">Week 6</a>
+            <a href="/fantasy-football-website/seasons/2024/week-7.html">Week 7</a>
+            <a href="/fantasy-football-website/seasons/2024/week-8.html">Week 8</a>
+            <a href="/fantasy-football-website/seasons/2024/week-9.html">Week 9</a>
+            <a href="/fantasy-football-website/seasons/2024/week-10.html">Week 10</a>
+            <a href="/fantasy-football-website/seasons/2024/week-11.html">Week 11</a>
+            <a href="/fantasy-football-website/seasons/2024/week-12.html">Week 12</a>
+            <a href="/fantasy-football-website/seasons/2024/week-13.html">Week 13</a>
+            <a href="/fantasy-football-website/seasons/2024/week-14.html">Week 14</a>
           </div>
         </div>
         <div class="dropdown">
@@ -106,25 +212,212 @@
         </div>
       </div>
     </div>
-    <div>
-      <div class="sidebar content">
-        <h1>SideNav</h1>
-      </div>
-      <div class="content">
-        <h1>Documentation</h1>
-        <h2>
-          <a href="/fantasy-football-website/2019">2019</a>
-        </h2>
-        <h2>
-          <a href="/fantasy-football-website/2020">2020</a>
-        </h2>
-        <h2>
-          <a href="/fantasy-football-website/2021">2021</a>
-        </h2>
-        <h2>
-          <a href="/fantasy-football-website/2022">2022</a>
-        </h2>
-      </div>
+    <div class="content">
+      <h1>Documentation</h1>
+
+<div class="content-container">
+  <h2>Playoff Bracket</h2>
+<div id="playoff-bracket">
+  <ul class="round round-1">
+    <li class="spacer">&nbsp;</li>
+    <li class="game game-top">Andrew
+      <span>154.92</span>
+    </li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom">Bye</li>
+    <li class="spacer">&nbsp;</li>
+    <li class="game game-top">Nathan
+      <span>104.76</span>
+    </li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom">Zach
+      <span>98.1</span>
+    </li>
+    <li class="spacer">&nbsp;</li>
+    <li class="game game-top">Haris
+      <span>128.08</span>
+    </li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom">Noah 
+      <span>136.7</span>
+    </li>
+    <li class="spacer">&nbsp;</li>
+    <li class="game game-top">Dante
+      <span>89.94</span>
+    </li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom">Bye</li>
+    <li class="spacer">&nbsp;</li>
+  </ul>
+  <ul class="round round-2">
+    <li class="spacer">&nbsp;</li>
+    <li class="game game-top">Andrew
+      <span>192.88</span>
+    </li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom">Nathan
+      <span>138.98</span>
+    </li>
+    <li class="spacer">&nbsp;</li>
+    <li class="game game-top">Dante
+      <span>105.46</span>
+    </li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom">Noah 
+      <span>134.62</span>
+    </li>
+    <li class="spacer">&nbsp;</li>
+  </ul>
+  <ul class="round round-3">
+    <li class="spacer">&nbsp;</li>
+    <li class="game game-top">Andrew
+      <span>135.12</span>
+    </li>
+    <li class="game game-spacer">&nbsp;</li>
+    <li class="game game-bottom">Noah 
+      <span>94.26</span>
+    </li>
+    <li class="spacer">&nbsp;</li>
+  </ul>
+</div>
+</div>
+
+<div class="content-container">
+        <h2>Weekly Recap:</h2>
+        <ul>
+          <li>Highest Scorer: Justin -- 158.02</li>
+          <li>Lowest Scorer: Ethan -- 101.82</li>
+          <li>Largest Blowout: Justin -- 158.02-113.2</li>
+          <li>Closest Game: Carter -- 141.26-128.54</li>
+        </ul>
+</div>
+
+<div class="content-container">
+  <h2>Table</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Team</th>
+      <th>Record</th>
+      <th>Points For</th>
+      <th>Points Against</th>
+      <th>Avg Points For</th>
+      <th>Avg Margin</th>
+      <th>Luck Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Andrew</td>
+      <td>2-0</td>
+      <td>268.2</td>
+      <td>252.72</td>
+      <td>134.1</td>
+      <td>7.74</td>
+      <td>-1</td>
+    </tr>
+    <tr>
+      <td>Michael</td>
+      <td>2-0</td>
+      <td>255.34</td>
+      <td>191.04</td>
+      <td>127.67</td>
+      <td>32.15</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Zach</td>
+      <td>2-0</td>
+      <td>235.66</td>
+      <td>203.68</td>
+      <td>117.83</td>
+      <td>15.99</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Dante</td>
+      <td>2-0</td>
+      <td>225.26</td>
+      <td>167.96</td>
+      <td>112.63</td>
+      <td>28.65</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Haris</td>
+      <td>1-1</td>
+      <td>280.22</td>
+      <td>248.36</td>
+      <td>140.11</td>
+      <td>15.93</td>
+      <td>-2</td>
+    </tr>
+    <tr>
+      <td>Noah </td>
+      <td>1-1</td>
+      <td>272.04</td>
+      <td>227.72</td>
+      <td>136.02</td>
+      <td>22.16</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Carter</td>
+      <td>1-1</td>
+      <td>239.5</td>
+      <td>206.9</td>
+      <td>119.75</td>
+      <td>16.3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Kevin</td>
+      <td>1-1</td>
+      <td>228.08</td>
+      <td>270.58</td>
+      <td>114.04</td>
+      <td>-21.25</td>
+      <td>-3</td>
+    </tr>
+    <tr>
+      <td>McGwire</td>
+      <td>0-2</td>
+      <td>226.38</td>
+      <td>251.66</td>
+      <td>113.19</td>
+      <td>-12.64</td>
+      <td>-2</td>
+    </tr>
+    <tr>
+      <td>Ethan</td>
+      <td>0-2</td>
+      <td>204.16</td>
+      <td>265.74</td>
+      <td>102.08</td>
+      <td>-30.79</td>
+      <td>-2</td>
+    </tr>
+    <tr>
+      <td>Nathan</td>
+      <td>0-2</td>
+      <td>192.48</td>
+      <td>239.96</td>
+      <td>96.24</td>
+      <td>-23.74</td>
+      <td>-1</td>
+    </tr>
+    <tr>
+      <td>Tyler</td>
+      <td>0-2</td>
+      <td>165.06</td>
+      <td>266.06</td>
+      <td>82.53</td>
+      <td>-50.5</td>
+      <td>-2</td>
+    </tr>
+  </tbody>
+</table>
+</div>
     </div>
   </body>
 </html>
