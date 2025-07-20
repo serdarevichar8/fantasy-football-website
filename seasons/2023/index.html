@@ -133,13 +133,14 @@
             <a href="/fantasy-football-website/teams/Michael.html">Michael</a>
             <a href="/fantasy-football-website/teams/Andrew.html">Andrew</a>
             <a href="/fantasy-football-website/teams/Haris.html">Haris</a>
-            <a href="/fantasy-football-website/teams/Noah .html">Noah </a>
+            <a href="/fantasy-football-website/teams/Noah.html">Noah</a>
             <a href="/fantasy-football-website/teams/Klapp.html">Klapp</a>
             <a href="/fantasy-football-website/teams/Zach.html">Zach</a>
             <a href="/fantasy-football-website/teams/McGwire.html">McGwire</a>
             <a href="/fantasy-football-website/teams/Carter.html">Carter</a>
             <a href="/fantasy-football-website/teams/Ethan.html">Ethan</a>
             <a href="/fantasy-football-website/teams/Nathan.html">Nathan</a>
+            <a href="/fantasy-football-website/teams/Bye.html">Bye</a>
             <a href="/fantasy-football-website/teams/Kevin.html">Kevin</a>
             <a href="/fantasy-football-website/teams/Tyler.html">Tyler</a>
           </div>
@@ -151,7 +152,7 @@
     </div>
     <div class="content">
       <h1>2023 Data</h1>
-      <div class="season-summary">
+      <div class="content-container">
         <h2>Season Summary</h2>
         <table id="season-summary-table">
           <thead>
@@ -163,6 +164,7 @@
               <th>Points Against</th>
               <th>Avg Points For</th>
               <th>Avg Margin</th>
+              <th>Luck Score</th>
             </tr>
           </thead>
           <tbody>
@@ -174,6 +176,7 @@
               <td>1456.3</td>
               <td>128.67</td>
               <td>24.65</td>
+              <td>10</td>
             </tr>
             <tr>
               <td>Carter</td>
@@ -183,6 +186,7 @@
               <td>1538.86</td>
               <td>127.7</td>
               <td>17.78</td>
+              <td>9</td>
             </tr>
             <tr>
               <td>Ethan</td>
@@ -192,6 +196,7 @@
               <td>1510.76</td>
               <td>112.49</td>
               <td>4.58</td>
+              <td>7</td>
             </tr>
             <tr>
               <td>Andrew</td>
@@ -201,6 +206,7 @@
               <td>1532.5</td>
               <td>119.47</td>
               <td>10.01</td>
+              <td>2</td>
             </tr>
             <tr>
               <td>Michael</td>
@@ -210,6 +216,7 @@
               <td>1666.08</td>
               <td>112.56</td>
               <td>-6.45</td>
+              <td>1</td>
             </tr>
             <tr>
               <td>Kevin</td>
@@ -219,15 +226,17 @@
               <td>1696.42</td>
               <td>128.6</td>
               <td>7.43</td>
+              <td>-8</td>
             </tr>
             <tr>
-              <td>Noah </td>
+              <td>Noah</td>
               <td>7-7</td>
               <td>7</td>
               <td>1579.6</td>
               <td>1669.46</td>
               <td>112.83</td>
               <td>-6.42</td>
+              <td>-1</td>
             </tr>
             <tr>
               <td>Dante</td>
@@ -237,6 +246,7 @@
               <td>1667.06</td>
               <td>120.68</td>
               <td>1.6</td>
+              <td>-6</td>
             </tr>
             <tr>
               <td>Nathan</td>
@@ -246,6 +256,7 @@
               <td>1648.44</td>
               <td>106.88</td>
               <td>-10.87</td>
+              <td>4</td>
             </tr>
             <tr>
               <td>Zach</td>
@@ -255,6 +266,7 @@
               <td>1699.04</td>
               <td>106.31</td>
               <td>-15.05</td>
+              <td>-4</td>
             </tr>
             <tr>
               <td>Tyler</td>
@@ -264,6 +276,7 @@
               <td>1766.36</td>
               <td>109.59</td>
               <td>-16.58</td>
+              <td>-12</td>
             </tr>
             <tr>
               <td>McGwire</td>
@@ -273,9 +286,76 @@
               <td>1658.8</td>
               <td>107.8</td>
               <td>-10.68</td>
+              <td>-2</td>
             </tr>
           </tbody>
         </table>
+      </div>
+      <div class="content-container">
+        <h2>Playoff Bracket</h2>
+        <main id="playoff-bracket">
+          <ul class="round round-1">
+            <li class="spacer">&nbsp;</li>
+            <li class="game game-top">Haris
+              <span>125.94</span>
+            </li>
+            <li class="game game-spacer">&nbsp;</li>
+            <li class="game game-bottom">Bye</li>
+            <li class="spacer">&nbsp;</li>
+            <li class="game game-top">Andrew
+              <span>115.16</span>
+            </li>
+            <li class="game game-spacer">&nbsp;</li>
+            <li class="game game-bottom">Michael
+              <span>111.2</span>
+            </li>
+            <li class="spacer">&nbsp;</li>
+            <li class="game game-top">Ethan
+              <span>109.12</span>
+            </li>
+            <li class="game game-spacer">&nbsp;</li>
+            <li class="game game-bottom">Kevin
+              <span>106.56</span>
+            </li>
+            <li class="spacer">&nbsp;</li>
+            <li class="game game-top">Carter
+              <span>0.0</span>
+            </li>
+            <li class="game game-spacer">&nbsp;</li>
+            <li class="game game-bottom">Bye</li>
+            <li class="spacer">&nbsp;</li>
+          </ul>
+          <ul class="round round-2">
+            <li class="spacer">&nbsp;</li>
+            <li class="game game-top">Haris
+              <span>113.78</span>
+            </li>
+            <li class="game game-spacer">&nbsp;</li>
+            <li class="game game-bottom">Andrew
+              <span>100.28</span>
+            </li>
+            <li class="spacer">&nbsp;</li>
+            <li class="game game-top">Carter
+              <span>159.2</span>
+            </li>
+            <li class="game game-spacer">&nbsp;</li>
+            <li class="game game-bottom">Ethan
+              <span>140.1</span>
+            </li>
+            <li class="spacer">&nbsp;</li>
+          </ul>
+          <ul class="round round-3">
+            <li class="spacer">&nbsp;</li>
+            <li class="game game-top">Haris
+              <span>165.34</span>
+            </li>
+            <li class="game game-spacer">&nbsp;</li>
+            <li class="game game-bottom">Carter
+              <span>98.02</span>
+            </li>
+            <li class="spacer">&nbsp;</li>
+          </ul>
+        </main>
       </div>
     </div>
   </body>

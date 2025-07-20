@@ -4,6 +4,8 @@ import pandas as pd
 import numpy as np
 import sqlite3
 
+from python import functions
+
 ROOT = '/fantasy-football-website/'
 
 MATCHUP_DATA = pd.read_csv('fantasy-football-website/database/fantasy-football-matchup-data.csv')
@@ -13,26 +15,6 @@ YEARS = GAME_DATA['Year'].unique()
 YEARS_WEEKS = [(year, GAME_DATA.loc[(GAME_DATA['Year'] == year) & (GAME_DATA['Playoff Flag'] == False), 'Week'].max()) for year in YEARS]
 
 
-def df_to_table(data: pd.DataFrame) -> table:
-    t = table()
-    head = thead()
-    body = tbody()
-
-    column_row = tr()
-    for column in data.columns:
-        column_row.add(th(column))
-    head.add(column_row)
-    
-    for row in data.values:
-        r = tr()
-        for value in row:
-            r.add(td(value))
-        body.add(r)
-
-    t.add(head)
-    t.add(body)
-
-    return t
 
 
 def header(active_year: int = None) -> div:
@@ -159,15 +141,15 @@ def week_content(year: int, week: int) -> div:
 
     # Create scoreboard table of the matchups that week
     scoreboard = MATCHUP_DATA.loc[(MATCHUP_DATA['Year'] == year) & (MATCHUP_DATA['Week'] == week), ['Home Team','Home Score','Away Score','Away Team']].copy()    
-    scoreboard_div = div(_class='scoreboard')
+    scoreboard_div = div(_class='content-container')
     scoreboard_title = h2('Weekly Scoreboard')
-    scoreboard_table = df_to_table(data=scoreboard)
+    scoreboard_table = functions.df_to_table(data=scoreboard)
     scoreboard_table['id'] = 'scoreboard-table'
     scoreboard_div.add([scoreboard_title, scoreboard_table])
 
     # Create the weekly recap stats section
     # This temp df needs to look at only the current week
-    temp = GAME_DATA.loc[(GAME_DATA['Year'] == year) & (GAME_DATA['Week'] == week)]
+    temp = GAME_DATA.loc[(GAME_DATA['Year'] == year) & (GAME_DATA['Week'] == week)].copy()
 
 
     highest_scorer = temp.sort_values('Score', ascending=False, ignore_index=True).loc[0,['Team','Score']].values
@@ -175,7 +157,7 @@ def week_content(year: int, week: int) -> div:
     largest_win = temp.sort_values('Margin', ascending=False, ignore_index=True).loc[0,['Team','Score','Opp Score']].values
     closest_win = temp.loc[temp['Margin'] >= 0].sort_values('Margin', ascending=True, ignore_index=True).loc[0,['Team','Score','Opp Score']].values
 
-    stats_div = div(_class='stats')
+    stats_div = div(_class='content-container stats')
     stats_title = h2('Weekly Recap:')
     stat1 = li(f'Highest Scorer: {highest_scorer[0]} -- {highest_scorer[1]}')
     stat2 = li(f'Lowest Scorer: {lowest_scorer[0]} -- {lowest_scorer[1]}')
@@ -185,31 +167,11 @@ def week_content(year: int, week: int) -> div:
     stats_div.add([stats_title, stats_list])
 
     # Create the live standings table
-    # This temp df looks at all the weeks up to the current week (different from the one just above)
-    temp = GAME_DATA.loc[(GAME_DATA['Year'] == year) & (GAME_DATA['Week'] <= week)]
+    standings = functions.summary_table(GAME_DATA, year = year, week = week)
 
-    teams = temp['Team'].unique()
-    records = []
-
-    for team in teams:
-        temp_team = temp.loc[temp['Team'] == team]
-        wins = temp_team['Win'].sum()
-        losses = week - wins
-        record = f'{wins}-{losses}'
-
-        pf = round(temp_team['Score'].sum(), 2)
-        avg_pf = round(pf / week, 2)
-        pa = round(temp_team['Opp Score'].sum(), 2)
-        avg_margin = round((pf - pa) / week, 2)
-
-        records.append([team, wins, record, pf, pa, avg_pf, avg_margin])
-
-    standings = pd.DataFrame(records, columns=['Team','Wins','Record','Points For','Points Against','Avg Points For','Avg Margin']).sort_values(['Wins','Points For'], ascending=False)
-    standings = standings[['Team','Record','Points For','Points Against','Avg Points For','Avg Margin']]
-
-    standings_div = div(_class='standings')
+    standings_div = div(_class='content-container')
     standings_title = h2('Updated Standings')
-    standings_table = df_to_table(data=standings)
+    standings_table = functions.df_to_table(data=standings)
     standings_table['id'] = 'standings-table'
     standings_div.add([standings_title, standings_table])
 
@@ -272,9 +234,9 @@ def champion_content() -> div:
 
     t = pd.DataFrame(data, columns=['Year','Team','Record','Points For','Avg Points For','Avg Margin'])
 
-    summary_div = div(_class='champion-summary')
+    summary_div = div(_class='content-container')
     summary_title = h2('Champions Summary')
-    summary_table = df_to_table(data=t)
+    summary_table = functions.df_to_table(data=t)
     summary_table['id'] = 'champion-summary-table'
     summary_div.add([summary_title, summary_table])
 
@@ -307,27 +269,9 @@ def team_content(team: str, conn: sqlite3.Connection) -> div:
 
     data = pd.read_sql(query + f"WHERE team = '{team}'", con=conn)
 
-    # total_pf = data['Points For'].sum()
-    # total_pa = data['Points Against'].sum()
-    # total_wins = data['Wins'].sum()
-    # total_losses = data['Losses'].sum()
-    # total_avg_margin = round((total_pf - total_pa) / (total_wins + total_losses), 2)
-    # total_record = f'{total_wins}-{total_losses}'
-
-    # data.loc['Total'] = ['',
-    #                     '',
-    #                     total_pf,
-    #                     total_pa,
-    #                     total_wins,
-    #                     total_losses,
-    #                     total_record,
-    #                     '',
-    #                     total_avg_margin,
-    #                     '']
-
-    summary_div = div(_class='team-summary')
+    summary_div = div(_class='content-container')
     summary_title = h2('Team Summary')
-    summary_table = df_to_table(data=data)
+    summary_table = functions.df_to_table(data=data)
     summary_table['id'] = 'team-summary-table'
     summary_div.add([summary_title, summary_table])
     
@@ -339,28 +283,52 @@ def team_content(team: str, conn: sqlite3.Connection) -> div:
 def year_content(year: int, conn: sqlite3.Connection) -> div:
     container = div(_class='content')
     container.add(h1(f'{year} Data'))
-    
-    query = '''
-        SELECT
-            Team,
-            Record,
-            Ranking,
-            ROUND("Points For", 2) AS "Points For",
-            ROUND("Points Against", 2) AS "Points Against",
-            "Avg Points For",
-            "Avg Margin"
-        FROM season_totals
-    '''
 
-    data = pd.read_sql(query + f"WHERE year = '{year}'", con=conn)
+    data = functions.summary_table(GAME_DATA, year = year)
 
-    summary_div = div(_class='season-summary')
+    summary_div = div(_class='content-container')
     summary_title = h2('Season Summary')
-    summary_table = df_to_table(data=data)
+    summary_table = functions.df_to_table(data=data)
     summary_table['id'] = 'season-summary-table'
     summary_div.add([summary_title, summary_table])
+
+    playoff_matchups = MATCHUP_DATA.loc[(MATCHUP_DATA['Year'] == year) & (MATCHUP_DATA['Playoff Flag'])].copy()
+    playoff_matchups['Playoff Round'] = (playoff_matchups['Week'] % playoff_matchups['Week'].min()) + 1
+
+    bracket_div = div(_class='content-container')
+    bracket_title = h2('Playoff Bracket')
+    bracket_div.add(bracket_title)
+
+    bracket = main(_id='playoff-bracket')
+
+    rounds = []
+
+    for round in playoff_matchups['Playoff Round'].unique():
+        _ul = ul(_class=f'round round-{round}')
+        _ul.add(li(dominate.util.raw('&nbsp;'), _class='spacer'))
+
+        for team1, score1, team2, score2 in playoff_matchups.loc[playoff_matchups['Playoff Round'] == round, ['Home Team','Home Score','Away Team','Away Score']].values:
+
+            top_team = li(team1, _class='game game-top')
+            if team1 != 'Bye':
+                top_team.add(span(score1))
+
+            bot_team = li(team2, _class='game game-bottom')
+            if team2 != 'Bye':
+                bot_team.add(span(score2))
+
+            _ul.add(top_team)
+            _ul.add(li(dominate.util.raw('&nbsp;'), _class='game game-spacer'))
+            _ul.add(bot_team)
+            _ul.add(li(dominate.util.raw('&nbsp;'), _class='spacer'))
+
+        rounds.append(_ul)
+
+    bracket.add(rounds)
+    bracket_div.add(bracket)
     
     container.add(summary_div)
+    container.add(bracket_div)
 
     return container
 
@@ -447,8 +415,8 @@ def year_pages():
     conn.close()
 
 # Call the constructing functions
-home_page()
-champion_page()
-week_pages()
-team_pages()
-year_pages()
+# home_page()
+# champion_page()
+# week_pages()
+# team_pages()
+# year_pages()

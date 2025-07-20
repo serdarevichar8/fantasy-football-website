@@ -14,6 +14,10 @@ body div {
 }
 
 .header {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
     background-color: cornflowerblue;
     /*padding: 20px;*/
     padding-bottom: 20px;
@@ -87,61 +91,68 @@ body div {
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4em;
     background-color: #EEEEEE;
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
-    padding: 10px;
+    padding: 1em;
 }
 
-.content div {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    margin-top: 50px;
+.content h1 {
+    margin-top: 1em;
+    margin-bottom: 0;
 }
 
-.content table {
-    margin: auto;
+.content-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.content-container table {
     border: solid #333333;
+    border-top: none;
     border-collapse: collapse;
 }
 
-.content thead {
+.content-container thead {
     background-color: #79c179;
-    border: solid #333333;
+    border-bottom: solid #333333;
     height: 40px;
 }
 
-.content tbody tr {
+.content-container tbody tr {
     height: 25px;
 }
 
-.content tbody tr:nth-child(even) {
+.content-container tbody tr:nth-child(odd) {
+    background-color: #EEEEEE;
+}
+
+.content-container tbody tr:nth-child(even) {
     background-color: #CCCCCC;
 }
 
-.content th, td {
-    width: 150px;
+.content-container th, .content-container td {
+    width: 125px;
     border-left: solid #333333;
 }
 
-.content h2 {
+.content-container h2 {
     text-align: left;
     padding: 5px;
+    margin-top: 0;
     margin-bottom: 0;
     background-color: cornflowerblue;
     color: #111111;
     border: solid #333333;
-    border-bottom-style: none;
-}
-
-.scoreboard, .standings, .champion-summary, .champion-years, .team-summary, .season-summary {
-    box-shadow: none;
-    border-radius: 0;
-    width: fit-content;
+    /* border-bottom-style: none; */
 }
 
 .stats {
@@ -163,3 +174,65 @@ body div {
 
 
 
+.playoffs {
+    background-color: #bbbbbb;
+    width: fit-content;
+    padding: 20px;
+}
+
+#playoff-bracket {
+    display:flex;
+    flex-direction:row;
+    font-size:small;
+    padding:32px;
+    text-align: left;
+    margin: 0;
+    box-shadow: none;
+}
+
+.round {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:200px;
+    list-style:none;
+    padding:0;
+}
+
+.round .spacer {
+    flex-grow:1;
+}
+
+.round .spacer:first-child, .round .spacer:last-child {
+    flex-grow:.5;
+}
+
+.round .game-spacer {
+    flex-grow:1;
+}
+
+li.game {
+    padding-left:20px;
+}
+
+li.game.winner {
+    font-weight:bold;
+}
+
+li.game span {
+    float:right;
+    margin-right:5px;
+}
+
+li.game-top {
+    border-bottom:1px solid #111;
+}
+
+li.game-spacer { 
+    border-right:1px solid #111;
+    min-height:40px;
+}
+
+li.game-bottom { 
+    border-top:1px solid #111;
+}
