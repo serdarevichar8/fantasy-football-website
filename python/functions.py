@@ -83,6 +83,7 @@ def summary_table(data: pd.DataFrame, year: int, week: int = None) -> pd.DataFra
     weekly_standings = pd.DataFrame(weekly_standings, columns=['Team','Wins','Record', 'Points For','Points Against','Avg Points For','Avg Margin','Luck Score'])
     weekly_standings.sort_values(['Wins','Points For'], ascending=False, ignore_index=True, inplace=True)
     weekly_standings['Ranking'] = [i + 1 for i in weekly_standings.index]
-    weekly_standings = weekly_standings[['Team','Record','Ranking','Points For','Points Against','Avg Points For','Avg Margin','Luck Score']]
+    weekly_standings['Year'] = year
+    weekly_standings = weekly_standings[['Year','Team','Record','Ranking','Points For','Points Against','Avg Points For','Avg Margin','Luck Score']]
 
     return weekly_standings
