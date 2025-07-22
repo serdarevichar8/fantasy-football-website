@@ -3,14 +3,15 @@ from dominate.tags import *
 import pandas as pd
 import numpy as np
 import sqlite3
+from matplotlib import pyplot as plt
 
-from python import functions
+from python import functions, constants
 
 ROOT = '/fantasy-football-website/'
 
 MATCHUP_DATA = pd.read_csv('fantasy-football-website/database/fantasy-football-matchup-data.csv')
 GAME_DATA = pd.read_csv('fantasy-football-website/database/fantasy-football-game-data.csv')
-TEAMS = GAME_DATA['Team'].unique()
+TEAMS = GAME_DATA.loc[~ GAME_DATA['Playoff Flag'], 'Team'].unique()
 YEARS = GAME_DATA['Year'].unique()
 YEARS_WEEKS = [(year, GAME_DATA.loc[(GAME_DATA['Year'] == year) & (GAME_DATA['Playoff Flag'] == False), 'Week'].max()) for year in YEARS]
 
@@ -168,6 +169,7 @@ def week_content(year: int, week: int) -> div:
 
     # Create the live standings table
     standings = functions.summary_table(GAME_DATA, year = year, week = week)
+    standings = standings.drop('Year', axis = 1)
 
     standings_div = div(_class='content-container')
     standings_title = h2('Updated Standings')
@@ -254,28 +256,31 @@ def champion_content() -> div:
 def team_content(team: str, conn: sqlite3.Connection) -> div:
     container = div(_class='content')
     container.add(h1(f'{team} Data'))
-    
-    query = '''
-        SELECT
-            Year,
-            Record,
-            Ranking,
-            ROUND("Points For", 2) AS "Points For",
-            ROUND("Points Against", 2) AS "Points Against",
-            "Avg Points For",
-            "Avg Margin"
-        FROM season_totals
-    '''
 
-    data = pd.read_sql(query + f"WHERE team = '{team}'", con=conn)
+    seasons = [functions.summary_table(GAME_DATA, year=year) for year in YEARS]
+    seasons_df = pd.concat(seasons)
+    seasons_df = seasons_df.loc[seasons_df['Team'] == team].drop('Team', axis = 1)
 
     summary_div = div(_class='content-container')
     summary_title = h2('Team Summary')
-    summary_table = functions.df_to_table(data=data)
+    summary_table = functions.df_to_table(data=seasons_df)
     summary_table['id'] = 'team-summary-table'
     summary_div.add([summary_title, summary_table])
+
+    plt.figure(figsize = (5,3), dpi = 300)
+    plt.grid(linewidth = 0.5, zorder = 0)
+    plt.plot(seasons_df['Year'], seasons_df['Luck Score'], c = constants.COLOR_DICT[team.lower()], marker = 'o', zorder = 3)
+    plt.xlabel('Season')
+    plt.ylabel('Luck Score')
+    plt.savefig(f'fantasy-football-website/Assets/Luck-Score-Year-{team}.png', bbox_inches = 'tight')
+
+    line_chart_div = div(_class = 'content-container')
+    line_chart_title = h2('Luck Score by Season')
+    line_chart_img = img(src = f'{ROOT}Assets/Luck-Score-Year-{team}.png')
+    line_chart_div.add([line_chart_title, line_chart_img])
     
     container.add(summary_div)
+    container.add(line_chart_div)
 
     return container
 
@@ -285,9 +290,30 @@ def year_content(year: int, conn: sqlite3.Connection) -> div:
     container.add(h1(f'{year} Data'))
 
     data = functions.summary_table(GAME_DATA, year = year)
+    data = data.drop('Year', axis = 1)
+
+    s = [(team, pf, pa, constants.COLOR_DICT[team.lower()]) for team, pf, pa in zip(data['Team'], data['Points For'], data['Points Against'])]
+
+    plt.figure(figsize = (5,3), dpi = 300)
+    plt.grid(linewidth = 0.5, zorder = 0)
+    for team, pf, pa, color in s:
+        plt.scatter(pf, pa, c = color, label = team, zorder = 3, edgecolor = 'k')
+    plt.xlim(int(data['Points For'].min() - 4) - (int(data['Points For'].min()-4) % 25),
+            int(data['Points For'].max() + 4) + 25 - (int(data['Points For'].max() + 4) % 25)) # Automatically finds nearest 25 below/above for range
+    plt.ylim(int(data['Points Against'].min() - 4) - (int(data['Points Against'].min() - 4) % 25),
+            int(data['Points Against'].max() + 4) + 25 - (int(data['Points Against'].max() + 4) % 25))
+    plt.xlabel('Points For')
+    plt.ylabel('Points Against')
+    plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', fontsize = 9)
+    plt.savefig(f'fantasy-football-website/Assets/PF-vs-PA-{year}.png', bbox_inches = 'tight')
+
+    scatter_div = div(_class='content-container')
+    scatter_title = h2('PF vs PA')
+    scatter_img = img(src = f'{ROOT}Assets/PF-vs-PA-{year}.png')
+    scatter_div.add([scatter_title, scatter_img])
 
     summary_div = div(_class='content-container')
-    summary_title = h2('Season Summary')
+    summary_title = h2('Regular Season Summary')
     summary_table = functions.df_to_table(data=data)
     summary_table['id'] = 'season-summary-table'
     summary_div.add([summary_title, summary_table])
@@ -328,6 +354,7 @@ def year_content(year: int, conn: sqlite3.Connection) -> div:
     bracket_div.add(bracket)
     
     container.add(summary_div)
+    container.add(scatter_div)
     container.add(bracket_div)
 
     return container
