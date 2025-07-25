@@ -157,6 +157,8 @@ body div {
 
 .content-container img {
     height: 400px;
+    /* max-height: 400px;
+    width: 100%; */
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
