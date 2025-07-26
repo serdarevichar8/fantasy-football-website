@@ -1,3 +1,15 @@
+import pandas as pd
+
+MATCHUP_DATA = pd.read_csv('fantasy-football-website/database/fantasy-football-matchup-data.csv')
+GAME_DATA = pd.read_csv('fantasy-football-website/database/fantasy-football-game-data.csv')
+TEAMS = GAME_DATA.loc[~ GAME_DATA['Playoff Flag'], 'Team'].unique()
+YEARS = GAME_DATA['Year'].unique()
+YEARS_WEEKS = [(year, GAME_DATA.loc[(GAME_DATA['Year'] == year) & (GAME_DATA['Playoff Flag'] == False), 'Week'].max()) for year in YEARS]
+
+LEAGUE_ID = 565994
+ESPN_S2 = None
+SWID = None
+
 COLOR_DICT = {'andrew':'cornflowerblue',
               'mcgwire':'darkblue',
               'tyler':'lightgreen',

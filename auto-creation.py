@@ -272,11 +272,11 @@ def team_content(team: str, conn: sqlite3.Connection) -> div:
     plt.plot(seasons_df['Year'], seasons_df['Luck Score'], c = constants.COLOR_DICT[team.lower()], marker = 'o', zorder = 3)
     plt.xlabel('Season')
     plt.ylabel('Luck Score')
-    plt.savefig(f'fantasy-football-website/Assets/Luck-Score-Year-{team}.png', bbox_inches = 'tight')
+    plt.savefig(f'fantasy-football-website/Assets/Luck-Score-Year-{team}.svg', format = 'svg', bbox_inches = 'tight')
 
     line_chart_div = div(_class = 'content-container')
     line_chart_title = h2('Luck Score by Season')
-    line_chart_img = img(src = f'{ROOT}Assets/Luck-Score-Year-{team}.png')
+    line_chart_img = img(src = f'{ROOT}Assets/Luck-Score-Year-{team}.svg')
     line_chart_div.add([line_chart_title, line_chart_img])
     
     container.add(summary_div)
@@ -285,7 +285,7 @@ def team_content(team: str, conn: sqlite3.Connection) -> div:
     return container
 
 
-def year_content(year: int, conn: sqlite3.Connection) -> div:
+def year_content(year: int) -> div:
     container = div(_class='content')
     container.add(h1(f'{year} Data'))
 
@@ -305,11 +305,11 @@ def year_content(year: int, conn: sqlite3.Connection) -> div:
     plt.xlabel('Points For')
     plt.ylabel('Points Against')
     plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', fontsize = 9)
-    plt.savefig(f'fantasy-football-website/Assets/PF-vs-PA-{year}.png', bbox_inches = 'tight')
+    plt.savefig(f'fantasy-football-website/Assets/PF-vs-PA-{year}.svg', format = 'svg',bbox_inches = 'tight')
 
     scatter_div = div(_class='content-container')
     scatter_title = h2('PF vs PA')
-    scatter_img = img(src = f'{ROOT}Assets/PF-vs-PA-{year}.png')
+    scatter_img = img(src = f'{ROOT}Assets/PF-vs-PA-{year}.svg')
     scatter_div.add([scatter_title, scatter_img])
 
     summary_div = div(_class='content-container')
@@ -428,18 +428,14 @@ def team_pages():
 
 # Construct and write the year pages
 def year_pages():
-    conn = sqlite3.connect('fantasy-football-website/database/fantasy-football.db')
-
     for year in YEARS:
         doc = document()
         doc.add(header(active_year=year))
 
-        doc.add(year_content(year, conn=conn))
+        doc.add(year_content(year))
 
         with open(f'fantasy-football-website/seasons/{year}/index.html','w') as file:
             file.write(doc.render())
-
-    conn.close()
 
 # Call the constructing functions
 # home_page()
