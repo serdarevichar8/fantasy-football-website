@@ -1,4 +1,8 @@
+import uuid
+
 import pandas as pd
+
+NAMESPACE = uuid.UUID('05859822-9e6e-4612-91ff-c714fa7e40f6')
 
 MATCHUP_DATA = pd.read_csv('fantasy-football-website/database/fantasy-football-matchup-data.csv')
 GAME_DATA = pd.read_csv('fantasy-football-website/database/fantasy-football-game-data.csv')
