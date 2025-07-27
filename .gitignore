@@ -3,4 +3,6 @@
 
 *.db
 
+__pycache__/
+
 *.pkl

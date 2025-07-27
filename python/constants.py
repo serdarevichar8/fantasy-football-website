@@ -4,9 +4,11 @@ import pandas as pd
 
 NAMESPACE = uuid.UUID('05859822-9e6e-4612-91ff-c714fa7e40f6')
 
+ROOT = '/fantasy-football-website/'
+
 MATCHUP_DATA = pd.read_csv('fantasy-football-website/database/fantasy-football-matchup-data.csv')
 GAME_DATA = pd.read_csv('fantasy-football-website/database/fantasy-football-game-data.csv')
-TEAMS = GAME_DATA.loc[~ GAME_DATA['Playoff Flag'], 'Team'].unique()
+TEAMS = pd.read_csv('database/fantasy-football-team-data.csv')['team_name'].values
 YEARS = GAME_DATA['Year'].unique()
 YEARS_WEEKS = [(year, GAME_DATA.loc[(GAME_DATA['Year'] == year) & (GAME_DATA['Playoff Flag'] == False), 'Week'].max()) for year in YEARS]
 

@@ -75,7 +75,7 @@ def read_pickle_file() -> dict[str, list]:
     return data
 
 # Use pickle file data to build a dataframe for each eventual database table
-def construct_dataframes():
+def construct_dataframes() -> dict[str, pd.DataFrame]:
     '''
     Takes in espn-data.pkl file data and produces the following dataframes:
      - teams
@@ -233,4 +233,76 @@ def create_database() -> None:
     conn.commit()
     conn.close()
 
-create_database()
+# Connects to database and creates/updates the views which are converted into CSV files
+def database_views() -> None:
+    conn = sqlite3.connect('fantasy-football-website/database/fantasy-football.db')
+    c = conn.cursor()
+
+    c.execute('DROP VIEW IF EXISTS game_data')
+    game_view = '''
+        CREATE VIEW game_data AS
+            SELECT
+                m.year AS "Year",
+                m.week AS "Week",
+                m.playoff_flag AS "Playoff Flag",
+                t.team_name AS "Team",
+                g.score AS "Score",
+                g.opp_score AS "Opp Score",
+                g.win_flag AS "Win",
+                g.margin AS "Margin"
+                    
+            FROM games AS g
+
+            LEFT JOIN matchups AS m
+            ON m.matchup_id = g.matchup_id
+
+            LEFT JOIN teams AS t
+            ON t.team_id = g.team_id
+
+            WHERE
+                m.matchup_type IN ('NONE','WINNERS_BRACKET')
+    '''
+    c.execute(game_view)
+
+    c.execute('DROP VIEW IF EXISTS matchup_data')
+    matchup_view = '''
+        CREATE VIEW matchup_data AS
+            SELECT
+                m.year AS "Year",
+                m.week AS "Week",
+                m.playoff_flag AS "Playoff Flag",
+                t.team_name AS "Home Team",
+                m.home_score AS "Home Score",
+                COALESCE(t2.team_name,'Bye') AS "Away Team",
+                m.away_score AS "Away Score"
+                    
+            FROM matchups AS m
+            
+            LEFT JOIN teams AS t
+            ON t.team_id = m.home_team_id
+            
+            LEFT JOIN teams AS t2
+            ON t2.team_id = m.away_team_id
+            
+            WHERE
+                m.matchup_type IN ('NONE','WINNERS_BRACKET')
+    '''
+    c.execute(matchup_view)
+
+    conn.commit()
+    conn.close()
+
+# Write views to csv files
+def write_csvs() -> None:
+    conn = sqlite3.connect('fantasy-football-website/database/fantasy-football.db')
+
+    pd.read_sql('SELECT * FROM game_data', con=conn).to_csv('fantasy-football-website/database/fantasy-football-game-data.csv', index=False)
+    pd.read_sql('SELECT * FROM matchup_data', con=conn).to_csv('fantasy-football-website/database/fantasy-football-matchup-data.csv', index=False)
+    pd.read_sql('SELECT * FROM teams', con=conn).to_csv('fantasy-football-website/database/fantasy-football-team-data.csv', index=False)
+
+    conn.commit()
+    conn.close()
+
+# create_database()
+# database_views()
+write_csvs()
