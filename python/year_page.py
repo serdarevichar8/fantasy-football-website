@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 
 from python import functions, constants, document, page_header
 
-def year_content(year: int) -> div:
+def year_content(year: int, build_figure: bool = False) -> div:
     container = div(_class='content')
     container.add(h1(f'{year} Data'))
 
@@ -13,18 +13,19 @@ def year_content(year: int) -> div:
 
     s = [(team, pf, pa, constants.COLOR_DICT[team.lower()]) for team, pf, pa in zip(data['Team'], data['Points For'], data['Points Against'])]
 
-    plt.figure(figsize = (5,3), dpi = 300)
-    plt.grid(linewidth = 0.5, zorder = 0)
-    for team, pf, pa, color in s:
-        plt.scatter(pf, pa, c = color, label = team, zorder = 3, edgecolor = 'k')
-    plt.xlim(int(data['Points For'].min() - 4) - (int(data['Points For'].min()-4) % 25),
-            int(data['Points For'].max() + 4) + 25 - (int(data['Points For'].max() + 4) % 25)) # Automatically finds nearest 25 below/above for range
-    plt.ylim(int(data['Points Against'].min() - 4) - (int(data['Points Against'].min() - 4) % 25),
-            int(data['Points Against'].max() + 4) + 25 - (int(data['Points Against'].max() + 4) % 25))
-    plt.xlabel('Points For')
-    plt.ylabel('Points Against')
-    plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', fontsize = 9)
-    plt.savefig(f'Assets/PF-vs-PA-{year}.svg', format = 'svg',bbox_inches = 'tight')
+    if build_figure:
+        plt.figure(figsize = (5,3), dpi = 300)
+        plt.grid(linewidth = 0.5, zorder = 0)
+        for team, pf, pa, color in s:
+            plt.scatter(pf, pa, c = color, label = team, zorder = 3, edgecolor = 'k')
+        plt.xlim(int(data['Points For'].min() - 4) - (int(data['Points For'].min()-4) % 25),
+                int(data['Points For'].max() + 4) + 25 - (int(data['Points For'].max() + 4) % 25)) # Automatically finds nearest 25 below/above for range
+        plt.ylim(int(data['Points Against'].min() - 4) - (int(data['Points Against'].min() - 4) % 25),
+                int(data['Points Against'].max() + 4) + 25 - (int(data['Points Against'].max() + 4) % 25))
+        plt.xlabel('Points For')
+        plt.ylabel('Points Against')
+        plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', fontsize = 9)
+        plt.savefig(f'Assets/PF-vs-PA-{year}.svg', format = 'svg',bbox_inches = 'tight')
 
     scatter_div = div(_class='content-container')
     scatter_title = h2('PF vs PA')
@@ -79,12 +80,12 @@ def year_content(year: int) -> div:
     return container
 
 
-def year_pages():
+def year_pages(build_figure: bool = False):
     for year in constants.YEARS:
         doc = document.document()
         doc.add(page_header.page_header(active_year=year))
 
-        doc.add(year_content(year))
+        doc.add(year_content(year, build_figure=build_figure))
 
         with open(f'seasons/{year}/index.html','w') as file:
             file.write(doc.render())
