@@ -64,12 +64,12 @@ def fetch_api_data(league_id=constants.LEAGUE_ID, espn_s2=constants.ESPN_S2, swi
         'Box Scores':matchups
     }
 
-    with open('fantasy-football-website/database/espn-data.pkl', 'wb') as file:
+    with open('database/espn-data.pkl', 'wb') as file:
         pickle.dump(data, file)
 
 # Read in pickle file
 def read_pickle_file() -> dict[str, list]:
-    with open('fantasy-football-website/database/espn-data.pkl', 'rb') as file:
+    with open('database/espn-data.pkl', 'rb') as file:
         data = pickle.load(file)
     
     return data
@@ -222,7 +222,7 @@ def construct_dataframes() -> dict[str, pd.DataFrame]:
 def create_database() -> None:
     data_dict = construct_dataframes()
 
-    conn = sqlite3.connect('fantasy-football-website/database/fantasy-football.db')
+    conn = sqlite3.connect('database/fantasy-football.db')
 
     data_dict['teams'].to_sql('teams', con=conn, if_exists='replace', index=False)
     data_dict['matchups'].to_sql('matchups', con=conn, if_exists='replace', index=False)
@@ -235,7 +235,7 @@ def create_database() -> None:
 
 # Connects to database and creates/updates the views which are converted into CSV files
 def database_views() -> None:
-    conn = sqlite3.connect('fantasy-football-website/database/fantasy-football.db')
+    conn = sqlite3.connect('database/fantasy-football.db')
     c = conn.cursor()
 
     c.execute('DROP VIEW IF EXISTS game_data')
@@ -294,15 +294,15 @@ def database_views() -> None:
 
 # Write views to csv files
 def write_csvs() -> None:
-    conn = sqlite3.connect('fantasy-football-website/database/fantasy-football.db')
+    conn = sqlite3.connect('database/fantasy-football.db')
 
-    pd.read_sql('SELECT * FROM game_data', con=conn).to_csv('fantasy-football-website/database/fantasy-football-game-data.csv', index=False)
-    pd.read_sql('SELECT * FROM matchup_data', con=conn).to_csv('fantasy-football-website/database/fantasy-football-matchup-data.csv', index=False)
-    pd.read_sql('SELECT * FROM teams', con=conn).to_csv('fantasy-football-website/database/fantasy-football-team-data.csv', index=False)
+    pd.read_sql('SELECT * FROM game_data', con=conn).to_csv('database/fantasy-football-game-data.csv', index=False)
+    pd.read_sql('SELECT * FROM matchup_data', con=conn).to_csv('database/fantasy-football-matchup-data.csv', index=False)
+    pd.read_sql('SELECT * FROM teams', con=conn).to_csv('database/fantasy-football-team-data.csv', index=False)
 
     conn.commit()
     conn.close()
 
 # create_database()
 # database_views()
-write_csvs()
+# write_csvs()
