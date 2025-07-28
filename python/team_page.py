@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 
 from python import functions, constants, document, page_header
 
-def team_content(team: str) -> div:
+def team_content(team: str, build_figure: bool = False) -> div:
     container = div(_class='content')
     container.add(h1(f'{team} Data'))
 
@@ -18,12 +18,13 @@ def team_content(team: str) -> div:
     summary_table['id'] = 'team-summary-table'
     summary_div.add([summary_title, summary_table])
 
-    plt.figure(figsize = (5,3), dpi = 300)
-    plt.grid(linewidth = 0.5, zorder = 0)
-    plt.plot(seasons_df['Year'], seasons_df['Luck Score'], c = constants.COLOR_DICT[team.lower()], marker = 'o', zorder = 3)
-    plt.xlabel('Season')
-    plt.ylabel('Luck Score')
-    plt.savefig(f'Assets/Luck-Score-Year-{team}.svg', format = 'svg', bbox_inches = 'tight')
+    if build_figure:
+        plt.figure(figsize = (5,3), dpi = 300)
+        plt.grid(linewidth = 0.5, zorder = 0)
+        plt.plot(seasons_df['Year'], seasons_df['Luck Score'], c = constants.COLOR_DICT[team.lower()], marker = 'o', zorder = 3)
+        plt.xlabel('Season')
+        plt.ylabel('Luck Score')
+        plt.savefig(f'Assets/Luck-Score-Year-{team}.svg', format = 'svg', bbox_inches = 'tight')
 
     line_chart_div = div(_class = 'content-container')
     line_chart_title = h2('Luck Score by Season')
@@ -35,12 +36,12 @@ def team_content(team: str) -> div:
 
     return container
 
-def team_pages():
+def team_pages(build_figure: bool = False):
     for team in constants.TEAMS:
         doc = document.document()
         doc.add(page_header.page_header(active_year='team'))
 
-        doc.add(team_content(team=team))
+        doc.add(team_content(team=team, build_figure=build_figure))
 
         with open(f'teams/{team}.html','w') as file:
             file.write(doc.render())
