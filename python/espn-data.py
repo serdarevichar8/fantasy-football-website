@@ -79,6 +79,7 @@ def construct_dataframes() -> dict[str, pd.DataFrame]:
     '''
     Takes in espn-data.pkl file data and produces the following dataframes:
      - teams
+     - drafts
      - matchups
      - games
      - player_games
@@ -92,24 +93,57 @@ def construct_dataframes() -> dict[str, pd.DataFrame]:
     data = read_pickle_file()
 
     data_teams = []
+    data_drafts = []
+    data_players = []
 
     leagues = data['Leagues']
     for record in leagues:
         league = record['League']
+        year = record['Year']
+
+        for player in league.player_map.keys():
+            if type(player) == int:
+                continue
+            data_players.append(player)
+
+        for pick in league.draft:
+            team_name = pick.team.owners[0]['firstName']
+            if team_name == 'The':
+                team_name = 'Klapp'
+            elif team_name == 'Noah ':
+                team_name = 'Noah'
+
+            data_drafts.append(
+                {
+                    'draft_pick_id':str(uuid.uuid4()),
+                    'player_id':str(uuid.uuid5(namespace=constants.NAMESPACE, name=pick.playerName)),
+                    'team_id':str(uuid.uuid5(namespace=constants.NAMESPACE, name=team_name)),
+                    'year':year,
+                    'round':pick.round_num,
+                    'pick':pick.round_pick
+                }
+            )
+
         for team in league.teams:
+            team_name = team.owners[0]['firstName']
+            if team_name == 'The':
+                team_name = 'Klapp'
+            elif team_name == 'Noah ':
+                team_name = 'Noah'
+
             data_teams.append(
-                    team.owners[0]['firstName']
+                    team_name
                 )
 
-    data_teams = [{'team_name':team} for team in list(set(data_teams))]
+    data_teams = [{'team_id':str(uuid.uuid5(namespace=constants.NAMESPACE, name=team)), 'team_name':team} for team in list(set(data_teams))]
     df_teams = pd.DataFrame(data_teams)
-    df_teams['team_name'] = df_teams['team_name'].replace({'The':'Klapp', 'Noah ':'Noah'})
-    df_teams['team_id'] = df_teams['team_name'].apply(lambda team_name: str(uuid.uuid5(constants.NAMESPACE, name=team_name)))
+    data_players = [{'player_id':str(uuid.uuid5(namespace=constants.NAMESPACE, name=player)), 'player_name':player} for player in list(set(data_players))]
+    df_players = pd.DataFrame(data_players)
+    df_drafts = pd.DataFrame(data_drafts)
 
     data_matchups = []
     data_games = []
     data_player_games = []
-    data_players = []
 
     box_scores = data['Box Scores']
     for box_score in box_scores:
@@ -205,18 +239,11 @@ def construct_dataframes() -> dict[str, pd.DataFrame]:
                     }
                 )
 
-            for player in (matchup.home_lineup + matchup.away_lineup):
-                data_players.append(player.name)
-
-
     df_matchups = pd.DataFrame(data_matchups)
     df_games = pd.DataFrame(data_games)
     df_player_games = pd.DataFrame(data_player_games)
 
-    data_players = [{'player_id':str(uuid.uuid5(constants.NAMESPACE, name=player)), 'player_name':player} for player in list(set(data_players))]
-    df_players = pd.DataFrame(data_players)
-
-    return {'teams':df_teams, 'matchups':df_matchups, 'games':df_games, 'player_games':df_player_games, 'players':df_players}
+    return {'teams':df_teams, 'drafts':df_drafts, 'matchups':df_matchups, 'games':df_games, 'player_games':df_player_games, 'players':df_players}
 
 # Create the database and fill it with the tables from dataframes
 def create_database() -> None:
@@ -225,6 +252,7 @@ def create_database() -> None:
     conn = sqlite3.connect('database/fantasy-football.db')
 
     data_dict['teams'].to_sql('teams', con=conn, if_exists='replace', index=False)
+    data_dict['drafts'].to_sql('drafts', con=conn, if_exists='replace', index=False)
     data_dict['matchups'].to_sql('matchups', con=conn, if_exists='replace', index=False)
     data_dict['games'].to_sql('games', con=conn, if_exists='replace', index=False)
     data_dict['player_games'].to_sql('player_games', con=conn, if_exists='replace', index=False)
@@ -303,6 +331,6 @@ def write_csvs() -> None:
     conn.commit()
     conn.close()
 
-# create_database()
+create_database()
 # database_views()
 # write_csvs()
