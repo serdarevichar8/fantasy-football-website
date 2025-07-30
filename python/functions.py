@@ -24,6 +24,17 @@ def df_to_table(data: pd.DataFrame) -> table:
 
     return t
 
+def content_container(title: str, content: div | table | img, _id: str = None):
+    container = div(_class='content-container')
+    container_title = h2(title)
+    container_content = content
+    if _id:
+        container_content['id'] = _id
+
+    container.add(container_title, container_content)
+
+    return container
+
 def opp_luck_score(opp_score, mean=None, std=None) -> int:
     return int(((mean - opp_score) / np.absolute(mean - opp_score)) * np.floor(np.absolute(mean - opp_score) / std))
 
