@@ -32,11 +32,13 @@ def champion_content() -> div:
 
     t = pd.DataFrame(data, columns=['Year','Team','Record','Points For','Avg Points For','Avg Margin'])
 
-    summary_div = div(_class='content-container')
-    summary_title = h2('Champions Summary')
-    summary_table = functions.df_to_table(data=t)
-    summary_table['id'] = 'champion-summary-table'
-    summary_div.add([summary_title, summary_table])
+    summary_div = functions.content_container(title='Champions Summary', content=functions.df_to_table(data=t), _id='champion-summary-table')
+
+    # summary_div = div(_class='content-container')
+    # summary_title = h2('Champions Summary')
+    # summary_table = functions.df_to_table(data=t)
+    # summary_table['id'] = 'champion-summary-table'
+    # summary_div.add([summary_title, summary_table])
 
     years_div = div(_class='champion-years')
     for year, team in champions:

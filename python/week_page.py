@@ -31,11 +31,13 @@ def week_content(year: int, week: int) -> div:
 
     # Create scoreboard table of the matchups that week
     scoreboard = constants.MATCHUP_DATA.loc[(constants.MATCHUP_DATA['Year'] == year) & (constants.MATCHUP_DATA['Week'] == week), ['Home Team','Home Score','Away Score','Away Team']].copy()    
-    scoreboard_div = div(_class='content-container')
-    scoreboard_title = h2('Weekly Scoreboard')
-    scoreboard_table = functions.df_to_table(data=scoreboard)
-    scoreboard_table['id'] = 'scoreboard-table'
-    scoreboard_div.add([scoreboard_title, scoreboard_table])
+    scoreboard_div = functions.content_container(title='Weekly Scoreboard', content=functions.df_to_table(data=scoreboard), _id='scoreboard-table')
+    
+    # scoreboard_div = div(_class='content-container')
+    # scoreboard_title = h2('Weekly Scoreboard')
+    # scoreboard_table = functions.df_to_table(data=scoreboard)
+    # scoreboard_table['id'] = 'scoreboard-table'
+    # scoreboard_div.add([scoreboard_title, scoreboard_table])
 
     # Create the weekly recap stats section
     # This temp df needs to look at only the current week
@@ -60,11 +62,13 @@ def week_content(year: int, week: int) -> div:
     standings = functions.summary_table(constants.GAME_DATA, year = year, week = week)
     standings = standings.drop('Year', axis = 1)
 
-    standings_div = div(_class='content-container')
-    standings_title = h2('Updated Standings')
-    standings_table = functions.df_to_table(data=standings)
-    standings_table['id'] = 'standings-table'
-    standings_div.add([standings_title, standings_table])
+    standings_div = functions.content_container(title='Updated Standings', content=functions.df_to_table(data=standings), _id='standings-table')
+
+    # standings_div = div(_class='content-container')
+    # standings_title = h2('Updated Standings')
+    # standings_table = functions.df_to_table(data=standings)
+    # standings_table['id'] = 'standings-table'
+    # standings_div.add([standings_title, standings_table])
 
     container.add(title)
     container.add(scoreboard_div)

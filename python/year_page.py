@@ -27,23 +27,27 @@ def year_content(year: int, build_figure: bool = False) -> div:
         plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', fontsize = 9)
         plt.savefig(f'Assets/PF-vs-PA-{year}.svg', format = 'svg',bbox_inches = 'tight')
 
-    scatter_div = div(_class='content-container')
-    scatter_title = h2('PF vs PA')
-    scatter_img = img(src = f'{constants.ROOT}Assets/PF-vs-PA-{year}.svg')
-    scatter_div.add([scatter_title, scatter_img])
+    scatter_div = functions.content_container(title='PF vs PA', content=img(src = f'{constants.ROOT}Assets/PF-vs-PA-{year}.svg'))
 
-    summary_div = div(_class='content-container')
-    summary_title = h2('Regular Season Summary')
-    summary_table = functions.df_to_table(data=data)
-    summary_table['id'] = 'season-summary-table'
-    summary_div.add([summary_title, summary_table])
+    # scatter_div = div(_class='content-container')
+    # scatter_title = h2('PF vs PA')
+    # scatter_img = img(src = f'{constants.ROOT}Assets/PF-vs-PA-{year}.svg')
+    # scatter_div.add([scatter_title, scatter_img])
+
+    summary_div = functions.content_container(title='Regular Season Summary', content=functions.df_to_table(data=data), _id='season-summary-table')
+
+    # summary_div = div(_class='content-container')
+    # summary_title = h2('Regular Season Summary')
+    # summary_table = functions.df_to_table(data=data)
+    # summary_table['id'] = 'season-summary-table'
+    # summary_div.add([summary_title, summary_table])
 
     playoff_matchups = constants.MATCHUP_DATA.loc[(constants.MATCHUP_DATA['Year'] == year) & (constants.MATCHUP_DATA['Playoff Flag'])].copy()
     playoff_matchups['Playoff Round'] = (playoff_matchups['Week'] % playoff_matchups['Week'].min()) + 1
 
-    bracket_div = div(_class='content-container')
-    bracket_title = h2('Playoff Bracket')
-    bracket_div.add(bracket_title)
+    # bracket_div = div(_class='content-container')
+    # bracket_title = h2('Playoff Bracket')
+    # bracket_div.add(bracket_title)
 
     bracket = main(_id='playoff-bracket')
 
@@ -71,7 +75,10 @@ def year_content(year: int, build_figure: bool = False) -> div:
         rounds.append(_ul)
 
     bracket.add(rounds)
-    bracket_div.add(bracket)
+
+    bracket_div = functions.content_container(title='Playoff Bracket', content=bracket, _id='')
+
+    # bracket_div.add(bracket)
     
     container.add(summary_div)
     container.add(scatter_div)
