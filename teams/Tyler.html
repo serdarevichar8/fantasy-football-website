@@ -128,19 +128,19 @@
         <div class="dropdown active">
           <a class="dropdown-button" href="/fantasy-football-website/teams/">Teams</a>
           <div class="dropdown-content">
-            <a href="/fantasy-football-website/teams/Nathan.html">Nathan</a>
-            <a href="/fantasy-football-website/teams/Ethan.html">Ethan</a>
-            <a href="/fantasy-football-website/teams/Haris.html">Haris</a>
-            <a href="/fantasy-football-website/teams/Michael.html">Michael</a>
-            <a href="/fantasy-football-website/teams/Klapp.html">Klapp</a>
             <a href="/fantasy-football-website/teams/Andrew.html">Andrew</a>
-            <a href="/fantasy-football-website/teams/Carter.html">Carter</a>
-            <a href="/fantasy-football-website/teams/McGwire.html">McGwire</a>
-            <a href="/fantasy-football-website/teams/Justin.html">Justin</a>
-            <a href="/fantasy-football-website/teams/Kevin.html">Kevin</a>
+            <a href="/fantasy-football-website/teams/Nathan.html">Nathan</a>
             <a href="/fantasy-football-website/teams/Zach.html">Zach</a>
-            <a href="/fantasy-football-website/teams/Dante.html">Dante</a>
+            <a href="/fantasy-football-website/teams/Kevin.html">Kevin</a>
             <a href="/fantasy-football-website/teams/Noah.html">Noah</a>
+            <a href="/fantasy-football-website/teams/Michael.html">Michael</a>
+            <a href="/fantasy-football-website/teams/Ethan.html">Ethan</a>
+            <a href="/fantasy-football-website/teams/Dante.html">Dante</a>
+            <a href="/fantasy-football-website/teams/Justin.html">Justin</a>
+            <a href="/fantasy-football-website/teams/Klapp.html">Klapp</a>
+            <a href="/fantasy-football-website/teams/Carter.html">Carter</a>
+            <a href="/fantasy-football-website/teams/Haris.html">Haris</a>
+            <a href="/fantasy-football-website/teams/McGwire.html">McGwire</a>
             <a href="/fantasy-football-website/teams/Tyler.html">Tyler</a>
           </div>
         </div>
@@ -167,36 +167,9 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>2022</td>
-              <td>4-10</td>
-              <td>12</td>
-              <td>1396.3</td>
-              <td>1577.24</td>
-              <td>99.74</td>
-              <td>-12.92</td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <td>2023</td>
-              <td>3-11</td>
-              <td>11</td>
-              <td>1534.28</td>
-              <td>1766.36</td>
-              <td>109.59</td>
-              <td>-16.58</td>
-              <td>-12</td>
-            </tr>
-            <tr>
-              <td>2024</td>
-              <td>8-6</td>
-              <td>7</td>
-              <td>1604.46</td>
-              <td>1565.22</td>
-              <td>114.6</td>
-              <td>2.8</td>
-              <td>6</td>
-            </tr>
+            <tr><td>2022</td><td>4-10</td><td>12</td><td>1396.3</td><td>1577.24</td><td>99.74</td><td>-12.92</td><td>1</td></tr>
+            <tr><td>2023</td><td>3-11</td><td>11</td><td>1534.28</td><td>1766.36</td><td>109.59</td><td>-16.58</td><td>-12</td></tr>
+            <tr><td>2024</td><td>8-6</td><td>7</td><td>1604.46</td><td>1565.22</td><td>114.6</td><td>2.8</td><td>6</td></tr>
           </tbody>
         </table>
       </div>
@@ -204,6 +177,81 @@
         <h2>Luck Score by Season</h2>
         <img src="/fantasy-football-website/Assets/Luck-Score-Year-Tyler.svg">
       </div>
+      <div class="content-container">
+        <h2>League Draft
+          <select id="draft-filter" onchange="draftTableFilter()">
+            <option value="all">All</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+          </select>
+        </h2>
+        <div class="scroll-table" id="league-draft-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Team</th>
+                <th>Player</th>
+                <th>Round</th>
+                <th>Pick</th>
+                <th>Overall Pick</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr id="row-2022-1-2"><td>2022</td><td>Tyler</td><td>Austin Ekeler</td><td>1</td><td>2</td><td>2</td></tr>
+              <tr id="row-2022-2-11"><td>2022</td><td>Tyler</td><td>Keenan Allen</td><td>2</td><td>11</td><td>23</td></tr>
+              <tr id="row-2022-3-2"><td>2022</td><td>Tyler</td><td>Ezekiel Elliott</td><td>3</td><td>2</td><td>26</td></tr>
+              <tr id="row-2022-4-11"><td>2022</td><td>Tyler</td><td>Packers D/ST</td><td>4</td><td>11</td><td>47</td></tr>
+              <tr id="row-2022-5-2"><td>2022</td><td>Tyler</td><td>Nick Folk</td><td>5</td><td>2</td><td>50</td></tr>
+              <tr id="row-2022-6-11"><td>2022</td><td>Tyler</td><td>Matthew Stafford</td><td>6</td><td>11</td><td>71</td></tr>
+              <tr id="row-2022-7-2"><td>2022</td><td>Tyler</td><td>Dak Prescott</td><td>7</td><td>2</td><td>74</td></tr>
+              <tr id="row-2022-8-11"><td>2022</td><td>Tyler</td><td>Drake London</td><td>8</td><td>11</td><td>95</td></tr>
+              <tr id="row-2022-9-2"><td>2022</td><td>Tyler</td><td>Kadarius Toney</td><td>9</td><td>2</td><td>98</td></tr>
+              <tr id="row-2022-10-11"><td>2022</td><td>Tyler</td><td>Russell Wilson</td><td>10</td><td>11</td><td>119</td></tr>
+              <tr id="row-2022-11-2"><td>2022</td><td>Tyler</td><td>Kenneth Walker III</td><td>11</td><td>2</td><td>122</td></tr>
+              <tr id="row-2022-12-11"><td>2022</td><td>Tyler</td><td>Russell Gage</td><td>12</td><td>11</td><td>143</td></tr>
+              <tr id="row-2022-13-2"><td>2022</td><td>Tyler</td><td>Cole Kmet</td><td>13</td><td>2</td><td>146</td></tr>
+              <tr id="row-2022-14-11"><td>2022</td><td>Tyler</td><td>Justin Fields</td><td>14</td><td>11</td><td>167</td></tr>
+              <tr id="row-2022-15-2"><td>2022</td><td>Tyler</td><td>Commanders D/ST</td><td>15</td><td>2</td><td>170</td></tr>
+              <tr id="row-2022-16-11"><td>2022</td><td>Tyler</td><td>Khalil Herbert</td><td>16</td><td>11</td><td>191</td></tr>
+              <tr id="row-2023-1-10"><td>2023</td><td>Tyler</td><td>Davante Adams</td><td>1</td><td>10</td><td>10</td></tr>
+              <tr id="row-2023-2-3"><td>2023</td><td>Tyler</td><td>Nick Chubb</td><td>2</td><td>3</td><td>15</td></tr>
+              <tr id="row-2023-3-10"><td>2023</td><td>Tyler</td><td>Lamar Jackson</td><td>3</td><td>10</td><td>34</td></tr>
+              <tr id="row-2023-4-3"><td>2023</td><td>Tyler</td><td>DeAndre Hopkins</td><td>4</td><td>3</td><td>39</td></tr>
+              <tr id="row-2023-5-10"><td>2023</td><td>Tyler</td><td>James Conner</td><td>5</td><td>10</td><td>58</td></tr>
+              <tr id="row-2023-6-3"><td>2023</td><td>Tyler</td><td>George Kittle</td><td>6</td><td>3</td><td>63</td></tr>
+              <tr id="row-2023-7-10"><td>2023</td><td>Tyler</td><td>Jahan Dotson</td><td>7</td><td>10</td><td>82</td></tr>
+              <tr id="row-2023-8-3"><td>2023</td><td>Tyler</td><td>D'Andre Swift</td><td>8</td><td>3</td><td>87</td></tr>
+              <tr id="row-2023-9-10"><td>2023</td><td>Tyler</td><td>JuJu Smith-Schuster</td><td>9</td><td>10</td><td>106</td></tr>
+              <tr id="row-2023-10-3"><td>2023</td><td>Tyler</td><td>Jerick McKinnon</td><td>10</td><td>3</td><td>111</td></tr>
+              <tr id="row-2023-11-10"><td>2023</td><td>Tyler</td><td>Steelers D/ST</td><td>11</td><td>10</td><td>130</td></tr>
+              <tr id="row-2023-12-3"><td>2023</td><td>Tyler</td><td>Devin Singletary</td><td>12</td><td>3</td><td>135</td></tr>
+              <tr id="row-2023-13-10"><td>2023</td><td>Tyler</td><td>Graham Gano</td><td>13</td><td>10</td><td>154</td></tr>
+              <tr id="row-2023-14-3"><td>2023</td><td>Tyler</td><td>Jayden Reed</td><td>14</td><td>3</td><td>159</td></tr>
+              <tr id="row-2023-15-10"><td>2023</td><td>Tyler</td><td>Jared Goff</td><td>15</td><td>10</td><td>178</td></tr>
+              <tr id="row-2023-16-3"><td>2023</td><td>Tyler</td><td>Jonathan Mingo</td><td>16</td><td>3</td><td>183</td></tr>
+              <tr id="row-2024-1-7"><td>2024</td><td>Tyler</td><td>Jonathan Taylor</td><td>1</td><td>7</td><td>7</td></tr>
+              <tr id="row-2024-2-6"><td>2024</td><td>Tyler</td><td>Isiah Pacheco</td><td>2</td><td>6</td><td>18</td></tr>
+              <tr id="row-2024-3-7"><td>2024</td><td>Tyler</td><td>Josh Allen</td><td>3</td><td>7</td><td>31</td></tr>
+              <tr id="row-2024-4-6"><td>2024</td><td>Tyler</td><td>Rachaad White</td><td>4</td><td>6</td><td>42</td></tr>
+              <tr id="row-2024-5-7"><td>2024</td><td>Tyler</td><td>Zay Flowers</td><td>5</td><td>7</td><td>55</td></tr>
+              <tr id="row-2024-6-6"><td>2024</td><td>Tyler</td><td>Jayden Reed</td><td>6</td><td>6</td><td>66</td></tr>
+              <tr id="row-2024-7-7"><td>2024</td><td>Tyler</td><td>Jake Ferguson</td><td>7</td><td>7</td><td>79</td></tr>
+              <tr id="row-2024-8-6"><td>2024</td><td>Tyler</td><td>Najee Harris</td><td>8</td><td>6</td><td>90</td></tr>
+              <tr id="row-2024-9-7"><td>2024</td><td>Tyler</td><td>Courtland Sutton</td><td>9</td><td>7</td><td>103</td></tr>
+              <tr id="row-2024-10-6"><td>2024</td><td>Tyler</td><td>Rashid Shaheed</td><td>10</td><td>6</td><td>114</td></tr>
+              <tr id="row-2024-11-7"><td>2024</td><td>Tyler</td><td>Curtis Samuel</td><td>11</td><td>7</td><td>127</td></tr>
+              <tr id="row-2024-12-6"><td>2024</td><td>Tyler</td><td>Romeo Doubs</td><td>12</td><td>6</td><td>138</td></tr>
+              <tr id="row-2024-13-7"><td>2024</td><td>Tyler</td><td>Harrison Butker</td><td>13</td><td>7</td><td>151</td></tr>
+              <tr id="row-2024-14-6"><td>2024</td><td>Tyler</td><td>Jared Goff</td><td>14</td><td>6</td><td>162</td></tr>
+              <tr id="row-2024-15-7"><td>2024</td><td>Tyler</td><td>Ray Davis</td><td>15</td><td>7</td><td>175</td></tr>
+              <tr id="row-2024-16-6"><td>2024</td><td>Tyler</td><td>Packers D/ST</td><td>16</td><td>6</td><td>186</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
+    <script src="/fantasy-football-website/script.js"></script>
   </body>
 </html>

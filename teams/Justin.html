@@ -128,19 +128,19 @@
         <div class="dropdown active">
           <a class="dropdown-button" href="/fantasy-football-website/teams/">Teams</a>
           <div class="dropdown-content">
-            <a href="/fantasy-football-website/teams/Nathan.html">Nathan</a>
-            <a href="/fantasy-football-website/teams/Ethan.html">Ethan</a>
-            <a href="/fantasy-football-website/teams/Haris.html">Haris</a>
-            <a href="/fantasy-football-website/teams/Michael.html">Michael</a>
-            <a href="/fantasy-football-website/teams/Klapp.html">Klapp</a>
             <a href="/fantasy-football-website/teams/Andrew.html">Andrew</a>
-            <a href="/fantasy-football-website/teams/Carter.html">Carter</a>
-            <a href="/fantasy-football-website/teams/McGwire.html">McGwire</a>
-            <a href="/fantasy-football-website/teams/Justin.html">Justin</a>
-            <a href="/fantasy-football-website/teams/Kevin.html">Kevin</a>
+            <a href="/fantasy-football-website/teams/Nathan.html">Nathan</a>
             <a href="/fantasy-football-website/teams/Zach.html">Zach</a>
-            <a href="/fantasy-football-website/teams/Dante.html">Dante</a>
+            <a href="/fantasy-football-website/teams/Kevin.html">Kevin</a>
             <a href="/fantasy-football-website/teams/Noah.html">Noah</a>
+            <a href="/fantasy-football-website/teams/Michael.html">Michael</a>
+            <a href="/fantasy-football-website/teams/Ethan.html">Ethan</a>
+            <a href="/fantasy-football-website/teams/Dante.html">Dante</a>
+            <a href="/fantasy-football-website/teams/Justin.html">Justin</a>
+            <a href="/fantasy-football-website/teams/Klapp.html">Klapp</a>
+            <a href="/fantasy-football-website/teams/Carter.html">Carter</a>
+            <a href="/fantasy-football-website/teams/Haris.html">Haris</a>
+            <a href="/fantasy-football-website/teams/McGwire.html">McGwire</a>
             <a href="/fantasy-football-website/teams/Tyler.html">Tyler</a>
           </div>
         </div>
@@ -167,16 +167,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>2019</td>
-              <td>7-6</td>
-              <td>4</td>
-              <td>1636.74</td>
-              <td>1511.62</td>
-              <td>125.9</td>
-              <td>9.62</td>
-              <td>2</td>
-            </tr>
+            <tr><td>2019</td><td>7-6</td><td>4</td><td>1636.74</td><td>1511.62</td><td>125.9</td><td>9.62</td><td>2</td></tr>
           </tbody>
         </table>
       </div>
@@ -184,6 +175,45 @@
         <h2>Luck Score by Season</h2>
         <img src="/fantasy-football-website/Assets/Luck-Score-Year-Justin.svg">
       </div>
+      <div class="content-container">
+        <h2>League Draft
+          <select id="draft-filter" onchange="draftTableFilter()">
+            <option value="all">All</option>
+            <option value="2019">2019</option>
+          </select>
+        </h2>
+        <table id="league-draft-table">
+          <thead>
+            <tr>
+              <th>Year</th>
+              <th>Team</th>
+              <th>Player</th>
+              <th>Round</th>
+              <th>Pick</th>
+              <th>Overall Pick</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="row-2019-1-12"><td>2019</td><td>Justin</td><td>Christian McCaffrey</td><td>1</td><td>12</td><td>12</td></tr>
+            <tr id="row-2019-2-1"><td>2019</td><td>Justin</td><td>Patrick Mahomes</td><td>2</td><td>1</td><td>13</td></tr>
+            <tr id="row-2019-3-12"><td>2019</td><td>Justin</td><td>T.Y. Hilton</td><td>3</td><td>12</td><td>36</td></tr>
+            <tr id="row-2019-4-1"><td>2019</td><td>Justin</td><td>Sony Michel</td><td>4</td><td>1</td><td>37</td></tr>
+            <tr id="row-2019-5-12"><td>2019</td><td>Justin</td><td>DJ Moore</td><td>5</td><td>12</td><td>60</td></tr>
+            <tr id="row-2019-6-1"><td>2019</td><td>Justin</td><td>Calvin Ridley</td><td>6</td><td>1</td><td>61</td></tr>
+            <tr id="row-2019-7-12"><td>2019</td><td>Justin</td><td>David Njoku</td><td>7</td><td>12</td><td>84</td></tr>
+            <tr id="row-2019-8-1"><td>2019</td><td>Justin</td><td>Greg Zuerlein</td><td>8</td><td>1</td><td>85</td></tr>
+            <tr id="row-2019-9-12"><td>2019</td><td>Justin</td><td>Christian Kirk</td><td>9</td><td>12</td><td>108</td></tr>
+            <tr id="row-2019-10-1"><td>2019</td><td>Justin</td><td>Ronald Jones II</td><td>10</td><td>1</td><td>109</td></tr>
+            <tr id="row-2019-11-12"><td>2019</td><td>Justin</td><td>Chargers D/ST</td><td>11</td><td>12</td><td>132</td></tr>
+            <tr id="row-2019-12-1"><td>2019</td><td>Justin</td><td>Courtland Sutton</td><td>12</td><td>1</td><td>133</td></tr>
+            <tr id="row-2019-13-12"><td>2019</td><td>Justin</td><td>Trey Burton</td><td>13</td><td>12</td><td>156</td></tr>
+            <tr id="row-2019-14-1"><td>2019</td><td>Justin</td><td>Kenny Stills</td><td>14</td><td>1</td><td>157</td></tr>
+            <tr id="row-2019-15-12"><td>2019</td><td>Justin</td><td>C.J. Anderson</td><td>15</td><td>12</td><td>180</td></tr>
+            <tr id="row-2019-16-1"><td>2019</td><td>Justin</td><td>John Ross III</td><td>16</td><td>1</td><td>181</td></tr>
+          </tbody>
+        </table>
+      </div>
     </div>
+    <script src="/fantasy-football-website/script.js"></script>
   </body>
 </html>
