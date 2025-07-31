@@ -5,6 +5,7 @@ import uuid
 
 import pandas as pd
 from espn_api.football import League
+from espn_api.football.constant import TRANSACTION_TYPES
 
 import constants
 
@@ -33,6 +34,7 @@ def fetch_api_data(league_id=constants.LEAGUE_ID, espn_s2=constants.ESPN_S2, swi
 
     leagues = []
     matchups = []
+    transactions = []
 
     for year in range(2019,2025):
         league = League(league_id=league_id, year=year, espn_s2=espn_s2, swid=swid)
@@ -43,17 +45,27 @@ def fetch_api_data(league_id=constants.LEAGUE_ID, espn_s2=constants.ESPN_S2, swi
             }
         )
 
-        season_length = 17
-        if year in [2019,2020]:
-            season_length = 16
+        season_length = league.finalScoringPeriod
 
-        for week in range(1,season_length + 1):
+        for week in range(1, season_length + 1):
             box_scores = league.box_scores(week)
             matchups.append(
                 {
                     'Year':year,
                     'Week':week,
                     'Box Scores':box_scores
+                }
+            )
+            try:
+                week_transactions = league.transactions(week, types=TRANSACTION_TYPES)
+            except:
+                continue
+
+            transactions.append(
+                {
+                    'Year':year,
+                    'Week':week,
+                    'Transactions':week_transactions
                 }
             )
 
@@ -399,10 +411,10 @@ def database_views() -> None:
         CREATE VIEW draft_data AS
             SELECT
                 d.year AS "Year",
+                t.team_name AS "Team",
+                p.player_name AS "Player",
                 d.round AS "Round",
                 d.pick AS "Pick",
-                p.player_name AS "Player",
-                t.team_name AS "Team",
                 ROW_NUMBER() OVER (PARTITION BY d.year ORDER BY d.round, d.pick) AS "Overall Pick"
 
             FROM drafts AS d
@@ -431,5 +443,5 @@ def write_csvs() -> None:
     conn.close()
 
 # create_database()
-# database_views()
+database_views()
 write_csvs()
