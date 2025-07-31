@@ -79,10 +79,15 @@ def year_content(year: int, build_figure: bool = False) -> div:
     bracket_div = functions.content_container(title='Playoff Bracket', content=bracket, _id='')
 
     # bracket_div.add(bracket)
+
+    draft_data = constants.DRAFT_DATA.loc[constants.DRAFT_DATA['Year'] == year].copy()
+    draft_data.index = ('row-' + draft_data['Team'] + '-' + draft_data['Round'].astype(str) + '-' + draft_data['Pick'].astype(str)).str.lower()
+    draft_div = functions.content_container(title='League Draft', content=functions.df_to_table(draft_data, index_to_id=True), _id='league-draft-table')
     
     container.add(summary_div)
     container.add(scatter_div)
     container.add(bracket_div)
+    container.add(draft_div)
 
     return container
 

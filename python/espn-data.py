@@ -251,6 +251,83 @@ def create_database() -> None:
 
     conn = sqlite3.connect('database/fantasy-football.db')
 
+    # teams_table = '''
+    #     CREATE TABLE IF NOT EXISTS teams (
+    #         team_id TEXT PRIMARY KEY,
+    #         team_name TEXT
+    #     )
+    # '''
+    # drafts_table = '''
+    #     CREATE TABLE IF NOT EXISTS drafts (
+    #         draft_pick_id TEXT PRIMARY KEY,
+    #         player_id TEXT,
+    #         team_id TEXT,
+    #         year INTEGER,
+    #         pick INTEGER,
+    #         FOREIGN KEY (player_id) REFERENCES players(player_id),
+    #         FOREIGN KEY (team_id) REFERENCES teams(team_id)
+    #     )
+    # '''
+    # matchups_table = '''
+    #     CREATE TABLE IF NOT EXISTS matchups (
+    #         matchup_id TEXT PRIMARY KEY,
+    #         year INTEGER,
+    #         week INTEGER,
+    #         matchup_type TEXT,
+    #         playoff_flag INTEGER,
+    #         home_team_id TEXT,
+    #         home_score REAL,
+    #         away_team_id TEXT,
+    #         away_score REAL,
+    #         FOREIGN KEY (home_team_id) REFERENCES teams(team_id),
+    #         FOREIGN KEY (away_team_id) REFERENCES teams(team_id)
+    #     )
+    # '''
+    # games_table = '''
+    #     CREATE TABLE IF NOT EXISTS games (
+    #         game_id TEXT PRIMARY KEY,
+    #         matchup_id TEXT,
+    #         team_id TEXT,
+    #         score REAL,
+    #         opp_score REAL,
+    #         win_flag INTEGER,
+    #         margin REAL,
+    #         FOREIGN KEY (matchup_id) REFERENCES matchups(matchup_id),
+    #         FOREIGN KEY (team_id) REFERENCES teams(team_id)
+    #     )
+    # '''
+    # player_games_table = '''
+    #     CREATE TABLE IF NOT EXISTS player_games (
+    #         player_game_id TEXT PRIMARY KEY,
+    #         matchup_id TEXT,
+    #         game_id TEXT,
+    #         team_id TEXT,
+    #         player_id TEXT,
+    #         points REAL,
+    #         slot_position TEXT,
+    #         active_status TEXT,
+    #         bye_week_flag INTEGER,
+    #         FOREIGN KEY (matchup_id) REFERENCES matchups(matchup_id),
+    #         FOREIGN KEY (game_id) REFERENCES games(game_id),
+    #         FOREIGN KEY (team_id) REFERENCES teams(team_id),
+    #         FOREIGN KEY (player_id) REFERENCES players(player_id)
+    #     )
+    # '''
+    # players_table = '''
+    #     CREATE TABLE IF NOT EXISTS players (
+    #         player_id TEXT PRIMARY KEY,
+    #         player_name TEXT
+    #     )
+    # '''
+
+    # conn.execute(teams_table)
+    # conn.execute(players_table)
+    # conn.execute(matchups_table)
+    # conn.execute(drafts_table)
+    # conn.execute(games_table)
+    # conn.execute(player_games_table)
+    
+
     data_dict['teams'].to_sql('teams', con=conn, if_exists='replace', index=False)
     data_dict['drafts'].to_sql('drafts', con=conn, if_exists='replace', index=False)
     data_dict['matchups'].to_sql('matchups', con=conn, if_exists='replace', index=False)
@@ -317,6 +394,27 @@ def database_views() -> None:
     '''
     c.execute(matchup_view)
 
+    c.execute('DROP VIEW IF EXISTS draft_data')
+    draft_view = '''
+        CREATE VIEW draft_data AS
+            SELECT
+                d.year AS "Year",
+                d.round AS "Round",
+                d.pick AS "Pick",
+                p.player_name AS "Player",
+                t.team_name AS "Team",
+                ROW_NUMBER() OVER (PARTITION BY d.year ORDER BY d.round, d.pick) AS "Overall Pick"
+
+            FROM drafts AS d
+
+            LEFT JOIN players AS p
+            ON p.player_id = d.player_id
+
+            LEFT JOIN teams AS t
+            ON t.team_id = d.team_id
+    '''
+    c.execute(draft_view)
+
     conn.commit()
     conn.close()
 
@@ -327,10 +425,11 @@ def write_csvs() -> None:
     pd.read_sql('SELECT * FROM game_data', con=conn).to_csv('database/fantasy-football-game-data.csv', index=False)
     pd.read_sql('SELECT * FROM matchup_data', con=conn).to_csv('database/fantasy-football-matchup-data.csv', index=False)
     pd.read_sql('SELECT * FROM teams', con=conn).to_csv('database/fantasy-football-team-data.csv', index=False)
+    pd.read_sql('SELECT * FROM draft_data', con=conn).to_csv('database/fantasy-football-draft-data.csv', index=False)
 
     conn.commit()
     conn.close()
 
-create_database()
+# create_database()
 # database_views()
-# write_csvs()
+write_csvs()
