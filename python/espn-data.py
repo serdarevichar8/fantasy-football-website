@@ -5,6 +5,7 @@ import uuid
 
 import pandas as pd
 from espn_api.football import League
+from espn_api.football.constant import TRANSACTION_TYPES
 
 import constants
 
@@ -33,6 +34,7 @@ def fetch_api_data(league_id=constants.LEAGUE_ID, espn_s2=constants.ESPN_S2, swi
 
     leagues = []
     matchups = []
+    transactions = []
 
     for year in range(2019,2025):
         league = League(league_id=league_id, year=year, espn_s2=espn_s2, swid=swid)
@@ -43,17 +45,27 @@ def fetch_api_data(league_id=constants.LEAGUE_ID, espn_s2=constants.ESPN_S2, swi
             }
         )
 
-        season_length = 17
-        if year in [2019,2020]:
-            season_length = 16
+        season_length = league.finalScoringPeriod
 
-        for week in range(1,season_length + 1):
+        for week in range(1, season_length + 1):
             box_scores = league.box_scores(week)
             matchups.append(
                 {
                     'Year':year,
                     'Week':week,
                     'Box Scores':box_scores
+                }
+            )
+            try:
+                week_transactions = league.transactions(week, types=TRANSACTION_TYPES)
+            except:
+                continue
+
+            transactions.append(
+                {
+                    'Year':year,
+                    'Week':week,
+                    'Transactions':week_transactions
                 }
             )
 
@@ -64,12 +76,12 @@ def fetch_api_data(league_id=constants.LEAGUE_ID, espn_s2=constants.ESPN_S2, swi
         'Box Scores':matchups
     }
 
-    with open('fantasy-football-website/database/espn-data.pkl', 'wb') as file:
+    with open('database/espn-data.pkl', 'wb') as file:
         pickle.dump(data, file)
 
 # Read in pickle file
 def read_pickle_file() -> dict[str, list]:
-    with open('fantasy-football-website/database/espn-data.pkl', 'rb') as file:
+    with open('database/espn-data.pkl', 'rb') as file:
         data = pickle.load(file)
     
     return data
@@ -79,6 +91,7 @@ def construct_dataframes() -> dict[str, pd.DataFrame]:
     '''
     Takes in espn-data.pkl file data and produces the following dataframes:
      - teams
+     - drafts
      - matchups
      - games
      - player_games
@@ -92,24 +105,57 @@ def construct_dataframes() -> dict[str, pd.DataFrame]:
     data = read_pickle_file()
 
     data_teams = []
+    data_drafts = []
+    data_players = []
 
     leagues = data['Leagues']
     for record in leagues:
         league = record['League']
+        year = record['Year']
+
+        for player in league.player_map.keys():
+            if type(player) == int:
+                continue
+            data_players.append(player)
+
+        for pick in league.draft:
+            team_name = pick.team.owners[0]['firstName']
+            if team_name == 'The':
+                team_name = 'Klapp'
+            elif team_name == 'Noah ':
+                team_name = 'Noah'
+
+            data_drafts.append(
+                {
+                    'draft_pick_id':str(uuid.uuid4()),
+                    'player_id':str(uuid.uuid5(namespace=constants.NAMESPACE, name=pick.playerName)),
+                    'team_id':str(uuid.uuid5(namespace=constants.NAMESPACE, name=team_name)),
+                    'year':year,
+                    'round':pick.round_num,
+                    'pick':pick.round_pick
+                }
+            )
+
         for team in league.teams:
+            team_name = team.owners[0]['firstName']
+            if team_name == 'The':
+                team_name = 'Klapp'
+            elif team_name == 'Noah ':
+                team_name = 'Noah'
+
             data_teams.append(
-                    team.owners[0]['firstName']
+                    team_name
                 )
 
-    data_teams = [{'team_name':team} for team in list(set(data_teams))]
+    data_teams = [{'team_id':str(uuid.uuid5(namespace=constants.NAMESPACE, name=team)), 'team_name':team} for team in list(set(data_teams))]
     df_teams = pd.DataFrame(data_teams)
-    df_teams['team_name'] = df_teams['team_name'].replace({'The':'Klapp', 'Noah ':'Noah'})
-    df_teams['team_id'] = df_teams['team_name'].apply(lambda team_name: str(uuid.uuid5(constants.NAMESPACE, name=team_name)))
+    data_players = [{'player_id':str(uuid.uuid5(namespace=constants.NAMESPACE, name=player)), 'player_name':player} for player in list(set(data_players))]
+    df_players = pd.DataFrame(data_players)
+    df_drafts = pd.DataFrame(data_drafts)
 
     data_matchups = []
     data_games = []
     data_player_games = []
-    data_players = []
 
     box_scores = data['Box Scores']
     for box_score in box_scores:
@@ -205,26 +251,97 @@ def construct_dataframes() -> dict[str, pd.DataFrame]:
                     }
                 )
 
-            for player in (matchup.home_lineup + matchup.away_lineup):
-                data_players.append(player.name)
-
-
     df_matchups = pd.DataFrame(data_matchups)
     df_games = pd.DataFrame(data_games)
     df_player_games = pd.DataFrame(data_player_games)
 
-    data_players = [{'player_id':str(uuid.uuid5(constants.NAMESPACE, name=player)), 'player_name':player} for player in list(set(data_players))]
-    df_players = pd.DataFrame(data_players)
-
-    return {'teams':df_teams, 'matchups':df_matchups, 'games':df_games, 'player_games':df_player_games, 'players':df_players}
+    return {'teams':df_teams, 'drafts':df_drafts, 'matchups':df_matchups, 'games':df_games, 'player_games':df_player_games, 'players':df_players}
 
 # Create the database and fill it with the tables from dataframes
 def create_database() -> None:
     data_dict = construct_dataframes()
 
-    conn = sqlite3.connect('fantasy-football-website/database/fantasy-football.db')
+    conn = sqlite3.connect('database/fantasy-football.db')
+
+    # teams_table = '''
+    #     CREATE TABLE IF NOT EXISTS teams (
+    #         team_id TEXT PRIMARY KEY,
+    #         team_name TEXT
+    #     )
+    # '''
+    # drafts_table = '''
+    #     CREATE TABLE IF NOT EXISTS drafts (
+    #         draft_pick_id TEXT PRIMARY KEY,
+    #         player_id TEXT,
+    #         team_id TEXT,
+    #         year INTEGER,
+    #         pick INTEGER,
+    #         FOREIGN KEY (player_id) REFERENCES players(player_id),
+    #         FOREIGN KEY (team_id) REFERENCES teams(team_id)
+    #     )
+    # '''
+    # matchups_table = '''
+    #     CREATE TABLE IF NOT EXISTS matchups (
+    #         matchup_id TEXT PRIMARY KEY,
+    #         year INTEGER,
+    #         week INTEGER,
+    #         matchup_type TEXT,
+    #         playoff_flag INTEGER,
+    #         home_team_id TEXT,
+    #         home_score REAL,
+    #         away_team_id TEXT,
+    #         away_score REAL,
+    #         FOREIGN KEY (home_team_id) REFERENCES teams(team_id),
+    #         FOREIGN KEY (away_team_id) REFERENCES teams(team_id)
+    #     )
+    # '''
+    # games_table = '''
+    #     CREATE TABLE IF NOT EXISTS games (
+    #         game_id TEXT PRIMARY KEY,
+    #         matchup_id TEXT,
+    #         team_id TEXT,
+    #         score REAL,
+    #         opp_score REAL,
+    #         win_flag INTEGER,
+    #         margin REAL,
+    #         FOREIGN KEY (matchup_id) REFERENCES matchups(matchup_id),
+    #         FOREIGN KEY (team_id) REFERENCES teams(team_id)
+    #     )
+    # '''
+    # player_games_table = '''
+    #     CREATE TABLE IF NOT EXISTS player_games (
+    #         player_game_id TEXT PRIMARY KEY,
+    #         matchup_id TEXT,
+    #         game_id TEXT,
+    #         team_id TEXT,
+    #         player_id TEXT,
+    #         points REAL,
+    #         slot_position TEXT,
+    #         active_status TEXT,
+    #         bye_week_flag INTEGER,
+    #         FOREIGN KEY (matchup_id) REFERENCES matchups(matchup_id),
+    #         FOREIGN KEY (game_id) REFERENCES games(game_id),
+    #         FOREIGN KEY (team_id) REFERENCES teams(team_id),
+    #         FOREIGN KEY (player_id) REFERENCES players(player_id)
+    #     )
+    # '''
+    # players_table = '''
+    #     CREATE TABLE IF NOT EXISTS players (
+    #         player_id TEXT PRIMARY KEY,
+    #         player_name TEXT
+    #     )
+    # '''
+
+    # conn.execute(teams_table)
+    # conn.execute(players_table)
+    # conn.execute(matchups_table)
+    # conn.execute(drafts_table)
+    # conn.execute(games_table)
+    # conn.execute(player_games_table)
+    
 
     data_dict['teams'].to_sql('teams', con=conn, if_exists='replace', index=False)
+    data_dict['drafts'].to_sql('drafts', con=conn, if_exists='replace', index=False)
     data_dict['matchups'].to_sql('matchups', con=conn, if_exists='replace', index=False)
     data_dict['games'].to_sql('games', con=conn, if_exists='replace', index=False)
     data_dict['player_games'].to_sql('player_games', con=conn, if_exists='replace', index=False)
@@ -235,7 +352,7 @@ def create_database() -> None:
 
 # Connects to database and creates/updates the views which are converted into CSV files
 def database_views() -> None:
-    conn = sqlite3.connect('fantasy-football-website/database/fantasy-football.db')
+    conn = sqlite3.connect('database/fantasy-football.db')
     c = conn.cursor()
 
     c.execute('DROP VIEW IF EXISTS game_data')
@@ -289,20 +406,42 @@ def database_views() -> None:
     '''
     c.execute(matchup_view)
 
+    c.execute('DROP VIEW IF EXISTS draft_data')
+    draft_view = '''
+        CREATE VIEW draft_data AS
+            SELECT
+                d.year AS "Year",
+                t.team_name AS "Team",
+                p.player_name AS "Player",
+                d.round AS "Round",
+                d.pick AS "Pick",
+                ROW_NUMBER() OVER (PARTITION BY d.year ORDER BY d.round, d.pick) AS "Overall Pick"
+
+            FROM drafts AS d
+
+            LEFT JOIN players AS p
+            ON p.player_id = d.player_id
+
+            LEFT JOIN teams AS t
+            ON t.team_id = d.team_id
+    '''
+    c.execute(draft_view)
+
     conn.commit()
     conn.close()
 
 # Write views to csv files
 def write_csvs() -> None:
-    conn = sqlite3.connect('fantasy-football-website/database/fantasy-football.db')
+    conn = sqlite3.connect('database/fantasy-football.db')
 
-    pd.read_sql('SELECT * FROM game_data', con=conn).to_csv('fantasy-football-website/database/fantasy-football-game-data.csv', index=False)
-    pd.read_sql('SELECT * FROM matchup_data', con=conn).to_csv('fantasy-football-website/database/fantasy-football-matchup-data.csv', index=False)
-    pd.read_sql('SELECT * FROM teams', con=conn).to_csv('fantasy-football-website/database/fantasy-football-team-data.csv', index=False)
+    pd.read_sql('SELECT * FROM game_data', con=conn).to_csv('database/fantasy-football-game-data.csv', index=False)
+    pd.read_sql('SELECT * FROM matchup_data', con=conn).to_csv('database/fantasy-football-matchup-data.csv', index=False)
+    pd.read_sql('SELECT * FROM teams', con=conn).to_csv('database/fantasy-football-team-data.csv', index=False)
+    pd.read_sql('SELECT * FROM draft_data', con=conn).to_csv('database/fantasy-football-draft-data.csv', index=False)
 
     conn.commit()
     conn.close()
 
 # create_database()
-# database_views()
+database_views()
 write_csvs()

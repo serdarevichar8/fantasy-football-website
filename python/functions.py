@@ -3,7 +3,7 @@ import numpy as np
 import dominate
 from dominate.tags import *
 
-def df_to_table(data: pd.DataFrame) -> table:
+def df_to_table(data: pd.DataFrame, index_to_id: bool = False) -> table:
     t = table()
     head = thead()
     body = tbody()
@@ -13,8 +13,10 @@ def df_to_table(data: pd.DataFrame) -> table:
         column_row.add(th(column))
     head.add(column_row)
     
-    for row in data.values:
-        r = tr()
+    for label, row in zip(data.index, data.values):
+        r = tr(__pretty=False)
+        if index_to_id:
+            r['id'] = label
         for value in row:
             r.add(td(value))
         body.add(r)
@@ -22,7 +24,23 @@ def df_to_table(data: pd.DataFrame) -> table:
     t.add(head)
     t.add(body)
 
+    if len(data) > 20:
+        scroll_div = div(_class='scroll-table')
+        scroll_div.add(t)
+        return scroll_div
+
     return t
+
+def content_container(title: str, content: div | table | img, _id: str = None):
+    container = div(_class='content-container')
+    container_title = h2(title)
+    container_content = content
+    if _id:
+        container_content['id'] = _id
+
+    container.add(container_title, container_content)
+
+    return container
 
 def opp_luck_score(opp_score, mean=None, std=None) -> int:
     return int(((mean - opp_score) / np.absolute(mean - opp_score)) * np.floor(np.absolute(mean - opp_score) / std))
