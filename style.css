@@ -161,6 +161,16 @@ body div {
     /* border-bottom-style: none; */
 }
 
+.content-container h2 select {
+    float: right;
+    width: 150px;
+    padding: 5px;
+    background-color: hsl(0, 0%, 90%);
+    font-weight: bold;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
 .content-container img {
     height: 400px;
     /* max-height: 400px;

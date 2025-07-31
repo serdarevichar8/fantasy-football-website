@@ -83,7 +83,13 @@ def year_content(year: int, build_figure: bool = False) -> div:
     draft_data = constants.DRAFT_DATA.loc[constants.DRAFT_DATA['Year'] == year].copy()
     draft_data.index = ('row-' + draft_data['Team'] + '-' + draft_data['Round'].astype(str) + '-' + draft_data['Pick'].astype(str)).str.lower()
     draft_div = functions.content_container(title='League Draft', content=functions.df_to_table(draft_data, index_to_id=True), _id='league-draft-table')
-    
+
+    draft_title = draft_div.get(h2)[0]
+    draft_select = select([option('All', value='all')] + [option(team, value=team.lower()) for team in draft_data['Team'].unique()],
+                          _id='draft-team-filter',
+                          onchange='draftTeamFilter()')
+    draft_title.add(draft_select)
+
     container.add(summary_div)
     container.add(scatter_div)
     container.add(bracket_div)
@@ -98,6 +104,7 @@ def year_pages(build_figure: bool = False):
         doc.add(page_header.page_header(active_year=year))
 
         doc.add(year_content(year, build_figure=build_figure))
+        doc.add(script(src=f'{constants.ROOT}script.js'))
 
         with open(f'seasons/{year}/index.html','w') as file:
             file.write(doc.render())
