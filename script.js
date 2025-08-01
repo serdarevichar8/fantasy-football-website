@@ -1,6 +1,6 @@
-function draftTableFilter() {
-    const dropdownValue = document.getElementById('draft-filter').value
-    const rows = document.querySelectorAll('.content-container #league-draft-table tbody tr')
+function tableFilter(filterID, tableID) {
+    const dropdownValue = document.getElementById(`${filterID}`).value
+    const rows = document.querySelectorAll(`.content-container #${tableID} tbody tr`)
 
     rows.forEach(row => {
         const id = row.id
