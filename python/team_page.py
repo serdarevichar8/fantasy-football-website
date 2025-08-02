@@ -12,7 +12,7 @@ def team_content(team: str, build_figure: bool = False) -> div:
     seasons_df = pd.concat(seasons)
     seasons_df = seasons_df.loc[seasons_df['Team'] == team].drop('Team', axis = 1)
 
-    summary_div = functions.content_container(title='Team Summary', content=functions.df_to_table(data=seasons_df), _id='team-summary-table')
+    summary_div = functions.content_container(title='Team Summary', content=functions.df_to_table(data=seasons_df, table_id='team-summary-table'))
 
     # summary_div = div(_class='content-container')
     # summary_title = h2('Team Summary')
@@ -37,10 +37,10 @@ def team_content(team: str, build_figure: bool = False) -> div:
     
     draft_data = constants.DRAFT_DATA.loc[constants.DRAFT_DATA['Team'] == team].copy()
     draft_data.index = ('row-' + draft_data['Year'].astype(str) + '-' + draft_data['Round'].astype(str) + '-' + draft_data['Pick'].astype(str)).str.lower()
-    draft_div = functions.content_container(title='League Draft', content=functions.df_to_table(draft_data, index_to_id=True), _id='league-draft-table')
+    draft_div = functions.content_container(title='League Draft', content=functions.df_to_table(draft_data, index_to_id=True, table_id='league-draft-table'))
 
     draft_title = draft_div.get(h2)[0]
-    draft_select = select([option('All', value='all')] + [option(year, value=year) for year in draft_data['Year'].unique()],
+    draft_select = select([option(year, value=year) for year in draft_data['Year'].unique()],
                           _id='draft-filter',
                           onchange="tableFilter('draft-filter', 'league-draft-table')")
     draft_title.add(draft_select)
