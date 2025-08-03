@@ -128,19 +128,19 @@
         <div class="dropdown active">
           <a class="dropdown-button" href="/fantasy-football-website/teams/">Teams</a>
           <div class="dropdown-content">
-            <a href="/fantasy-football-website/teams/Nathan.html">Nathan</a>
-            <a href="/fantasy-football-website/teams/Ethan.html">Ethan</a>
-            <a href="/fantasy-football-website/teams/Haris.html">Haris</a>
-            <a href="/fantasy-football-website/teams/Michael.html">Michael</a>
-            <a href="/fantasy-football-website/teams/Klapp.html">Klapp</a>
             <a href="/fantasy-football-website/teams/Andrew.html">Andrew</a>
-            <a href="/fantasy-football-website/teams/Carter.html">Carter</a>
-            <a href="/fantasy-football-website/teams/McGwire.html">McGwire</a>
-            <a href="/fantasy-football-website/teams/Justin.html">Justin</a>
-            <a href="/fantasy-football-website/teams/Kevin.html">Kevin</a>
+            <a href="/fantasy-football-website/teams/Nathan.html">Nathan</a>
             <a href="/fantasy-football-website/teams/Zach.html">Zach</a>
-            <a href="/fantasy-football-website/teams/Dante.html">Dante</a>
+            <a href="/fantasy-football-website/teams/Kevin.html">Kevin</a>
             <a href="/fantasy-football-website/teams/Noah.html">Noah</a>
+            <a href="/fantasy-football-website/teams/Michael.html">Michael</a>
+            <a href="/fantasy-football-website/teams/Ethan.html">Ethan</a>
+            <a href="/fantasy-football-website/teams/Dante.html">Dante</a>
+            <a href="/fantasy-football-website/teams/Justin.html">Justin</a>
+            <a href="/fantasy-football-website/teams/Klapp.html">Klapp</a>
+            <a href="/fantasy-football-website/teams/Carter.html">Carter</a>
+            <a href="/fantasy-football-website/teams/Haris.html">Haris</a>
+            <a href="/fantasy-football-website/teams/McGwire.html">McGwire</a>
             <a href="/fantasy-football-website/teams/Tyler.html">Tyler</a>
           </div>
         </div>
@@ -167,66 +167,12 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>2019</td>
-              <td>1-12</td>
-              <td>12</td>
-              <td>1216.4</td>
-              <td>1597.02</td>
-              <td>93.57</td>
-              <td>-29.28</td>
-              <td>-5</td>
-            </tr>
-            <tr>
-              <td>2020</td>
-              <td>11-2</td>
-              <td>1</td>
-              <td>1639.56</td>
-              <td>1347.88</td>
-              <td>126.12</td>
-              <td>22.44</td>
-              <td>18</td>
-            </tr>
-            <tr>
-              <td>2021</td>
-              <td>3-11</td>
-              <td>10</td>
-              <td>1671.08</td>
-              <td>1898.44</td>
-              <td>119.36</td>
-              <td>-16.24</td>
-              <td>-15</td>
-            </tr>
-            <tr>
-              <td>2022</td>
-              <td>8-6</td>
-              <td>5</td>
-              <td>1463.36</td>
-              <td>1486.96</td>
-              <td>104.53</td>
-              <td>-1.69</td>
-              <td>10</td>
-            </tr>
-            <tr>
-              <td>2023</td>
-              <td>9-5</td>
-              <td>3</td>
-              <td>1574.82</td>
-              <td>1510.76</td>
-              <td>112.49</td>
-              <td>4.58</td>
-              <td>7</td>
-            </tr>
-            <tr>
-              <td>2024</td>
-              <td>7-7</td>
-              <td>8</td>
-              <td>1540.46</td>
-              <td>1707.74</td>
-              <td>110.03</td>
-              <td>-11.95</td>
-              <td>-1</td>
-            </tr>
+            <tr><td>2019</td><td>1-12</td><td>12</td><td>1216.4</td><td>1597.02</td><td>93.57</td><td>-29.28</td><td>-5</td></tr>
+            <tr><td>2020</td><td>11-2</td><td>1</td><td>1639.56</td><td>1347.88</td><td>126.12</td><td>22.44</td><td>18</td></tr>
+            <tr><td>2021</td><td>3-11</td><td>10</td><td>1671.08</td><td>1898.44</td><td>119.36</td><td>-16.24</td><td>-15</td></tr>
+            <tr><td>2022</td><td>8-6</td><td>5</td><td>1463.36</td><td>1486.96</td><td>104.53</td><td>-1.69</td><td>10</td></tr>
+            <tr><td>2023</td><td>9-5</td><td>3</td><td>1574.82</td><td>1510.76</td><td>112.49</td><td>4.58</td><td>7</td></tr>
+            <tr><td>2024</td><td>7-7</td><td>8</td><td>1540.46</td><td>1707.74</td><td>110.03</td><td>-11.95</td><td>-1</td></tr>
           </tbody>
         </table>
       </div>
@@ -234,6 +180,131 @@
         <h2>Luck Score by Season</h2>
         <img src="/fantasy-football-website/Assets/Luck-Score-Year-Ethan.svg">
       </div>
+      <div class="content-container">
+        <h2>League Draft
+          <select id="draft-filter" onchange="tableFilter('draft-filter', 'league-draft-table')">
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+          </select>
+        </h2>
+        <div class="scroll-table">
+          <table id="league-draft-table">
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Team</th>
+                <th>Player</th>
+                <th>Round</th>
+                <th>Pick</th>
+                <th>Overall Pick</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr id="row-2019-1-2"><td>2019</td><td>Ethan</td><td>Devonta Freeman</td><td>1</td><td>2</td><td>2</td></tr>
+              <tr id="row-2019-2-11"><td>2019</td><td>Ethan</td><td>JuJu Smith-Schuster</td><td>2</td><td>11</td><td>23</td></tr>
+              <tr id="row-2019-3-2"><td>2019</td><td>Ethan</td><td>Derrick Henry</td><td>3</td><td>2</td><td>26</td></tr>
+              <tr id="row-2019-4-11"><td>2019</td><td>Ethan</td><td>Brandin Cooks</td><td>4</td><td>11</td><td>47</td></tr>
+              <tr id="row-2019-5-2"><td>2019</td><td>Ethan</td><td>Andrew Luck</td><td>5</td><td>2</td><td>50</td></tr>
+              <tr id="row-2019-6-11"><td>2019</td><td>Ethan</td><td>Kenyan Drake</td><td>6</td><td>11</td><td>71</td></tr>
+              <tr id="row-2019-7-2"><td>2019</td><td>Ethan</td><td>Delanie Walker</td><td>7</td><td>2</td><td>74</td></tr>
+              <tr id="row-2019-8-11"><td>2019</td><td>Ethan</td><td>Dante Pettis</td><td>8</td><td>11</td><td>95</td></tr>
+              <tr id="row-2019-9-2"><td>2019</td><td>Ethan</td><td>Philip Rivers</td><td>9</td><td>2</td><td>98</td></tr>
+              <tr id="row-2019-10-11"><td>2019</td><td>Ethan</td><td>Jaguars D/ST</td><td>10</td><td>11</td><td>119</td></tr>
+              <tr id="row-2019-11-2"><td>2019</td><td>Ethan</td><td>Jake Elliott</td><td>11</td><td>2</td><td>122</td></tr>
+              <tr id="row-2019-12-11"><td>2019</td><td>Ethan</td><td>DK Metcalf</td><td>12</td><td>11</td><td>143</td></tr>
+              <tr id="row-2019-13-2"><td>2019</td><td>Ethan</td><td>John Brown</td><td>13</td><td>2</td><td>146</td></tr>
+              <tr id="row-2019-14-11"><td>2019</td><td>Ethan</td><td>Tyler Eifert</td><td>14</td><td>11</td><td>167</td></tr>
+              <tr id="row-2019-15-2"><td>2019</td><td>Ethan</td><td>Duke Johnson</td><td>15</td><td>2</td><td>170</td></tr>
+              <tr id="row-2019-16-11"><td>2019</td><td>Ethan</td><td>Mohamed Sanu Sr.</td><td>16</td><td>11</td><td>191</td></tr>
+              <tr id="row-2020-1-2"><td>2020</td><td>Ethan</td><td>Christian McCaffrey</td><td>1</td><td>2</td><td>2</td></tr>
+              <tr id="row-2020-2-9"><td>2020</td><td>Ethan</td><td>Joe Mixon</td><td>2</td><td>9</td><td>19</td></tr>
+              <tr id="row-2020-3-2"><td>2020</td><td>Ethan</td><td>Travis Kelce</td><td>3</td><td>2</td><td>22</td></tr>
+              <tr id="row-2020-4-9"><td>2020</td><td>Ethan</td><td>Allen Robinson II</td><td>4</td><td>9</td><td>39</td></tr>
+              <tr id="row-2020-5-2"><td>2020</td><td>Ethan</td><td>Kenny Golladay</td><td>5</td><td>2</td><td>42</td></tr>
+              <tr id="row-2020-6-9"><td>2020</td><td>Ethan</td><td>Devin Singletary</td><td>6</td><td>9</td><td>59</td></tr>
+              <tr id="row-2020-7-2"><td>2020</td><td>Ethan</td><td>Terry McLaurin</td><td>7</td><td>2</td><td>62</td></tr>
+              <tr id="row-2020-8-9"><td>2020</td><td>Ethan</td><td>Drew Brees</td><td>8</td><td>9</td><td>79</td></tr>
+              <tr id="row-2020-9-2"><td>2020</td><td>Ethan</td><td>Jarvis Landry</td><td>9</td><td>2</td><td>82</td></tr>
+              <tr id="row-2020-10-9"><td>2020</td><td>Ethan</td><td>Bills D/ST</td><td>10</td><td>9</td><td>99</td></tr>
+              <tr id="row-2020-11-2"><td>2020</td><td>Ethan</td><td>Phillip Lindsay</td><td>11</td><td>2</td><td>102</td></tr>
+              <tr id="row-2020-12-9"><td>2020</td><td>Ethan</td><td>Robbie Gould</td><td>12</td><td>9</td><td>119</td></tr>
+              <tr id="row-2020-13-2"><td>2020</td><td>Ethan</td><td>Zack Moss</td><td>13</td><td>2</td><td>122</td></tr>
+              <tr id="row-2020-14-9"><td>2020</td><td>Ethan</td><td>Austin Hooper</td><td>14</td><td>9</td><td>139</td></tr>
+              <tr id="row-2020-15-2"><td>2020</td><td>Ethan</td><td>Sterling Shepard</td><td>15</td><td>2</td><td>142</td></tr>
+              <tr id="row-2020-16-9"><td>2020</td><td>Ethan</td><td>C.J. Uzomah</td><td>16</td><td>9</td><td>159</td></tr>
+              <tr id="row-2021-1-7"><td>2021</td><td>Ethan</td><td>Ezekiel Elliott</td><td>1</td><td>7</td><td>7</td></tr>
+              <tr id="row-2021-2-4"><td>2021</td><td>Ethan</td><td>Antonio Gibson</td><td>2</td><td>4</td><td>14</td></tr>
+              <tr id="row-2021-3-7"><td>2021</td><td>Ethan</td><td>Keenan Allen</td><td>3</td><td>7</td><td>27</td></tr>
+              <tr id="row-2021-4-4"><td>2021</td><td>Ethan</td><td>Allen Robinson II</td><td>4</td><td>4</td><td>34</td></tr>
+              <tr id="row-2021-5-7"><td>2021</td><td>Ethan</td><td>Dak Prescott</td><td>5</td><td>7</td><td>47</td></tr>
+              <tr id="row-2021-6-4"><td>2021</td><td>Ethan</td><td>Kyle Pitts</td><td>6</td><td>4</td><td>54</td></tr>
+              <tr id="row-2021-7-7"><td>2021</td><td>Ethan</td><td>JuJu Smith-Schuster</td><td>7</td><td>7</td><td>67</td></tr>
+              <tr id="row-2021-8-4"><td>2021</td><td>Ethan</td><td>Jerry Jeudy</td><td>8</td><td>4</td><td>74</td></tr>
+              <tr id="row-2021-9-7"><td>2021</td><td>Ethan</td><td>Raheem Mostert</td><td>9</td><td>7</td><td>87</td></tr>
+              <tr id="row-2021-10-4"><td>2021</td><td>Ethan</td><td>Buccaneers D/ST</td><td>10</td><td>4</td><td>94</td></tr>
+              <tr id="row-2021-11-7"><td>2021</td><td>Ethan</td><td>Henry Ruggs III</td><td>11</td><td>7</td><td>107</td></tr>
+              <tr id="row-2021-12-4"><td>2021</td><td>Ethan</td><td>Marquez Callaway</td><td>12</td><td>4</td><td>114</td></tr>
+              <tr id="row-2021-13-7"><td>2021</td><td>Ethan</td><td>Younghoe Koo</td><td>13</td><td>7</td><td>127</td></tr>
+              <tr id="row-2021-14-4"><td>2021</td><td>Ethan</td><td>Jalen Reagor</td><td>14</td><td>4</td><td>134</td></tr>
+              <tr id="row-2021-15-7"><td>2021</td><td>Ethan</td><td>Joe Burrow</td><td>15</td><td>7</td><td>147</td></tr>
+              <tr id="row-2021-16-4"><td>2021</td><td>Ethan</td><td>Tyrell Williams</td><td>16</td><td>4</td><td>154</td></tr>
+              <tr id="row-2022-1-10"><td>2022</td><td>Ethan</td><td>Derrick Henry</td><td>1</td><td>10</td><td>10</td></tr>
+              <tr id="row-2022-2-3"><td>2022</td><td>Ethan</td><td>Leonard Fournette</td><td>2</td><td>3</td><td>15</td></tr>
+              <tr id="row-2022-3-10"><td>2022</td><td>Ethan</td><td>DJ Moore</td><td>3</td><td>10</td><td>34</td></tr>
+              <tr id="row-2022-4-3"><td>2022</td><td>Ethan</td><td>Brandin Cooks</td><td>4</td><td>3</td><td>39</td></tr>
+              <tr id="row-2022-5-10"><td>2022</td><td>Ethan</td><td>Chris Godwin</td><td>5</td><td>10</td><td>58</td></tr>
+              <tr id="row-2022-6-3"><td>2022</td><td>Ethan</td><td>Antonio Gibson</td><td>6</td><td>3</td><td>63</td></tr>
+              <tr id="row-2022-7-10"><td>2022</td><td>Ethan</td><td>Gabe Davis</td><td>7</td><td>10</td><td>82</td></tr>
+              <tr id="row-2022-8-3"><td>2022</td><td>Ethan</td><td>Christian Kirk</td><td>8</td><td>3</td><td>87</td></tr>
+              <tr id="row-2022-9-10"><td>2022</td><td>Ethan</td><td>Zach Ertz</td><td>9</td><td>10</td><td>106</td></tr>
+              <tr id="row-2022-10-3"><td>2022</td><td>Ethan</td><td>Trey Lance</td><td>10</td><td>3</td><td>111</td></tr>
+              <tr id="row-2022-11-10"><td>2022</td><td>Ethan</td><td>Robbie Anderson</td><td>11</td><td>10</td><td>130</td></tr>
+              <tr id="row-2022-12-3"><td>2022</td><td>Ethan</td><td>Michael Carter</td><td>12</td><td>3</td><td>135</td></tr>
+              <tr id="row-2022-13-10"><td>2022</td><td>Ethan</td><td>DeVante Parker</td><td>13</td><td>10</td><td>154</td></tr>
+              <tr id="row-2022-14-3"><td>2022</td><td>Ethan</td><td>Brandon McManus</td><td>14</td><td>3</td><td>159</td></tr>
+              <tr id="row-2022-15-10"><td>2022</td><td>Ethan</td><td>Michael Gallup</td><td>15</td><td>10</td><td>178</td></tr>
+              <tr id="row-2022-16-3"><td>2022</td><td>Ethan</td><td>Chargers D/ST</td><td>16</td><td>3</td><td>183</td></tr>
+              <tr id="row-2023-1-7"><td>2023</td><td>Ethan</td><td>Tyreek Hill</td><td>1</td><td>7</td><td>7</td></tr>
+              <tr id="row-2023-2-6"><td>2023</td><td>Ethan</td><td>Amon-Ra St. Brown</td><td>2</td><td>6</td><td>18</td></tr>
+              <tr id="row-2023-3-7"><td>2023</td><td>Ethan</td><td>Tee Higgins</td><td>3</td><td>7</td><td>31</td></tr>
+              <tr id="row-2023-4-6"><td>2023</td><td>Ethan</td><td>Justin Fields</td><td>4</td><td>6</td><td>42</td></tr>
+              <tr id="row-2023-5-7"><td>2023</td><td>Ethan</td><td>Kenneth Walker III</td><td>5</td><td>7</td><td>55</td></tr>
+              <tr id="row-2023-6-6"><td>2023</td><td>Ethan</td><td>Marquise Brown</td><td>6</td><td>6</td><td>66</td></tr>
+              <tr id="row-2023-7-7"><td>2023</td><td>Ethan</td><td>David Montgomery</td><td>7</td><td>7</td><td>79</td></tr>
+              <tr id="row-2023-8-6"><td>2023</td><td>Ethan</td><td>David Njoku</td><td>8</td><td>6</td><td>90</td></tr>
+              <tr id="row-2023-9-7"><td>2023</td><td>Ethan</td><td>Jamaal Williams</td><td>9</td><td>7</td><td>103</td></tr>
+              <tr id="row-2023-10-6"><td>2023</td><td>Ethan</td><td>Nico Collins</td><td>10</td><td>6</td><td>114</td></tr>
+              <tr id="row-2023-11-7"><td>2023</td><td>Ethan</td><td>Kadarius Toney</td><td>11</td><td>7</td><td>127</td></tr>
+              <tr id="row-2023-12-6"><td>2023</td><td>Ethan</td><td>Elijah Mitchell</td><td>12</td><td>6</td><td>138</td></tr>
+              <tr id="row-2023-13-7"><td>2023</td><td>Ethan</td><td>Allen Lazard</td><td>13</td><td>7</td><td>151</td></tr>
+              <tr id="row-2023-14-6"><td>2023</td><td>Ethan</td><td>Browns D/ST</td><td>14</td><td>6</td><td>162</td></tr>
+              <tr id="row-2023-15-7"><td>2023</td><td>Ethan</td><td>Brandon McManus</td><td>15</td><td>7</td><td>175</td></tr>
+              <tr id="row-2023-16-6"><td>2023</td><td>Ethan</td><td>Jameson Williams</td><td>16</td><td>6</td><td>186</td></tr>
+              <tr id="row-2024-1-12"><td>2024</td><td>Ethan</td><td>Puka Nacua</td><td>1</td><td>12</td><td>12</td></tr>
+              <tr id="row-2024-2-1"><td>2024</td><td>Ethan</td><td>Mike Evans</td><td>2</td><td>1</td><td>13</td></tr>
+              <tr id="row-2024-3-12"><td>2024</td><td>Ethan</td><td>Kenneth Walker III</td><td>3</td><td>12</td><td>36</td></tr>
+              <tr id="row-2024-4-1"><td>2024</td><td>Ethan</td><td>Rhamondre Stevenson</td><td>4</td><td>1</td><td>37</td></tr>
+              <tr id="row-2024-5-12"><td>2024</td><td>Ethan</td><td>Kyle Pitts</td><td>5</td><td>12</td><td>60</td></tr>
+              <tr id="row-2024-6-1"><td>2024</td><td>Ethan</td><td>Zamir White</td><td>6</td><td>1</td><td>61</td></tr>
+              <tr id="row-2024-7-12"><td>2024</td><td>Ethan</td><td>Kyler Murray</td><td>7</td><td>12</td><td>84</td></tr>
+              <tr id="row-2024-8-1"><td>2024</td><td>Ethan</td><td>Christian Watson</td><td>8</td><td>1</td><td>85</td></tr>
+              <tr id="row-2024-9-12"><td>2024</td><td>Ethan</td><td>Jameson Williams</td><td>9</td><td>12</td><td>108</td></tr>
+              <tr id="row-2024-10-1"><td>2024</td><td>Ethan</td><td>Brian Thomas Jr.</td><td>10</td><td>1</td><td>109</td></tr>
+              <tr id="row-2024-11-12"><td>2024</td><td>Ethan</td><td>Trey Benson</td><td>11</td><td>12</td><td>132</td></tr>
+              <tr id="row-2024-12-1"><td>2024</td><td>Ethan</td><td>Khalil Shakir</td><td>12</td><td>1</td><td>133</td></tr>
+              <tr id="row-2024-13-12"><td>2024</td><td>Ethan</td><td>Matt Gay</td><td>13</td><td>12</td><td>156</td></tr>
+              <tr id="row-2024-14-1"><td>2024</td><td>Ethan</td><td>Chiefs D/ST</td><td>14</td><td>1</td><td>157</td></tr>
+              <tr id="row-2024-15-12"><td>2024</td><td>Ethan</td><td>Jaylen Wright</td><td>15</td><td>12</td><td>180</td></tr>
+              <tr id="row-2024-16-1"><td>2024</td><td>Ethan</td><td>Marvin Mims Jr.</td><td>16</td><td>1</td><td>181</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
+    <script src="/fantasy-football-website/script.js"></script>
   </body>
 </html>

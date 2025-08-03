@@ -128,19 +128,19 @@
         <div class="dropdown">
           <a class="dropdown-button" href="/fantasy-football-website/teams/">Teams</a>
           <div class="dropdown-content">
-            <a href="/fantasy-football-website/teams/Nathan.html">Nathan</a>
-            <a href="/fantasy-football-website/teams/Ethan.html">Ethan</a>
-            <a href="/fantasy-football-website/teams/Haris.html">Haris</a>
-            <a href="/fantasy-football-website/teams/Michael.html">Michael</a>
-            <a href="/fantasy-football-website/teams/Klapp.html">Klapp</a>
             <a href="/fantasy-football-website/teams/Andrew.html">Andrew</a>
-            <a href="/fantasy-football-website/teams/Carter.html">Carter</a>
-            <a href="/fantasy-football-website/teams/McGwire.html">McGwire</a>
-            <a href="/fantasy-football-website/teams/Justin.html">Justin</a>
-            <a href="/fantasy-football-website/teams/Kevin.html">Kevin</a>
+            <a href="/fantasy-football-website/teams/Nathan.html">Nathan</a>
             <a href="/fantasy-football-website/teams/Zach.html">Zach</a>
-            <a href="/fantasy-football-website/teams/Dante.html">Dante</a>
+            <a href="/fantasy-football-website/teams/Kevin.html">Kevin</a>
             <a href="/fantasy-football-website/teams/Noah.html">Noah</a>
+            <a href="/fantasy-football-website/teams/Michael.html">Michael</a>
+            <a href="/fantasy-football-website/teams/Ethan.html">Ethan</a>
+            <a href="/fantasy-football-website/teams/Dante.html">Dante</a>
+            <a href="/fantasy-football-website/teams/Justin.html">Justin</a>
+            <a href="/fantasy-football-website/teams/Klapp.html">Klapp</a>
+            <a href="/fantasy-football-website/teams/Carter.html">Carter</a>
+            <a href="/fantasy-football-website/teams/Haris.html">Haris</a>
+            <a href="/fantasy-football-website/teams/McGwire.html">McGwire</a>
             <a href="/fantasy-football-website/teams/Tyler.html">Tyler</a>
           </div>
         </div>
@@ -163,39 +163,87 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Nathan</td>
-              <td>130.44</td>
-              <td>116.88</td>
-              <td>Ethan</td>
-            </tr>
-            <tr>
-              <td>Michael</td>
-              <td>130.3</td>
-              <td>113.06</td>
-              <td>Zach</td>
-            </tr>
-            <tr>
-              <td>Andrew</td>
-              <td>193.8</td>
-              <td>127.52</td>
-              <td>McGwire</td>
-            </tr>
-            <tr>
-              <td>Noah</td>
-              <td>111.82</td>
-              <td>110.5</td>
-              <td>Dante</td>
-            </tr>
-            <tr>
-              <td>Carter</td>
-              <td>157.92</td>
-              <td>120.92</td>
-              <td>Haris</td>
-            </tr>
+            <tr><td>Nathan</td><td>130.44</td><td>116.88</td><td>Ethan</td></tr>
+            <tr><td>Michael</td><td>130.3</td><td>113.06</td><td>Zach</td></tr>
+            <tr><td>Andrew</td><td>193.8</td><td>127.52</td><td>McGwire</td></tr>
+            <tr><td>Noah</td><td>111.82</td><td>110.5</td><td>Dante</td></tr>
+            <tr><td>Carter</td><td>157.92</td><td>120.92</td><td>Haris</td></tr>
           </tbody>
         </table>
-      </div><br>
+      </div>
+      <div class="content-container">
+        <h2>Lineups
+          <select id="lineup-filter" onchange="tableFilter('lineup-filter', 'lineup-table')">
+            <option value="andrewvsmcgwire">Andrew vs McGwire</option>
+            <option value="cartervsharis">Carter vs Haris</option>
+            <option value="michaelvszach">Michael vs Zach</option>
+            <option value="nathanvsethan">Nathan vs Ethan</option>
+            <option value="noahvsdante">Noah vs Dante</option>
+          </select>
+        </h2>
+        <div class="scroll-table">
+          <table id="lineup-table">
+            <thead>
+              <tr>
+                <th>Home Team</th>
+                <th>Home Player</th>
+                <th>Home Player Points</th>
+                <th>Position</th>
+                <th>Away Player Points</th>
+                <th>Away Player</th>
+                <th>Away Team</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr id="row-andrewvsmcgwire-qb"><td>Andrew</td><td>Aaron Rodgers</td><td>26.8</td><td>QB</td><td>23.32</td><td>Russell Wilson</td><td>McGwire</td></tr>
+              <tr id="row-andrewvsmcgwire-rb1"><td>Andrew</td><td>Aaron Jones</td><td>41.5</td><td>RB1</td><td>15.1</td><td>Chris Carson</td><td>McGwire</td></tr>
+              <tr id="row-andrewvsmcgwire-rb2"><td>Andrew</td><td>Austin Ekeler</td><td>22.5</td><td>RB2</td><td>10.9</td><td>David Montgomery</td><td>McGwire</td></tr>
+              <tr id="row-andrewvsmcgwire-wr1"><td>Andrew</td><td>Mike Evans</td><td>24.5</td><td>WR1</td><td>20.1</td><td>Davante Adams</td><td>McGwire</td></tr>
+              <tr id="row-andrewvsmcgwire-wr2"><td>Andrew</td><td>Robert Woods</td><td>12.0</td><td>WR2</td><td>16.0</td><td>Stefon Diggs</td><td>McGwire</td></tr>
+              <tr id="row-andrewvsmcgwire-te"><td>Andrew</td><td>Mark Andrews</td><td>10.7</td><td>TE</td><td>14.2</td><td>Robert Tonyan</td><td>McGwire</td></tr>
+              <tr id="row-andrewvsmcgwire-flex"><td>Andrew</td><td>Brandin Cooks</td><td>22.8</td><td>FLEX</td><td>15.9</td><td>Adam Thielen</td><td>McGwire</td></tr>
+              <tr id="row-andrewvsmcgwire-d/st"><td>Andrew</td><td>Broncos D/ST</td><td>11.0</td><td>D/ST</td><td>5.0</td><td>Saints D/ST</td><td>McGwire</td></tr>
+              <tr id="row-andrewvsmcgwire-k"><td>Andrew</td><td>Graham Gano</td><td>22.0</td><td>K</td><td>7.0</td><td>Justin Tucker</td><td>McGwire</td></tr>
+              <tr id="row-cartervsharis-qb"><td>Carter</td><td>Matthew Stafford</td><td>17.22</td><td>QB</td><td>14.72</td><td>Justin Herbert</td><td>Haris</td></tr>
+              <tr id="row-cartervsharis-rb1"><td>Carter</td><td>Derrick Henry</td><td>47.7</td><td>RB1</td><td>16.8</td><td>Nick Chubb</td><td>Haris</td></tr>
+              <tr id="row-cartervsharis-rb2"><td>Carter</td><td>James Robinson</td><td>9.4</td><td>RB2</td><td>6.3</td><td>Jonathan Taylor</td><td>Haris</td></tr>
+              <tr id="row-cartervsharis-wr1"><td>Carter</td><td>Ja'Marr Chase</td><td>13.4</td><td>WR1</td><td>17.4</td><td>CeeDee Lamb</td><td>Haris</td></tr>
+              <tr id="row-cartervsharis-wr2"><td>Carter</td><td>DK Metcalf</td><td>11.3</td><td>WR2</td><td>5.4</td><td>Amari Cooper</td><td>Haris</td></tr>
+              <tr id="row-cartervsharis-te"><td>Carter</td><td>T.J. Hockenson</td><td>20.6</td><td>TE</td><td>9.5</td><td>Logan Thomas</td><td>Haris</td></tr>
+              <tr id="row-cartervsharis-flex"><td>Carter</td><td>A.J. Brown</td><td>7.3</td><td>FLEX</td><td>36.8</td><td>Cooper Kupp</td><td>Haris</td></tr>
+              <tr id="row-cartervsharis-d/st"><td>Carter</td><td>Bills D/ST</td><td>19.0</td><td>D/ST</td><td>4.0</td><td>Cowboys D/ST</td><td>Haris</td></tr>
+              <tr id="row-cartervsharis-k"><td>Carter</td><td>Rodrigo Blankenship</td><td>12.0</td><td>K</td><td>10.0</td><td>Greg Zuerlein</td><td>Haris</td></tr>
+              <tr id="row-michaelvszach-qb"><td>Michael</td><td>Kyler Murray</td><td>33.1</td><td>QB</td><td>16.66</td><td>Josh Allen</td><td>Zach</td></tr>
+              <tr id="row-michaelvszach-rb1"><td>Michael</td><td>Dalvin Cook</td><td>16.8</td><td>RB1</td><td>24.7</td><td>Christian McCaffrey</td><td>Zach</td></tr>
+              <tr id="row-michaelvszach-rb2"><td>Michael</td><td>Clyde Edwards-Helaire</td><td>2.6</td><td>RB2</td><td>12.5</td><td>Chase Edmonds</td><td>Zach</td></tr>
+              <tr id="row-michaelvszach-wr1"><td>Michael</td><td>Chris Godwin</td><td>16.2</td><td>WR1</td><td>18.8</td><td>Julio Jones</td><td>Zach</td></tr>
+              <tr id="row-michaelvszach-wr2"><td>Michael</td><td>DeAndre Hopkins</td><td>15.4</td><td>WR2</td><td>18.5</td><td>Justin Jefferson</td><td>Zach</td></tr>
+              <tr id="row-michaelvszach-te"><td>Michael</td><td>Noah Fant</td><td>13.3</td><td>TE</td><td>5.7</td><td>George Kittle</td><td>Zach</td></tr>
+              <tr id="row-michaelvszach-flex"><td>Michael</td><td>DJ Moore</td><td>21.9</td><td>FLEX</td><td>3.2</td><td>Nyheim Hines</td><td>Zach</td></tr>
+              <tr id="row-michaelvszach-d/st"><td>Michael</td><td>Rams D/ST</td><td>6.0</td><td>D/ST</td><td>7.0</td><td>49ers D/ST</td><td>Zach</td></tr>
+              <tr id="row-michaelvszach-k"><td>Michael</td><td>Harrison Butker</td><td>5.0</td><td>K</td><td>6.0</td><td>Robbie Gould</td><td>Zach</td></tr>
+              <tr id="row-nathanvsethan-qb"><td>Nathan</td><td>Tom Brady</td><td>29.64</td><td>QB</td><td>7.48</td><td>Dak Prescott</td><td>Ethan</td></tr>
+              <tr id="row-nathanvsethan-rb1"><td>Nathan</td><td>Najee Harris</td><td>19.1</td><td>RB1</td><td>13.3</td><td>Mike Davis</td><td>Ethan</td></tr>
+              <tr id="row-nathanvsethan-rb2"><td>Nathan</td><td>Joe Mixon</td><td>8.1</td><td>RB2</td><td>9.3</td><td>Antonio Gibson</td><td>Ethan</td></tr>
+              <tr id="row-nathanvsethan-wr1"><td>Nathan</td><td>Terry McLaurin</td><td>27.7</td><td>WR1</td><td>31.8</td><td>Tyler Lockett</td><td>Ethan</td></tr>
+              <tr id="row-nathanvsethan-wr2"><td>Nathan</td><td>Antonio Brown</td><td>2.7</td><td>WR2</td><td>14.8</td><td>Keenan Allen</td><td>Ethan</td></tr>
+              <tr id="row-nathanvsethan-te"><td>Nathan</td><td>Travis Kelce</td><td>23.9</td><td>TE</td><td>5.8</td><td>Jared Cook</td><td>Ethan</td></tr>
+              <tr id="row-nathanvsethan-flex"><td>Nathan</td><td>Elijah Mitchell</td><td>7.3</td><td>FLEX</td><td>10.4</td><td>Allen Robinson II</td><td>Ethan</td></tr>
+              <tr id="row-nathanvsethan-d/st"><td>Nathan</td><td>Steelers D/ST</td><td>-1.0</td><td>D/ST</td><td>19.0</td><td>Buccaneers D/ST</td><td>Ethan</td></tr>
+              <tr id="row-nathanvsethan-k"><td>Nathan</td><td>Brandon McManus</td><td>13.0</td><td>K</td><td>5.0</td><td>Younghoe Koo</td><td>Ethan</td></tr>
+              <tr id="row-noahvsdante-qb"><td>Noah</td><td>Patrick Mahomes</td><td>24.02</td><td>QB</td><td>21.8</td><td>Jalen Hurts</td><td>Dante</td></tr>
+              <tr id="row-noahvsdante-rb1"><td>Noah</td><td>Darrell Henderson Jr.</td><td>17.2</td><td>RB1</td><td>17.7</td><td>Ezekiel Elliott</td><td>Dante</td></tr>
+              <tr id="row-noahvsdante-rb2"><td>Noah</td><td>Melvin Gordon III</td><td>8.9</td><td>RB2</td><td>7.0</td><td>Alvin Kamara</td><td>Dante</td></tr>
+              <tr id="row-noahvsdante-wr1"><td>Noah</td><td>Tee Higgins</td><td>16.0</td><td>WR1</td><td>19.5</td><td>Diontae Johnson</td><td>Dante</td></tr>
+              <tr id="row-noahvsdante-wr2"><td>Noah</td><td>Tyreek Hill</td><td>5.9</td><td>WR2</td><td>19.3</td><td>Calvin Ridley</td><td>Dante</td></tr>
+              <tr id="row-noahvsdante-te"><td>Noah</td><td>Darren Waller</td><td>11.5</td><td>TE</td><td>12.3</td><td>Kyle Pitts</td><td>Dante</td></tr>
+              <tr id="row-noahvsdante-flex"><td>Noah</td><td>Kareem Hunt</td><td>6.3</td><td>FLEX</td><td>1.9</td><td>Jarvis Landry</td><td>Dante</td></tr>
+              <tr id="row-noahvsdante-d/st"><td>Noah</td><td>Patriots D/ST</td><td>16.0</td><td>D/ST</td><td>2.0</td><td>Commanders D/ST</td><td>Dante</td></tr>
+              <tr id="row-noahvsdante-k"><td>Noah</td><td>Jason Myers</td><td>6.0</td><td>K</td><td>9.0</td><td>Matt Gay</td><td>Dante</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
       <div class="content-container stats">
         <h2>Weekly Recap:</h2>
         <ul>
@@ -204,7 +252,7 @@
           <li>Largest Blowout: Andrew -- 193.8-127.52</li>
           <li>Closest Game: Noah -- 111.82-110.5</li>
         </ul>
-      </div><br>
+      </div>
       <div class="content-container">
         <h2>Updated Standings</h2>
         <table id="standings-table">
@@ -221,109 +269,20 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Michael</td>
-              <td>2-0</td>
-              <td>1</td>
-              <td>289.86</td>
-              <td>236.34</td>
-              <td>144.93</td>
-              <td>26.76</td>
-              <td>0</td>
-            </tr>
-            <tr>
-              <td>Noah</td>
-              <td>2-0</td>
-              <td>2</td>
-              <td>266.6</td>
-              <td>225.1</td>
-              <td>133.3</td>
-              <td>20.75</td>
-              <td>3</td>
-            </tr>
-            <tr>
-              <td>Nathan</td>
-              <td>2-0</td>
-              <td>3</td>
-              <td>259.0</td>
-              <td>225.82</td>
-              <td>129.5</td>
-              <td>16.59</td>
-              <td>1</td>
-            </tr>
-            <tr>
-              <td>Haris</td>
-              <td>1-1</td>
-              <td>4</td>
-              <td>286.1</td>
-              <td>213.54</td>
-              <td>143.05</td>
-              <td>36.28</td>
-              <td>2</td>
-            </tr>
-            <tr>
-              <td>Carter</td>
-              <td>1-1</td>
-              <td>5</td>
-              <td>272.52</td>
-              <td>275.7</td>
-              <td>136.26</td>
-              <td>-1.59</td>
-              <td>-1</td>
-            </tr>
-            <tr>
-              <td>McGwire</td>
-              <td>1-1</td>
-              <td>6</td>
-              <td>255.58</td>
-              <td>287.52</td>
-              <td>127.79</td>
-              <td>-15.97</td>
-              <td>-2</td>
-            </tr>
-            <tr>
-              <td>Andrew</td>
-              <td>1-1</td>
-              <td>7</td>
-              <td>249.42</td>
-              <td>292.7</td>
-              <td>124.71</td>
-              <td>-21.64</td>
-              <td>-2</td>
-            </tr>
-            <tr>
-              <td>Dante</td>
-              <td>0-2</td>
-              <td>8</td>
-              <td>233.78</td>
-              <td>271.38</td>
-              <td>116.89</td>
-              <td>-18.8</td>
-              <td>-2</td>
-            </tr>
-            <tr>
-              <td>Zach</td>
-              <td>0-2</td>
-              <td>9</td>
-              <td>222.0</td>
-              <td>258.86</td>
-              <td>111.0</td>
-              <td>-18.43</td>
-              <td>0</td>
-            </tr>
-            <tr>
-              <td>Ethan</td>
-              <td>0-2</td>
-              <td>10</td>
-              <td>210.6</td>
-              <td>258.5</td>
-              <td>105.3</td>
-              <td>-23.95</td>
-              <td>0</td>
-            </tr>
+            <tr><td>Michael</td><td>2-0</td><td>1</td><td>289.86</td><td>236.34</td><td>144.93</td><td>26.76</td><td>0</td></tr>
+            <tr><td>Noah</td><td>2-0</td><td>2</td><td>266.6</td><td>225.1</td><td>133.3</td><td>20.75</td><td>3</td></tr>
+            <tr><td>Nathan</td><td>2-0</td><td>3</td><td>259.0</td><td>225.82</td><td>129.5</td><td>16.59</td><td>1</td></tr>
+            <tr><td>Haris</td><td>1-1</td><td>4</td><td>286.1</td><td>213.54</td><td>143.05</td><td>36.28</td><td>2</td></tr>
+            <tr><td>Carter</td><td>1-1</td><td>5</td><td>272.52</td><td>275.7</td><td>136.26</td><td>-1.59</td><td>-1</td></tr>
+            <tr><td>McGwire</td><td>1-1</td><td>6</td><td>255.58</td><td>287.52</td><td>127.79</td><td>-15.97</td><td>-2</td></tr>
+            <tr><td>Andrew</td><td>1-1</td><td>7</td><td>249.42</td><td>292.7</td><td>124.71</td><td>-21.64</td><td>-2</td></tr>
+            <tr><td>Dante</td><td>0-2</td><td>8</td><td>233.78</td><td>271.38</td><td>116.89</td><td>-18.8</td><td>-2</td></tr>
+            <tr><td>Zach</td><td>0-2</td><td>9</td><td>222.0</td><td>258.86</td><td>111.0</td><td>-18.43</td><td>0</td></tr>
+            <tr><td>Ethan</td><td>0-2</td><td>10</td><td>210.6</td><td>258.5</td><td>105.3</td><td>-23.95</td><td>0</td></tr>
           </tbody>
         </table>
       </div>
     </div>
+    <script src="/fantasy-football-website/script.js"></script>
   </body>
 </html>
