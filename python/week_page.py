@@ -39,6 +39,18 @@ def week_content(year: int, week: int) -> div:
     # scoreboard_table['id'] = 'scoreboard-table'
     # scoreboard_div.add([scoreboard_title, scoreboard_table])
 
+    lineup_data = constants.PLAYER_MATCHUP_DATA.loc[(constants.PLAYER_MATCHUP_DATA['Year'] == year) & (constants.PLAYER_MATCHUP_DATA['Week'] == week)].copy()
+    lineup_data.index = ('row-' + lineup_data['Home Team'].astype(str) + 'vs' + lineup_data['Away Team'].astype(str) + '-' + lineup_data['Position'].astype(str)).str.lower()
+    lineup_data['Matchup Lookup'] = lineup_data['Home Team'].astype(str) + 'vs' + lineup_data['Away Team'].astype(str)
+    lineup_table = functions.df_to_table(lineup_data[['Home Team','Home Player','Home Player Points','Position','Away Player Points','Away Player','Away Team']], index_to_id=True, table_id='lineup-table')
+    lineup_div = functions.content_container(title='Lineups', content=lineup_table)
+
+    lineup_title = lineup_div.get(h2)[0]
+    lineup_select = select([option(teams.split('vs')[0] + ' vs ' + teams.split('vs')[1], value=teams.lower()) for teams in lineup_data['Matchup Lookup'].unique()],
+                          _id='lineup-filter',
+                          onchange="tableFilter('lineup-filter', 'lineup-table')")
+    lineup_title.add(lineup_select)
+
     # Create the weekly recap stats section
     # This temp df needs to look at only the current week
     temp = constants.GAME_DATA.loc[(constants.GAME_DATA['Year'] == year) & (constants.GAME_DATA['Week'] == week)].copy()
@@ -72,9 +84,8 @@ def week_content(year: int, week: int) -> div:
 
     container.add(title)
     container.add(scoreboard_div)
-    container.add(br())
+    container.add(lineup_div)
     container.add(stats_div)
-    container.add(br())
     container.add(standings_div)
 
     return container
@@ -93,6 +104,7 @@ def week_pages():
             doc.add(page_header.page_header(active_year=year))
 
             doc.add(week_content(year=year, week=week))
+            doc.add(script(src=f'{constants.ROOT}script.js'))
 
             with open(f'seasons/{year}/week-{week}.html','w') as file:
                 file.write(doc.render())

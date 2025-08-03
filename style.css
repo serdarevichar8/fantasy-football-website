@@ -163,7 +163,7 @@ body div {
 
 .content-container h2 select {
     float: right;
-    width: 150px;
+    width: 200px;
     padding: 5px;
     background-color: hsl(0, 0%, 90%);
     font-weight: bold;

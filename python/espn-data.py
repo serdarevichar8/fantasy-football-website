@@ -427,6 +427,74 @@ def database_views() -> None:
     '''
     c.execute(draft_view)
 
+    c.execute('DROP VIEW IF EXISTS player_matchup_data')
+    player_matchup_view = '''
+        CREATE VIEW player_matchup_data AS
+            WITH
+                pg AS (
+                    SELECT
+                        pg.matchup_id,
+                        pg.team_id,
+                        t.team_name,
+                        p.player_name,
+                        pg.points,
+                        CASE    WHEN pg.slot_position IN ('RB','WR') THEN pg.slot_position || ROW_NUMBER() OVER (PARTITION BY pg.game_id, pg.slot_position ORDER BY pg.points DESC)
+                                WHEN pg.slot_position = 'RB/WR/TE' THEN 'FLEX'
+                                ELSE pg.slot_position
+                        END AS slot_position,
+                        CASE    WHEN pg.slot_position = 'QB' THEN 1
+                                WHEN pg.slot_position = 'RB' THEN 2
+                                WHEN pg.slot_position = 'WR' THEN 4
+                                WHEN pg.slot_position = 'TE' THEN 6
+                                WHEN pg.slot_position = 'RB/WR/TE' THEN 7
+                                WHEN pg.slot_position = 'D/ST' THEN 8
+                                WHEN pg.slot_position = 'K' THEN 9
+                        END AS position_sort
+                            
+                    FROM player_games AS pg
+                    
+                    LEFT JOIN players AS p
+                    ON p.player_id = pg.player_id
+                    
+                    LEFT JOIN teams AS t
+                    ON t.team_id = pg.team_id
+                    
+                    WHERE
+                        pg.slot_position <> 'BE'
+                )
+
+            SELECT
+                m.year AS "Year",
+                m.week AS "Week",
+                pg.team_name AS "Home Team",
+                pg.player_name AS "Home Player",
+                pg.points AS "Home Player Points",
+                pg.slot_position AS "Position",
+                pg2.points AS "Away Player Points",
+                pg2.player_name AS "Away Player",
+                pg2.team_name AS "Away Team"
+                    
+            FROM matchups AS m
+
+            LEFT JOIN pg
+            ON pg.matchup_id = m.matchup_id AND pg.team_id = m.home_team_id
+
+            LEFT JOIN pg AS pg2
+            ON pg2.matchup_id = m.matchup_id AND pg2.team_id = m.away_team_id AND pg2.slot_position = pg.slot_position
+
+            WHERE
+                m.matchup_type IN ('NONE','WINNERS_BRACKET')
+                AND pg.slot_position <> 'BE'
+                    
+            ORDER BY
+                m.year,
+                m.week,
+                pg.team_name,
+                pg.position_sort,
+                pg.points DESC
+    '''
+    c.execute(player_matchup_view)
+
     conn.commit()
     conn.close()
 
@@ -438,6 +506,7 @@ def write_csvs() -> None:
     pd.read_sql('SELECT * FROM matchup_data', con=conn).to_csv('database/fantasy-football-matchup-data.csv', index=False)
     pd.read_sql('SELECT * FROM teams', con=conn).to_csv('database/fantasy-football-team-data.csv', index=False)
     pd.read_sql('SELECT * FROM draft_data', con=conn).to_csv('database/fantasy-football-draft-data.csv', index=False)
+    pd.read_sql('SELECT * FROM player_matchup_data', con=conn).to_csv('database/fantasy-football-player-matchup-data.csv', index=False)
 
     conn.commit()
     conn.close()

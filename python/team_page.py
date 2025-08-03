@@ -12,7 +12,7 @@ def team_content(team: str, build_figure: bool = False) -> div:
     seasons_df = pd.concat(seasons)
     seasons_df = seasons_df.loc[seasons_df['Team'] == team].drop('Team', axis = 1)
 
-    summary_div = functions.content_container(title='Team Summary', content=functions.df_to_table(data=seasons_df), _id='team-summary-table')
+    summary_div = functions.content_container(title='Team Summary', content=functions.df_to_table(data=seasons_df, table_id='team-summary-table'))
 
     # summary_div = div(_class='content-container')
     # summary_title = h2('Team Summary')
@@ -35,8 +35,19 @@ def team_content(team: str, build_figure: bool = False) -> div:
     # line_chart_img = img(src = f'{constants.ROOT}Assets/Luck-Score-Year-{team}.svg')
     # line_chart_div.add([line_chart_title, line_chart_img])
     
+    draft_data = constants.DRAFT_DATA.loc[constants.DRAFT_DATA['Team'] == team].copy()
+    draft_data.index = ('row-' + draft_data['Year'].astype(str) + '-' + draft_data['Round'].astype(str) + '-' + draft_data['Pick'].astype(str)).str.lower()
+    draft_div = functions.content_container(title='League Draft', content=functions.df_to_table(draft_data, index_to_id=True, table_id='league-draft-table'))
+
+    draft_title = draft_div.get(h2)[0]
+    draft_select = select([option(year, value=year) for year in draft_data['Year'].unique()],
+                          _id='draft-filter',
+                          onchange="tableFilter('draft-filter', 'league-draft-table')")
+    draft_title.add(draft_select)
+
     container.add(summary_div)
     container.add(line_chart_div)
+    container.add(draft_div)
 
     return container
 
@@ -46,6 +57,7 @@ def team_pages(build_figure: bool = False):
         doc.add(page_header.page_header(active_year='team'))
 
         doc.add(team_content(team=team, build_figure=build_figure))
+        doc.add(script(src=f'{constants.ROOT}script.js'))
 
         with open(f'teams/{team}.html','w') as file:
             file.write(doc.render())

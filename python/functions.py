@@ -3,7 +3,7 @@ import numpy as np
 import dominate
 from dominate.tags import *
 
-def df_to_table(data: pd.DataFrame, index_to_id: bool = False) -> table:
+def df_to_table(data: pd.DataFrame, index_to_id: bool = False, table_id: str = None) -> table:
     t = table()
     head = thead()
     body = tbody()
@@ -23,6 +23,8 @@ def df_to_table(data: pd.DataFrame, index_to_id: bool = False) -> table:
 
     t.add(head)
     t.add(body)
+    if table_id:
+        t['id'] = table_id
 
     if len(data) > 20:
         scroll_div = div(_class='scroll-table')

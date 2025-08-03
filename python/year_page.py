@@ -86,8 +86,8 @@ def year_content(year: int, build_figure: bool = False) -> div:
 
     draft_title = draft_div.get(h2)[0]
     draft_select = select([option('All', value='all')] + [option(team, value=team.lower()) for team in draft_data['Team'].unique()],
-                          _id='draft-team-filter',
-                          onchange='draftTeamFilter()')
+                          _id='draft-filter',
+                          onchange="tableFilter('draft-filter', 'league-draft-table')")
     draft_title.add(draft_select)
 
     container.add(summary_div)
