@@ -3,23 +3,64 @@ import numpy as np
 import dominate
 from dominate.tags import *
 
-def df_to_table(data: pd.DataFrame, index_to_id: bool = False, table_id: str = None) -> table:
+def df_to_table(
+        data: pd.DataFrame,
+        custom_columns: list[str] = None,
+        row_id_columns: list[str] = None,
+        table_id: str = None
+) -> table:
+    '''
+    Function which converts a pandas DataFrame into an HTML table with optional styling.
+
+    If dataframe is longer than 20 rows, table will be wrapped in a "scroll-table" div.
+
+    Parameters
+    ----------
+    data : pd.DataFrame
+        Dataframe to be converted.
+
+    custom_columns : list[str], default None
+        Columns to be displayed in the HTML table. If set to None, all columns in DataFrame will be used.
+
+    row_id_columns : list[str], default None
+        ID to be assigned to each tr tag in the tbody.
+        Accepts a list of columns, will concatenate them starting with 'row' and separating with '-'.
+        If set to None, no IDs will be assigned.
+
+    table_id : str[str], default None
+        ID to be assigned to the main table tag. If set to None, no ID will be given.
+
+    Returns
+    -------
+    dominate.table or dominate.div
+        Return a dominate HTML object. Can be either a table or div
+    '''
     t = table()
     head = thead()
     body = tbody()
 
+    records = data.to_dict('records')
+
+    columns = data.columns
+    if custom_columns:
+        columns = custom_columns
+
     column_row = tr()
-    for column in data.columns:
-        column_row.add(th(column))
+    for column in columns:
+        column_row.add(th(column, _class=str(column).lower().replace(' ','-')))
     head.add(column_row)
     
-    for label, row in zip(data.index, data.values):
-        r = tr(__pretty=False)
-        if index_to_id:
-            r['id'] = label
-        for value in row:
-            r.add(td(value))
-        body.add(r)
+    for record in records:
+        data_row = tr(__pretty=False)
+        if row_id_columns:
+            row_id = 'row'
+            for column in row_id_columns:
+                row_id += ('-' + str(record[column]).lower())
+            data_row['id'] = row_id
+
+        for column in columns:
+            data_row.add(td(record[column], _class=str(column).lower().replace(' ','-')))
+        body.add(data_row)
 
     t.add(head)
     t.add(body)
