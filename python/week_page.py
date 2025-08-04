@@ -31,19 +31,26 @@ def week_content(year: int, week: int) -> div:
 
     # Create scoreboard table of the matchups that week
     scoreboard = constants.MATCHUP_DATA.loc[(constants.MATCHUP_DATA['Year'] == year) & (constants.MATCHUP_DATA['Week'] == week), ['Home Team','Home Score','Away Score','Away Team']].copy()    
-    scoreboard_div = functions.content_container(title='Weekly Scoreboard', content=functions.df_to_table(data=scoreboard), _id='scoreboard-table')
-    
-    # scoreboard_div = div(_class='content-container')
-    # scoreboard_title = h2('Weekly Scoreboard')
-    # scoreboard_table = functions.df_to_table(data=scoreboard)
-    # scoreboard_table['id'] = 'scoreboard-table'
-    # scoreboard_div.add([scoreboard_title, scoreboard_table])
+    scoreboard_div = functions.content_container(
+        title='Weekly Scoreboard',
+        content=functions.df_to_table(
+            data=scoreboard,
+            table_id='scoreboard-table'
+        )
+    )
 
     lineup_data = constants.PLAYER_MATCHUP_DATA.loc[(constants.PLAYER_MATCHUP_DATA['Year'] == year) & (constants.PLAYER_MATCHUP_DATA['Week'] == week)].copy()
-    lineup_data.index = ('row-' + lineup_data['Home Team'].astype(str) + 'vs' + lineup_data['Away Team'].astype(str) + '-' + lineup_data['Position'].astype(str)).str.lower()
     lineup_data['Matchup Lookup'] = lineup_data['Home Team'].astype(str) + 'vs' + lineup_data['Away Team'].astype(str)
-    lineup_table = functions.df_to_table(lineup_data[['Home Team','Home Player','Home Player Points','Position','Away Player Points','Away Player','Away Team']], index_to_id=True, table_id='lineup-table')
-    lineup_div = functions.content_container(title='Lineups', content=lineup_table)
+    lineup_table = functions.df_to_table(
+        data=lineup_data,
+        custom_columns=['Home Team','Home Player','Home Player Points','Position','Away Player Points','Away Player','Away Team'],
+        row_id_columns=['Matchup Lookup','Position'],
+        table_id='lineup-table'
+    )
+    lineup_div = functions.content_container(
+        title='Lineups',
+        content=lineup_table
+    )
 
     lineup_title = lineup_div.get(h2)[0]
     lineup_select = select([option(teams.split('vs')[0] + ' vs ' + teams.split('vs')[1], value=teams.lower()) for teams in lineup_data['Matchup Lookup'].unique()],
@@ -72,15 +79,15 @@ def week_content(year: int, week: int) -> div:
 
     # Create the live standings table
     standings = functions.summary_table(constants.GAME_DATA, year = year, week = week)
-    standings = standings.drop('Year', axis = 1)
-
-    standings_div = functions.content_container(title='Updated Standings', content=functions.df_to_table(data=standings), _id='standings-table')
-
-    # standings_div = div(_class='content-container')
-    # standings_title = h2('Updated Standings')
-    # standings_table = functions.df_to_table(data=standings)
-    # standings_table['id'] = 'standings-table'
-    # standings_div.add([standings_title, standings_table])
+    standings_table = functions.df_to_table(
+        data=standings,
+        custom_columns=['Team','Record','Ranking','Points For','Points Against','Avg Points For','Avg Margin','Luck Score'],
+        table_id='standings-table'
+    )
+    standings_div = functions.content_container(
+        title='Updated Standings',
+        content=standings_table,
+    )
 
     container.add(title)
     container.add(scoreboard_div)
