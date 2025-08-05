@@ -39,14 +39,10 @@ def team_content(team: str, build_figure: bool = False) -> div:
     )
     draft_div = functions.content_container(
         title='League Draft',
-        content=draft_table
+        content=draft_table,
+        filter_id='draft-filter',
+        filter_column=draft_data['Year']
     )
-
-    draft_title = draft_div.get(h2)[0]
-    draft_select = select([option(year, value=year) for year in draft_data['Year'].unique()],
-                          _id='draft-filter',
-                          onchange="tableFilter('draft-filter', 'league-draft-table')")
-    draft_title.add(draft_select)
 
     container.add(summary_div)
     container.add(line_chart_div)
