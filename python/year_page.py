@@ -68,7 +68,7 @@ def year_content(year: int, build_figure: bool = False) -> div:
 
     bracket.add(rounds)
 
-    bracket_div = functions.content_container(title='Playoff Bracket', content=bracket, _id='')
+    bracket_div = functions.content_container(title='Playoff Bracket', content=bracket)
 
     draft_data = constants.DRAFT_DATA.loc[constants.DRAFT_DATA['Year'] == year].copy()
     draft_table = functions.df_to_table(
@@ -78,14 +78,11 @@ def year_content(year: int, build_figure: bool = False) -> div:
     )
     draft_div = functions.content_container(
         title='League Draft',
-        content=draft_table
+        content=draft_table,
+        filter_id='draft-filter',
+        filter_column=draft_data['Team'],
+        filter_showall=True
     )
-
-    draft_title = draft_div.get(h2)[0]
-    draft_select = select([option('All', value='all')] + [option(team, value=team.lower()) for team in draft_data['Team'].unique()],
-                          _id='draft-filter',
-                          onchange="tableFilter('draft-filter', 'league-draft-table')")
-    draft_title.add(draft_select)
 
     container.add(summary_div)
     container.add(scatter_div)
