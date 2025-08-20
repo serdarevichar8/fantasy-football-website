@@ -87,22 +87,23 @@ def week_content(year: int, week: int) -> div:
 
     container.add(title)
     container.add(scoreboard_div)
-    container.add(lineup_div)
+    if year > 2018:
+        container.add(lineup_div)
     container.add(stats_div)
     container.add(standings_div)
 
     return container
 
 def week_pages():
-    years = np.arange(2019, 2025)
+    # years = np.arange(2019, 2025)
 
-    for year in years:
-        if year < 2021:
-            weeks = np.arange(1,14)
-        else:
-            weeks = np.arange(1,15)
+    for year, weeks in constants.YEARS_WEEKS:
+        # if year < 2021:
+        #     weeks = np.arange(1,14)
+        # else:
+        #     weeks = np.arange(1,15)
 
-        for week in weeks:
+        for week in range(1, weeks+1):
             doc = document.document()
             doc.add(page_header.page_header(active_year=year))
 

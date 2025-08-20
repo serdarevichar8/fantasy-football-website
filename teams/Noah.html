@@ -14,6 +14,24 @@
           <a href="/fantasy-football-website/">Home</a>
         </div>
         <div class="dropdown">
+          <a class="dropdown-button" href="/fantasy-football-website/seasons/2018/">2018</a>
+          <div class="dropdown-content">
+            <a href="/fantasy-football-website/seasons/2018/week-1.html">Week 1</a>
+            <a href="/fantasy-football-website/seasons/2018/week-2.html">Week 2</a>
+            <a href="/fantasy-football-website/seasons/2018/week-3.html">Week 3</a>
+            <a href="/fantasy-football-website/seasons/2018/week-4.html">Week 4</a>
+            <a href="/fantasy-football-website/seasons/2018/week-5.html">Week 5</a>
+            <a href="/fantasy-football-website/seasons/2018/week-6.html">Week 6</a>
+            <a href="/fantasy-football-website/seasons/2018/week-7.html">Week 7</a>
+            <a href="/fantasy-football-website/seasons/2018/week-8.html">Week 8</a>
+            <a href="/fantasy-football-website/seasons/2018/week-9.html">Week 9</a>
+            <a href="/fantasy-football-website/seasons/2018/week-10.html">Week 10</a>
+            <a href="/fantasy-football-website/seasons/2018/week-11.html">Week 11</a>
+            <a href="/fantasy-football-website/seasons/2018/week-12.html">Week 12</a>
+            <a href="/fantasy-football-website/seasons/2018/week-13.html">Week 13</a>
+          </div>
+        </div>
+        <div class="dropdown">
           <a class="dropdown-button" href="/fantasy-football-website/seasons/2019/">2019</a>
           <div class="dropdown-content">
             <a href="/fantasy-football-website/seasons/2019/week-1.html">Week 1</a>
@@ -128,19 +146,20 @@
         <div class="dropdown active">
           <a class="dropdown-button" href="/fantasy-football-website/teams/">Teams</a>
           <div class="dropdown-content">
-            <a href="/fantasy-football-website/teams/Andrew.html">Andrew</a>
-            <a href="/fantasy-football-website/teams/Nathan.html">Nathan</a>
-            <a href="/fantasy-football-website/teams/Zach.html">Zach</a>
-            <a href="/fantasy-football-website/teams/Kevin.html">Kevin</a>
             <a href="/fantasy-football-website/teams/Noah.html">Noah</a>
-            <a href="/fantasy-football-website/teams/Michael.html">Michael</a>
-            <a href="/fantasy-football-website/teams/Ethan.html">Ethan</a>
+            <a href="/fantasy-football-website/teams/Nathan.html">Nathan</a>
+            <a href="/fantasy-football-website/teams/McGwire.html">McGwire</a>
             <a href="/fantasy-football-website/teams/Dante.html">Dante</a>
-            <a href="/fantasy-football-website/teams/Justin.html">Justin</a>
+            <a href="/fantasy-football-website/teams/Haris.html">Haris</a>
+            <a href="/fantasy-football-website/teams/Michael.html">Michael</a>
+            <a href="/fantasy-football-website/teams/Jackson.html">Jackson</a>
             <a href="/fantasy-football-website/teams/Klapp.html">Klapp</a>
             <a href="/fantasy-football-website/teams/Carter.html">Carter</a>
-            <a href="/fantasy-football-website/teams/Haris.html">Haris</a>
-            <a href="/fantasy-football-website/teams/McGwire.html">McGwire</a>
+            <a href="/fantasy-football-website/teams/Zach.html">Zach</a>
+            <a href="/fantasy-football-website/teams/Ethan.html">Ethan</a>
+            <a href="/fantasy-football-website/teams/Andrew.html">Andrew</a>
+            <a href="/fantasy-football-website/teams/Justin.html">Justin</a>
+            <a href="/fantasy-football-website/teams/Kevin.html">Kevin</a>
             <a href="/fantasy-football-website/teams/Tyler.html">Tyler</a>
           </div>
         </div>
@@ -167,6 +186,7 @@
             </tr>
           </thead>
           <tbody>
+            <tr><td class="year">2018</td><td class="record">5-8</td><td class="ranking">8</td><td class="points-for">1337.64</td><td class="points-against">1398.02</td><td class="avg-points-for">102.9</td><td class="avg-margin">-4.64</td><td class="luck-score">-9</td></tr>
             <tr><td class="year">2019</td><td class="record">8-5</td><td class="ranking">3</td><td class="points-for">1605.84</td><td class="points-against">1503.74</td><td class="avg-points-for">123.53</td><td class="avg-margin">7.85</td><td class="luck-score">1</td></tr>
             <tr><td class="year">2020</td><td class="record">7-6</td><td class="ranking">4</td><td class="points-for">1822.8</td><td class="points-against">1670.78</td><td class="avg-points-for">140.22</td><td class="avg-margin">11.69</td><td class="luck-score">-9</td></tr>
             <tr><td class="year">2021</td><td class="record">7-7</td><td class="ranking">6</td><td class="points-for">1636.56</td><td class="points-against">1692.06</td><td class="avg-points-for">116.9</td><td class="avg-margin">-3.96</td><td class="luck-score">1</td></tr>
@@ -183,6 +203,7 @@
       <div class="content-container">
         <h2>League Draft
           <select id="draft-filter" onchange="tableFilter('draft-filter', 'league-draft-table')">
+            <option value="2018">2018</option>
             <option value="2019">2019</option>
             <option value="2020">2020</option>
             <option value="2021">2021</option>
@@ -204,6 +225,22 @@
               </tr>
             </thead>
             <tbody>
+              <tr id="row-2018-1-5"><td class="year">2018</td><td class="team">Noah</td><td class="player">Dalvin Cook</td><td class="round">1</td><td class="pick">5</td><td class="overall-pick">5</td></tr>
+              <tr id="row-2018-3-2"><td class="year">2018</td><td class="team">Noah</td><td class="player">Keenan Allen</td><td class="round">3</td><td class="pick">2</td><td class="overall-pick">22</td></tr>
+              <tr id="row-2018-3-5"><td class="year">2018</td><td class="team">Noah</td><td class="player">Devonta Freeman</td><td class="round">3</td><td class="pick">5</td><td class="overall-pick">25</td></tr>
+              <tr id="row-2018-5-7"><td class="year">2018</td><td class="team">Noah</td><td class="player">Rams D/ST</td><td class="round">5</td><td class="pick">7</td><td class="overall-pick">47</td></tr>
+              <tr id="row-2018-6-2"><td class="year">2018</td><td class="team">Noah</td><td class="player">Travis Kelce</td><td class="round">6</td><td class="pick">2</td><td class="overall-pick">52</td></tr>
+              <tr id="row-2018-6-5"><td class="year">2018</td><td class="team">Noah</td><td class="player">T.Y. Hilton</td><td class="round">6</td><td class="pick">5</td><td class="overall-pick">55</td></tr>
+              <tr id="row-2018-8-4"><td class="year">2018</td><td class="team">Noah</td><td class="player">Mark Ingram II</td><td class="round">8</td><td class="pick">4</td><td class="overall-pick">74</td></tr>
+              <tr id="row-2018-8-8"><td class="year">2018</td><td class="team">Noah</td><td class="player">Jay Ajayi</td><td class="round">8</td><td class="pick">8</td><td class="overall-pick">78</td></tr>
+              <tr id="row-2018-11-1"><td class="year">2018</td><td class="team">Noah</td><td class="player">Marqise Lee</td><td class="round">11</td><td class="pick">1</td><td class="overall-pick">101</td></tr>
+              <tr id="row-2018-11-3"><td class="year">2018</td><td class="team">Noah</td><td class="player">Tevin Coleman</td><td class="round">11</td><td class="pick">3</td><td class="overall-pick">103</td></tr>
+              <tr id="row-2018-12-5"><td class="year">2018</td><td class="team">Noah</td><td class="player">Kirk Cousins</td><td class="round">12</td><td class="pick">5</td><td class="overall-pick">115</td></tr>
+              <tr id="row-2018-12-7"><td class="year">2018</td><td class="team">Noah</td><td class="player">Andrew Luck</td><td class="round">12</td><td class="pick">7</td><td class="overall-pick">117</td></tr>
+              <tr id="row-2018-13-6"><td class="year">2018</td><td class="team">Noah</td><td class="player">Sony Michel</td><td class="round">13</td><td class="pick">6</td><td class="overall-pick">126</td></tr>
+              <tr id="row-2018-14-3"><td class="year">2018</td><td class="team">Noah</td><td class="player">Matt Prater</td><td class="round">14</td><td class="pick">3</td><td class="overall-pick">133</td></tr>
+              <tr id="row-2018-14-7"><td class="year">2018</td><td class="team">Noah</td><td class="player">DeVante Parker</td><td class="round">14</td><td class="pick">7</td><td class="overall-pick">137</td></tr>
+              <tr id="row-2018-15-1"><td class="year">2018</td><td class="team">Noah</td><td class="player">Calvin Ridley</td><td class="round">15</td><td class="pick">1</td><td class="overall-pick">141</td></tr>
               <tr id="row-2019-1-5"><td class="year">2019</td><td class="team">Noah</td><td class="player">Alvin Kamara</td><td class="round">1</td><td class="pick">5</td><td class="overall-pick">5</td></tr>
               <tr id="row-2019-2-8"><td class="year">2019</td><td class="team">Noah</td><td class="player">Travis Kelce</td><td class="round">2</td><td class="pick">8</td><td class="overall-pick">20</td></tr>
               <tr id="row-2019-3-5"><td class="year">2019</td><td class="team">Noah</td><td class="player">Keenan Allen</td><td class="round">3</td><td class="pick">5</td><td class="overall-pick">29</td></tr>
