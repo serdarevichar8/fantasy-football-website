@@ -214,7 +214,7 @@ body div {
     box-shadow: none;
 }
 
-.round {
+#playoff-bracket .round {
     display:flex;
     flex-direction:column;
     justify-content:center;

@@ -14,6 +14,24 @@
           <a href="/fantasy-football-website/">Home</a>
         </div>
         <div class="dropdown">
+          <a class="dropdown-button" href="/fantasy-football-website/seasons/2018/">2018</a>
+          <div class="dropdown-content">
+            <a href="/fantasy-football-website/seasons/2018/week-1.html">Week 1</a>
+            <a href="/fantasy-football-website/seasons/2018/week-2.html">Week 2</a>
+            <a href="/fantasy-football-website/seasons/2018/week-3.html">Week 3</a>
+            <a href="/fantasy-football-website/seasons/2018/week-4.html">Week 4</a>
+            <a href="/fantasy-football-website/seasons/2018/week-5.html">Week 5</a>
+            <a href="/fantasy-football-website/seasons/2018/week-6.html">Week 6</a>
+            <a href="/fantasy-football-website/seasons/2018/week-7.html">Week 7</a>
+            <a href="/fantasy-football-website/seasons/2018/week-8.html">Week 8</a>
+            <a href="/fantasy-football-website/seasons/2018/week-9.html">Week 9</a>
+            <a href="/fantasy-football-website/seasons/2018/week-10.html">Week 10</a>
+            <a href="/fantasy-football-website/seasons/2018/week-11.html">Week 11</a>
+            <a href="/fantasy-football-website/seasons/2018/week-12.html">Week 12</a>
+            <a href="/fantasy-football-website/seasons/2018/week-13.html">Week 13</a>
+          </div>
+        </div>
+        <div class="dropdown">
           <a class="dropdown-button" href="/fantasy-football-website/seasons/2019/">2019</a>
           <div class="dropdown-content">
             <a href="/fantasy-football-website/seasons/2019/week-1.html">Week 1</a>
@@ -128,19 +146,20 @@
         <div class="dropdown">
           <a class="dropdown-button" href="/fantasy-football-website/teams/">Teams</a>
           <div class="dropdown-content">
-            <a href="/fantasy-football-website/teams/Andrew.html">Andrew</a>
-            <a href="/fantasy-football-website/teams/Nathan.html">Nathan</a>
-            <a href="/fantasy-football-website/teams/Zach.html">Zach</a>
-            <a href="/fantasy-football-website/teams/Kevin.html">Kevin</a>
             <a href="/fantasy-football-website/teams/Noah.html">Noah</a>
-            <a href="/fantasy-football-website/teams/Michael.html">Michael</a>
-            <a href="/fantasy-football-website/teams/Ethan.html">Ethan</a>
+            <a href="/fantasy-football-website/teams/Nathan.html">Nathan</a>
+            <a href="/fantasy-football-website/teams/McGwire.html">McGwire</a>
             <a href="/fantasy-football-website/teams/Dante.html">Dante</a>
-            <a href="/fantasy-football-website/teams/Justin.html">Justin</a>
+            <a href="/fantasy-football-website/teams/Haris.html">Haris</a>
+            <a href="/fantasy-football-website/teams/Michael.html">Michael</a>
+            <a href="/fantasy-football-website/teams/Jackson.html">Jackson</a>
             <a href="/fantasy-football-website/teams/Klapp.html">Klapp</a>
             <a href="/fantasy-football-website/teams/Carter.html">Carter</a>
-            <a href="/fantasy-football-website/teams/Haris.html">Haris</a>
-            <a href="/fantasy-football-website/teams/McGwire.html">McGwire</a>
+            <a href="/fantasy-football-website/teams/Zach.html">Zach</a>
+            <a href="/fantasy-football-website/teams/Ethan.html">Ethan</a>
+            <a href="/fantasy-football-website/teams/Andrew.html">Andrew</a>
+            <a href="/fantasy-football-website/teams/Justin.html">Justin</a>
+            <a href="/fantasy-football-website/teams/Kevin.html">Kevin</a>
             <a href="/fantasy-football-website/teams/Tyler.html">Tyler</a>
           </div>
         </div>
@@ -156,19 +175,19 @@
         <table id="scoreboard-table">
           <thead>
             <tr>
-              <th>Home Team</th>
-              <th>Home Score</th>
-              <th>Away Score</th>
-              <th>Away Team</th>
+              <th class="home-team">Home Team</th>
+              <th class="home-score">Home Score</th>
+              <th class="away-score">Away Score</th>
+              <th class="away-team">Away Team</th>
             </tr>
           </thead>
           <tbody>
-            <tr><td>Kevin</td><td>127.24</td><td>113.96</td><td>Noah</td></tr>
-            <tr><td>Nathan</td><td>125.08</td><td>85.28</td><td>Tyler</td></tr>
-            <tr><td>McGwire</td><td>79.2</td><td>107.86</td><td>Michael</td></tr>
-            <tr><td>Zach</td><td>150.22</td><td>133.8</td><td>Haris</td></tr>
-            <tr><td>Carter</td><td>102.46</td><td>107.5</td><td>Ethan</td></tr>
-            <tr><td>Andrew</td><td>134.68</td><td>180.24</td><td>Dante</td></tr>
+            <tr><td class="home-team">Kevin</td><td class="home-score">127.24</td><td class="away-score">113.96</td><td class="away-team">Noah</td></tr>
+            <tr><td class="home-team">Nathan</td><td class="home-score">125.08</td><td class="away-score">85.28</td><td class="away-team">Tyler</td></tr>
+            <tr><td class="home-team">McGwire</td><td class="home-score">79.2</td><td class="away-score">107.86</td><td class="away-team">Michael</td></tr>
+            <tr><td class="home-team">Zach</td><td class="home-score">150.22</td><td class="away-score">133.8</td><td class="away-team">Haris</td></tr>
+            <tr><td class="home-team">Carter</td><td class="home-score">102.46</td><td class="away-score">107.5</td><td class="away-team">Ethan</td></tr>
+            <tr><td class="home-team">Andrew</td><td class="home-score">134.68</td><td class="away-score">180.24</td><td class="away-team">Dante</td></tr>
           </tbody>
         </table>
       </div>
@@ -187,69 +206,69 @@
           <table id="lineup-table">
             <thead>
               <tr>
-                <th>Home Team</th>
-                <th>Home Player</th>
-                <th>Home Player Points</th>
-                <th>Position</th>
-                <th>Away Player Points</th>
-                <th>Away Player</th>
-                <th>Away Team</th>
+                <th class="home-team">Home Team</th>
+                <th class="home-player">Home Player</th>
+                <th class="home-player-points">Home Player Points</th>
+                <th class="position">Position</th>
+                <th class="away-player-points">Away Player Points</th>
+                <th class="away-player">Away Player</th>
+                <th class="away-team">Away Team</th>
               </tr>
             </thead>
             <tbody>
-              <tr id="row-andrewvsdante-qb"><td>Andrew</td><td>Kyler Murray</td><td>22.88</td><td>QB</td><td>16.14</td><td>Aaron Rodgers</td><td>Dante</td></tr>
-              <tr id="row-andrewvsdante-rb1"><td>Andrew</td><td>Christian McCaffrey</td><td>25.8</td><td>RB1</td><td>23.9</td><td>Jamaal Williams</td><td>Dante</td></tr>
-              <tr id="row-andrewvsdante-rb2"><td>Andrew</td><td>Javonte Williams</td><td>3.7</td><td>RB2</td><td>18.2</td><td>Saquon Barkley</td><td>Dante</td></tr>
-              <tr id="row-andrewvsdante-wr1"><td>Andrew</td><td>Mike Evans</td><td>30.3</td><td>WR1</td><td>21.9</td><td>DK Metcalf</td><td>Dante</td></tr>
-              <tr id="row-andrewvsdante-wr2"><td>Andrew</td><td>Courtland Sutton</td><td>16.2</td><td>WR2</td><td>14.5</td><td>A.J. Brown</td><td>Dante</td></tr>
-              <tr id="row-andrewvsdante-te"><td>Andrew</td><td>Tyler Conklin</td><td>8.2</td><td>TE</td><td>39.9</td><td>T.J. Hockenson</td><td>Dante</td></tr>
-              <tr id="row-andrewvsdante-flex"><td>Andrew</td><td>Greg Dortch</td><td>1.6</td><td>FLEX</td><td>20.7</td><td>Nick Chubb</td><td>Dante</td></tr>
-              <tr id="row-andrewvsdante-d/st"><td>Andrew</td><td>Giants D/ST</td><td>15.0</td><td>D/ST</td><td>17.0</td><td>Eagles D/ST</td><td>Dante</td></tr>
-              <tr id="row-andrewvsdante-k"><td>Andrew</td><td>Tyler Bass</td><td>11.0</td><td>K</td><td>8.0</td><td>Ryan Succop</td><td>Dante</td></tr>
-              <tr id="row-cartervsethan-qb"><td>Carter</td><td>Patrick Mahomes</td><td>23.36</td><td>QB</td><td>2.4</td><td>Tua Tagovailoa</td><td>Ethan</td></tr>
-              <tr id="row-cartervsethan-rb1"><td>Carter</td><td>Cordarrelle Patterson</td><td>9.8</td><td>RB1</td><td>23.7</td><td>Derrick Henry</td><td>Ethan</td></tr>
-              <tr id="row-cartervsethan-rb2"><td>Carter</td><td>James Robinson</td><td>2.9</td><td>RB2</td><td>18.4</td><td>Leonard Fournette</td><td>Ethan</td></tr>
-              <tr id="row-cartervsethan-wr1"><td>Carter</td><td>Justin Jefferson</td><td>31.0</td><td>WR1</td><td>18.7</td><td>Brandin Cooks</td><td>Ethan</td></tr>
-              <tr id="row-cartervsethan-wr2"><td>Carter</td><td>Terry McLaurin</td><td>3.5</td><td>WR2</td><td>8.3</td><td>Christian Kirk</td><td>Ethan</td></tr>
-              <tr id="row-cartervsethan-te"><td>Carter</td><td>Dallas Goedert</td><td>12.2</td><td>TE</td><td>16.7</td><td>Zach Ertz</td><td>Ethan</td></tr>
-              <tr id="row-cartervsethan-flex"><td>Carter</td><td>DeVonta Smith</td><td>4.7</td><td>FLEX</td><td>2.3</td><td>Gabe Davis</td><td>Ethan</td></tr>
-              <tr id="row-cartervsethan-d/st"><td>Carter</td><td>Vikings D/ST</td><td>6.0</td><td>D/ST</td><td>8.0</td><td>Chargers D/ST</td><td>Ethan</td></tr>
-              <tr id="row-cartervsethan-k"><td>Carter</td><td>Matt Gay</td><td>9.0</td><td>K</td><td>9.0</td><td>Graham Gano</td><td>Ethan</td></tr>
-              <tr id="row-kevinvsnoah-qb"><td>Kevin</td><td>Kirk Cousins</td><td>12.92</td><td>QB</td><td>13.06</td><td>Lamar Jackson</td><td>Noah</td></tr>
-              <tr id="row-kevinvsnoah-rb1"><td>Kevin</td><td>Miles Sanders</td><td>29.6</td><td>RB1</td><td>11.6</td><td>Devin Singletary</td><td>Noah</td></tr>
-              <tr id="row-kevinvsnoah-rb2"><td>Kevin</td><td>J.K. Dobbins</td><td>22.3</td><td>RB2</td><td>11.1</td><td>Khalil Herbert</td><td>Noah</td></tr>
-              <tr id="row-kevinvsnoah-wr1"><td>Kevin</td><td>Davante Adams</td><td>19.5</td><td>WR1</td><td>25.9</td><td>Tyreek Hill</td><td>Noah</td></tr>
-              <tr id="row-kevinvsnoah-wr2"><td>Kevin</td><td>Michael Pittman Jr.</td><td>6.1</td><td>WR2</td><td>12.1</td><td>Ja'Marr Chase</td><td>Noah</td></tr>
-              <tr id="row-kevinvsnoah-te"><td>Kevin</td><td>Travis Kelce</td><td>24.2</td><td>TE</td><td>3.5</td><td>Kyle Pitts</td><td>Noah</td></tr>
-              <tr id="row-kevinvsnoah-flex"><td>Kevin</td><td>Tyler Boyd</td><td>7.62</td><td>FLEX</td><td>21.7</td><td>CeeDee Lamb</td><td>Noah</td></tr>
-              <tr id="row-kevinvsnoah-k"><td>Kevin</td><td>Robbie Gould</td><td>5.0</td><td>K</td><td>14.0</td><td>Daniel Carlson</td><td>Noah</td></tr>
-              <tr id="row-mcgwirevsmichael-qb"><td>McGwire</td><td>Tom Brady</td><td>25.4</td><td>QB</td><td>15.96</td><td>Jalen Hurts</td><td>Michael</td></tr>
-              <tr id="row-mcgwirevsmichael-rb1"><td>McGwire</td><td>Travis Etienne Jr.</td><td>3.2</td><td>RB1</td><td>10.1</td><td>Ezekiel Elliott</td><td>Michael</td></tr>
-              <tr id="row-mcgwirevsmichael-rb2"><td>McGwire</td><td>Alvin Kamara</td><td>0.0</td><td>RB2</td><td>3.3</td><td>Jonathan Taylor</td><td>Michael</td></tr>
-              <tr id="row-mcgwirevsmichael-wr1"><td>McGwire</td><td>Stefon Diggs</td><td>10.2</td><td>WR1</td><td>25.4</td><td>Tee Higgins</td><td>Michael</td></tr>
-              <tr id="row-mcgwirevsmichael-wr2"><td>McGwire</td><td>Diontae Johnson</td><td>4.2</td><td>WR2</td><td>20.8</td><td>Marquise Brown</td><td>Michael</td></tr>
-              <tr id="row-mcgwirevsmichael-te"><td>McGwire</td><td>Pat Freiermuth</td><td>15.5</td><td>TE</td><td>5.4</td><td>Darren Waller</td><td>Michael</td></tr>
-              <tr id="row-mcgwirevsmichael-flex"><td>McGwire</td><td>Rashod Bateman</td><td>4.7</td><td>FLEX</td><td>5.9</td><td>Jaylen Waddle</td><td>Michael</td></tr>
-              <tr id="row-mcgwirevsmichael-d/st"><td>McGwire</td><td>Steelers D/ST</td><td>5.0</td><td>D/ST</td><td>3.0</td><td>Browns D/ST</td><td>Michael</td></tr>
-              <tr id="row-mcgwirevsmichael-k"><td>McGwire</td><td>Justin Tucker</td><td>11.0</td><td>K</td><td>18.0</td><td>Greg Joseph</td><td>Michael</td></tr>
-              <tr id="row-nathanvstyler-qb"><td>Nathan</td><td>Joe Burrow</td><td>20.08</td><td>QB</td><td>27.48</td><td>Russell Wilson</td><td>Tyler</td></tr>
-              <tr id="row-nathanvstyler-rb1"><td>Nathan</td><td>Joe Mixon</td><td>17.4</td><td>RB1</td><td>34.9</td><td>Austin Ekeler</td><td>Tyler</td></tr>
-              <tr id="row-nathanvstyler-rb2"><td>Nathan</td><td>Dalvin Cook</td><td>10.6</td><td>RB2</td><td>1.3</td><td>Cam Akers</td><td>Tyler</td></tr>
-              <tr id="row-nathanvstyler-wr1"><td>Nathan</td><td>Mike Williams</td><td>19.0</td><td>WR1</td><td>3.7</td><td>Drake London</td><td>Tyler</td></tr>
-              <tr id="row-nathanvstyler-wr2"><td>Nathan</td><td>Amari Cooper</td><td>1.9</td><td>WR2</td><td>1.4</td><td>Mecole Hardman</td><td>Tyler</td></tr>
-              <tr id="row-nathanvstyler-te"><td>Nathan</td><td>Tyler Higbee</td><td>17.3</td><td>TE</td><td>2.6</td><td>Evan Engram</td><td>Tyler</td></tr>
-              <tr id="row-nathanvstyler-flex"><td>Nathan</td><td>Breece Hall</td><td>15.8</td><td>FLEX</td><td>-0.1</td><td>Richie James</td><td>Tyler</td></tr>
-              <tr id="row-nathanvstyler-d/st"><td>Nathan</td><td>Cowboys D/ST</td><td>11.0</td><td>D/ST</td><td>8.0</td><td>Packers D/ST</td><td>Tyler</td></tr>
-              <tr id="row-nathanvstyler-k"><td>Nathan</td><td>Younghoe Koo</td><td>12.0</td><td>K</td><td>6.0</td><td>Nick Folk</td><td>Tyler</td></tr>
-              <tr id="row-zachvsharis-qb"><td>Zach</td><td>Josh Allen</td><td>23.52</td><td>QB</td><td>21.1</td><td>Justin Herbert</td><td>Haris</td></tr>
-              <tr id="row-zachvsharis-rb1"><td>Zach</td><td>Rashaad Penny</td><td>28.7</td><td>RB1</td><td>34.5</td><td>Josh Jacobs</td><td>Haris</td></tr>
-              <tr id="row-zachvsharis-rb2"><td>Zach</td><td>Aaron Jones</td><td>14.5</td><td>RB2</td><td>10.7</td><td>James Conner</td><td>Haris</td></tr>
-              <tr id="row-zachvsharis-wr1"><td>Zach</td><td>Deebo Samuel</td><td>23.7</td><td>WR1</td><td>26.2</td><td>Cooper Kupp</td><td>Haris</td></tr>
-              <tr id="row-zachvsharis-wr2"><td>Zach</td><td>Jerry Jeudy</td><td>15.3</td><td>WR2</td><td>6.1</td><td>Garrett Wilson</td><td>Haris</td></tr>
-              <tr id="row-zachvsharis-te"><td>Zach</td><td>George Kittle</td><td>4.4</td><td>TE</td><td>3.5</td><td>Mark Andrews</td><td>Haris</td></tr>
-              <tr id="row-zachvsharis-flex"><td>Zach</td><td>Josh Reynolds</td><td>21.1</td><td>FLEX</td><td>16.7</td><td>Chris Olave</td><td>Haris</td></tr>
-              <tr id="row-zachvsharis-d/st"><td>Zach</td><td>Bills D/ST</td><td>8.0</td><td>D/ST</td><td>5.0</td><td>Colts D/ST</td><td>Haris</td></tr>
-              <tr id="row-zachvsharis-k"><td>Zach</td><td>Evan McPherson</td><td>11.0</td><td>K</td><td>10.0</td><td>Dustin Hopkins</td><td>Haris</td></tr>
+              <tr id="row-andrewvsdante-qb"><td class="home-team">Andrew</td><td class="home-player">Kyler Murray</td><td class="home-player-points">22.88</td><td class="position">QB</td><td class="away-player-points">16.14</td><td class="away-player">Aaron Rodgers</td><td class="away-team">Dante</td></tr>
+              <tr id="row-andrewvsdante-rb1"><td class="home-team">Andrew</td><td class="home-player">Christian McCaffrey</td><td class="home-player-points">25.8</td><td class="position">RB1</td><td class="away-player-points">23.9</td><td class="away-player">Jamaal Williams</td><td class="away-team">Dante</td></tr>
+              <tr id="row-andrewvsdante-rb2"><td class="home-team">Andrew</td><td class="home-player">Javonte Williams</td><td class="home-player-points">3.7</td><td class="position">RB2</td><td class="away-player-points">18.2</td><td class="away-player">Saquon Barkley</td><td class="away-team">Dante</td></tr>
+              <tr id="row-andrewvsdante-wr1"><td class="home-team">Andrew</td><td class="home-player">Mike Evans</td><td class="home-player-points">30.3</td><td class="position">WR1</td><td class="away-player-points">21.9</td><td class="away-player">DK Metcalf</td><td class="away-team">Dante</td></tr>
+              <tr id="row-andrewvsdante-wr2"><td class="home-team">Andrew</td><td class="home-player">Courtland Sutton</td><td class="home-player-points">16.2</td><td class="position">WR2</td><td class="away-player-points">14.5</td><td class="away-player">A.J. Brown</td><td class="away-team">Dante</td></tr>
+              <tr id="row-andrewvsdante-te"><td class="home-team">Andrew</td><td class="home-player">Tyler Conklin</td><td class="home-player-points">8.2</td><td class="position">TE</td><td class="away-player-points">39.9</td><td class="away-player">T.J. Hockenson</td><td class="away-team">Dante</td></tr>
+              <tr id="row-andrewvsdante-flex"><td class="home-team">Andrew</td><td class="home-player">Greg Dortch</td><td class="home-player-points">1.6</td><td class="position">FLEX</td><td class="away-player-points">20.7</td><td class="away-player">Nick Chubb</td><td class="away-team">Dante</td></tr>
+              <tr id="row-andrewvsdante-d/st"><td class="home-team">Andrew</td><td class="home-player">Giants D/ST</td><td class="home-player-points">15.0</td><td class="position">D/ST</td><td class="away-player-points">17.0</td><td class="away-player">Eagles D/ST</td><td class="away-team">Dante</td></tr>
+              <tr id="row-andrewvsdante-k"><td class="home-team">Andrew</td><td class="home-player">Tyler Bass</td><td class="home-player-points">11.0</td><td class="position">K</td><td class="away-player-points">8.0</td><td class="away-player">Ryan Succop</td><td class="away-team">Dante</td></tr>
+              <tr id="row-cartervsethan-qb"><td class="home-team">Carter</td><td class="home-player">Patrick Mahomes</td><td class="home-player-points">23.36</td><td class="position">QB</td><td class="away-player-points">2.4</td><td class="away-player">Tua Tagovailoa</td><td class="away-team">Ethan</td></tr>
+              <tr id="row-cartervsethan-rb1"><td class="home-team">Carter</td><td class="home-player">Cordarrelle Patterson</td><td class="home-player-points">9.8</td><td class="position">RB1</td><td class="away-player-points">23.7</td><td class="away-player">Derrick Henry</td><td class="away-team">Ethan</td></tr>
+              <tr id="row-cartervsethan-rb2"><td class="home-team">Carter</td><td class="home-player">James Robinson</td><td class="home-player-points">2.9</td><td class="position">RB2</td><td class="away-player-points">18.4</td><td class="away-player">Leonard Fournette</td><td class="away-team">Ethan</td></tr>
+              <tr id="row-cartervsethan-wr1"><td class="home-team">Carter</td><td class="home-player">Justin Jefferson</td><td class="home-player-points">31.0</td><td class="position">WR1</td><td class="away-player-points">18.7</td><td class="away-player">Brandin Cooks</td><td class="away-team">Ethan</td></tr>
+              <tr id="row-cartervsethan-wr2"><td class="home-team">Carter</td><td class="home-player">Terry McLaurin</td><td class="home-player-points">3.5</td><td class="position">WR2</td><td class="away-player-points">8.3</td><td class="away-player">Christian Kirk</td><td class="away-team">Ethan</td></tr>
+              <tr id="row-cartervsethan-te"><td class="home-team">Carter</td><td class="home-player">Dallas Goedert</td><td class="home-player-points">12.2</td><td class="position">TE</td><td class="away-player-points">16.7</td><td class="away-player">Zach Ertz</td><td class="away-team">Ethan</td></tr>
+              <tr id="row-cartervsethan-flex"><td class="home-team">Carter</td><td class="home-player">DeVonta Smith</td><td class="home-player-points">4.7</td><td class="position">FLEX</td><td class="away-player-points">2.3</td><td class="away-player">Gabe Davis</td><td class="away-team">Ethan</td></tr>
+              <tr id="row-cartervsethan-d/st"><td class="home-team">Carter</td><td class="home-player">Vikings D/ST</td><td class="home-player-points">6.0</td><td class="position">D/ST</td><td class="away-player-points">8.0</td><td class="away-player">Chargers D/ST</td><td class="away-team">Ethan</td></tr>
+              <tr id="row-cartervsethan-k"><td class="home-team">Carter</td><td class="home-player">Matt Gay</td><td class="home-player-points">9.0</td><td class="position">K</td><td class="away-player-points">9.0</td><td class="away-player">Graham Gano</td><td class="away-team">Ethan</td></tr>
+              <tr id="row-kevinvsnoah-qb"><td class="home-team">Kevin</td><td class="home-player">Kirk Cousins</td><td class="home-player-points">12.92</td><td class="position">QB</td><td class="away-player-points">13.06</td><td class="away-player">Lamar Jackson</td><td class="away-team">Noah</td></tr>
+              <tr id="row-kevinvsnoah-rb1"><td class="home-team">Kevin</td><td class="home-player">Miles Sanders</td><td class="home-player-points">29.6</td><td class="position">RB1</td><td class="away-player-points">11.6</td><td class="away-player">Devin Singletary</td><td class="away-team">Noah</td></tr>
+              <tr id="row-kevinvsnoah-rb2"><td class="home-team">Kevin</td><td class="home-player">J.K. Dobbins</td><td class="home-player-points">22.3</td><td class="position">RB2</td><td class="away-player-points">11.1</td><td class="away-player">Khalil Herbert</td><td class="away-team">Noah</td></tr>
+              <tr id="row-kevinvsnoah-wr1"><td class="home-team">Kevin</td><td class="home-player">Davante Adams</td><td class="home-player-points">19.5</td><td class="position">WR1</td><td class="away-player-points">25.9</td><td class="away-player">Tyreek Hill</td><td class="away-team">Noah</td></tr>
+              <tr id="row-kevinvsnoah-wr2"><td class="home-team">Kevin</td><td class="home-player">Michael Pittman Jr.</td><td class="home-player-points">6.1</td><td class="position">WR2</td><td class="away-player-points">12.1</td><td class="away-player">Ja'Marr Chase</td><td class="away-team">Noah</td></tr>
+              <tr id="row-kevinvsnoah-te"><td class="home-team">Kevin</td><td class="home-player">Travis Kelce</td><td class="home-player-points">24.2</td><td class="position">TE</td><td class="away-player-points">3.5</td><td class="away-player">Kyle Pitts</td><td class="away-team">Noah</td></tr>
+              <tr id="row-kevinvsnoah-flex"><td class="home-team">Kevin</td><td class="home-player">Tyler Boyd</td><td class="home-player-points">7.62</td><td class="position">FLEX</td><td class="away-player-points">21.7</td><td class="away-player">CeeDee Lamb</td><td class="away-team">Noah</td></tr>
+              <tr id="row-kevinvsnoah-k"><td class="home-team">Kevin</td><td class="home-player">Robbie Gould</td><td class="home-player-points">5.0</td><td class="position">K</td><td class="away-player-points">14.0</td><td class="away-player">Daniel Carlson</td><td class="away-team">Noah</td></tr>
+              <tr id="row-mcgwirevsmichael-qb"><td class="home-team">McGwire</td><td class="home-player">Tom Brady</td><td class="home-player-points">25.4</td><td class="position">QB</td><td class="away-player-points">15.96</td><td class="away-player">Jalen Hurts</td><td class="away-team">Michael</td></tr>
+              <tr id="row-mcgwirevsmichael-rb1"><td class="home-team">McGwire</td><td class="home-player">Travis Etienne Jr.</td><td class="home-player-points">3.2</td><td class="position">RB1</td><td class="away-player-points">10.1</td><td class="away-player">Ezekiel Elliott</td><td class="away-team">Michael</td></tr>
+              <tr id="row-mcgwirevsmichael-rb2"><td class="home-team">McGwire</td><td class="home-player">Alvin Kamara</td><td class="home-player-points">0.0</td><td class="position">RB2</td><td class="away-player-points">3.3</td><td class="away-player">Jonathan Taylor</td><td class="away-team">Michael</td></tr>
+              <tr id="row-mcgwirevsmichael-wr1"><td class="home-team">McGwire</td><td class="home-player">Stefon Diggs</td><td class="home-player-points">10.2</td><td class="position">WR1</td><td class="away-player-points">25.4</td><td class="away-player">Tee Higgins</td><td class="away-team">Michael</td></tr>
+              <tr id="row-mcgwirevsmichael-wr2"><td class="home-team">McGwire</td><td class="home-player">Diontae Johnson</td><td class="home-player-points">4.2</td><td class="position">WR2</td><td class="away-player-points">20.8</td><td class="away-player">Marquise Brown</td><td class="away-team">Michael</td></tr>
+              <tr id="row-mcgwirevsmichael-te"><td class="home-team">McGwire</td><td class="home-player">Pat Freiermuth</td><td class="home-player-points">15.5</td><td class="position">TE</td><td class="away-player-points">5.4</td><td class="away-player">Darren Waller</td><td class="away-team">Michael</td></tr>
+              <tr id="row-mcgwirevsmichael-flex"><td class="home-team">McGwire</td><td class="home-player">Rashod Bateman</td><td class="home-player-points">4.7</td><td class="position">FLEX</td><td class="away-player-points">5.9</td><td class="away-player">Jaylen Waddle</td><td class="away-team">Michael</td></tr>
+              <tr id="row-mcgwirevsmichael-d/st"><td class="home-team">McGwire</td><td class="home-player">Steelers D/ST</td><td class="home-player-points">5.0</td><td class="position">D/ST</td><td class="away-player-points">3.0</td><td class="away-player">Browns D/ST</td><td class="away-team">Michael</td></tr>
+              <tr id="row-mcgwirevsmichael-k"><td class="home-team">McGwire</td><td class="home-player">Justin Tucker</td><td class="home-player-points">11.0</td><td class="position">K</td><td class="away-player-points">18.0</td><td class="away-player">Greg Joseph</td><td class="away-team">Michael</td></tr>
+              <tr id="row-nathanvstyler-qb"><td class="home-team">Nathan</td><td class="home-player">Joe Burrow</td><td class="home-player-points">20.08</td><td class="position">QB</td><td class="away-player-points">27.48</td><td class="away-player">Russell Wilson</td><td class="away-team">Tyler</td></tr>
+              <tr id="row-nathanvstyler-rb1"><td class="home-team">Nathan</td><td class="home-player">Joe Mixon</td><td class="home-player-points">17.4</td><td class="position">RB1</td><td class="away-player-points">34.9</td><td class="away-player">Austin Ekeler</td><td class="away-team">Tyler</td></tr>
+              <tr id="row-nathanvstyler-rb2"><td class="home-team">Nathan</td><td class="home-player">Dalvin Cook</td><td class="home-player-points">10.6</td><td class="position">RB2</td><td class="away-player-points">1.3</td><td class="away-player">Cam Akers</td><td class="away-team">Tyler</td></tr>
+              <tr id="row-nathanvstyler-wr1"><td class="home-team">Nathan</td><td class="home-player">Mike Williams</td><td class="home-player-points">19.0</td><td class="position">WR1</td><td class="away-player-points">3.7</td><td class="away-player">Drake London</td><td class="away-team">Tyler</td></tr>
+              <tr id="row-nathanvstyler-wr2"><td class="home-team">Nathan</td><td class="home-player">Amari Cooper</td><td class="home-player-points">1.9</td><td class="position">WR2</td><td class="away-player-points">1.4</td><td class="away-player">Mecole Hardman</td><td class="away-team">Tyler</td></tr>
+              <tr id="row-nathanvstyler-te"><td class="home-team">Nathan</td><td class="home-player">Tyler Higbee</td><td class="home-player-points">17.3</td><td class="position">TE</td><td class="away-player-points">2.6</td><td class="away-player">Evan Engram</td><td class="away-team">Tyler</td></tr>
+              <tr id="row-nathanvstyler-flex"><td class="home-team">Nathan</td><td class="home-player">Breece Hall</td><td class="home-player-points">15.8</td><td class="position">FLEX</td><td class="away-player-points">-0.1</td><td class="away-player">Richie James</td><td class="away-team">Tyler</td></tr>
+              <tr id="row-nathanvstyler-d/st"><td class="home-team">Nathan</td><td class="home-player">Cowboys D/ST</td><td class="home-player-points">11.0</td><td class="position">D/ST</td><td class="away-player-points">8.0</td><td class="away-player">Packers D/ST</td><td class="away-team">Tyler</td></tr>
+              <tr id="row-nathanvstyler-k"><td class="home-team">Nathan</td><td class="home-player">Younghoe Koo</td><td class="home-player-points">12.0</td><td class="position">K</td><td class="away-player-points">6.0</td><td class="away-player">Nick Folk</td><td class="away-team">Tyler</td></tr>
+              <tr id="row-zachvsharis-qb"><td class="home-team">Zach</td><td class="home-player">Josh Allen</td><td class="home-player-points">23.52</td><td class="position">QB</td><td class="away-player-points">21.1</td><td class="away-player">Justin Herbert</td><td class="away-team">Haris</td></tr>
+              <tr id="row-zachvsharis-rb1"><td class="home-team">Zach</td><td class="home-player">Rashaad Penny</td><td class="home-player-points">28.7</td><td class="position">RB1</td><td class="away-player-points">34.5</td><td class="away-player">Josh Jacobs</td><td class="away-team">Haris</td></tr>
+              <tr id="row-zachvsharis-rb2"><td class="home-team">Zach</td><td class="home-player">Aaron Jones</td><td class="home-player-points">14.5</td><td class="position">RB2</td><td class="away-player-points">10.7</td><td class="away-player">James Conner</td><td class="away-team">Haris</td></tr>
+              <tr id="row-zachvsharis-wr1"><td class="home-team">Zach</td><td class="home-player">Deebo Samuel</td><td class="home-player-points">23.7</td><td class="position">WR1</td><td class="away-player-points">26.2</td><td class="away-player">Cooper Kupp</td><td class="away-team">Haris</td></tr>
+              <tr id="row-zachvsharis-wr2"><td class="home-team">Zach</td><td class="home-player">Jerry Jeudy</td><td class="home-player-points">15.3</td><td class="position">WR2</td><td class="away-player-points">6.1</td><td class="away-player">Garrett Wilson</td><td class="away-team">Haris</td></tr>
+              <tr id="row-zachvsharis-te"><td class="home-team">Zach</td><td class="home-player">George Kittle</td><td class="home-player-points">4.4</td><td class="position">TE</td><td class="away-player-points">3.5</td><td class="away-player">Mark Andrews</td><td class="away-team">Haris</td></tr>
+              <tr id="row-zachvsharis-flex"><td class="home-team">Zach</td><td class="home-player">Josh Reynolds</td><td class="home-player-points">21.1</td><td class="position">FLEX</td><td class="away-player-points">16.7</td><td class="away-player">Chris Olave</td><td class="away-team">Haris</td></tr>
+              <tr id="row-zachvsharis-d/st"><td class="home-team">Zach</td><td class="home-player">Bills D/ST</td><td class="home-player-points">8.0</td><td class="position">D/ST</td><td class="away-player-points">5.0</td><td class="away-player">Colts D/ST</td><td class="away-team">Haris</td></tr>
+              <tr id="row-zachvsharis-k"><td class="home-team">Zach</td><td class="home-player">Evan McPherson</td><td class="home-player-points">11.0</td><td class="position">K</td><td class="away-player-points">10.0</td><td class="away-player">Dustin Hopkins</td><td class="away-team">Haris</td></tr>
             </tbody>
           </table>
         </div>
@@ -268,29 +287,29 @@
         <table id="standings-table">
           <thead>
             <tr>
-              <th>Team</th>
-              <th>Record</th>
-              <th>Ranking</th>
-              <th>Points For</th>
-              <th>Points Against</th>
-              <th>Avg Points For</th>
-              <th>Avg Margin</th>
-              <th>Luck Score</th>
+              <th class="team">Team</th>
+              <th class="record">Record</th>
+              <th class="ranking">Ranking</th>
+              <th class="points-for">Points For</th>
+              <th class="points-against">Points Against</th>
+              <th class="avg-points-for">Avg Points For</th>
+              <th class="avg-margin">Avg Margin</th>
+              <th class="luck-score">Luck Score</th>
             </tr>
           </thead>
           <tbody>
-            <tr><td>Dante</td><td>4-0</td><td>1</td><td>547.3</td><td>383.34</td><td>136.82</td><td>40.99</td><td>5</td></tr>
-            <tr><td>Michael</td><td>4-0</td><td>2</td><td>492.0</td><td>396.76</td><td>123.0</td><td>23.81</td><td>4</td></tr>
-            <tr><td>Andrew</td><td>3-1</td><td>3</td><td>509.04</td><td>526.24</td><td>127.26</td><td>-4.3</td><td>-6</td></tr>
-            <tr><td>Zach</td><td>3-1</td><td>4</td><td>466.58</td><td>479.28</td><td>116.64</td><td>-3.17</td><td>-2</td></tr>
-            <tr><td>Kevin</td><td>3-1</td><td>5</td><td>457.52</td><td>458.5</td><td>114.38</td><td>-0.25</td><td>0</td></tr>
-            <tr><td>Haris</td><td>2-2</td><td>6</td><td>541.6</td><td>493.38</td><td>135.4</td><td>12.06</td><td>-4</td></tr>
-            <tr><td>Ethan</td><td>2-2</td><td>7</td><td>399.0</td><td>445.24</td><td>99.75</td><td>-11.56</td><td>3</td></tr>
-            <tr><td>Noah</td><td>1-3</td><td>8</td><td>512.52</td><td>483.76</td><td>128.13</td><td>7.19</td><td>-4</td></tr>
-            <tr><td>Carter</td><td>1-3</td><td>9</td><td>435.24</td><td>420.56</td><td>108.81</td><td>3.67</td><td>2</td></tr>
-            <tr><td>Nathan</td><td>1-3</td><td>10</td><td>412.36</td><td>452.82</td><td>103.09</td><td>-10.11</td><td>0</td></tr>
-            <tr><td>McGwire</td><td>0-4</td><td>11</td><td>382.62</td><td>446.86</td><td>95.66</td><td>-16.06</td><td>0</td></tr>
-            <tr><td>Tyler</td><td>0-4</td><td>12</td><td>324.3</td><td>493.34</td><td>81.08</td><td>-42.26</td><td>-2</td></tr>
+            <tr><td class="team">Dante</td><td class="record">4-0</td><td class="ranking">1</td><td class="points-for">547.3</td><td class="points-against">383.34</td><td class="avg-points-for">136.82</td><td class="avg-margin">40.99</td><td class="luck-score">5</td></tr>
+            <tr><td class="team">Michael</td><td class="record">4-0</td><td class="ranking">2</td><td class="points-for">492.0</td><td class="points-against">396.76</td><td class="avg-points-for">123.0</td><td class="avg-margin">23.81</td><td class="luck-score">4</td></tr>
+            <tr><td class="team">Andrew</td><td class="record">3-1</td><td class="ranking">3</td><td class="points-for">509.04</td><td class="points-against">526.24</td><td class="avg-points-for">127.26</td><td class="avg-margin">-4.3</td><td class="luck-score">-6</td></tr>
+            <tr><td class="team">Zach</td><td class="record">3-1</td><td class="ranking">4</td><td class="points-for">466.58</td><td class="points-against">479.28</td><td class="avg-points-for">116.64</td><td class="avg-margin">-3.17</td><td class="luck-score">-2</td></tr>
+            <tr><td class="team">Kevin</td><td class="record">3-1</td><td class="ranking">5</td><td class="points-for">457.52</td><td class="points-against">458.5</td><td class="avg-points-for">114.38</td><td class="avg-margin">-0.25</td><td class="luck-score">0</td></tr>
+            <tr><td class="team">Haris</td><td class="record">2-2</td><td class="ranking">6</td><td class="points-for">541.6</td><td class="points-against">493.38</td><td class="avg-points-for">135.4</td><td class="avg-margin">12.06</td><td class="luck-score">-4</td></tr>
+            <tr><td class="team">Ethan</td><td class="record">2-2</td><td class="ranking">7</td><td class="points-for">399.0</td><td class="points-against">445.24</td><td class="avg-points-for">99.75</td><td class="avg-margin">-11.56</td><td class="luck-score">3</td></tr>
+            <tr><td class="team">Noah</td><td class="record">1-3</td><td class="ranking">8</td><td class="points-for">512.52</td><td class="points-against">483.76</td><td class="avg-points-for">128.13</td><td class="avg-margin">7.19</td><td class="luck-score">-4</td></tr>
+            <tr><td class="team">Carter</td><td class="record">1-3</td><td class="ranking">9</td><td class="points-for">435.24</td><td class="points-against">420.56</td><td class="avg-points-for">108.81</td><td class="avg-margin">3.67</td><td class="luck-score">2</td></tr>
+            <tr><td class="team">Nathan</td><td class="record">1-3</td><td class="ranking">10</td><td class="points-for">412.36</td><td class="points-against">452.82</td><td class="avg-points-for">103.09</td><td class="avg-margin">-10.11</td><td class="luck-score">0</td></tr>
+            <tr><td class="team">McGwire</td><td class="record">0-4</td><td class="ranking">11</td><td class="points-for">382.62</td><td class="points-against">446.86</td><td class="avg-points-for">95.66</td><td class="avg-margin">-16.06</td><td class="luck-score">0</td></tr>
+            <tr><td class="team">Tyler</td><td class="record">0-4</td><td class="ranking">12</td><td class="points-for">324.3</td><td class="points-against">493.34</td><td class="avg-points-for">81.08</td><td class="avg-margin">-42.26</td><td class="luck-score">-2</td></tr>
           </tbody>
         </table>
       </div>

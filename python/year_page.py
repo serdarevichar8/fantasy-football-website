@@ -29,25 +29,17 @@ def year_content(year: int, build_figure: bool = False) -> div:
 
     scatter_div = functions.content_container(title='PF vs PA', content=img(src = f'{constants.ROOT}Assets/PF-vs-PA-{year}.svg'))
 
-    # scatter_div = div(_class='content-container')
-    # scatter_title = h2('PF vs PA')
-    # scatter_img = img(src = f'{constants.ROOT}Assets/PF-vs-PA-{year}.svg')
-    # scatter_div.add([scatter_title, scatter_img])
-
-    summary_div = functions.content_container(title='Regular Season Summary', content=functions.df_to_table(data=data), _id='season-summary-table')
-
-    # summary_div = div(_class='content-container')
-    # summary_title = h2('Regular Season Summary')
-    # summary_table = functions.df_to_table(data=data)
-    # summary_table['id'] = 'season-summary-table'
-    # summary_div.add([summary_title, summary_table])
+    summary_table = functions.df_to_table(
+        data=data,
+        table_id='season-summary-table'
+    )
+    summary_div = functions.content_container(
+        title='Regular Season Summary',
+        content=summary_table
+    )
 
     playoff_matchups = constants.MATCHUP_DATA.loc[(constants.MATCHUP_DATA['Year'] == year) & (constants.MATCHUP_DATA['Playoff Flag'])].copy()
     playoff_matchups['Playoff Round'] = (playoff_matchups['Week'] % playoff_matchups['Week'].min()) + 1
-
-    # bracket_div = div(_class='content-container')
-    # bracket_title = h2('Playoff Bracket')
-    # bracket_div.add(bracket_title)
 
     bracket = main(_id='playoff-bracket')
 
@@ -76,19 +68,21 @@ def year_content(year: int, build_figure: bool = False) -> div:
 
     bracket.add(rounds)
 
-    bracket_div = functions.content_container(title='Playoff Bracket', content=bracket, _id='')
-
-    # bracket_div.add(bracket)
+    bracket_div = functions.content_container(title='Playoff Bracket', content=bracket)
 
     draft_data = constants.DRAFT_DATA.loc[constants.DRAFT_DATA['Year'] == year].copy()
-    draft_data.index = ('row-' + draft_data['Team'] + '-' + draft_data['Round'].astype(str) + '-' + draft_data['Pick'].astype(str)).str.lower()
-    draft_div = functions.content_container(title='League Draft', content=functions.df_to_table(draft_data, index_to_id=True), _id='league-draft-table')
-
-    draft_title = draft_div.get(h2)[0]
-    draft_select = select([option('All', value='all')] + [option(team, value=team.lower()) for team in draft_data['Team'].unique()],
-                          _id='draft-filter',
-                          onchange="tableFilter('draft-filter', 'league-draft-table')")
-    draft_title.add(draft_select)
+    draft_table = functions.df_to_table(
+        data=draft_data,
+        row_id_columns=['Team','Round','Pick'],
+        table_id='league-draft-table'
+    )
+    draft_div = functions.content_container(
+        title='League Draft',
+        content=draft_table,
+        filter_id='draft-filter',
+        filter_column=draft_data['Team'],
+        filter_showall=True
+    )
 
     container.add(summary_div)
     container.add(scatter_div)

@@ -13,20 +13,24 @@ function tableFilter(filterID, tableID) {
     });
 }
 
+function findFilters() {
+  const contentContainers = document.querySelectorAll('.content-container:has(select)');
+
+  console.log(contentContainers);
+
+  contentContainers.forEach(item => {
+    const filter = item.querySelector('select')
+    const filterID = filter.id
+    // console.log(filterID)
+
+    const table = item.querySelector('table')
+    const tableID = table.id
+    // console.log(tableID)
+
+    tableFilter(filterID, tableID)
+  })
+}
+
 document.addEventListener('DOMContentLoaded', () => {
-  const filterTablePairs = [
-    ['lineup-filter', 'lineup-table'],
-    ['draft-filter', 'league-draft-table'],
-    ['draft-filter', 'league-draft-table']
-    // Add more pairs as needed
-  ];
-
-  filterTablePairs.forEach(([filterID, tableID]) => {
-    const filter = document.getElementById(filterID);
-    const table = document.getElementById(tableID);
-
-    if (filter && table) {
-      tableFilter(filterID, tableID);
-    }
-  });
+  findFilters()
 });

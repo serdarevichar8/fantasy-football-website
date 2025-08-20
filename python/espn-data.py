@@ -5,7 +5,6 @@ import uuid
 
 import pandas as pd
 from espn_api.football import League
-from espn_api.football.constant import TRANSACTION_TYPES
 
 import constants
 
@@ -34,9 +33,8 @@ def fetch_api_data(league_id=constants.LEAGUE_ID, espn_s2=constants.ESPN_S2, swi
 
     leagues = []
     matchups = []
-    transactions = []
 
-    for year in range(2019,2025):
+    for year in range(2018,2025):
         league = League(league_id=league_id, year=year, espn_s2=espn_s2, swid=swid)
         leagues.append(
             {
@@ -45,10 +43,17 @@ def fetch_api_data(league_id=constants.LEAGUE_ID, espn_s2=constants.ESPN_S2, swi
             }
         )
 
-        season_length = league.finalScoringPeriod
+        season_length = 17
+        if year in [2019,2020]:
+            season_length = 16
+        elif year == 2018:
+            season_length = 15
 
         for week in range(1, season_length + 1):
-            box_scores = league.box_scores(week)
+            if year == 2018:
+                box_scores = league.scoreboard(week)
+            else:
+                box_scores = league.box_scores(week)
             matchups.append(
                 {
                     'Year':year,
@@ -56,19 +61,9 @@ def fetch_api_data(league_id=constants.LEAGUE_ID, espn_s2=constants.ESPN_S2, swi
                     'Box Scores':box_scores
                 }
             )
-            try:
-                week_transactions = league.transactions(week, types=TRANSACTION_TYPES)
-            except:
-                continue
 
-            transactions.append(
-                {
-                    'Year':year,
-                    'Week':week,
-                    'Transactions':week_transactions
-                }
-            )
-
+            if (week == 1) or (week == season_length):
+                print(f'Year: {year}, Week: {week}')
             time.sleep(3)
             
     data = {
@@ -76,12 +71,12 @@ def fetch_api_data(league_id=constants.LEAGUE_ID, espn_s2=constants.ESPN_S2, swi
         'Box Scores':matchups
     }
 
-    with open('database/espn-data.pkl', 'wb') as file:
+    with open('database/espn-data-2.pkl', 'wb') as file:
         pickle.dump(data, file)
 
 # Read in pickle file
 def read_pickle_file() -> dict[str, list]:
-    with open('database/espn-data.pkl', 'rb') as file:
+    with open('database/espn-data-2.pkl', 'rb') as file:
         data = pickle.load(file)
     
     return data
@@ -116,7 +111,12 @@ def construct_dataframes() -> dict[str, pd.DataFrame]:
         for player in league.player_map.keys():
             if type(player) == int:
                 continue
-            data_players.append(player)
+            data_players.append(
+                {
+                    'player_id':str(uuid.uuid5(namespace=constants.NAMESPACE, name=player)),
+                    'player_name':player
+                }
+            )
 
         for pick in league.draft:
             team_name = pick.team.owners[0]['firstName']
@@ -144,13 +144,16 @@ def construct_dataframes() -> dict[str, pd.DataFrame]:
                 team_name = 'Noah'
 
             data_teams.append(
-                    team_name
+                    {
+                        'team_id':str(uuid.uuid5(namespace=constants.NAMESPACE, name=team_name)),
+                        'team_name':team_name
+                    }
                 )
 
-    data_teams = [{'team_id':str(uuid.uuid5(namespace=constants.NAMESPACE, name=team)), 'team_name':team} for team in list(set(data_teams))]
-    df_teams = pd.DataFrame(data_teams)
-    data_players = [{'player_id':str(uuid.uuid5(namespace=constants.NAMESPACE, name=player)), 'player_name':player} for player in list(set(data_players))]
-    df_players = pd.DataFrame(data_players)
+    # data_teams = [{'team_id':str(uuid.uuid5(namespace=constants.NAMESPACE, name=team)), 'team_name':team} for team in list(set(data_teams))]
+    df_teams = pd.DataFrame(data_teams).drop_duplicates().reset_index(drop=True)
+    # data_players = [{'player_id':str(uuid.uuid5(namespace=constants.NAMESPACE, name=player)), 'player_name':player} for player in list(set(data_players))]
+    df_players = pd.DataFrame(data_players).drop_duplicates().reset_index(drop=True)
     df_drafts = pd.DataFrame(data_drafts)
 
     data_matchups = []
@@ -221,35 +224,36 @@ def construct_dataframes() -> dict[str, pd.DataFrame]:
                 }
             )
 
-            for player in matchup.home_lineup:
-                data_player_games.append(
-                    {
-                        'player_game_id':str(uuid.uuid4()),
-                        'matchup_id':matchup_id,
-                        'game_id':home_game_id,
-                        'team_id':str(uuid.uuid5(constants.NAMESPACE, name=home_team)),
-                        'player_id':str(uuid.uuid5(constants.NAMESPACE, name=player.name)),
-                        'points':player.points,
-                        'slot_position':player.slot_position,
-                        'active_status':player.active_status,
-                        'bye_week_flag':player.on_bye_week
-                    }
-                )
+            if year > 2018:
+                for player in matchup.home_lineup:
+                    data_player_games.append(
+                        {
+                            'player_game_id':str(uuid.uuid4()),
+                            'matchup_id':matchup_id,
+                            'game_id':home_game_id,
+                            'team_id':str(uuid.uuid5(constants.NAMESPACE, name=home_team)),
+                            'player_id':str(uuid.uuid5(constants.NAMESPACE, name=player.name)),
+                            'points':player.points,
+                            'slot_position':player.slot_position,
+                            'active_status':player.active_status,
+                            'bye_week_flag':player.on_bye_week
+                        }
+                    )
 
-            for player in matchup.away_lineup:
-                data_player_games.append(
-                    {
-                        'player_game_id':str(uuid.uuid4()),
-                        'matchup_id':matchup_id,
-                        'game_id':away_game_id,
-                        'team_id':str(uuid.uuid5(constants.NAMESPACE, name=away_team)),
-                        'player_id':str(uuid.uuid5(constants.NAMESPACE, name=player.name)),
-                        'points':player.points,
-                        'slot_position':player.slot_position,
-                        'active_status':player.active_status,
-                        'bye_week_flag':player.on_bye_week
-                    }
-                )
+                for player in matchup.away_lineup:
+                    data_player_games.append(
+                        {
+                            'player_game_id':str(uuid.uuid4()),
+                            'matchup_id':matchup_id,
+                            'game_id':away_game_id,
+                            'team_id':str(uuid.uuid5(constants.NAMESPACE, name=away_team)),
+                            'player_id':str(uuid.uuid5(constants.NAMESPACE, name=player.name)),
+                            'points':player.points,
+                            'slot_position':player.slot_position,
+                            'active_status':player.active_status,
+                            'bye_week_flag':player.on_bye_week
+                        }
+                    )
 
     df_matchups = pd.DataFrame(data_matchups)
     df_games = pd.DataFrame(data_games)
@@ -511,6 +515,7 @@ def write_csvs() -> None:
     conn.commit()
     conn.close()
 
+# fetch_api_data()
 # create_database()
-database_views()
-write_csvs()
+# database_views()
+# write_csvs()

@@ -31,4 +31,5 @@ COLOR_DICT = {'andrew':'cornflowerblue',
               'zach':'gold',
               'carter':'#b15928',
               'justin':"#DA5CB4",
-              'klapp':"#cec962"}
+              'klapp':"#cec962",
+              'jackson':"#9968cdff"}
