@@ -3,23 +3,64 @@ import numpy as np
 import dominate
 from dominate.tags import *
 
-def df_to_table(data: pd.DataFrame, index_to_id: bool = False, table_id: str = None) -> table:
+def df_to_table(
+        data: pd.DataFrame,
+        custom_columns: list[str] = None,
+        row_id_columns: list[str] = None,
+        table_id: str = None
+) -> table:
+    '''
+    Converts a pandas DataFrame into an HTML table with optional styling.
+
+    If dataframe is longer than 20 rows, table will be wrapped in a "scroll-table" div.
+
+    Parameters
+    ----------
+    data : pd.DataFrame
+        Dataframe to be converted.
+
+    custom_columns : list[str], default None
+        Columns to be displayed in the HTML table. If set to None, all columns in DataFrame will be used.
+
+    row_id_columns : list[str], default None
+        ID to be assigned to each tr tag in the tbody.
+        Accepts a list of columns, will concatenate them starting with 'row' and separating with '-'.
+        If set to None, no IDs will be assigned.
+
+    table_id : str[str], default None
+        ID to be assigned to the main table tag. If set to None, no ID will be given.
+
+    Returns
+    -------
+    dominate.table or dominate.div
+        Return a dominate HTML object. Can be either a table or div
+    '''
     t = table()
     head = thead()
     body = tbody()
 
+    records = data.to_dict('records')
+
+    columns = data.columns
+    if custom_columns:
+        columns = custom_columns
+
     column_row = tr()
-    for column in data.columns:
-        column_row.add(th(column))
+    for column in columns:
+        column_row.add(th(column, _class=str(column).lower().replace(' ','-')))
     head.add(column_row)
     
-    for label, row in zip(data.index, data.values):
-        r = tr(__pretty=False)
-        if index_to_id:
-            r['id'] = label
-        for value in row:
-            r.add(td(value))
-        body.add(r)
+    for record in records:
+        data_row = tr(__pretty=False)
+        if row_id_columns:
+            row_id = 'row'
+            for column in row_id_columns:
+                row_id += ('-' + str(record[column]).lower().replace(' ',''))
+            data_row['id'] = row_id
+
+        for column in columns:
+            data_row.add(td(record[column], _class=str(column).lower().replace(' ','-')))
+        body.add(data_row)
 
     t.add(head)
     t.add(body)
@@ -33,12 +74,60 @@ def df_to_table(data: pd.DataFrame, index_to_id: bool = False, table_id: str = N
 
     return t
 
-def content_container(title: str, content: div | table | img, _id: str = None):
+def content_container(
+        title: str,
+        content: div | table | img,
+
+        filter_id: str = None,
+        filter_column: pd.Series = None,
+        filter_showall: bool = False
+) -> div:
+    '''
+    Creates a div with class "content-container," including an h2 title tag and content. Optionally may include a dropdown filter if content is a table.
+
+    Parameters
+    ----------
+    title : str
+        Name to be set as the title for the content bubble.
+
+    content : div | table | img
+        General content that will be added to the body of the bubble. May be any of the following:
+            * div
+            * table
+            * img
+
+    filter_id : str, default None
+        ID to be given to dropdown filter.
+
+    filter_column : pd.Series, default None
+        Series from the DataFrame used for content table. Should always be set to the first column in row_id_columns argument in df_to_table().
+    
+    filter_showall : bool, default False
+        Choose whether filter dropdown features All as an option.
+
+    Returns
+    -------
+    div
+        Return a dominate div object. 
+    '''
     container = div(_class='content-container')
     container_title = h2(title)
+
+    if filter_id:
+        container_select_options = [option(record, value=str(record).lower().replace(' ','')) for record in filter_column.unique()]
+        if filter_showall:
+            container_select_options.insert(0, option('All', value='all'))
+
+        if type(content) == table:
+            table_id = content['id']
+        else:
+            table_id = content.get(table)[0]['id']
+        container_select = select(container_select_options,
+                                  _id=filter_id,
+                                  onchange=f"tableFilter('{filter_id}', '{table_id}')")
+        container_title.add(container_select)
+
     container_content = content
-    if _id:
-        container_content['id'] = _id
 
     container.add(container_title, container_content)
 
