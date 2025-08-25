@@ -7,7 +7,8 @@ def df_to_table(
         data: pd.DataFrame,
         custom_columns: list[str] = None,
         row_id_columns: list[str] = None,
-        table_id: str = None
+        table_id: str = None,
+        champ_class: bool = False
 ) -> table:
     '''
     Converts a pandas DataFrame into an HTML table with optional styling.
@@ -27,8 +28,10 @@ def df_to_table(
         Accepts a list of columns, will concatenate them starting with 'row' and separating with '-'.
         If set to None, no IDs will be assigned.
 
-    table_id : str[str], default None
+    table_id : str, default None
         ID to be assigned to the main table tag. If set to None, no ID will be given.
+
+    champ_class : bool, default False
 
     Returns
     -------
@@ -52,6 +55,9 @@ def df_to_table(
     
     for record in records:
         data_row = tr(__pretty=False)
+        if champ_class:
+            if record['Champ Flag'] == 1:
+                data_row['class'] = 'champ'
         if row_id_columns:
             row_id = 'row'
             for column in row_id_columns:
@@ -172,6 +178,9 @@ def summary_table(data: pd.DataFrame, year: int, week: int = None) -> pd.DataFra
 
     temp['Luck Score'] = temp[['Opp Luck Score','Your Luck Score','Close Luck Score']].sum(axis=1)
 
+    champ_week = data.loc[data['Year'] == year, 'Week'].max()
+    champ = data.loc[(data['Year'] == year) & (data['Week'] == champ_week) & (data['Win'] == 1), 'Team'].item()
+
     temp_teams = temp['Team'].unique()
     weekly_standings = []
 
@@ -187,12 +196,14 @@ def summary_table(data: pd.DataFrame, year: int, week: int = None) -> pd.DataFra
         avg_margin = round((pf - pa) / len(temp_team), 2)
         luck_score = temp_team['Luck Score'].sum()
 
-        weekly_standings.append([team, wins, record, pf, pa, avg_pf, avg_margin, luck_score])
+        champ_flag = int(champ == team)
 
-    weekly_standings = pd.DataFrame(weekly_standings, columns=['Team','Wins','Record', 'Points For','Points Against','Avg Points For','Avg Margin','Luck Score'])
+        weekly_standings.append([team, wins, record, pf, pa, avg_pf, avg_margin, luck_score, champ_flag])
+
+    weekly_standings = pd.DataFrame(weekly_standings, columns=['Team','Wins','Record', 'Points For','Points Against','Avg Points For','Avg Margin','Luck Score','Champ Flag'])
     weekly_standings.sort_values(['Wins','Points For'], ascending=False, ignore_index=True, inplace=True)
     weekly_standings['Ranking'] = [i + 1 for i in weekly_standings.index]
     weekly_standings['Year'] = year
-    weekly_standings = weekly_standings[['Year','Team','Record','Ranking','Points For','Points Against','Avg Points For','Avg Margin','Luck Score']]
+    weekly_standings = weekly_standings[['Year','Team','Record','Ranking','Points For','Points Against','Avg Points For','Avg Margin','Luck Score','Champ Flag']]
 
     return weekly_standings
