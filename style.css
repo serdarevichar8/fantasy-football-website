@@ -150,6 +150,10 @@ body div {
     border-left: solid #333333;
 }
 
+tr.champ {
+    font-weight: bold;
+}
+
 .content-container h2 {
     text-align: left;
     padding: 5px;

@@ -9,7 +9,6 @@ def year_content(year: int, build_figure: bool = False) -> div:
     container.add(h1(f'{year} Data'))
 
     data = functions.summary_table(constants.GAME_DATA, year = year)
-    data = data.drop('Year', axis = 1)
 
     s = [(team, pf, pa, constants.COLOR_DICT[team.lower()]) for team, pf, pa in zip(data['Team'], data['Points For'], data['Points Against'])]
 
@@ -31,7 +30,9 @@ def year_content(year: int, build_figure: bool = False) -> div:
 
     summary_table = functions.df_to_table(
         data=data,
-        table_id='season-summary-table'
+        custom_columns=['Team','Record','Ranking','Points For','Points Against','PF/G+','Avg Margin','Luck Score'],
+        table_id='season-summary-table',
+        champ_class=True
     )
     summary_div = functions.content_container(
         title='Regular Season Summary',
