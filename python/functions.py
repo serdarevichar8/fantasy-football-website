@@ -181,6 +181,8 @@ def summary_table(data: pd.DataFrame, year: int, week: int = None) -> pd.DataFra
     champ_week = data.loc[data['Year'] == year, 'Week'].max()
     champ = data.loc[(data['Year'] == year) & (data['Week'] == champ_week) & (data['Win'] == 1), 'Team'].item()
 
+    league_pfpg = round(temp['Score'].mean(), 2)
+
     temp_teams = temp['Team'].unique()
     weekly_standings = []
 
@@ -191,19 +193,20 @@ def summary_table(data: pd.DataFrame, year: int, week: int = None) -> pd.DataFra
         record = f'{wins}-{losses}'
 
         pf = round(temp_team['Score'].sum(), 2)
-        avg_pf = round(pf / len(temp_team), 2)
+        pfpg = round(temp_team['Score'].mean(), 2)
+        pfpg_plus = int(pfpg / league_pfpg * 100)
         pa = round(temp_team['Opp Score'].sum(), 2)
         avg_margin = round((pf - pa) / len(temp_team), 2)
         luck_score = temp_team['Luck Score'].sum()
 
         champ_flag = int(champ == team)
 
-        weekly_standings.append([team, wins, record, pf, pa, avg_pf, avg_margin, luck_score, champ_flag])
+        weekly_standings.append([team, wins, record, pf, pa, pfpg, pfpg_plus, avg_margin, luck_score, champ_flag])
 
-    weekly_standings = pd.DataFrame(weekly_standings, columns=['Team','Wins','Record', 'Points For','Points Against','Avg Points For','Avg Margin','Luck Score','Champ Flag'])
+    weekly_standings = pd.DataFrame(weekly_standings, columns=['Team','Wins','Record', 'Points For','Points Against','PF/G','PF/G+','Avg Margin','Luck Score','Champ Flag'])
     weekly_standings.sort_values(['Wins','Points For'], ascending=False, ignore_index=True, inplace=True)
     weekly_standings['Ranking'] = [i + 1 for i in weekly_standings.index]
     weekly_standings['Year'] = year
-    weekly_standings = weekly_standings[['Year','Team','Record','Ranking','Points For','Points Against','Avg Points For','Avg Margin','Luck Score','Champ Flag']]
+    weekly_standings = weekly_standings[['Year','Team','Record','Ranking','Points For','Points Against','PF/G','PF/G+','Avg Margin','Luck Score','Champ Flag']]
 
     return weekly_standings

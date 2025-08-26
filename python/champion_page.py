@@ -14,39 +14,23 @@ def champion_content() -> div:
     '''
     container = div(_class='content')
     container.add(h1('League Champions'))
-    
-    champions = constants.GAME_DATA.loc[(constants.GAME_DATA['Week'] == 17) & (constants.GAME_DATA['Win'] == 1), ['Year','Team']].values
-    data = []
-    for year, team in champions:
-        temp = constants.GAME_DATA.loc[(constants.GAME_DATA['Year'] == year) & (constants.GAME_DATA['Team'] == team) & (constants.GAME_DATA['Playoff Flag'] == False)]
-        wins = temp['Win'].sum()
-        losses = len(temp) - wins
-        record = f'{wins}-{losses}'
 
-        pf = round(temp['Score'].sum(), 2)
-        avg_pf = round(pf / len(temp), 2)
-        pa = round(temp['Opp Score'].sum(), 2)
-        avg_margin = round((pf - pa) / len(temp), 2)
+    champions = []
+    for year in constants.YEARS:
+        data = functions.summary_table(data=constants.GAME_DATA, year=year)
+        champions.append(data.loc[data['Champ Flag'] == 1])
 
-        data.append([year, team, record, pf, avg_pf, avg_margin])
+    champions_df = pd.concat(champions)
 
-    t = pd.DataFrame(data, columns=['Year','Team','Record','Points For','Avg Points For','Avg Margin'])
-
-    summary_div = functions.content_container(title='Champions Summary', content=functions.df_to_table(data=t, table_id='champion-summary-table'))
-
-    # summary_div = div(_class='content-container')
-    # summary_title = h2('Champions Summary')
-    # summary_table = functions.df_to_table(data=t)
-    # summary_table['id'] = 'champion-summary-table'
-    # summary_div.add([summary_title, summary_table])
-
-    years_div = div(_class='champion-years')
-    for year, team in champions:
-        years_div.add(h3(f'{year} Season'))
-        years_div.add(p(team))
+    summary_div = functions.content_container(
+        title='Champions Summary',
+        content=functions.df_to_table(
+            data=champions_df,
+            custom_columns=['Year','Team','Record','Points For','PF/G','PF/G+','Avg Margin','Luck Score'],
+            table_id='champion-summary-table')
+    )
 
     container.add(summary_div)
-    container.add(years_div)
 
     return container
 
