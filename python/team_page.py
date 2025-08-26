@@ -13,8 +13,9 @@ def team_content(team: str, build_figure: bool = False) -> div:
     seasons_df = seasons_df.loc[seasons_df['Team'] == team]
     seasons_table = functions.df_to_table(
         data=seasons_df,
-        custom_columns=['Year','Record','Ranking','Points For','Points Against','Avg Points For','Avg Margin','Luck Score'],
-        table_id='team-summary-table'
+        custom_columns=['Year','Record','Ranking','Points For','Points Against','PF/G+','Avg Margin','Luck Score'],
+        table_id='team-summary-table',
+        champ_class=True
     )
     summary_div = functions.content_container(
         title='Team Summary',
