@@ -13,18 +13,25 @@ def year_content(year: int, build_figure: bool = False) -> div:
     s = [(team, pf, pa, constants.COLOR_DICT[team.lower()]) for team, pf, pa in zip(data['Team'], data['Points For'], data['Points Against'])]
 
     if build_figure:
-        plt.figure(figsize = (5,3), dpi = 300)
-        plt.grid(linewidth = 0.5, zorder = 0)
-        for team, pf, pa, color in s:
-            plt.scatter(pf, pa, c = color, label = team, zorder = 3, edgecolor = 'k')
-        plt.xlim(int(data['Points For'].min() - 4) - (int(data['Points For'].min()-4) % 25),
-                int(data['Points For'].max() + 4) + 25 - (int(data['Points For'].max() + 4) % 25)) # Automatically finds nearest 25 below/above for range
-        plt.ylim(int(data['Points Against'].min() - 4) - (int(data['Points Against'].min() - 4) % 25),
-                int(data['Points Against'].max() + 4) + 25 - (int(data['Points Against'].max() + 4) % 25))
-        plt.xlabel('Points For')
-        plt.ylabel('Points Against')
-        plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', fontsize = 9)
-        plt.savefig(f'Assets/PF-vs-PA-{year}.svg', format = 'svg',bbox_inches = 'tight')
+        # plt.figure(figsize = (5,3), dpi = 300)
+        # plt.grid(linewidth = 0.5, zorder = 0)
+        # for team, pf, pa, color in s:
+        #     plt.scatter(pf, pa, c = color, label = team, zorder = 3, edgecolor = 'k')
+        # plt.xlim(int(data['Points For'].min() - 4) - (int(data['Points For'].min()-4) % 25),
+        #         int(data['Points For'].max() + 4) + 25 - (int(data['Points For'].max() + 4) % 25)) # Automatically finds nearest 25 below/above for range
+        # plt.ylim(int(data['Points Against'].min() - 4) - (int(data['Points Against'].min() - 4) % 25),
+        #         int(data['Points Against'].max() + 4) + 25 - (int(data['Points Against'].max() + 4) % 25))
+        # plt.xlabel('Points For')
+        # plt.ylabel('Points Against')
+        # plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', fontsize = 9)
+        # plt.savefig(f'Assets/PF-vs-PA-{year}.svg', format = 'svg',bbox_inches = 'tight')
+        figure = functions.df_to_svg(
+            data=data,
+            x_col='Points For',
+            y_col='Points Against'
+        )
+        with open(f'Assets/PF-vs-PA-{year}.svg', 'w') as file:
+            file.write(figure)
 
     scatter_div = functions.content_container(title='PF vs PA', content=img(src = f'{constants.ROOT}Assets/PF-vs-PA-{year}.svg'))
 

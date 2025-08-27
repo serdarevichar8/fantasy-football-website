@@ -2,6 +2,9 @@ import pandas as pd
 import numpy as np
 import dominate
 from dominate.tags import *
+import drawsvg as draw
+
+from python import constants
 
 def df_to_table(
         data: pd.DataFrame,
@@ -210,3 +213,73 @@ def summary_table(data: pd.DataFrame, year: int, week: int = None) -> pd.DataFra
     weekly_standings = weekly_standings[['Year','Team','Record','Ranking','Points For','Points Against','PF/G','PF/G+','Avg Margin','Luck Score','Champ Flag']]
 
     return weekly_standings
+
+def df_to_svg(
+        data: pd.DataFrame, 
+        x_col: str, 
+        y_col: str, 
+        width: int = 500, 
+        height: int = 300,
+        x_tick_spacing: int = 50,
+        y_tick_spacing: int = 50
+):
+
+    d = draw.Drawing(width=width, height=height)
+
+    border = draw.Lines(0, 0, width, 0, width, height, 0, height, close=True, fill='white', id='border')
+    d.append(border)
+
+    # margin x and y from edges of visual
+    m_top, m_bottom, m_left, m_right = 10, 50, 60, 10
+    # plot width and height
+    P_x, P_y = width - m_left - m_right, height - m_top - m_bottom
+    # tick margin (distance between axes and tick label)
+    m_tick = 5
+
+    x_min, x_max = int(np.floor(data[x_col].min() / x_tick_spacing) * x_tick_spacing), int(np.ceil(data[x_col].max() / x_tick_spacing) * x_tick_spacing)
+    y_min, y_max = int(np.floor(data[y_col].min() / y_tick_spacing) * y_tick_spacing), int(np.ceil(data[y_col].max() / y_tick_spacing) * y_tick_spacing)
+
+    x_ticks = [(i * x_tick_spacing) + x_min for i in range(1, int((x_max - x_min) / x_tick_spacing))]
+    y_ticks = [(i * y_tick_spacing) + y_min for i in range(1, int((y_max - y_min) / y_tick_spacing))]
+
+    for xtick in x_ticks:
+        d.append(draw.Line(m_left + (xtick - x_min) / (x_max - x_min) * P_x, m_top, m_left + (xtick - x_min) / (x_max - x_min) * P_x, height - m_bottom, stroke='lightgrey'))
+        d.append(draw.Text(str(xtick), font_size=10, x=m_left + (xtick - x_min) / (x_max - x_min) * P_x, y=height - m_bottom + m_tick, text_anchor='middle', dominant_baseline='hanging', font_family='Arial'))
+    for ytick in y_ticks:
+        d.append(draw.Line(m_left, (height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, width - m_right, (height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, stroke='lightgrey'))
+        d.append(draw.Text(str(ytick), font_size=10, x=m_left - m_tick, y=(height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, text_anchor='end', dominant_baseline='middle', font_family='Arial'))
+
+    axes = draw.Lines(m_left, m_top, width - m_right, m_top, width - m_right, height - m_bottom, m_left, height - m_bottom, close=True, fill='none', stroke='black', id='axes')
+    d.append(axes)
+
+    x_label = draw.Text(x_col, font_size=16, x=(P_x / 2 + m_left), y=(height - (m_bottom / 2)), text_anchor='middle', dominant_baseline='hanging', font_family='Arial')
+    d.append(x_label)
+    y_label = draw.Text(y_col, font_size=16, x=10, y=(P_y / 2 + m_top), text_anchor='middle', dominant_baseline='hanging', transform=f'rotate(-90, {10}, {P_y / 2 + m_top})', font_family='Arial')
+    d.append(y_label)
+
+    for index, row in data.iterrows():
+        v_x = m_left + ((row[x_col] - x_min) / (x_max - x_min) * (P_x))
+        v_y = (height - m_bottom) - ((row[y_col] - y_min) / (y_max - y_min) * (P_y))
+
+        d.append(draw.Circle(v_x, v_y, r=4, fill=constants.COLOR_DICT[row['Team'].lower()], stroke='black', stroke_width=1.5))
+
+    result = d.as_svg()
+
+    # raw_svg = d.as_svg().split('\n')
+    # raw_svg[1] = ' '.join([p for p in raw_svg[1].split(' ') if not p.startswith('xmlns:xlink')])
+    # raw_svg[1] = raw_svg[1].strip() + ' ' + raw_svg[2].strip()
+    # del raw_svg[2]
+
+    # svg_str = []
+
+    # for line in raw_svg:
+    #     if line.startswith('<?xml') or line == '<defs>' or line == '</defs>':
+    #         continue
+    #     if line.startswith('<svg') or line == '</svg>':
+    #         svg_str.append(line)
+    #         continue
+    #     svg_str.append('  ' + line)
+
+    # result = dominate.util.raw('\n' + '\n'.join(svg_str))
+
+    return result
