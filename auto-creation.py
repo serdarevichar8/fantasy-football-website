@@ -8,4 +8,4 @@ from python import functions, constants, home_page, team_page, year_page, champi
 # champion_page.champion_page()
 # week_page.week_pages()
 # team_page.team_pages()
-# year_page.year_pages()
+# year_page.year_pages(build_figure=True)
