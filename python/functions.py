@@ -214,10 +214,27 @@ def summary_table(data: pd.DataFrame, year: int, week: int = None) -> pd.DataFra
 
     return weekly_standings
 
+def round_min(value, rounding, min_distance=0.1):
+    rounded = np.floor(value / rounding) * rounding
+
+    if value - rounded < rounding * min_distance:
+        rounded -= rounding
+
+    return int(rounded)
+
+def round_max(value, rounding, min_distance=0.1):
+    rounded = np.ceil(value / rounding) * rounding
+
+    if rounded - value < rounding * min_distance:
+        rounded += rounding
+
+    return int(rounded)
+
 def df_to_svg(
         data: pd.DataFrame, 
         x_col: str, 
-        y_col: str, 
+        y_col: str,
+        chart_type: str = 'scatter',
         width: int = 500, 
         height: int = 300,
         x_tick_spacing: int = 50,
@@ -236,17 +253,21 @@ def df_to_svg(
     # tick margin (distance between axes and tick label)
     m_tick = 5
 
-    x_min, x_max = int(np.floor(data[x_col].min() / x_tick_spacing) * x_tick_spacing), int(np.ceil(data[x_col].max() / x_tick_spacing) * x_tick_spacing)
-    y_min, y_max = int(np.floor(data[y_col].min() / y_tick_spacing) * y_tick_spacing), int(np.ceil(data[y_col].max() / y_tick_spacing) * y_tick_spacing)
+    x_min, x_max = round_min(data[x_col].min(), rounding=x_tick_spacing), round_max(data[x_col].max(), rounding=x_tick_spacing)
+    y_min, y_max = round_min(data[y_col].min(), rounding=y_tick_spacing), round_max(data[y_col].max(), rounding=y_tick_spacing)
 
     x_ticks = [(i * x_tick_spacing) + x_min for i in range(1, int((x_max - x_min) / x_tick_spacing))]
     y_ticks = [(i * y_tick_spacing) + y_min for i in range(1, int((y_max - y_min) / y_tick_spacing))]
 
+    grid_color = 'lightgrey'
     for xtick in x_ticks:
-        d.append(draw.Line(m_left + (xtick - x_min) / (x_max - x_min) * P_x, m_top, m_left + (xtick - x_min) / (x_max - x_min) * P_x, height - m_bottom, stroke='lightgrey'))
+        d.append(draw.Line(m_left + (xtick - x_min) / (x_max - x_min) * P_x, m_top, m_left + (xtick - x_min) / (x_max - x_min) * P_x, height - m_bottom, stroke=grid_color))
         d.append(draw.Text(str(xtick), font_size=10, x=m_left + (xtick - x_min) / (x_max - x_min) * P_x, y=height - m_bottom + m_tick, text_anchor='middle', dominant_baseline='hanging', font_family='Arial'))
     for ytick in y_ticks:
-        d.append(draw.Line(m_left, (height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, width - m_right, (height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, stroke='lightgrey'))
+        if ytick == 0:
+            d.append(draw.Line(m_left, (height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, width - m_right, (height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, stroke='black'))
+        else:
+            d.append(draw.Line(m_left, (height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, width - m_right, (height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, stroke=grid_color))
         d.append(draw.Text(str(ytick), font_size=10, x=m_left - m_tick, y=(height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, text_anchor='end', dominant_baseline='middle', font_family='Arial'))
 
     axes = draw.Lines(m_left, m_top, width - m_right, m_top, width - m_right, height - m_bottom, m_left, height - m_bottom, close=True, fill='none', stroke='black', id='axes')
@@ -257,11 +278,22 @@ def df_to_svg(
     y_label = draw.Text(y_col, font_size=16, x=10, y=(P_y / 2 + m_top), text_anchor='middle', dominant_baseline='hanging', transform=f'rotate(-90, {10}, {P_y / 2 + m_top})', font_family='Arial')
     d.append(y_label)
 
+    points = []
+    circles = []
     for index, row in data.iterrows():
         v_x = m_left + ((row[x_col] - x_min) / (x_max - x_min) * (P_x))
         v_y = (height - m_bottom) - ((row[y_col] - y_min) / (y_max - y_min) * (P_y))
 
-        d.append(draw.Circle(v_x, v_y, r=4, fill=constants.COLOR_DICT[row['Team'].lower()], stroke='black', stroke_width=1.5))
+        circles.append(draw.Circle(v_x, v_y, r=4, fill=constants.COLOR_DICT[row['Team'].lower()], stroke='black', stroke_width=1.5))
+        
+        if chart_type == 'line':
+            points.extend([v_x, v_y])
+    
+    if chart_type == 'line':
+        d.append(draw.Lines(*points, fill='none', stroke='black'))
+    
+    for circle in circles:
+        d.append(circle)
 
     result = d.as_svg()
 

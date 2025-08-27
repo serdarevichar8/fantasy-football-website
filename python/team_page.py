@@ -23,12 +23,22 @@ def team_content(team: str, build_figure: bool = False) -> div:
     )
 
     if build_figure:
-        plt.figure(figsize = (5,3), dpi = 300)
-        plt.grid(linewidth = 0.5, zorder = 0)
-        plt.plot(seasons_df['Year'], seasons_df['Luck Score'], c = constants.COLOR_DICT[team.lower()], marker = 'o', zorder = 3)
-        plt.xlabel('Season')
-        plt.ylabel('Luck Score')
-        plt.savefig(f'Assets/Luck-Score-Year-{team}.svg', format = 'svg', bbox_inches = 'tight')
+        # plt.figure(figsize = (5,3), dpi = 300)
+        # plt.grid(linewidth = 0.5, zorder = 0)
+        # plt.plot(seasons_df['Year'], seasons_df['Luck Score'], c = constants.COLOR_DICT[team.lower()], marker = 'o', zorder = 3)
+        # plt.xlabel('Season')
+        # plt.ylabel('Luck Score')
+        # plt.savefig(f'Assets/Luck-Score-Year-{team}.svg', format = 'svg', bbox_inches = 'tight')
+        figure = functions.df_to_svg(
+            data=seasons_df,
+            x_col='Year',
+            y_col='Luck Score',
+            chart_type='line',
+            x_tick_spacing=1,
+            y_tick_spacing=2
+        )
+        with open(f'Assets/Luck-Score-Year-{team}.svg', 'w') as file:
+            file.write(figure)
 
     line_chart_div = functions.content_container(title='Luck Score by Season', content=img(src = f'{constants.ROOT}Assets/Luck-Score-Year-{team}.svg'))
     
