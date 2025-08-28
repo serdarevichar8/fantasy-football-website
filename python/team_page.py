@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 
 from python import functions, constants, document, page_header
 
-def team_content(team: str, build_figure: bool = False) -> div:
+def team_content(team: str) -> div:
     container = div(_class='content')
     container.add(h1(f'{team} Data'))
 
@@ -22,25 +22,18 @@ def team_content(team: str, build_figure: bool = False) -> div:
         content=seasons_table
     )
 
-    if build_figure:
-        # plt.figure(figsize = (5,3), dpi = 300)
-        # plt.grid(linewidth = 0.5, zorder = 0)
-        # plt.plot(seasons_df['Year'], seasons_df['Luck Score'], c = constants.COLOR_DICT[team.lower()], marker = 'o', zorder = 3)
-        # plt.xlabel('Season')
-        # plt.ylabel('Luck Score')
-        # plt.savefig(f'Assets/Luck-Score-Year-{team}.svg', format = 'svg', bbox_inches = 'tight')
-        figure = functions.df_to_svg(
-            data=seasons_df,
-            x_col='Year',
-            y_col='Luck Score',
-            chart_type='line',
-            x_tick_spacing=1,
-            y_tick_spacing=2
-        )
-        with open(f'Assets/Luck-Score-Year-{team}.svg', 'w') as file:
-            file.write(figure)
-
-    line_chart_div = functions.content_container(title='Luck Score by Season', content=img(src = f'{constants.ROOT}Assets/Luck-Score-Year-{team}.svg'))
+    line_chart_svg = functions.df_to_svg(
+        data=seasons_df,
+        x_col='Year',
+        y_col='Luck Score',
+        chart_type='bar',
+        x_tick_spacing=1,
+        y_tick_spacing=2
+    )
+    line_chart_div = functions.content_container(
+        title='Luck Score by Season',
+        content=line_chart_svg
+    )
     
     draft_data = constants.DRAFT_DATA.loc[constants.DRAFT_DATA['Team'] == team].copy()
     draft_table = functions.df_to_table(
@@ -61,12 +54,12 @@ def team_content(team: str, build_figure: bool = False) -> div:
 
     return container
 
-def team_pages(build_figure: bool = False):
+def team_pages():
     for team in constants.TEAMS:
         doc = document.document()
         doc.add(page_header.page_header(active_year='team'))
 
-        doc.add(team_content(team=team, build_figure=build_figure))
+        doc.add(team_content(team=team))
         doc.add(script(src=f'{constants.ROOT}script.js'))
 
         with open(f'teams/{team}.html','w') as file:

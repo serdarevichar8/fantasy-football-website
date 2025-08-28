@@ -5,6 +5,7 @@ from dominate.tags import *
 import drawsvg as draw
 
 from python import constants
+from python.svg import *
 
 def df_to_table(
         data: pd.DataFrame,
@@ -230,6 +231,8 @@ def round_max(value, rounding, min_distance=0.1):
 
     return int(rounded)
 
+
+
 def df_to_svg(
         data: pd.DataFrame, 
         x_col: str, 
@@ -240,11 +243,6 @@ def df_to_svg(
         x_tick_spacing: int = 50,
         y_tick_spacing: int = 50
 ):
-
-    d = draw.Drawing(width=width, height=height)
-
-    border = draw.Lines(0, 0, width, 0, width, height, 0, height, close=True, fill='white', id='border')
-    d.append(border)
 
     # margin x and y from edges of visual
     m_top, m_bottom, m_left, m_right = 10, 50, 60, 10
@@ -259,59 +257,163 @@ def df_to_svg(
     x_ticks = [(i * x_tick_spacing) + x_min for i in range(1, int((x_max - x_min) / x_tick_spacing))]
     y_ticks = [(i * y_tick_spacing) + y_min for i in range(1, int((y_max - y_min) / y_tick_spacing))]
 
-    grid_color = 'lightgrey'
-    for xtick in x_ticks:
-        d.append(draw.Line(m_left + (xtick - x_min) / (x_max - x_min) * P_x, m_top, m_left + (xtick - x_min) / (x_max - x_min) * P_x, height - m_bottom, stroke=grid_color))
-        d.append(draw.Text(str(xtick), font_size=10, x=m_left + (xtick - x_min) / (x_max - x_min) * P_x, y=height - m_bottom + m_tick, text_anchor='middle', dominant_baseline='hanging', font_family='Arial'))
-    for ytick in y_ticks:
-        if ytick == 0:
-            d.append(draw.Line(m_left, (height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, width - m_right, (height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, stroke='black'))
+    if chart_type == 'bar':
+        y_max = max(abs(y_min), abs(y_max))
+        
+        if y_min >= 0:
+            y_min = 0
         else:
-            d.append(draw.Line(m_left, (height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, width - m_right, (height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, stroke=grid_color))
-        d.append(draw.Text(str(ytick), font_size=10, x=m_left - m_tick, y=(height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, text_anchor='end', dominant_baseline='middle', font_family='Arial'))
+            y_min = -y_max
 
-    axes = draw.Lines(m_left, m_top, width - m_right, m_top, width - m_right, height - m_bottom, m_left, height - m_bottom, close=True, fill='none', stroke='black', id='axes')
-    d.append(axes)
+        y_ticks = [(i * y_tick_spacing) + y_min for i in range(1, int((y_max - y_min) / y_tick_spacing))]
 
-    x_label = draw.Text(x_col, font_size=16, x=(P_x / 2 + m_left), y=(height - (m_bottom / 2)), text_anchor='middle', dominant_baseline='hanging', font_family='Arial')
-    d.append(x_label)
-    y_label = draw.Text(y_col, font_size=16, x=10, y=(P_y / 2 + m_top), text_anchor='middle', dominant_baseline='hanging', transform=f'rotate(-90, {10}, {P_y / 2 + m_top})', font_family='Arial')
-    d.append(y_label)
+    d_svg = svg(
+        xmlns='http://www.w3.org/2000/svg',
+        width=width,
+        height=height,
+        viewBox=f'0 0 {width} {height}'
+    )
+
+    outer_group = g(
+        **{
+            'font-family':'Arial',
+            'font-size':10,
+            'text-anchor':'middle',
+            'dominant-baseline':'hanging'
+        }
+    )
+    d_svg.add(outer_group)
+
+    border = draw.Lines(0, 0, width, 0, width, height, 0, height, close=True)
+    border_path = path(d=border.args['d'], fill='white', _id='border')
+    outer_group.add(border_path)
+
+    
+
+    xlabel_group = g(
+        **{
+            'font-family':'Arial',
+            'font-size':10,
+            'text-anchor':'middle',
+            'dominant-baseline':'hanging'
+        }
+    )
+
+    grid_path_d = []
+    for xtick in x_ticks:
+        x = round(m_left + (xtick - x_min) / (x_max - x_min) * P_x, 3)
+
+        gridline = draw.Line(x, m_top, x, height - m_bottom) 
+        grid_path_d.append(gridline.args['d'])
+
+        xtick_label = text(
+            xtick,
+            x=x,
+            y=height - m_bottom + m_tick
+        )
+        xlabel_group.add(xtick_label)
+
+    outer_group.add(xlabel_group)
+
+    ylabel_group = g(
+        **{
+            'font-family':'Arial',
+            'font-size':10,
+            'text-anchor':'end',
+            'dominant-baseline':'middle'
+        }
+    )
+    zero_grid_path = False
+    zero_ytick = False
+    for ytick in y_ticks:
+        y = round((height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, 3)
+
+        gridline = draw.Line(m_left, y, width - m_right, y)
+        grid_path_d.append(gridline.args['d'])
+
+        ytick_label = text(
+            ytick,
+            x=m_left - m_tick,
+            y=y
+        )
+        ylabel_group.add(ytick_label)
+
+
+        if ytick == 0:
+            zero_grid_path = path(d=gridline.args['d'], stroke='black')
+            zero_ytick = y
+
+    outer_group.add(ylabel_group)
+
+    grid_path = path(
+        d=' '.join(grid_path_d),
+        stroke='lightgrey'
+    )
+    outer_group.add(grid_path)
+    if zero_grid_path:
+        outer_group.add(zero_grid_path)
+
+    axis_title_group = g(
+        **{
+            'font-size':16
+        }
+    )
+    outer_group.add(axis_title_group)
+    xlabel = text(
+        x_col,
+        x=(P_x / 2 + m_left),
+        y=(height - (m_bottom / 2))
+    )
+    ylabel = text(
+        y_col,
+        x=10,
+        y=(P_y / 2 + m_top),
+        transform=f'rotate(-90, {10}, {P_y / 2 + m_top})'
+    )
+
+    axis_title_group.add([xlabel, ylabel])
+    axes = draw.Lines(m_left, m_top, width - m_right, m_top, width - m_right, height - m_bottom, m_left, height - m_bottom, close=True)
+    axes_path = path(d=axes.args['d'], fill='none', stroke='black', _id='axes')
+    outer_group.add(axes_path)
 
     points = []
-    circles = []
+    circles_group = g(
+        **{
+            'stroke':'black',
+            'stroke-width':1.5
+        }
+    )
+    bars_group = g(stroke='black')
     for index, row in data.iterrows():
-        v_x = m_left + ((row[x_col] - x_min) / (x_max - x_min) * (P_x))
-        v_y = (height - m_bottom) - ((row[y_col] - y_min) / (y_max - y_min) * (P_y))
+        v_x = round(m_left + ((row[x_col] - x_min) / (x_max - x_min) * (P_x)), 3)
+        v_y = round((height - m_bottom) - ((row[y_col] - y_min) / (y_max - y_min) * (P_y)), 3)
 
-        circles.append(draw.Circle(v_x, v_y, r=4, fill=constants.COLOR_DICT[row['Team'].lower()], stroke='black', stroke_width=1.5))
+        bar_y = v_y if row[y_col] > 0 else zero_ytick
+        bar_height = zero_ytick - v_y if row[y_col] > 0 else v_y - zero_ytick
+        bar_width = 25
+
+        bars_group.add(
+            rect(
+                x=v_x - bar_width / 2,
+                y=bar_y,
+                width=bar_width,
+                height=bar_height,
+                fill=constants.COLOR_DICT[row['Team'].lower()]
+            )
+        )
+        circles_group.add(circle(cx=v_x, cy=v_y, r=4, fill=constants.COLOR_DICT[row['Team'].lower()]))
         
-        if chart_type == 'line':
-            points.extend([v_x, v_y])
-    
+        points.extend([v_x, v_y])
+
     if chart_type == 'line':
-        d.append(draw.Lines(*points, fill='none', stroke='black'))
-    
-    for circle in circles:
-        d.append(circle)
+        line = draw.Lines(*points)
+        line_path = path(d=line.args['d'], fill='none', stroke='black')
+        outer_group.add(line_path)
 
-    result = d.as_svg()
+    if chart_type in ['scatter','line']:
+        outer_group.add(circles_group)
 
-    # raw_svg = d.as_svg().split('\n')
-    # raw_svg[1] = ' '.join([p for p in raw_svg[1].split(' ') if not p.startswith('xmlns:xlink')])
-    # raw_svg[1] = raw_svg[1].strip() + ' ' + raw_svg[2].strip()
-    # del raw_svg[2]
+    if chart_type == 'bar':
+        outer_group.add(bars_group)
 
-    # svg_str = []
-
-    # for line in raw_svg:
-    #     if line.startswith('<?xml') or line == '<defs>' or line == '</defs>':
-    #         continue
-    #     if line.startswith('<svg') or line == '</svg>':
-    #         svg_str.append(line)
-    #         continue
-    #     svg_str.append('  ' + line)
-
-    # result = dominate.util.raw('\n' + '\n'.join(svg_str))
-
-    return result
+    return d_svg
