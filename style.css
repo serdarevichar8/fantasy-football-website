@@ -150,6 +150,10 @@ body div {
     border-left: solid #333333;
 }
 
+tr.champ {
+    font-weight: bold;
+}
+
 .content-container h2 {
     text-align: left;
     padding: 5px;
@@ -173,6 +177,15 @@ body div {
 
 .content-container img {
     height: 400px;
+    /* max-height: 400px;
+    width: 100%; */
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.content-container svg {
+    height: 400px;
+    width: auto;
     /* max-height: 400px;
     width: 100%; */
     border-bottom-left-radius: 30px;

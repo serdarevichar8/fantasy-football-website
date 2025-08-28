@@ -180,21 +180,55 @@
               <th class="ranking">Ranking</th>
               <th class="points-for">Points For</th>
               <th class="points-against">Points Against</th>
-              <th class="avg-points-for">Avg Points For</th>
+              <th class="pf/g+">PF/G+</th>
               <th class="avg-margin">Avg Margin</th>
               <th class="luck-score">Luck Score</th>
             </tr>
           </thead>
           <tbody>
-            <tr><td class="year">2022</td><td class="record">8-6</td><td class="ranking">2</td><td class="points-for">1623.22</td><td class="points-against">1687.58</td><td class="avg-points-for">115.94</td><td class="avg-margin">-4.6</td><td class="luck-score">-10</td></tr>
-            <tr><td class="year">2023</td><td class="record">7-7</td><td class="ranking">6</td><td class="points-for">1800.4</td><td class="points-against">1696.42</td><td class="avg-points-for">128.6</td><td class="avg-margin">7.43</td><td class="luck-score">-8</td></tr>
-            <tr><td class="year">2024</td><td class="record">11-3</td><td class="ranking">1</td><td class="points-for">1777.24</td><td class="points-against">1568.64</td><td class="avg-points-for">126.95</td><td class="avg-margin">14.9</td><td class="luck-score">5</td></tr>
+            <tr><td class="year">2022</td><td class="record">8-6</td><td class="ranking">2</td><td class="points-for">1623.22</td><td class="points-against">1687.58</td><td class="pf/g+">102</td><td class="avg-margin">-4.6</td><td class="luck-score">-10</td></tr>
+            <tr><td class="year">2023</td><td class="record">7-7</td><td class="ranking">6</td><td class="points-for">1800.4</td><td class="points-against">1696.42</td><td class="pf/g+">110</td><td class="avg-margin">7.43</td><td class="luck-score">-8</td></tr>
+            <tr><td class="year">2024</td><td class="record">11-3</td><td class="ranking">1</td><td class="points-for">1777.24</td><td class="points-against">1568.64</td><td class="pf/g+">108</td><td class="avg-margin">14.9</td><td class="luck-score">5</td></tr>
           </tbody>
         </table>
       </div>
       <div class="content-container">
         <h2>Luck Score by Season</h2>
-        <img src="/fantasy-football-website/Assets/Luck-Score-Year-Kevin.svg">
+        <svg height="300" viewBox="0 0 500 300" width="500" xmlns="http://www.w3.org/2000/svg">
+          <g dominant-baseline="hanging" font-family="Arial" font-size="10" text-anchor="middle">
+            <path d="M0,0 L500,0 L500,300 L0,300 Z" fill="white" id="border"></path>
+            <g dominant-baseline="hanging" font-family="Arial" font-size="10" text-anchor="middle">
+              <text x="167.5" y="255">2022</text>
+              <text x="275.0" y="255">2023</text>
+              <text x="382.5" y="255">2024</text>
+            </g>
+            <g dominant-baseline="middle" font-family="Arial" font-size="10" text-anchor="end">
+              <text x="55" y="230.0">-10</text>
+              <text x="55" y="210.0">-8</text>
+              <text x="55" y="190.0">-6</text>
+              <text x="55" y="170.0">-4</text>
+              <text x="55" y="150.0">-2</text>
+              <text x="55" y="130.0">0</text>
+              <text x="55" y="110.0">2</text>
+              <text x="55" y="90.0">4</text>
+              <text x="55" y="70.0">6</text>
+              <text x="55" y="50.0">8</text>
+              <text x="55" y="30.0">10</text>
+            </g>
+            <path d="M167.5,10 L167.5,250 M275.0,10 L275.0,250 M382.5,10 L382.5,250 M60,230.0 L490,230.0 M60,210.0 L490,210.0 M60,190.0 L490,190.0 M60,170.0 L490,170.0 M60,150.0 L490,150.0 M60,130.0 L490,130.0 M60,110.0 L490,110.0 M60,90.0 L490,90.0 M60,70.0 L490,70.0 M60,50.0 L490,50.0 M60,30.0 L490,30.0" stroke="lightgrey"></path>
+            <path d="M60,130.0 L490,130.0" stroke="black"></path>
+            <g font-size="16">
+              <text x="275.0" y="275.0">Year</text>
+              <text transform="rotate(-90, 10, 130.0)" x="10" y="130.0">Luck Score</text>
+            </g>
+            <path d="M60,10 L490,10 L490,250 L60,250 Z" fill="none" id="axes" stroke="black"></path>
+            <g stroke="black">
+              <rect fill="violet" height="100.0" width="25" x="155.0" y="130.0"></rect>
+              <rect fill="violet" height="80.0" width="25" x="262.5" y="130.0"></rect>
+              <rect fill="violet" height="50.0" width="25" x="370.0" y="80.0"></rect>
+            </g>
+          </g>
+        </svg>
       </div>
       <div class="content-container">
         <h2>League Draft

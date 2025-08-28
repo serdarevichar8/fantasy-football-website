@@ -77,7 +77,7 @@ def week_content(year: int, week: int) -> div:
     standings = functions.summary_table(constants.GAME_DATA, year = year, week = week)
     standings_table = functions.df_to_table(
         data=standings,
-        custom_columns=['Team','Record','Ranking','Points For','Points Against','Avg Points For','Avg Margin','Luck Score'],
+        custom_columns=['Team','Record','Ranking','Points For','Points Against','Luck Score'],
         table_id='standings-table'
     )
     standings_div = functions.content_container(

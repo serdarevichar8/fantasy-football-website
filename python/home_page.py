@@ -1,6 +1,7 @@
 from dominate.tags import *
+import pandas as pd
 
-from python import document, page_header
+from python import document, page_header, functions
 
 def home_content() -> div:
     '''
@@ -11,10 +12,34 @@ def home_content() -> div:
     * Documentation PDF
     '''
     container = div(_class='content')
-    container.add(h1('Documentation'))
+    container.add(h1('Home'))
 
-    documentation = object_('Documentation', data='/fantasy-football-website/Assets/Fantasy-Football.pdf', height='1000px', width='90%')
-    container.add(documentation)
+    draft_order_df = pd.DataFrame(
+        {
+            'Team':['Nathan','Andrew','Noah','Haris','Stolarz','McGwire','Dante','Ethan','Michael','Kevin','Carter','Tyler'],
+            'Pick':[1,2,3,4,5,6,7,8,9,10,11,12]
+        }
+    )
+    draft_order_table = functions.df_to_table(draft_order_df)
+    draft_order_div = functions.content_container(
+        title='2025 Draft Order',
+        content=draft_order_table
+    )
+    
+    payout_df = pd.DataFrame(
+        {
+            'Position':['1st','2nd','3rd','Reg Szn Champ'],
+            'Payout':['$400','$150','$50','$60']
+        }
+    )
+    payout_table = functions.df_to_table(payout_df)
+    payout_div = functions.content_container(
+        title='2025 Payout Rules',
+        content=payout_table
+    )
+
+    container.add(draft_order_div)
+    container.add(payout_div)
 
     return container
 
