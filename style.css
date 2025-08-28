@@ -183,6 +183,15 @@ tr.champ {
     border-bottom-right-radius: 30px;
 }
 
+.content-container svg {
+    height: 400px;
+    width: auto;
+    /* max-height: 400px;
+    width: 100%; */
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
 .stats {
     box-shadow: none;
     width: fit-content;
