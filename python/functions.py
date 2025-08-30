@@ -2,10 +2,9 @@ import pandas as pd
 import numpy as np
 import dominate
 from dominate.tags import *
-import drawsvg as draw
+from dominate.svg import *
 
 from python import constants
-from python.svg import *
 
 def df_to_table(
         data: pd.DataFrame,
@@ -200,18 +199,36 @@ def summary_table(data: pd.DataFrame, year: int, week: int = None) -> pd.DataFra
         pfpg = round(temp_team['Score'].mean(), 2)
         pfpg_plus = int(pfpg / league_pfpg * 100)
         pa = round(temp_team['Opp Score'].sum(), 2)
+        papg = round(temp_team['Opp Score'].mean(), 2)
+        papg_plus = int(papg / league_pfpg * 100)
         avg_margin = round((pf - pa) / len(temp_team), 2)
         luck_score = temp_team['Luck Score'].sum()
 
         champ_flag = int(champ == team)
 
-        weekly_standings.append([team, wins, record, pf, pa, pfpg, pfpg_plus, avg_margin, luck_score, champ_flag])
+        weekly_standings.append(
+            {
+                'Week':week,
+                'Year':year,
+                'Team':team,
+                'Wins':wins,
+                'Losses':losses,
+                'Record':record,
+                'Points For':pf,
+                'Points Against':pa,
+                'PF/G':pfpg,
+                'PF/G+':pfpg_plus,
+                'PA/G':papg,
+                'PA/G+':papg_plus,
+                'Avg Margin':avg_margin,
+                'Luck Score':luck_score,
+                'Champ Flag':champ_flag
+            }
+        )
 
-    weekly_standings = pd.DataFrame(weekly_standings, columns=['Team','Wins','Record', 'Points For','Points Against','PF/G','PF/G+','Avg Margin','Luck Score','Champ Flag'])
+    weekly_standings = pd.DataFrame(weekly_standings)
     weekly_standings.sort_values(['Wins','Points For'], ascending=False, ignore_index=True, inplace=True)
     weekly_standings['Ranking'] = [i + 1 for i in weekly_standings.index]
-    weekly_standings['Year'] = year
-    weekly_standings = weekly_standings[['Year','Team','Record','Ranking','Points For','Points Against','PF/G','PF/G+','Avg Margin','Luck Score','Champ Flag']]
 
     return weekly_standings
 
@@ -231,7 +248,65 @@ def round_max(value, rounding, min_distance=0.1):
 
     return int(rounded)
 
+def write_path(x_values, y_values, close=False):
+    '''
+    Writes the d argument for an SVG <path/> element using lists of x and y values
+    '''
+    if len(x_values) != len(y_values):
+        raise ValueError('x_values and y_values must be of the same length')
+    
+    length = len(x_values)
 
+    d = []
+
+    for i in range(length):
+        prefix = 'M' if i == 0 else 'L'
+        d.append(f'{prefix}{x_values[i]},{y_values[i]}')
+
+    if close:
+        d.append('Z')
+
+    return ' '.join(d)
+
+def calculate_limits(
+        data: pd.DataFrame,
+        x_col: str,
+        y_col: str,
+        x_tick_spacing: int,
+        y_tick_spacing: int,
+        include_zero: bool = False
+):
+    # Find the actual min and max of x and y values
+    x_min, x_max = data[x_col].min(), data[x_col].max()
+    y_min, y_max = data[y_col].min(), data[y_col].max()
+
+    # Round the min/max values down/up to the nearest round number according to the tick spacing
+    # If actual min/max is equal to (or within 10% of) rounded value, then will go one step further
+    x_limit_min, x_limit_max = round_min(x_min, rounding=x_tick_spacing), round_max(x_max, rounding=x_tick_spacing)
+    y_limit_min, y_limit_max = round_min(y_min, rounding=y_tick_spacing), round_max(y_max, rounding=y_tick_spacing)
+
+    if include_zero:
+        y_limit_min = 0 if y_limit_min >= 0 else y_limit_min
+        y_limit_max = 0 if y_limit_max <= 0 else y_limit_max
+
+    xlim = (x_limit_min, x_limit_max)
+    ylim = (y_limit_min, y_limit_max)
+
+    return xlim, ylim
+
+def calculate_ticks(
+        xlim: tuple,
+        ylim: tuple,
+        x_tick_spacing: int,
+        y_tick_spacing: int
+):
+    x_limit_min, x_limit_max = xlim
+    y_limit_min, y_limit_max = ylim
+
+    x_ticks = [(i * x_tick_spacing) + x_limit_min for i in range(int((x_limit_max - x_limit_min) / x_tick_spacing) + 1)]
+    y_ticks = [(i * y_tick_spacing) + y_limit_min for i in range(int((y_limit_max - y_limit_min) / y_tick_spacing) + 1)]
+
+    return x_ticks, y_ticks
 
 def df_to_svg(
         data: pd.DataFrame, 
@@ -251,21 +326,16 @@ def df_to_svg(
     # tick margin (distance between axes and tick label)
     m_tick = 5
 
-    x_min, x_max = round_min(data[x_col].min(), rounding=x_tick_spacing), round_max(data[x_col].max(), rounding=x_tick_spacing)
-    y_min, y_max = round_min(data[y_col].min(), rounding=y_tick_spacing), round_max(data[y_col].max(), rounding=y_tick_spacing)
+    # Bring in x and y ticks from calculate_ticks function
+    include_zero = True if chart_type == 'bar' else False
+    xlim, ylim = calculate_limits(data=data, x_col=x_col, y_col=y_col, x_tick_spacing=x_tick_spacing, y_tick_spacing=y_tick_spacing, include_zero=include_zero)
+    # if 'ylim' in kwargs:
+    #     ylim = kwargs.pop('ylim')
 
-    x_ticks = [(i * x_tick_spacing) + x_min for i in range(1, int((x_max - x_min) / x_tick_spacing))]
-    y_ticks = [(i * y_tick_spacing) + y_min for i in range(1, int((y_max - y_min) / y_tick_spacing))]
+    x_limit_min, x_limit_max = xlim
+    y_limit_min, y_limit_max = ylim
 
-    if chart_type == 'bar':
-        y_max = max(abs(y_min), abs(y_max))
-        
-        if y_min >= 0:
-            y_min = 0
-        else:
-            y_min = -y_max
-
-        y_ticks = [(i * y_tick_spacing) + y_min for i in range(1, int((y_max - y_min) / y_tick_spacing))]
+    x_ticks, y_ticks = calculate_ticks(xlim=xlim, ylim=ylim, x_tick_spacing=x_tick_spacing, y_tick_spacing=y_tick_spacing)
 
     d_svg = svg(
         xmlns='http://www.w3.org/2000/svg',
@@ -275,36 +345,29 @@ def df_to_svg(
     )
 
     outer_group = g(
-        **{
-            'font-family':'Arial',
-            'font-size':10,
-            'text-anchor':'middle',
-            'dominant-baseline':'hanging'
-        }
+        font_family='Arial',
+        font_size=10,
+        text_anchor='middle',
+        dominant_baseline='hanging'
     )
     d_svg.add(outer_group)
 
-    border = draw.Lines(0, 0, width, 0, width, height, 0, height, close=True)
-    border_path = path(d=border.args['d'], fill='white', _id='border')
+    border = write_path([0, width, width, 0], [0, 0, height, height], close=True)
+    border_path = path(d=border, fill='white', _id='border')
     outer_group.add(border_path)
 
     
 
-    xlabel_group = g(
-        **{
-            'font-family':'Arial',
-            'font-size':10,
-            'text-anchor':'middle',
-            'dominant-baseline':'hanging'
-        }
-    )
+    xlabel_group = g()
 
     grid_path_d = []
-    for xtick in x_ticks:
-        x = round(m_left + (xtick - x_min) / (x_max - x_min) * P_x, 3)
+    for i, xtick in enumerate(x_ticks):
+        if i == 0 or i == (len(x_ticks) - 1):
+            continue
+        x = round(m_left + (xtick - x_limit_min) / (x_limit_max - x_limit_min) * P_x, 3)
 
-        gridline = draw.Line(x, m_top, x, height - m_bottom) 
-        grid_path_d.append(gridline.args['d'])
+        gridline = write_path([x, x], [m_top, height - m_bottom])
+        grid_path_d.append(gridline)
 
         xtick_label = text(
             xtick,
@@ -316,20 +379,16 @@ def df_to_svg(
     outer_group.add(xlabel_group)
 
     ylabel_group = g(
-        **{
-            'font-family':'Arial',
-            'font-size':10,
-            'text-anchor':'end',
-            'dominant-baseline':'middle'
-        }
+        text_anchor='end',
+        dominant_baseline='middle'
     )
     zero_grid_path = False
     zero_ytick = False
     for ytick in y_ticks:
-        y = round((height - m_bottom) - (ytick - y_min) / (y_max - y_min) * P_y, 3)
+        y = round((height - m_bottom) - (ytick - y_limit_min) / (y_limit_max - y_limit_min) * P_y, 3)
 
-        gridline = draw.Line(m_left, y, width - m_right, y)
-        grid_path_d.append(gridline.args['d'])
+        gridline = write_path([m_left, width - m_right], [y, y])
+        grid_path_d.append(gridline)
 
         ytick_label = text(
             ytick,
@@ -340,7 +399,7 @@ def df_to_svg(
 
 
         if ytick == 0:
-            zero_grid_path = path(d=gridline.args['d'], stroke='black')
+            zero_grid_path = path(d=gridline, stroke='black')
             zero_ytick = y
 
     outer_group.add(ylabel_group)
@@ -353,11 +412,7 @@ def df_to_svg(
     if zero_grid_path:
         outer_group.add(zero_grid_path)
 
-    axis_title_group = g(
-        **{
-            'font-size':16
-        }
-    )
+    axis_title_group = g(font_size=16)
     outer_group.add(axis_title_group)
     xlabel = text(
         x_col,
@@ -372,21 +427,20 @@ def df_to_svg(
     )
 
     axis_title_group.add([xlabel, ylabel])
-    axes = draw.Lines(m_left, m_top, width - m_right, m_top, width - m_right, height - m_bottom, m_left, height - m_bottom, close=True)
-    axes_path = path(d=axes.args['d'], fill='none', stroke='black', _id='axes')
+    axes = write_path([m_left, width - m_right, width - m_right, m_left], [m_top, m_top, height - m_bottom, height - m_bottom], close=True)
+    axes_path = path(d=axes, fill='none', stroke='black', _id='axes')
     outer_group.add(axes_path)
 
-    points = []
+    x_points = []
+    y_points = []
     circles_group = g(
-        **{
-            'stroke':'black',
-            'stroke-width':1.5
-        }
+        stroke='black',
+        stroke_width=1.5
     )
     bars_group = g(stroke='black')
     for index, row in data.iterrows():
-        v_x = round(m_left + ((row[x_col] - x_min) / (x_max - x_min) * (P_x)), 3)
-        v_y = round((height - m_bottom) - ((row[y_col] - y_min) / (y_max - y_min) * (P_y)), 3)
+        v_x = round(m_left + ((row[x_col] - x_limit_min) / (x_limit_max - x_limit_min) * (P_x)), 3)
+        v_y = round((height - m_bottom) - ((row[y_col] - y_limit_min) / (y_limit_max - y_limit_min) * (P_y)), 3)
 
         bar_y = v_y if row[y_col] > 0 else zero_ytick
         bar_height = zero_ytick - v_y if row[y_col] > 0 else v_y - zero_ytick
@@ -403,10 +457,12 @@ def df_to_svg(
         )
         circles_group.add(circle(cx=v_x, cy=v_y, r=4, fill=constants.COLOR_DICT[row['Team'].lower()]))
         
-        points.extend([v_x, v_y])
+        x_points.append(v_x)
+        y_points.append(v_y)
+
 
     if chart_type == 'line':
-        line = draw.Lines(*points)
+        line = write_path(x_points, y_points)
         line_path = path(d=line.args['d'], fill='none', stroke='black')
         outer_group.add(line_path)
 
