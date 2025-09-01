@@ -18,6 +18,23 @@ LEAGUE_ID = 565994
 ESPN_S2 = 'AECM5wfhjIj%2FgFWK7gldFYleiro5zx5YQV0NKDgcd1glbVuvTot8VFFUNWhPjAOG46Ut0lFYEI5mo75eeL5VDdQMyLKmpms7TetGiz2dMsUSIfl2A7MNQMrSMFvmBHhg0wi1SQbHOFKI6FBVsJqtBlq5c%2B%2Bl5dGvpM8LmhrFp563Dv4eaZhclj9lfSPq3CC4u%2FsUk7iSzQq42W7AUMVbYJqAKKX11dazM5GmocQozc9GXNKiRIhuNDAe2en7%2FjyAbJqSZEwlWu%2BRyOIyOpmLgr6wnx47jWxeKJmTIYP24Hk13Q%3D%3D'
 SWID = '{1B555C10-31F2-4EC7-A015-90782392E593}'
 
+DEFAULT_POSITION_MAP = {
+    1: "QB",
+    2: "RB",
+    3: "WR",
+    4: "TE",
+    5: "K",
+    7: "P",
+    9: "DT",
+    10: "DE",
+    11: "LB",
+    12: "CB",
+    13: "S",
+    14: "HC",
+    15: "TQB", 
+    16: "D/ST"
+}
+
 COLOR_DICT = {'andrew':'cornflowerblue',
               'mcgwire':'darkblue',
               'tyler':'lightgreen',

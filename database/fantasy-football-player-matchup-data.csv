@@ -3,7 +3,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,1,Andrew,Dalvin Cook,26.0,RB1,24.3,Josh Jacobs,Carter
 2019,1,Andrew,David Johnson,25.7,RB2,5.5,David Montgomery,Carter
 2019,1,Andrew,Tyler Boyd,14.3,WR1,31.1,DeAndre Hopkins,Carter
-2019,1,Andrew,Mike Evans,4.8,WR2,17.2,Allen Robinson II,Carter
+2019,1,Andrew,Mike Evans,4.8,WR2,17.2,Allen Robinson,Carter
 2019,1,Andrew,Jared Cook,5.7,TE,28.6,Evan Engram,Carter
 2019,1,Andrew,Tyler Lockett,11.4,FLEX,14.2,Dede Westbrook,Carter
 2019,1,Andrew,Saints D/ST,4.0,D/ST,-1.0,Broncos D/ST,Carter
@@ -23,7 +23,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,1,Haris,Amari Cooper,22.6,WR1,13.8,JuJu Smith-Schuster,Ethan
 2019,1,Haris,Jarvis Landry,11.7,WR2,5.9,Brandin Cooks,Ethan
 2019,1,Haris,Austin Hooper,16.7,TE,22.5,Delanie Walker,Ethan
-2019,1,Haris,Will Fuller V,8.9,FLEX,4.7,Kenyan Drake,Ethan
+2019,1,Haris,William Fuller V,8.9,FLEX,4.7,Kenyan Drake,Ethan
 2019,1,Haris,Browns D/ST,1.0,D/ST,-8.0,Jaguars D/ST,Ethan
 2019,1,Haris,Brett Maher,5.0,K,6.0,Jake Elliott,Ethan
 2019,1,Justin,Patrick Mahomes,27.32,QB,16.6,Russell Wilson,Klapp
@@ -57,7 +57,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,2,Carter,David Montgomery,13.8,RB1,9.7,Chris Carson,Dante
 2019,2,Carter,Josh Jacobs,9.9,RB2,5.7,Joe Mixon,Dante
 2019,2,Carter,DeAndre Hopkins,9.0,WR1,18.9,Michael Thomas,Dante
-2019,2,Carter,Allen Robinson II,8.1,WR2,17.6,Cooper Kupp,Dante
+2019,2,Carter,Allen Robinson,8.1,WR2,17.6,Cooper Kupp,Dante
 2019,2,Carter,Evan Engram,10.8,TE,17.2,Zach Ertz,Dante
 2019,2,Carter,Tyrell Williams,15.6,FLEX,10.6,Phillip Lindsay,Dante
 2019,2,Carter,Patriots D/ST,35.0,D/ST,4.0,Ravens D/ST,Dante
@@ -74,7 +74,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,2,Klapp,Russell Wilson,24.2,QB,19.12,Jared Goff,Zach
 2019,2,Klapp,Todd Gurley II,15.7,RB1,13.5,James Conner,Zach
 2019,2,Klapp,Marlon Mack,8.3,RB2,9.7,Mark Ingram II,Zach
-2019,2,Klapp,Robby Anderson,12.1,WR1,28.1,Odell Beckham Jr.,Zach
+2019,2,Klapp,Robbie Chosen,12.1,WR1,28.1,Odell Beckham Jr.,Zach
 2019,2,Klapp,Stefon Diggs,9.9,WR2,0.0,DeSean Jackson,Zach
 2019,2,Klapp,George Kittle,8.4,TE,0.0,Jimmy Graham,Zach
 2019,2,Klapp,Devin Singletary,11.7,FLEX,11.9,James White,Zach
@@ -83,10 +83,10 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,2,McGwire,Deshaun Watson,12.86,QB,31.62,Patrick Mahomes,Justin
 2019,2,McGwire,Saquon Barkley,22.5,RB1,12.3,Sony Michel,Justin
 2019,2,McGwire,Leonard Fournette,12.7,RB2,7.3,Christian McCaffrey,Justin
-2019,2,McGwire,Marquise Brown,16.6,WR1,24.5,Calvin Ridley,Justin
+2019,2,McGwire,Hollywood Brown,16.6,WR1,24.5,Calvin Ridley,Justin
 2019,2,McGwire,Adam Thielen,12.5,WR2,14.3,T.Y. Hilton,Justin
 2019,2,McGwire,T.J. Hockenson,1.7,TE,0.0,David Njoku,Justin
-2019,2,McGwire,Danny Amendola,0.0,FLEX,21.2,John Ross III,Justin
+2019,2,McGwire,Danny Amendola,0.0,FLEX,21.2,John Ross,Justin
 2019,2,McGwire,Bills D/ST,5.0,D/ST,7.0,Chargers D/ST,Justin
 2019,2,McGwire,Justin Tucker,13.0,K,9.0,Greg Zuerlein,Justin
 2019,2,Nathan,Carson Wentz,17.54,QB,24.66,Tom Brady,Andrew
@@ -104,7 +104,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,2,Noah,Keenan Allen,17.8,WR1,14.4,Amari Cooper,Haris
 2019,2,Noah,Alshon Jeffery,0.0,WR2,6.2,Jarvis Landry,Haris
 2019,2,Noah,Travis Kelce,23.7,TE,7.4,Austin Hooper,Haris
-2019,2,Noah,Josh Gordon,3.9,FLEX,8.0,Will Fuller V,Haris
+2019,2,Noah,Josh Gordon,3.9,FLEX,8.0,William Fuller V,Haris
 2019,2,Noah,Titans D/ST,9.0,D/ST,11.0,Texans D/ST,Haris
 2019,2,Noah,Ka'imi Fairbairn,7.0,K,7.0,Brett Maher,Haris
 2019,3,Andrew,Tom Brady,20.14,QB,22.54,Dak Prescott,Haris
@@ -113,7 +113,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,3,Andrew,Mike Evans,45.0,WR1,26.8,Amari Cooper,Haris
 2019,3,Andrew,Sammy Watkins,11.4,WR2,9.2,Jarvis Landry,Haris
 2019,3,Andrew,Vance McDonald,2.0,TE,24.6,Austin Hooper,Haris
-2019,3,Andrew,Tyler Boyd,12.8,FLEX,10.1,Will Fuller V,Haris
+2019,3,Andrew,Tyler Boyd,12.8,FLEX,10.1,William Fuller V,Haris
 2019,3,Andrew,Saints D/ST,8.0,D/ST,-2.0,Cardinals D/ST,Haris
 2019,3,Andrew,Adam Vinatieri,10.0,K,6.0,Brett Maher,Haris
 2019,3,Dante,Matt Ryan,22.46,QB,21.66,Carson Wentz,Nathan
@@ -131,14 +131,14 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,3,Justin,T.Y. Hilton,20.5,WR1,17.1,JuJu Smith-Schuster,Ethan
 2019,3,Justin,Calvin Ridley,1.6,WR2,14.6,Larry Fitzgerald,Ethan
 2019,3,Justin,Greg Olsen,25.5,TE,13.4,Delanie Walker,Ethan
-2019,3,Justin,John Ross III,2.2,FLEX,13.3,Demarcus Robinson,Ethan
+2019,3,Justin,John Ross,2.2,FLEX,13.3,Demarcus Robinson,Ethan
 2019,3,Justin,Chargers D/ST,3.0,D/ST,14.0,Jaguars D/ST,Ethan
 2019,3,Justin,Greg Zuerlein,9.0,K,6.0,Jake Elliott,Ethan
 2019,3,McGwire,Deshaun Watson,25.84,QB,41.34,Russell Wilson,Klapp
 2019,3,McGwire,Leonard Fournette,15.2,RB1,16.8,Marlon Mack,Klapp
 2019,3,McGwire,Saquon Barkley,7.7,RB2,4.3,Todd Gurley II,Klapp
 2019,3,McGwire,Adam Thielen,20.6,WR1,4.5,Stefon Diggs,Klapp
-2019,3,McGwire,Marquise Brown,6.9,WR2,4.1,Robby Anderson,Klapp
+2019,3,McGwire,Hollywood Brown,6.9,WR2,4.1,Robbie Chosen,Klapp
 2019,3,McGwire,T.J. Hockenson,1.1,TE,11.7,George Kittle,Klapp
 2019,3,McGwire,Mike Williams,7.5,FLEX,27.1,Darren Waller,Klapp
 2019,3,McGwire,Bills D/ST,11.0,D/ST,20.0,Bears D/ST,Klapp
@@ -156,7 +156,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,3,Zach,Mark Ingram II,35.5,RB1,11.1,David Montgomery,Carter
 2019,3,Zach,James Conner,7.7,RB2,4.4,Josh Jacobs,Carter
 2019,3,Zach,Odell Beckham Jr.,11.6,WR1,12.7,DeAndre Hopkins,Carter
-2019,3,Zach,Kenny Golladay,3.7,WR2,12.0,Allen Robinson II,Carter
+2019,3,Zach,Kenny Golladay,3.7,WR2,12.0,Allen Robinson,Carter
 2019,3,Zach,Jimmy Graham,0.0,TE,23.3,Evan Engram,Carter
 2019,3,Zach,Robert Woods,8.8,FLEX,12.6,Miles Sanders,Carter
 2019,3,Zach,49ers D/ST,8.0,D/ST,14.0,Patriots D/ST,Carter
@@ -173,7 +173,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,4,Ethan,Philip Rivers,20.4,QB,11.6,Deshaun Watson,McGwire
 2019,4,Ethan,Derrick Henry,11.8,RB1,26.5,Leonard Fournette,McGwire
 2019,4,Ethan,Kenyan Drake,10.3,RB2,18.6,Darrel Williams,McGwire
-2019,4,Ethan,Larry Fitzgerald,9.7,WR1,6.2,Marquise Brown,McGwire
+2019,4,Ethan,Larry Fitzgerald,9.7,WR1,6.2,Hollywood Brown,McGwire
 2019,4,Ethan,JuJu Smith-Schuster,4.5,WR2,2.6,Adam Thielen,McGwire
 2019,4,Ethan,Delanie Walker,1.4,TE,11.7,T.J. Hockenson,McGwire
 2019,4,Ethan,Brandin Cooks,13.1,FLEX,6.3,Curtis Samuel,McGwire
@@ -204,7 +204,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,4,Nathan,Julio Jones,9.3,WR2,4.0,Odell Beckham Jr.,Zach
 2019,4,Nathan,Mark Andrews,13.1,TE,1.5,Vernon Davis,Zach
 2019,4,Nathan,Devonta Freeman,18.0,FLEX,13.8,James White,Zach
-2019,4,Nathan,Washington D/ST,7.0,D/ST,15.0,Seahawks D/ST,Zach
+2019,4,Nathan,Commanders D/ST,7.0,D/ST,15.0,Seahawks D/ST,Zach
 2019,4,Nathan,Zane Gonzalez,2.0,K,9.0,Mason Crosby,Zach
 2019,4,Noah,Lamar Jackson,24.48,QB,18.0,Patrick Mahomes,Justin
 2019,4,Noah,Alvin Kamara,11.9,RB1,33.9,Christian McCaffrey,Justin
@@ -212,7 +212,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,4,Noah,Sterling Shepard,16.9,WR1,7.4,DJ Moore,Justin
 2019,4,Noah,Keenan Allen,9.8,WR2,6.2,Calvin Ridley,Justin
 2019,4,Noah,Travis Kelce,15.5,TE,2.5,Greg Olsen,Justin
-2019,4,Noah,Josh Gordon,7.6,FLEX,6.6,John Ross III,Justin
+2019,4,Noah,Josh Gordon,7.6,FLEX,6.6,John Ross,Justin
 2019,4,Noah,Rams D/ST,0.0,D/ST,12.0,Chargers D/ST,Justin
 2019,4,Noah,Ka'imi Fairbairn,3.0,K,13.0,Greg Zuerlein,Justin
 2019,5,Carter,Kyler Murray,25.42,QB,12.06,Carson Wentz,Nathan
@@ -221,7 +221,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,5,Carter,DJ Chark Jr.,36.4,WR1,7.2,Julio Jones,Nathan
 2019,5,Carter,DeAndre Hopkins,15.8,WR2,4.8,Geronimo Allison,Nathan
 2019,5,Carter,Evan Engram,10.7,TE,9.5,Mark Andrews,Nathan
-2019,5,Carter,Allen Robinson II,28.7,FLEX,27.9,Matt Breida,Nathan
+2019,5,Carter,Allen Robinson,28.7,FLEX,27.9,Matt Breida,Nathan
 2019,5,Carter,Patriots D/ST,15.0,D/ST,0.0,Cardinals D/ST,Nathan
 2019,5,Carter,Mike Nugent,9.0,K,13.0,Zane Gonzalez,Nathan
 2019,5,Dante,Jameis Winston,17.46,QB,27.26,Teddy Bridgewater,Michael
@@ -255,9 +255,9 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,5,McGwire,Leonard Fournette,23.7,RB1,24.7,Phillip Lindsay,Noah
 2019,5,McGwire,Jaylen Samuels,2.46,RB2,16.92,Alvin Kamara,Noah
 2019,5,McGwire,Adam Thielen,32.0,WR1,11.2,Alshon Jeffery,Noah
-2019,5,McGwire,Marquise Brown,11.2,WR2,5.8,Keenan Allen,Noah
+2019,5,McGwire,Hollywood Brown,11.2,WR2,5.8,Keenan Allen,Noah
 2019,5,McGwire,Jordan Akins,3.1,TE,11.0,Travis Kelce,Noah
-2019,5,McGwire,Cole Beasley,5.1,FLEX,7.8,Melvin Gordon,Noah
+2019,5,McGwire,Cole Beasley,5.1,FLEX,7.8,Melvin Gordon III,Noah
 2019,5,McGwire,Bills D/ST,12.0,D/ST,-1.0,Rams D/ST,Noah
 2019,5,McGwire,Justin Tucker,16.0,K,13.0,Ka'imi Fairbairn,Noah
 2019,5,Zach,Jared Goff,17.9,QB,23.22,Dak Prescott,Haris
@@ -276,7 +276,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,6,Andrew,Tyler Boyd,4.0,WR2,12.2,Mike Williams,McGwire
 2019,6,Andrew,Will Dissly,0.0,TE,6.1,T.J. Hockenson,McGwire
 2019,6,Andrew,Tyler Lockett,12.8,FLEX,8.3,Dede Westbrook,McGwire
-2019,6,Andrew,Saints D/ST,10.0,D/ST,12.0,Washington D/ST,McGwire
+2019,6,Andrew,Saints D/ST,10.0,D/ST,12.0,Commanders D/ST,McGwire
 2019,6,Andrew,Matt Prater,21.0,K,13.0,Justin Tucker,McGwire
 2019,6,Dante,Matt Ryan,30.94,QB,18.82,Patrick Mahomes,Justin
 2019,6,Dante,Chris Carson,25.9,RB1,21.7,Christian McCaffrey,Justin
@@ -293,14 +293,14 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,6,Haris,Jarvis Landry,6.6,WR1,16.5,DeAndre Hopkins,Carter
 2019,6,Haris,Amari Cooper,1.3,WR2,7.3,DJ Chark Jr.,Carter
 2019,6,Haris,Austin Hooper,25.7,TE,3.3,Tyler Eifert,Carter
-2019,6,Haris,Will Fuller V,9.4,FLEX,23.8,Curtis Samuel,Carter
+2019,6,Haris,William Fuller V,9.4,FLEX,23.8,Curtis Samuel,Carter
 2019,6,Haris,Browns D/ST,-1.0,D/ST,28.0,Patriots D/ST,Carter
 2019,6,Haris,Brett Maher,13.0,K,4.0,Mike Nugent,Carter
 2019,6,Klapp,Russell Wilson,28.9,QB,20.54,Carson Wentz,Nathan
 2019,6,Klapp,Adrian Peterson,15.6,RB1,26.8,Devonta Freeman,Nathan
 2019,6,Klapp,Ito Smith,0.6,RB2,5.8,Austin Ekeler,Nathan
 2019,6,Klapp,Stefon Diggs,43.5,WR1,18.8,Julio Jones,Nathan
-2019,6,Klapp,Robby Anderson,23.5,WR2,5.1,Preston Williams,Nathan
+2019,6,Klapp,Robbie Chosen,23.5,WR2,5.1,Preston Williams,Nathan
 2019,6,Klapp,George Kittle,18.3,TE,13.9,Mark Andrews,Nathan
 2019,6,Klapp,Tyreek Hill,25.0,FLEX,14.1,Kerryon Johnson,Nathan
 2019,6,Klapp,Broncos D/ST,20.0,D/ST,7.0,Ravens D/ST,Nathan
@@ -314,13 +314,13 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,6,Michael,Julian Edelman,20.3,FLEX,30.9,James Conner,Zach
 2019,6,Michael,Vikings D/ST,5.0,D/ST,6.0,Titans D/ST,Zach
 2019,6,Michael,Harrison Butker,6.0,K,7.0,Robbie Gould,Zach
-2019,6,Noah,Lamar Jackson,30.64,QB,4.62,Gardner Minshew II,Ethan
+2019,6,Noah,Lamar Jackson,30.64,QB,4.62,Gardner Minshew,Ethan
 2019,6,Noah,Phillip Lindsay,15.5,RB1,9.0,Damien Williams,Ethan
 2019,6,Noah,Alvin Kamara,13.6,RB2,4.3,Derrick Henry,Ethan
 2019,6,Noah,Keenan Allen,5.3,WR1,12.9,Larry Fitzgerald,Ethan
 2019,6,Noah,Josh Gordon,1.7,WR2,1.7,JuJu Smith-Schuster,Ethan
 2019,6,Noah,Travis Kelce,9.8,TE,7.3,Delanie Walker,Ethan
-2019,6,Noah,Melvin Gordon,7.8,FLEX,11.3,DK Metcalf,Ethan
+2019,6,Noah,Melvin Gordon III,7.8,FLEX,11.3,DK Metcalf,Ethan
 2019,6,Noah,Panthers D/ST,18.0,D/ST,3.0,Cowboys D/ST,Ethan
 2019,6,Noah,Ka'imi Fairbairn,5.0,K,9.0,Jake Elliott,Ethan
 2019,7,Carter,Kyler Murray,6.96,QB,19.94,Teddy Bridgewater,Michael
@@ -332,7 +332,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,7,Carter,Allen Lazard,7.2,FLEX,0.0,Rashaad Penny,Michael
 2019,7,Carter,Patriots D/ST,25.0,D/ST,0.0,Vikings D/ST,Michael
 2019,7,Carter,Mike Nugent,7.0,K,12.0,Harrison Butker,Michael
-2019,7,Ethan,Gardner Minshew II,21.0,QB,43.76,Aaron Rodgers,Andrew
+2019,7,Ethan,Gardner Minshew,21.0,QB,43.76,Aaron Rodgers,Andrew
 2019,7,Ethan,Derrick Henry,17.8,RB1,27.9,Dalvin Cook,Andrew
 2019,7,Ethan,Damien Williams,2.6,RB2,0.2,David Johnson,Andrew
 2019,7,Ethan,Larry Fitzgerald,2.2,WR1,16.8,Tyler Lockett,Andrew
@@ -354,13 +354,13 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,7,Nathan,Austin Ekeler,25.5,RB1,26.7,Ezekiel Elliott,Haris
 2019,7,Nathan,Devonta Freeman,4.5,RB2,8.6,Le'Veon Bell,Haris
 2019,7,Nathan,Marvin Jones Jr.,43.3,WR1,15.6,Amari Cooper,Haris
-2019,7,Nathan,Julio Jones,15.3,WR2,1.6,Will Fuller V,Haris
+2019,7,Nathan,Julio Jones,15.3,WR2,1.6,William Fuller V,Haris
 2019,7,Nathan,Mark Andrews,5.9,TE,14.6,Austin Hooper,Haris
 2019,7,Nathan,Kerryon Johnson,2.3,FLEX,16.7,Royce Freeman,Haris
 2019,7,Nathan,Packers D/ST,-3.0,D/ST,1.0,Seahawks D/ST,Haris
 2019,7,Nathan,Zane Gonzalez,10.0,K,15.0,Brett Maher,Haris
 2019,7,Noah,Lamar Jackson,23.32,QB,14.34,Russell Wilson,Klapp
-2019,7,Noah,Melvin Gordon,8.9,RB1,12.4,Todd Gurley II,Klapp
+2019,7,Noah,Melvin Gordon III,8.9,RB1,12.4,Todd Gurley II,Klapp
 2019,7,Noah,Phillip Lindsay,4.2,RB2,8.6,Marlon Mack,Klapp
 2019,7,Noah,Keenan Allen,10.1,WR1,21.3,Stefon Diggs,Klapp
 2019,7,Noah,Alshon Jeffery,5.8,WR2,16.4,Tyreek Hill,Klapp
@@ -379,7 +379,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,7,Zach,Robbie Gould,8.0,K,14.0,Greg Zuerlein,Justin
 2019,8,Andrew,Aaron Rodgers,27.1,QB,19.34,Jameis Winston,Noah
 2019,8,Andrew,Dalvin Cook,28.1,RB1,12.6,Phillip Lindsay,Noah
-2019,8,Andrew,Ty Johnson,4.8,RB2,11.4,Melvin Gordon,Noah
+2019,8,Andrew,Ty Johnson,4.8,RB2,11.4,Melvin Gordon III,Noah
 2019,8,Andrew,Mike Evans,42.8,WR1,12.3,Keenan Allen,Noah
 2019,8,Andrew,Tyler Lockett,16.0,WR2,10.4,Alshon Jeffery,Noah
 2019,8,Andrew,Josh Hill,6.9,TE,16.3,Travis Kelce,Noah
@@ -401,7 +401,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,8,Justin,Calvin Ridley,13.0,WR1,21.9,DeAndre Hopkins,Carter
 2019,8,Justin,T.Y. Hilton,7.4,WR2,19.9,DJ Chark Jr.,Carter
 2019,8,Justin,Greg Olsen,3.3,TE,14.0,Evan Engram,Carter
-2019,8,Justin,Courtland Sutton,10.2,FLEX,11.2,Allen Robinson II,Carter
+2019,8,Justin,Courtland Sutton,10.2,FLEX,11.2,Allen Robinson,Carter
 2019,8,Justin,Chargers D/ST,8.0,D/ST,20.0,Patriots D/ST,Carter
 2019,8,Justin,Greg Zuerlein,6.0,K,7.0,Mike Nugent,Carter
 2019,8,Klapp,Russell Wilson,15.68,QB,28.18,Daniel Jones,Haris
@@ -446,10 +446,10 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,9,Carter,DeAndre Hopkins,19.4,WR1,0.0,Adam Thielen,McGwire
 2019,9,Carter,DJ Chark Jr.,7.2,WR2,0.0,Dede Westbrook,McGwire
 2019,9,Carter,Evan Engram,11.0,TE,15.4,Hunter Henry,McGwire
-2019,9,Carter,Allen Robinson II,1.6,FLEX,14.3,Mike Williams,McGwire
+2019,9,Carter,Allen Robinson,1.6,FLEX,14.3,Mike Williams,McGwire
 2019,9,Carter,Patriots D/ST,3.0,D/ST,9.0,Bills D/ST,McGwire
 2019,9,Carter,Matt Gay,11.0,K,7.0,Justin Tucker,McGwire
-2019,9,Ethan,Gardner Minshew II,7.76,QB,17.6,Josh Allen,Zach
+2019,9,Ethan,Gardner Minshew,7.76,QB,17.6,Josh Allen,Zach
 2019,9,Ethan,Derrick Henry,24.9,RB1,19.3,Jaylen Samuels,Zach
 2019,9,Ethan,Frank Gore,1.5,RB2,16.4,James White,Zach
 2019,9,Ethan,DK Metcalf,27.0,WR1,23.2,Kenny Golladay,Zach
@@ -477,7 +477,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,9,Nathan,Steelers D/ST,19.0,D/ST,9.0,Chargers D/ST,Justin
 2019,9,Nathan,Zane Gonzalez,5.0,K,2.0,Eddy Pineiro,Justin
 2019,9,Noah,Lamar Jackson,28.62,QB,12.5,Sam Darnold,Dante
-2019,9,Noah,Melvin Gordon,25.9,RB1,13.3,Chris Carson,Dante
+2019,9,Noah,Melvin Gordon III,25.9,RB1,13.3,Chris Carson,Dante
 2019,9,Noah,Phillip Lindsay,15.2,RB2,5.6,Tevin Coleman,Dante
 2019,9,Noah,Alshon Jeffery,7.6,WR1,24.2,Emmanuel Sanders,Dante
 2019,9,Noah,Keenan Allen,7.0,WR2,7.9,Terry McLaurin,Dante
@@ -491,7 +491,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,10,Carter,Jamison Crowder,19.1,WR1,15.1,Larry Fitzgerald,Ethan
 2019,10,Carter,Curtis Samuel,13.5,WR2,7.4,JuJu Smith-Schuster,Ethan
 2019,10,Carter,Gerald Everett,14.8,TE,19.4,Kyle Rudolph,Ethan
-2019,10,Carter,Allen Robinson II,14.6,FLEX,12.7,John Brown,Ethan
+2019,10,Carter,Allen Robinson,14.6,FLEX,12.7,John Brown,Ethan
 2019,10,Carter,Ravens D/ST,23.0,D/ST,,,
 2019,10,Carter,Matt Gay,14.0,K,0.0,Jake Elliott,Ethan
 2019,10,Dante,Matt Ryan,14.58,QB,10.02,Aaron Rodgers,Andrew
@@ -505,7 +505,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,10,Dante,Joey Slye,6.0,K,6.0,Adam Vinatieri,Andrew
 2019,10,Justin,Patrick Mahomes,29.84,QB,25.88,Dak Prescott,Haris
 2019,10,Justin,Christian McCaffrey,26.1,RB1,16.8,Le'Veon Bell,Haris
-2019,10,Justin,Ronald Jones II,22.6,RB2,8.3,Ezekiel Elliott,Haris
+2019,10,Justin,Ronald Jones,22.6,RB2,8.3,Ezekiel Elliott,Haris
 2019,10,Justin,DJ Moore,21.0,WR1,31.7,Amari Cooper,Haris
 2019,10,Justin,Calvin Ridley,7.7,WR2,24.7,Jarvis Landry,Haris
 2019,10,Justin,Greg Olsen,17.8,TE,11.7,Austin Hooper,Haris
@@ -524,14 +524,14 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,10,McGwire,Jameis Winston,18.32,QB,10.02,Jimmy Garoppolo,Nathan
 2019,10,McGwire,Saquon Barkley,8.1,RB1,12.8,Austin Ekeler,Nathan
 2019,10,McGwire,Trey Edmunds,3.5,RB2,7.8,Devonta Freeman,Nathan
-2019,10,McGwire,Marquise Brown,18.0,WR1,12.7,Marvin Jones Jr.,Nathan
+2019,10,McGwire,Hollywood Brown,18.0,WR1,12.7,Marvin Jones Jr.,Nathan
 2019,10,McGwire,Cole Beasley,11.4,WR2,10.9,Julio Jones,Nathan
 2019,10,McGwire,Hunter Henry,13.0,TE,23.3,Mark Andrews,Nathan
 2019,10,McGwire,Mike Williams,7.5,FLEX,3.9,Latavius Murray,Nathan
 2019,10,McGwire,Bills D/ST,5.0,D/ST,22.0,Steelers D/ST,Nathan
 2019,10,McGwire,Justin Tucker,7.0,K,11.0,Zane Gonzalez,Nathan
 2019,10,Zach,Josh Allen,25.44,QB,33.42,Lamar Jackson,Noah
-2019,10,Zach,Mark Ingram II,9.4,RB1,20.3,Melvin Gordon,Noah
+2019,10,Zach,Mark Ingram II,9.4,RB1,20.3,Melvin Gordon III,Noah
 2019,10,Zach,Jaylen Samuels,7.0,RB2,15.4,Alvin Kamara,Noah
 2019,10,Zach,Kenny Golladay,14.7,WR1,16.6,Keenan Allen,Noah
 2019,10,Zach,Odell Beckham Jr.,10.7,WR2,4.6,Zach Pascal,Noah
@@ -561,14 +561,14 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,11,Haris,Ezekiel Elliott,19.3,RB1,12.7,Leonard Fournette,McGwire
 2019,11,Haris,Le'Veon Bell,17.2,RB2,8.3,J.D. McKissic,McGwire
 2019,11,Haris,Jarvis Landry,14.3,WR1,7.2,Dede Westbrook,McGwire
-2019,11,Haris,Amari Cooper,6.8,WR2,4.3,Marquise Brown,McGwire
+2019,11,Haris,Amari Cooper,6.8,WR2,4.3,Hollywood Brown,McGwire
 2019,11,Haris,Jason Witten,8.3,TE,14.9,Hunter Henry,McGwire
 2019,11,Haris,Auden Tate,9.6,FLEX,9.6,Mike Williams,McGwire
-2019,11,Haris,Washington D/ST,2.0,D/ST,9.0,Bills D/ST,McGwire
+2019,11,Haris,Commanders D/ST,2.0,D/ST,9.0,Bills D/ST,McGwire
 2019,11,Haris,Brett Maher,9.0,K,11.0,Justin Tucker,McGwire
 2019,11,Michael,Drew Brees,21.12,QB,15.18,Patrick Mahomes,Justin
 2019,11,Michael,Nick Chubb,9.2,RB1,30.1,Christian McCaffrey,Justin
-2019,11,Michael,Peyton Barber,9.1,RB2,3.4,Ronald Jones II,Justin
+2019,11,Michael,Peyton Barber,9.1,RB2,3.4,Ronald Jones,Justin
 2019,11,Michael,Julian Edelman,14.9,WR1,28.3,Calvin Ridley,Justin
 2019,11,Michael,Chris Godwin,13.7,WR2,17.5,DJ Moore,Justin
 2019,11,Michael,Darren Fells,2.8,TE,10.7,Greg Olsen,Justin
@@ -578,7 +578,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,11,Nathan,Jimmy Garoppolo,29.66,QB,15.12,Jacoby Brissett,Ethan
 2019,11,Nathan,Austin Ekeler,21.2,RB1,14.0,Kenyan Drake,Ethan
 2019,11,Nathan,Latavius Murray,5.2,RB2,2.3,Damien Williams,Ethan
-2019,11,Nathan,Marvin Jones Jr.,19.9,WR1,21.4,Deebo Samuel,Ethan
+2019,11,Nathan,Marvin Jones Jr.,19.9,WR1,21.4,Deebo Samuel Sr.,Ethan
 2019,11,Nathan,Julio Jones,14.7,WR2,4.1,JuJu Smith-Schuster,Ethan
 2019,11,Nathan,Mark Andrews,17.5,TE,17.7,Kyle Rudolph,Ethan
 2019,11,Nathan,Kalen Ballage,12.7,FLEX,34.7,John Brown,Ethan
@@ -586,7 +586,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,11,Nathan,Zane Gonzalez,9.0,K,5.0,Jake Elliott,Ethan
 2019,11,Noah,Lamar Jackson,32.78,QB,26.7,Kyler Murray,Carter
 2019,11,Noah,Alvin Kamara,22.2,RB1,13.4,Josh Jacobs,Carter
-2019,11,Noah,Melvin Gordon,12.0,RB2,6.0,David Montgomery,Carter
+2019,11,Noah,Melvin Gordon III,12.0,RB2,6.0,David Montgomery,Carter
 2019,11,Noah,Keenan Allen,21.1,WR1,30.4,DJ Chark Jr.,Carter
 2019,11,Noah,Zach Pascal,3.7,WR2,15.0,DeAndre Hopkins,Carter
 2019,11,Noah,Travis Kelce,22.2,TE,3.0,Gerald Everett,Carter
@@ -599,22 +599,22 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,12,Carter,DeAndre Hopkins,27.4,WR1,9.0,Mike Evans,Andrew
 2019,12,Carter,DJ Chark Jr.,10.8,WR2,4.8,Tyler Lockett,Andrew
 2019,12,Carter,Ben Watson,0.0,TE,1.1,Vance McDonald,Andrew
-2019,12,Carter,Allen Robinson II,25.1,FLEX,19.1,Tyler Boyd,Andrew
+2019,12,Carter,Allen Robinson,25.1,FLEX,19.1,Tyler Boyd,Andrew
 2019,12,Carter,Browns D/ST,10.0,D/ST,4.0,Saints D/ST,Andrew
 2019,12,Carter,Matt Gay,5.0,K,5.0,Adam Vinatieri,Andrew
 2019,12,Ethan,Jacoby Brissett,13.16,QB,6.88,Dak Prescott,Haris
 2019,12,Ethan,Derrick Henry,28.5,RB1,16.6,Ezekiel Elliott,Haris
 2019,12,Ethan,Jaylen Samuels,6.2,RB2,15.8,Le'Veon Bell,Haris
-2019,12,Ethan,Deebo Samuel,13.0,WR1,36.8,Jarvis Landry,Haris
+2019,12,Ethan,Deebo Samuel Sr.,13.0,WR1,36.8,Jarvis Landry,Haris
 2019,12,Ethan,DK Metcalf,6.5,WR2,0.0,Amari Cooper,Haris
 2019,12,Ethan,Gerald Everett,4.3,TE,1.5,Jason Witten,Haris
-2019,12,Ethan,John Brown,11.9,FLEX,21.0,Will Fuller V,Haris
+2019,12,Ethan,John Brown,11.9,FLEX,21.0,William Fuller V,Haris
 2019,12,Ethan,Raiders D/ST,-1.0,D/ST,16.0,Seahawks D/ST,Haris
 2019,12,Ethan,Jake Elliott,3.0,K,9.0,Brett Maher,Haris
 2019,12,Klapp,Russell Wilson,9.5,QB,23.58,Baker Mayfield,Justin
 2019,12,Klapp,Devin Singletary,12.4,RB1,34.3,Christian McCaffrey,Justin
-2019,12,Klapp,Marlon Mack,0.0,RB2,15.7,Ronald Jones II,Justin
-2019,12,Klapp,Robby Anderson,18.6,WR1,31.4,DJ Moore,Justin
+2019,12,Klapp,Marlon Mack,0.0,RB2,15.7,Ronald Jones,Justin
+2019,12,Klapp,Robbie Chosen,18.6,WR1,31.4,DJ Moore,Justin
 2019,12,Klapp,Golden Tate,12.3,WR2,22.0,Calvin Ridley,Justin
 2019,12,Klapp,George Kittle,24.9,TE,9.4,Greg Olsen,Justin
 2019,12,Klapp,Todd Gurley II,4.9,FLEX,3.7,Courtland Sutton,Justin
@@ -623,7 +623,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,12,McGwire,Deshaun Watson,18.92,QB,4.18,Derek Carr,Michael
 2019,12,McGwire,Leonard Fournette,36.9,RB1,25.4,Nick Chubb,Michael
 2019,12,McGwire,Saquon Barkley,8.0,RB2,3.8,Aaron Jones,Michael
-2019,12,McGwire,Marquise Brown,21.2,WR1,37.4,Chris Godwin,Michael
+2019,12,McGwire,Hollywood Brown,21.2,WR1,37.4,Chris Godwin,Michael
 2019,12,McGwire,Dede Westbrook,14.9,WR2,17.3,Julian Edelman,Michael
 2019,12,McGwire,Dallas Goedert,8.2,TE,4.4,Noah Fant,Michael
 2019,12,McGwire,J.D. McKissic,4.0,FLEX,19.3,Davante Adams,Michael
@@ -662,21 +662,21 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,13,Dante,Cooper Kupp,18.5,WR1,15.64,DeAndre Hopkins,Carter
 2019,13,Dante,Michael Thomas,10.8,WR2,6.7,DJ Chark Jr.,Carter
 2019,13,Dante,Zach Ertz,5.4,TE,13.0,Kaden Smith,Carter
-2019,13,Dante,DeVante Parker,34.9,FLEX,22.6,Allen Robinson II,Carter
+2019,13,Dante,DeVante Parker,34.9,FLEX,22.6,Allen Robinson,Carter
 2019,13,Dante,Eagles D/ST,-1.0,D/ST,5.0,Panthers D/ST,Carter
 2019,13,Dante,Joey Slye,3.0,K,5.0,Josh Lambo,Carter
 2019,13,Haris,Dak Prescott,22.7,QB,22.3,Lamar Jackson,Noah
-2019,13,Haris,Ezekiel Elliott,20.7,RB1,13.0,Melvin Gordon,Noah
+2019,13,Haris,Ezekiel Elliott,20.7,RB1,13.0,Melvin Gordon III,Noah
 2019,13,Haris,Le'Veon Bell,10.7,RB2,12.4,Alvin Kamara,Noah
 2019,13,Haris,Amari Cooper,16.5,WR1,28.7,Alshon Jeffery,Noah
 2019,13,Haris,Jarvis Landry,13.6,WR2,18.8,Keenan Allen,Noah
 2019,13,Haris,Jason Witten,18.2,TE,14.0,Travis Kelce,Noah
-2019,13,Haris,Will Fuller V,1.8,FLEX,9.2,Phillip Lindsay,Noah
+2019,13,Haris,William Fuller V,1.8,FLEX,9.2,Phillip Lindsay,Noah
 2019,13,Haris,Seahawks D/ST,5.0,D/ST,3.0,Jets D/ST,Noah
 2019,13,Haris,Brett Maher,-1.0,K,7.0,Austin Seibert,Noah
 2019,13,Justin,Baker Mayfield,8.04,QB,28.86,Deshaun Watson,McGwire
 2019,13,Justin,Christian McCaffrey,17.2,RB1,18.1,Leonard Fournette,McGwire
-2019,13,Justin,Ronald Jones II,0.8,RB2,14.5,Saquon Barkley,McGwire
+2019,13,Justin,Ronald Jones,0.8,RB2,14.5,Saquon Barkley,McGwire
 2019,13,Justin,DJ Moore,19.2,WR1,19.0,Dede Westbrook,McGwire
 2019,13,Justin,Calvin Ridley,17.1,WR2,16.7,Mike Williams,McGwire
 2019,13,Justin,Greg Olsen,5.2,TE,3.0,Hunter Henry,McGwire
@@ -714,7 +714,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,14,Justin,Chargers D/ST,7.0,D/ST,5.0,Browns D/ST,Haris
 2019,14,Justin,Greg Zuerlein,3.0,K,5.0,Brett Maher,Haris
 2019,14,Noah,Lamar Jackson,19.8,QB,10.6,Russell Wilson,Klapp
-2019,14,Noah,Melvin Gordon,19.4,RB1,21.3,Todd Gurley II,Klapp
+2019,14,Noah,Melvin Gordon III,19.4,RB1,21.3,Todd Gurley II,Klapp
 2019,14,Noah,Alvin Kamara,6.3,RB2,17.8,Devin Singletary,Klapp
 2019,14,Noah,Keenan Allen,13.3,WR1,15.2,Stefon Diggs,Klapp
 2019,14,Noah,Alshon Jeffery,0.0,WR2,13.0,Tyreek Hill,Klapp
@@ -728,7 +728,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,15,Carter,DeAndre Hopkins,17.9,WR1,7.3,Jarvis Landry,Haris
 2019,15,Carter,Darius Slayton,11.1,WR2,2.9,Amari Cooper,Haris
 2019,15,Carter,Tyler Higbee,23.1,TE,5.0,Austin Hooper,Haris
-2019,15,Carter,Allen Robinson II,19.5,FLEX,11.1,Will Fuller V,Haris
+2019,15,Carter,Allen Robinson,19.5,FLEX,11.1,William Fuller V,Haris
 2019,15,Carter,Patriots D/ST,19.0,D/ST,4.0,Seahawks D/ST,Haris
 2019,15,Carter,Matt Gay,8.0,K,5.0,Michael Badgley,Haris
 2019,15,Dante,Ryan Fitzpatrick,20.46,QB,19.34,Russell Wilson,Klapp
@@ -746,7 +746,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2019,16,Carter,DeAndre Hopkins,7.3,WR1,31.6,Michael Thomas,Dante
 2019,16,Carter,DJ Chark Jr.,3.8,WR2,22.1,DeVante Parker,Dante
 2019,16,Carter,Tyler Higbee,19.4,TE,6.8,Zach Ertz,Dante
-2019,16,Carter,Allen Robinson II,11.3,FLEX,15.6,Terry McLaurin,Dante
+2019,16,Carter,Allen Robinson,11.3,FLEX,15.6,Terry McLaurin,Dante
 2019,16,Carter,Patriots D/ST,7.0,D/ST,8.0,Broncos D/ST,Dante
 2019,16,Carter,Matt Gay,10.0,K,9.0,Jason Myers,Dante
 2020,1,Andrew,Lamar Jackson,27.5,QB,25.7,Cam Newton,Carter
@@ -764,7 +764,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,1,Haris,Julio Jones,24.7,WR1,11.1,Terry McLaurin,Ethan
 2020,1,Haris,A.J. Brown,8.9,WR2,11.1,Jarvis Landry,Ethan
 2020,1,Haris,Noah Fant,19.1,TE,17.0,Travis Kelce,Ethan
-2020,1,Haris,A.J. Green,10.1,FLEX,12.3,Allen Robinson II,Ethan
+2020,1,Haris,A.J. Green,10.1,FLEX,12.3,Allen Robinson,Ethan
 2020,1,Haris,Steelers D/ST,10.0,D/ST,10.0,Bills D/ST,Ethan
 2020,1,Haris,Justin Tucker,9.0,K,10.0,Robbie Gould,Ethan
 2020,1,McGwire,Matt Ryan,23.9,QB,31.78,Russell Wilson,Dante
@@ -798,9 +798,9 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,2,Carter,Saquon Barkley,2.8,RB1,24.8,Christian McCaffrey,Ethan
 2020,2,Carter,Nyheim Hines,1.4,RB2,12.6,Joe Mixon,Ethan
 2020,2,Carter,Keenan Allen,16.6,WR1,25.5,Terry McLaurin,Ethan
-2020,2,Carter,Will Fuller V,0.0,WR2,0.7,Parris Campbell,Ethan
+2020,2,Carter,William Fuller V,0.0,WR2,0.7,Parris Campbell,Ethan
 2020,2,Carter,Jared Cook,9.3,TE,24.0,Travis Kelce,Ethan
-2020,2,Carter,James Conner,20.1,FLEX,6.3,Allen Robinson II,Ethan
+2020,2,Carter,James Conner,20.1,FLEX,6.3,Allen Robinson,Ethan
 2020,2,Carter,49ers D/ST,6.0,D/ST,-1.0,Bills D/ST,Ethan
 2020,2,Carter,Chris Boswell,6.0,K,8.0,Robbie Gould,Ethan
 2020,2,Dante,Russell Wilson,33.42,QB,39.8,Dak Prescott,Noah
@@ -863,14 +863,14 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,3,Haris,Sammy Watkins,13.2,WR1,21.2,Tyreek Hill,McGwire
 2020,3,Haris,A.J. Green,8.6,WR2,19.0,DK Metcalf,McGwire
 2020,3,Haris,Noah Fant,9.6,TE,14.0,Zach Ertz,McGwire
-2020,3,Haris,Jerry Jeudy,10.5,FLEX,10.5,Robby Anderson,McGwire
+2020,3,Haris,Jerry Jeudy,10.5,FLEX,10.5,Robbie Chosen,McGwire
 2020,3,Haris,Steelers D/ST,9.0,D/ST,3.0,Bears D/ST,McGwire
 2020,3,Haris,Justin Tucker,9.0,K,14.0,Matt Prater,McGwire
 2020,3,Nathan,Ryan Tannehill,12.74,QB,21.7,Kyler Murray,Carter
 2020,3,Nathan,Alvin Kamara,44.7,RB1,34.8,Rex Burkhead,Carter
 2020,3,Nathan,Kenyan Drake,8.9,RB2,24.9,James Conner,Carter
 2020,3,Nathan,Amari Cooper,17.6,WR1,30.2,Keenan Allen,Carter
-2020,3,Nathan,Odell Beckham Jr.,9.9,WR2,15.4,Will Fuller V,Carter
+2020,3,Nathan,Odell Beckham Jr.,9.9,WR2,15.4,William Fuller V,Carter
 2020,3,Nathan,Jonnu Smith,11.1,TE,4.1,Jared Cook,Carter
 2020,3,Nathan,Stefon Diggs,14.9,FLEX,17.4,Chris Godwin,Carter
 2020,3,Nathan,Colts D/ST,29.0,D/ST,13.0,49ers D/ST,Carter
@@ -887,7 +887,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,4,Carter,Kyler Murray,23.12,QB,20.9,Deshaun Watson,Michael
 2020,4,Carter,Jerick McKinnon,22.7,RB1,12.1,Clyde Edwards-Helaire,Michael
 2020,4,Carter,Nyheim Hines,6.2,RB2,10.3,Josh Jacobs,Michael
-2020,4,Carter,Will Fuller V,22.8,WR1,8.9,DJ Moore,Michael
+2020,4,Carter,William Fuller V,22.8,WR1,8.9,DJ Moore,Michael
 2020,4,Carter,Keenan Allen,14.2,WR2,0.0,Calvin Ridley,Michael
 2020,4,Carter,Tyler Higbee,5.0,TE,15.8,Darren Waller,Michael
 2020,4,Carter,Russell Gage,4.0,FLEX,21.0,DeVante Parker,Michael
@@ -905,10 +905,10 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,4,McGwire,Matt Ryan,12.4,QB,15.54,Drew Brees,Ethan
 2020,4,McGwire,Mark Ingram II,10.7,RB1,14.7,James Robinson,Ethan
 2020,4,McGwire,Austin Ekeler,2.4,RB2,4.7,Darrell Henderson Jr.,Ethan
-2020,4,McGwire,Tyreek Hill,16.4,WR1,23.1,Allen Robinson II,Ethan
+2020,4,McGwire,Tyreek Hill,16.4,WR1,23.1,Allen Robinson,Ethan
 2020,4,McGwire,DK Metcalf,14.6,WR2,21.8,Terry McLaurin,Ethan
 2020,4,McGwire,Zach Ertz,6.9,TE,10.0,Travis Kelce,Ethan
-2020,4,McGwire,Robby Anderson,17.9,FLEX,16.2,Kenny Golladay,Ethan
+2020,4,McGwire,Robbie Chosen,17.9,FLEX,16.2,Kenny Golladay,Ethan
 2020,4,McGwire,Bears D/ST,3.0,D/ST,5.0,Bills D/ST,Ethan
 2020,4,McGwire,Matt Prater,3.0,K,2.0,Robbie Gould,Ethan
 2020,4,Noah,Dak Prescott,37.28,QB,20.24,Patrick Mahomes,Haris
@@ -924,7 +924,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,4,Zach,Melvin Gordon III,25.8,RB1,28.6,Dalvin Cook,Andrew
 2020,4,Zach,David Johnson,11.2,RB2,19.3,Todd Gurley II,Andrew
 2020,4,Zach,Mike Evans,25.2,WR1,11.1,DeAndre Hopkins,Andrew
-2020,4,Zach,Robert Woods,9.8,WR2,7.5,Deebo Samuel,Andrew
+2020,4,Zach,Robert Woods,9.8,WR2,7.5,Deebo Samuel Sr.,Andrew
 2020,4,Zach,Jimmy Graham,7.3,TE,5.9,Hunter Henry,Andrew
 2020,4,Zach,Michael Gallup,4.9,FLEX,19.1,Kareem Hunt,Andrew
 2020,4,Zach,Rams D/ST,12.0,D/ST,6.0,Ravens D/ST,Andrew
@@ -941,7 +941,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,5,Dante,Russell Wilson,24.48,QB,26.3,Kyler Murray,Carter
 2020,5,Dante,Raheem Mostert,14.9,RB1,15.3,James Conner,Carter
 2020,5,Dante,Antonio Gibson,10.1,RB2,2.5,Jerick McKinnon,Carter
-2020,5,Dante,Cooper Kupp,11.6,WR1,15.8,Will Fuller V,Carter
+2020,5,Dante,Cooper Kupp,11.6,WR1,15.8,William Fuller V,Carter
 2020,5,Dante,Tee Higgins,10.2,WR2,10.9,Keenan Allen,Carter
 2020,5,Dante,Mark Andrews,17.6,TE,3.2,Tyler Higbee,Carter
 2020,5,Dante,Justin Jackson,14.4,FLEX,5.3,Justin Jefferson,Carter
@@ -950,7 +950,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,5,Ethan,Justin Herbert,27.36,QB,13.44,Dak Prescott,Noah
 2020,5,Ethan,Joe Mixon,15.4,RB1,19.9,Chris Carson,Noah
 2020,5,Ethan,James Robinson,10.0,RB2,19.3,Derrick Henry,Noah
-2020,5,Ethan,Allen Robinson II,19.0,WR1,29.3,Adam Thielen,Noah
+2020,5,Ethan,Allen Robinson,19.0,WR1,29.3,Adam Thielen,Noah
 2020,5,Ethan,Terry McLaurin,5.6,WR2,8.4,Tyler Lockett,Noah
 2020,5,Ethan,Travis Kelce,24.8,TE,15.8,Darren Waller,Noah
 2020,5,Ethan,Devin Singletary,4.3,FLEX,29.9,Mike Davis,Noah
@@ -962,7 +962,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,5,Michael,Calvin Ridley,21.6,WR1,27.3,DK Metcalf,McGwire
 2020,5,Michael,DJ Moore,19.3,WR2,18.3,Tyreek Hill,McGwire
 2020,5,Michael,Dalton Schultz,1.6,TE,1.6,Zach Ertz,McGwire
-2020,5,Michael,DeVante Parker,13.0,FLEX,19.5,Robby Anderson,McGwire
+2020,5,Michael,DeVante Parker,13.0,FLEX,19.5,Robbie Chosen,McGwire
 2020,5,Michael,Buccaneers D/ST,7.0,D/ST,5.0,Bears D/ST,McGwire
 2020,5,Michael,Randy Bullock,3.0,K,6.0,Stephen Gostkowski,McGwire
 2020,5,Nathan,Joe Burrow,4.32,QB,21.36,Ben Roethlisberger,Zach
@@ -978,7 +978,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,6,Andrew,Phillip Lindsay,10.1,RB1,15.3,James Robinson,Ethan
 2020,6,Andrew,Todd Gurley II,9.7,RB2,14.9,Joe Mixon,Ethan
 2020,6,Andrew,DeAndre Hopkins,9.3,WR1,14.4,Terry McLaurin,Ethan
-2020,6,Andrew,JuJu Smith-Schuster,2.6,WR2,10.3,Allen Robinson II,Ethan
+2020,6,Andrew,JuJu Smith-Schuster,2.6,WR2,10.3,Allen Robinson,Ethan
 2020,6,Andrew,Evan Engram,5.0,TE,21.5,Travis Kelce,Ethan
 2020,6,Andrew,Kareem Hunt,7.7,FLEX,14.5,Kenny Golladay,Ethan
 2020,6,Andrew,Ravens D/ST,6.0,D/ST,8.0,Patriots D/ST,Ethan
@@ -986,10 +986,10 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,6,Carter,Kyler Murray,28.92,QB,12.32,Matthew Stafford,McGwire
 2020,6,Carter,James Conner,17.2,RB1,11.0,Frank Gore,McGwire
 2020,6,Carter,Jerick McKinnon,4.8,RB2,3.9,Chase Edmonds,McGwire
-2020,6,Carter,Will Fuller V,24.3,WR1,33.7,Julio Jones,McGwire
+2020,6,Carter,William Fuller V,24.3,WR1,33.7,Julio Jones,McGwire
 2020,6,Carter,Chris Godwin,9.8,WR2,5.5,Tyreek Hill,McGwire
 2020,6,Carter,Eric Ebron,2.9,TE,7.3,Zach Ertz,McGwire
-2020,6,Carter,Chase Claypool,18.1,FLEX,11.7,Robby Anderson,McGwire
+2020,6,Carter,Chase Claypool,18.1,FLEX,11.7,Robbie Chosen,McGwire
 2020,6,Carter,49ers D/ST,5.0,D/ST,11.0,Bears D/ST,McGwire
 2020,6,Carter,Zane Gonzalez,8.0,K,2.0,Stephen Gostkowski,McGwire
 2020,6,Haris,Patrick Mahomes,20.6,QB,16.04,Ryan Fitzpatrick,Nathan
@@ -1057,9 +1057,9 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,7,Nathan,Mason Crosby,5.0,K,10.0,Robbie Gould,Ethan
 2020,7,Zach,Tom Brady,36.86,QB,37.1,Kyler Murray,Carter
 2020,7,Zach,David Johnson,16.4,RB1,14.1,James Conner,Carter
-2020,7,Zach,Ronald Jones II,10.6,RB2,-0.1,Jerick McKinnon,Carter
+2020,7,Zach,Ronald Jones,10.6,RB2,-0.1,Jerick McKinnon,Carter
 2020,7,Zach,Mike Evans,5.7,WR1,23.8,Chris Godwin,Carter
-2020,7,Zach,Robert Woods,5.5,WR2,12.5,Will Fuller V,Carter
+2020,7,Zach,Robert Woods,5.5,WR2,12.5,William Fuller V,Carter
 2020,7,Zach,Jimmy Graham,8.1,TE,11.0,Eric Ebron,Carter
 2020,7,Zach,Brandin Cooks,13.0,FLEX,22.5,Keenan Allen,Carter
 2020,7,Zach,Eagles D/ST,9.0,D/ST,16.0,49ers D/ST,Carter
@@ -1086,14 +1086,14 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,8,Ethan,Giovani Bernard,22.8,RB1,17.2,Justin Jackson,Dante
 2020,8,Ethan,Darrell Henderson Jr.,6.8,RB2,10.1,Leonard Fournette,Dante
 2020,8,Ethan,Corey Davis,26.8,WR1,22.0,Cooper Kupp,Dante
-2020,8,Ethan,Allen Robinson II,20.7,WR2,14.4,Tee Higgins,Dante
+2020,8,Ethan,Allen Robinson,20.7,WR2,14.4,Tee Higgins,Dante
 2020,8,Ethan,Travis Kelce,24.9,TE,6.2,Mark Andrews,Dante
 2020,8,Ethan,Kenny Golladay,0.0,FLEX,7.2,Scotty Miller,Dante
 2020,8,Ethan,Chiefs D/ST,10.0,D/ST,7.0,Saints D/ST,Dante
 2020,8,Ethan,Robbie Gould,3.0,K,13.0,Wil Lutz,Dante
 2020,8,Haris,Patrick Mahomes,36.64,QB,19.06,Tom Brady,Zach
 2020,8,Haris,Ezekiel Elliott,8.3,RB1,9.9,Boston Scott,Zach
-2020,8,Haris,Le'Veon Bell,6.8,RB2,6.6,Ronald Jones II,Zach
+2020,8,Haris,Le'Veon Bell,6.8,RB2,6.6,Ronald Jones,Zach
 2020,8,Haris,A.J. Brown,12.4,WR1,28.4,Robert Woods,Zach
 2020,8,Haris,CeeDee Lamb,8.6,WR2,16.5,Mike Evans,Zach
 2020,8,Haris,Noah Fant,11.7,TE,3.3,Jimmy Graham,Zach
@@ -1122,10 +1122,10 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,9,Haris,Ezekiel Elliott,8.9,RB1,4.0,James Conner,Carter
 2020,9,Haris,Le'Veon Bell,1.3,RB2,3.3,JaMycal Hasty,Carter
 2020,9,Haris,A.J. Brown,20.1,WR1,25.3,Keenan Allen,Carter
-2020,9,Haris,John Brown,17.9,WR2,21.0,Will Fuller V,Carter
+2020,9,Haris,John Brown,17.9,WR2,21.0,William Fuller V,Carter
 2020,9,Haris,Noah Fant,7.5,TE,3.0,Jared Cook,Carter
 2020,9,Haris,Jerry Jeudy,25.5,FLEX,15.3,Chase Claypool,Carter
-2020,9,Haris,Steelers D/ST,5.0,D/ST,4.0,Washington D/ST,Carter
+2020,9,Haris,Steelers D/ST,5.0,D/ST,4.0,Commanders D/ST,Carter
 2020,9,Haris,Justin Tucker,7.0,K,6.0,Joey Slye,Carter
 2020,9,McGwire,Matt Ryan,22.36,QB,18.6,Lamar Jackson,Nathan
 2020,9,McGwire,Chase Edmonds,11.8,RB1,15.9,Alvin Kamara,Nathan
@@ -1148,7 +1148,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,9,Zach,Tom Brady,2.36,QB,23.44,Justin Herbert,Ethan
 2020,9,Zach,Melvin Gordon III,3.7,RB1,37.1,Christian McCaffrey,Ethan
 2020,9,Zach,David Johnson,1.6,RB2,15.9,James Robinson,Ethan
-2020,9,Zach,Marvin Jones Jr.,13.3,WR1,15.1,Allen Robinson II,Ethan
+2020,9,Zach,Marvin Jones Jr.,13.3,WR1,15.1,Allen Robinson,Ethan
 2020,9,Zach,Michael Thomas,10.1,WR2,13.1,Mike Williams,Ethan
 2020,9,Zach,Rob Gronkowski,1.2,TE,25.9,Travis Kelce,Ethan
 2020,9,Zach,Brandin Cooks,17.3,FLEX,24.5,Terry McLaurin,Ethan
@@ -1158,15 +1158,15 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,10,Carter,James Conner,6.8,RB1,16.2,Kareem Hunt,Andrew
 2020,10,Carter,Jerick McKinnon,5.6,RB2,15.2,Dalvin Cook,Andrew
 2020,10,Carter,Keenan Allen,12.9,WR1,25.7,DeAndre Hopkins,Andrew
-2020,10,Carter,Will Fuller V,8.8,WR2,22.7,JuJu Smith-Schuster,Andrew
+2020,10,Carter,William Fuller V,8.8,WR2,22.7,JuJu Smith-Schuster,Andrew
 2020,10,Carter,Jared Cook,0.0,TE,13.0,Hunter Henry,Andrew
 2020,10,Carter,Chase Claypool,21.3,FLEX,9.6,DJ Chark Jr.,Andrew
-2020,10,Carter,Washington D/ST,-1.0,D/ST,1.0,Ravens D/ST,Andrew
+2020,10,Carter,Commanders D/ST,-1.0,D/ST,1.0,Ravens D/ST,Andrew
 2020,10,Carter,Joey Slye,6.0,K,8.0,Brandon McManus,Andrew
 2020,10,Dante,Russell Wilson,9.92,QB,10.48,Jared Goff,McGwire
 2020,10,Dante,Antonio Gibson,22.5,RB1,17.9,J.D. McKissic,McGwire
 2020,10,Dante,Aaron Jones,14.5,RB2,10.7,Chase Edmonds,McGwire
-2020,10,Dante,Tee Higgins,22.5,WR1,6.1,Robby Anderson,McGwire
+2020,10,Dante,Tee Higgins,22.5,WR1,6.1,Robbie Chosen,McGwire
 2020,10,Dante,Cooper Kupp,10.0,WR2,4.8,DK Metcalf,McGwire
 2020,10,Dante,Mark Andrews,13.1,TE,7.3,Dallas Goedert,McGwire
 2020,10,Dante,Duke Johnson,5.4,FLEX,8.5,Jamaal Williams,McGwire
@@ -1176,7 +1176,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,10,Ethan,James Robinson,13.2,RB1,10.3,Darrell Henderson Jr.,Haris
 2020,10,Ethan,Giovani Bernard,8.7,RB2,4.0,Adrian Peterson,Haris
 2020,10,Ethan,Terry McLaurin,17.2,WR1,13.2,John Brown,Haris
-2020,10,Ethan,Allen Robinson II,10.3,WR2,3.1,A.J. Brown,Haris
+2020,10,Ethan,Allen Robinson,10.3,WR2,3.1,A.J. Brown,Haris
 2020,10,Ethan,Mike Gesicki,6.0,TE,4.8,Noah Fant,Haris
 2020,10,Ethan,Mike Williams,5.8,FLEX,10.8,Jerry Jeudy,Haris
 2020,10,Ethan,Eagles D/ST,2.0,D/ST,11.0,Steelers D/ST,Haris
@@ -1212,10 +1212,10 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,11,Ethan,Damien Harris,12.4,RB1,12.9,James Conner,Carter
 2020,11,Ethan,James Robinson,11.4,RB2,3.2,Rex Burkhead,Carter
 2020,11,Ethan,Mike Williams,17.2,WR1,34.5,Keenan Allen,Carter
-2020,11,Ethan,Terry McLaurin,13.4,WR2,14.0,Will Fuller V,Carter
+2020,11,Ethan,Terry McLaurin,13.4,WR2,14.0,William Fuller V,Carter
 2020,11,Ethan,Travis Kelce,26.86,TE,1.6,Jared Cook,Carter
 2020,11,Ethan,Jakobi Meyers,6.8,FLEX,15.9,Chase Claypool,Carter
-2020,11,Ethan,Saints D/ST,17.0,D/ST,13.0,Washington D/ST,Carter
+2020,11,Ethan,Saints D/ST,17.0,D/ST,13.0,Commanders D/ST,Carter
 2020,11,Ethan,Ryan Succop,6.0,K,10.0,Joey Slye,Carter
 2020,11,Haris,Patrick Mahomes,21.52,QB,31.36,Deshaun Watson,Michael
 2020,11,Haris,Ezekiel Elliott,19.4,RB1,20.7,Clyde Edwards-Helaire,Michael
@@ -1237,7 +1237,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,11,Noah,Daniel Carlson,7.0,K,5.0,Wil Lutz,Dante
 2020,11,Zach,Ben Roethlisberger,16.68,QB,5.28,Matt Ryan,McGwire
 2020,11,Zach,Miles Sanders,9.1,RB1,14.1,Kalen Ballage,McGwire
-2020,11,Zach,Ronald Jones II,2.4,RB2,9.9,J.D. McKissic,McGwire
+2020,11,Zach,Ronald Jones,2.4,RB2,9.9,J.D. McKissic,McGwire
 2020,11,Zach,Robert Woods,30.6,WR1,27.0,Tyreek Hill,McGwire
 2020,11,Zach,Michael Thomas,19.4,WR2,5.9,Julio Jones,McGwire
 2020,11,Zach,Rob Gronkowski,4.5,TE,24.22,Taysom Hill,McGwire
@@ -1247,16 +1247,16 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,12,Carter,Kyler Murray,7.9,QB,3.02,Jared Goff,Nathan
 2020,12,Carter,Wayne Gallman,18.1,RB1,24.3,Kenyan Drake,Nathan
 2020,12,Carter,Jordan Wilkins,8.7,RB2,6.2,Alvin Kamara,Nathan
-2020,12,Carter,Will Fuller V,35.1,WR1,10.9,Stefon Diggs,Nathan
+2020,12,Carter,William Fuller V,35.1,WR1,10.9,Stefon Diggs,Nathan
 2020,12,Carter,Keenan Allen,16.0,WR2,4.5,Tyler Boyd,Nathan
 2020,12,Carter,Eric Ebron,12.4,TE,0.0,Jonnu Smith,Nathan
 2020,12,Carter,Chris Godwin,17.7,FLEX,12.7,Curtis Samuel,Nathan
-2020,12,Carter,Washington D/ST,17.0,D/ST,-5.0,Colts D/ST,Nathan
+2020,12,Carter,Commanders D/ST,17.0,D/ST,-5.0,Colts D/ST,Nathan
 2020,12,Carter,Joey Slye,8.0,K,7.0,Chris Boswell,Nathan
 2020,12,Dante,Russell Wilson,14.4,QB,15.48,Josh Allen,Andrew
 2020,12,Dante,Nick Chubb,26.6,RB1,10.2,Dalvin Cook,Andrew
 2020,12,Dante,Aaron Jones,10.0,RB2,6.2,Kareem Hunt,Andrew
-2020,12,Dante,Robby Anderson,19.4,WR1,17.7,JuJu Smith-Schuster,Andrew
+2020,12,Dante,Robbie Chosen,19.4,WR1,17.7,JuJu Smith-Schuster,Andrew
 2020,12,Dante,Cooper Kupp,6.1,WR2,10.5,DeAndre Hopkins,Andrew
 2020,12,Dante,Mike Gesicki,11.5,TE,13.7,Hunter Henry,Andrew
 2020,12,Dante,Michael Thomas,9.1,FLEX,0.0,Todd Gurley II,Andrew
@@ -1273,7 +1273,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,12,McGwire,Rodrigo Blankenship,2.0,K,2.0,Justin Tucker,Haris
 2020,12,Michael,Deshaun Watson,33.12,QB,16.44,Justin Herbert,Ethan
 2020,12,Michael,Josh Jacobs,5.4,RB1,26.9,James Robinson,Ethan
-2020,12,Michael,Clyde Edwards-Helaire,4.9,RB2,17.3,Ronald Jones II,Ethan
+2020,12,Michael,Clyde Edwards-Helaire,4.9,RB2,17.3,Ronald Jones,Ethan
 2020,12,Michael,Diontae Johnson,12.6,WR1,20.0,Mike Evans,Ethan
 2020,12,Michael,DJ Moore,10.1,WR2,16.2,Terry McLaurin,Ethan
 2020,12,Michael,Austin Hooper,9.3,TE,16.2,Travis Kelce,Ethan
@@ -1286,7 +1286,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,12,Zach,Robert Woods,15.8,WR1,18.1,Davante Adams,Noah
 2020,12,Zach,Brandin Cooks,13.5,WR2,5.3,Tyler Lockett,Noah
 2020,12,Zach,Rob Gronkowski,16.6,TE,6.3,Darren Waller,Noah
-2020,12,Zach,Allen Robinson II,27.4,FLEX,13.9,Chris Carson,Noah
+2020,12,Zach,Allen Robinson,27.4,FLEX,13.9,Chris Carson,Noah
 2020,12,Zach,Seahawks D/ST,11.0,D/ST,14.0,Packers D/ST,Noah
 2020,12,Zach,Matt Prater,5.0,K,6.0,Daniel Carlson,Noah
 2020,13,Andrew,Josh Allen,30.1,QB,21.4,Kirk Cousins,Zach
@@ -1295,7 +1295,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,13,Andrew,DeAndre Hopkins,19.2,WR1,18.5,Robert Woods,Zach
 2020,13,Andrew,JuJu Smith-Schuster,9.8,WR2,11.5,Brandin Cooks,Zach
 2020,13,Andrew,Hunter Henry,1.5,TE,12.2,Jordan Reed,Zach
-2020,13,Andrew,Deebo Samuel,13.6,FLEX,13.5,Allen Robinson II,Zach
+2020,13,Andrew,Deebo Samuel Sr.,13.6,FLEX,13.5,Allen Robinson,Zach
 2020,13,Andrew,Ravens D/ST,3.0,D/ST,13.0,Seahawks D/ST,Zach
 2020,13,Andrew,Harrison Butker,17.0,K,4.0,Matt Prater,Zach
 2020,13,Ethan,Justin Herbert,4.36,QB,23.5,Aaron Rodgers,McGwire
@@ -1323,7 +1323,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,13,Michael,DeVante Parker,7.5,WR2,9.8,Keenan Allen,Carter
 2020,13,Michael,Austin Hooper,4.4,TE,13.8,Eric Ebron,Carter
 2020,13,Michael,Calvin Ridley,15.8,FLEX,5.8,Chase Claypool,Carter
-2020,13,Michael,Rams D/ST,13.0,D/ST,3.0,Washington D/ST,Carter
+2020,13,Michael,Rams D/ST,13.0,D/ST,3.0,Commanders D/ST,Carter
 2020,13,Michael,Younghoe Koo,12.0,K,10.0,Tyler Bass,Carter
 2020,13,Nathan,Mitchell Trubisky,13.28,QB,15.02,Russell Wilson,Dante
 2020,13,Nathan,David Montgomery,27.1,RB1,23.8,Aaron Jones,Dante
@@ -1340,11 +1340,11 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,14,Dante,Michael Thomas,16.4,WR1,20.2,Keenan Allen,Carter
 2020,14,Dante,Cooper Kupp,14.3,WR2,9.9,Justin Jefferson,Carter
 2020,14,Dante,Mark Andrews,12.8,TE,7.0,Eric Ebron,Carter
-2020,14,Dante,Robby Anderson,17.7,FLEX,4.5,Chris Godwin,Carter
-2020,14,Dante,Panthers D/ST,1.0,D/ST,23.0,Washington D/ST,Carter
+2020,14,Dante,Robbie Chosen,17.7,FLEX,4.5,Chris Godwin,Carter
+2020,14,Dante,Panthers D/ST,1.0,D/ST,23.0,Commanders D/ST,Carter
 2020,14,Dante,Wil Lutz,1.0,K,8.0,Tyler Bass,Carter
 2020,14,Ethan,Justin Herbert,15.72,QB,,,
-2020,14,Ethan,Ronald Jones II,15.4,RB1,,,
+2020,14,Ethan,Ronald Jones,15.4,RB1,,,
 2020,14,Ethan,James Robinson,12.3,RB2,,,
 2020,14,Ethan,Corey Davis,4.4,WR2,,,
 2020,14,Ethan,Terry McLaurin,4.4,WR1,,,
@@ -1367,7 +1367,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2020,14,Noah,Davante Adams,24.5,WR1,22.6,DeAndre Hopkins,Andrew
 2020,14,Noah,Tyler Lockett,10.2,WR2,17.5,JuJu Smith-Schuster,Andrew
 2020,14,Noah,Darren Waller,14.5,TE,10.1,Hunter Henry,Andrew
-2020,14,Noah,Adam Thielen,6.9,FLEX,0.9,Deebo Samuel,Andrew
+2020,14,Noah,Adam Thielen,6.9,FLEX,0.9,Deebo Samuel Sr.,Andrew
 2020,14,Noah,Packers D/ST,6.0,D/ST,-2.0,Ravens D/ST,Andrew
 2020,14,Noah,Daniel Carlson,9.0,K,8.0,Harrison Butker,Andrew
 2020,15,Ethan,Justin Herbert,27.96,QB,15.26,Jared Goff,Noah
@@ -1428,7 +1428,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,1,McGwire,David Montgomery,18.8,RB1,11.8,Antonio Gibson,Ethan
 2021,1,McGwire,Chris Carson,12.7,RB2,5.9,Ezekiel Elliott,Ethan
 2021,1,McGwire,Stefon Diggs,15.9,WR1,19.0,Keenan Allen,Ethan
-2021,1,McGwire,Davante Adams,10.6,WR2,9.5,Allen Robinson II,Ethan
+2021,1,McGwire,Davante Adams,10.6,WR2,9.5,Allen Robinson,Ethan
 2021,1,McGwire,Robert Tonyan,2.8,TE,7.1,Kyle Pitts,Ethan
 2021,1,McGwire,Adam Thielen,30.2,FLEX,2.0,Raheem Mostert,Ethan
 2021,1,McGwire,Ravens D/ST,-1.0,D/ST,5.0,Dolphins D/ST,Ethan
@@ -1439,7 +1439,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,1,Zach,Justin Jefferson,12.54,WR1,10.2,Terry McLaurin,Nathan
 2021,1,Zach,Julio Jones,5.9,WR2,0.0,Brandon Aiyuk,Nathan
 2021,1,Zach,George Kittle,11.8,TE,25.6,Travis Kelce,Nathan
-2021,1,Zach,Tyler Boyd,6.2,FLEX,12.7,Robby Anderson,Nathan
+2021,1,Zach,Tyler Boyd,6.2,FLEX,12.7,Robbie Chosen,Nathan
 2021,1,Zach,49ers D/ST,7.0,D/ST,13.0,Steelers D/ST,Nathan
 2021,1,Zach,Jason Sanders,6.0,K,9.0,Brandon McManus,Nathan
 2021,2,Andrew,Aaron Rodgers,26.8,QB,23.32,Russell Wilson,McGwire
@@ -1475,7 +1475,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,2,Nathan,Terry McLaurin,27.7,WR1,31.8,Tyler Lockett,Ethan
 2021,2,Nathan,Antonio Brown,2.7,WR2,14.8,Keenan Allen,Ethan
 2021,2,Nathan,Travis Kelce,23.9,TE,5.8,Jared Cook,Ethan
-2021,2,Nathan,Elijah Mitchell,7.3,FLEX,10.4,Allen Robinson II,Ethan
+2021,2,Nathan,Elijah Mitchell,7.3,FLEX,10.4,Allen Robinson,Ethan
 2021,2,Nathan,Steelers D/ST,-1.0,D/ST,19.0,Buccaneers D/ST,Ethan
 2021,2,Nathan,Brandon McManus,13.0,K,5.0,Younghoe Koo,Ethan
 2021,2,Noah,Patrick Mahomes,24.02,QB,21.8,Jalen Hurts,Dante
@@ -1502,14 +1502,14 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,3,Ethan,Keenan Allen,19.0,WR1,18.6,Mike Evans,Andrew
 2021,3,Ethan,Tyler Lockett,7.1,WR2,6.8,Robert Woods,Andrew
 2021,3,Ethan,Rob Gronkowski,9.5,TE,15.9,Mark Andrews,Andrew
-2021,3,Ethan,Allen Robinson II,4.7,FLEX,20.7,Brandin Cooks,Andrew
+2021,3,Ethan,Allen Robinson,4.7,FLEX,20.7,Brandin Cooks,Andrew
 2021,3,Ethan,Panthers D/ST,10.0,D/ST,17.0,Broncos D/ST,Andrew
 2021,3,Ethan,Daniel Carlson,13.0,K,6.0,Graham Gano,Andrew
 2021,3,McGwire,Russell Wilson,16.62,QB,19.28,Lamar Jackson,Carter
 2021,3,McGwire,Chris Carson,16.2,RB1,25.4,James Robinson,Carter
 2021,3,McGwire,David Montgomery,7.5,RB2,19.4,Derrick Henry,Carter
 2021,3,McGwire,Davante Adams,31.2,WR1,22.7,DK Metcalf,Carter
-2021,3,McGwire,Stefon Diggs,12.2,WR2,10.2,Deebo Samuel,Carter
+2021,3,McGwire,Stefon Diggs,12.2,WR2,10.2,Deebo Samuel Sr.,Carter
 2021,3,McGwire,Robert Tonyan,1.6,TE,3.0,T.J. Hockenson,Carter
 2021,3,McGwire,Adam Thielen,17.0,FLEX,0.3,A.J. Brown,Carter
 2021,3,McGwire,Saints D/ST,19.0,D/ST,6.0,Raiders D/ST,Carter
@@ -1529,13 +1529,13 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,3,Zach,Justin Jefferson,26.8,WR1,9.7,Tyreek Hill,Noah
 2021,3,Zach,Julio Jones,7.7,WR2,3.6,Sterling Shepard,Noah
 2021,3,Zach,George Kittle,17.1,TE,10.4,Darren Waller,Noah
-2021,3,Zach,Marquise Brown,8.3,FLEX,23.1,Alexander Mattison,Noah
+2021,3,Zach,Hollywood Brown,8.3,FLEX,23.1,Alexander Mattison,Noah
 2021,3,Zach,Browns D/ST,18.0,D/ST,5.0,Patriots D/ST,Noah
 2021,3,Zach,Robbie Gould,4.0,K,6.0,Jason Myers,Noah
 2021,4,Carter,Matthew Stafford,19.3,QB,27.02,Dak Prescott,Ethan
 2021,4,Carter,Derrick Henry,25.7,RB1,16.6,Kareem Hunt,Ethan
 2021,4,Carter,James Robinson,20.6,RB2,15.5,Antonio Gibson,Ethan
-2021,4,Carter,Deebo Samuel,35.7,WR1,10.6,Keenan Allen,Ethan
+2021,4,Carter,Deebo Samuel Sr.,35.7,WR1,10.6,Keenan Allen,Ethan
 2021,4,Carter,DK Metcalf,16.5,WR2,6.4,Tyler Lockett,Ethan
 2021,4,Carter,T.J. Hockenson,8.2,TE,19.0,Jared Cook,Ethan
 2021,4,Carter,Ja'Marr Chase,13.7,FLEX,3.6,Cole Beasley,Ethan
@@ -1554,7 +1554,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,4,Haris,Jonathan Taylor,20.4,RB1,17.9,Chase Edmonds,Zach
 2021,4,Haris,Nick Chubb,11.5,RB2,1.1,Nyheim Hines,Zach
 2021,4,Haris,Amari Cooper,15.9,WR1,20.4,Justin Jefferson,Zach
-2021,4,Haris,CeeDee Lamb,3.3,WR2,19.1,Marquise Brown,Zach
+2021,4,Haris,CeeDee Lamb,3.3,WR2,19.1,Hollywood Brown,Zach
 2021,4,Haris,Logan Thomas,0.0,TE,8.0,George Kittle,Zach
 2021,4,Haris,Cooper Kupp,11.4,FLEX,20.8,Tyler Boyd,Zach
 2021,4,Haris,Cowboys D/ST,7.0,D/ST,1.0,Bengals D/ST,Zach
@@ -1572,7 +1572,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,4,Noah,Saquon Barkley,29.6,RB1,19.4,Clyde Edwards-Helaire,Michael
 2021,4,Noah,Darrell Henderson Jr.,16.6,RB2,6.4,Dalvin Cook,Michael
 2021,4,Noah,Tyreek Hill,47.6,WR1,10.7,DeAndre Hopkins,Michael
-2021,4,Noah,Allen Robinson II,9.3,WR2,8.5,Chris Godwin,Michael
+2021,4,Noah,Allen Robinson,9.3,WR2,8.5,Chris Godwin,Michael
 2021,4,Noah,Darren Waller,15.0,TE,16.6,Noah Fant,Michael
 2021,4,Noah,Mike Davis,10.6,FLEX,31.9,DJ Moore,Michael
 2021,4,Noah,Dolphins D/ST,4.0,D/ST,1.0,Cardinals D/ST,Michael
@@ -1581,7 +1581,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,5,Andrew,Austin Ekeler,32.9,RB1,31.0,Derrick Henry,Carter
 2021,5,Andrew,Aaron Jones,14.9,RB2,21.7,James Robinson,Carter
 2021,5,Andrew,Mike Evans,29.3,WR1,26.8,DK Metcalf,Carter
-2021,5,Andrew,Brandin Cooks,5.3,WR2,16.1,Deebo Samuel,Carter
+2021,5,Andrew,Brandin Cooks,5.3,WR2,16.1,Deebo Samuel Sr.,Carter
 2021,5,Andrew,Mark Andrews,41.7,TE,4.2,T.J. Hockenson,Carter
 2021,5,Andrew,Leonard Fournette,21.0,FLEX,27.9,Ja'Marr Chase,Carter
 2021,5,Andrew,Broncos D/ST,2.0,D/ST,4.0,Raiders D/ST,Carter
@@ -1608,7 +1608,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,5,Noah,Darrell Henderson Jr.,16.9,RB1,22.4,D'Andre Swift,Nathan
 2021,5,Noah,Saquon Barkley,0.9,RB2,22.2,Najee Harris,Nathan
 2021,5,Noah,Tyreek Hill,14.8,WR1,31.4,Antonio Brown,Nathan
-2021,5,Noah,Allen Robinson II,7.2,WR2,8.6,Terry McLaurin,Nathan
+2021,5,Noah,Allen Robinson,7.2,WR2,8.6,Terry McLaurin,Nathan
 2021,5,Noah,Darren Waller,8.5,TE,17.7,Travis Kelce,Nathan
 2021,5,Noah,Alexander Mattison,26.3,FLEX,10.5,Joe Mixon,Nathan
 2021,5,Noah,Vikings D/ST,11.0,D/ST,3.0,Steelers D/ST,Nathan
@@ -1616,7 +1616,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,5,Zach,Josh Allen,36.5,QB,9.08,Russell Wilson,McGwire
 2021,5,Zach,Damien Williams,16.4,RB1,9.2,Alex Collins,McGwire
 2021,5,Zach,Chase Edmonds,4.4,RB2,5.0,Latavius Murray,McGwire
-2021,5,Zach,Marquise Brown,33.5,WR1,37.6,Davante Adams,McGwire
+2021,5,Zach,Hollywood Brown,33.5,WR1,37.6,Davante Adams,McGwire
 2021,5,Zach,Justin Jefferson,19.4,WR2,8.9,Stefon Diggs,McGwire
 2021,5,Zach,Mike Gesicki,8.3,TE,1.8,Robert Tonyan,McGwire
 2021,5,Zach,Tyler Boyd,6.4,FLEX,6.0,Adam Thielen,McGwire
@@ -1662,7 +1662,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,6,Zach,Latavius Murray,13.6,RB1,28.8,Jonathan Taylor,Ethan
 2021,6,Zach,Chase Edmonds,8.0,RB2,4.4,Antonio Gibson,Ethan
 2021,6,Zach,Justin Jefferson,14.0,WR1,10.0,Keenan Allen,Ethan
-2021,6,Zach,Marquise Brown,7.5,WR2,5.5,Tyler Lockett,Ethan
+2021,6,Zach,Hollywood Brown,7.5,WR2,5.5,Tyler Lockett,Ethan
 2021,6,Zach,Mike Gesicki,19.5,TE,7.5,Dawson Knox,Ethan
 2021,6,Zach,Laviska Shenault Jr.,11.4,FLEX,13.5,Chuba Hubbard,Ethan
 2021,6,Zach,Jaguars D/ST,-1.0,D/ST,6.0,Buccaneers D/ST,Ethan
@@ -1670,7 +1670,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,7,Andrew,Aaron Rodgers,24.66,QB,17.44,Matt Ryan,Zach
 2021,7,Andrew,Leonard Fournette,17.0,RB1,17.7,Myles Gaskin,Zach
 2021,7,Andrew,Aaron Jones,8.9,RB2,10.0,Chase Edmonds,Zach
-2021,7,Andrew,Mike Evans,31.6,WR1,19.0,Marquise Brown,Zach
+2021,7,Andrew,Mike Evans,31.6,WR1,19.0,Hollywood Brown,Zach
 2021,7,Andrew,Brandin Cooks,7.1,WR2,5.8,Julio Jones,Zach
 2021,7,Andrew,Mark Andrews,7.8,TE,21.5,Mike Gesicki,Zach
 2021,7,Andrew,Robert Woods,15.0,FLEX,5.9,Darnell Mooney,Zach
@@ -1679,7 +1679,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,7,Carter,Matthew Stafford,27.16,QB,23.54,Jalen Hurts,Dante
 2021,7,Carter,Derrick Henry,16.4,RB1,33.9,Alvin Kamara,Dante
 2021,7,Carter,Cordarrelle Patterson,14.1,RB2,8.0,Darrel Williams,Dante
-2021,7,Carter,Deebo Samuel,21.0,WR1,13.3,DJ Moore,Dante
+2021,7,Carter,Deebo Samuel Sr.,21.0,WR1,13.3,DJ Moore,Dante
 2021,7,Carter,DK Metcalf,17.6,WR2,12.6,Calvin Ridley,Dante
 2021,7,Carter,T.J. Hockenson,10.8,TE,23.3,Kyle Pitts,Dante
 2021,7,Carter,Ja'Marr Chase,34.1,FLEX,12.8,Hunter Renfrow,Dante
@@ -1707,7 +1707,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,7,Noah,Josh Jacobs,15.8,RB1,14.6,Devontae Booker,McGwire
 2021,7,Noah,Darrell Henderson Jr.,9.4,RB2,5.4,Alex Collins,McGwire
 2021,7,Noah,Tyreek Hill,12.7,WR1,19.6,Davante Adams,McGwire
-2021,7,Noah,Allen Robinson II,3.6,WR2,3.6,Tim Patrick,McGwire
+2021,7,Noah,Allen Robinson,3.6,WR2,3.6,Tim Patrick,McGwire
 2021,7,Noah,Tyler Higbee,9.6,TE,16.3,Robert Tonyan,McGwire
 2021,7,Noah,Mike Davis,1.0,FLEX,9.6,J.D. McKissic,McGwire
 2021,7,Noah,Jets D/ST,-11.0,D/ST,10.0,Saints D/ST,McGwire
@@ -1751,16 +1751,16 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,8,Zach,Josh Allen,29.46,QB,24.2,Matthew Stafford,Carter
 2021,8,Zach,Chase Edmonds,15.9,RB1,6.8,Derrick Henry,Carter
 2021,8,Zach,Myles Gaskin,8.5,RB2,4.9,James Robinson,Carter
-2021,8,Zach,Cole Beasley,21.0,WR1,23.1,Deebo Samuel,Carter
+2021,8,Zach,Cole Beasley,21.0,WR1,23.1,Deebo Samuel Sr.,Carter
 2021,8,Zach,Justin Jefferson,4.1,WR2,13.1,Ja'Marr Chase,Carter
 2021,8,Zach,Mike Gesicki,9.8,TE,18.9,T.J. Hockenson,Carter
-2021,8,Zach,Robby Anderson,0.0,FLEX,31.5,A.J. Brown,Carter
+2021,8,Zach,Robbie Chosen,0.0,FLEX,31.5,A.J. Brown,Carter
 2021,8,Zach,49ers D/ST,6.0,D/ST,13.0,Bills D/ST,Carter
 2021,8,Zach,Tyler Bass,10.0,K,15.0,Nick Folk,Carter
 2021,9,Carter,Matthew Stafford,13.06,QB,14.02,Ryan Tannehill,Michael
 2021,9,Carter,Adrian Peterson,9.6,RB1,12.6,Ezekiel Elliott,Michael
 2021,9,Carter,Carlos Hyde,6.3,RB2,10.3,Damien Harris,Michael
-2021,9,Carter,Deebo Samuel,11.3,WR1,22.6,DeVonta Smith,Michael
+2021,9,Carter,Deebo Samuel Sr.,11.3,WR1,22.6,DeVonta Smith,Michael
 2021,9,Carter,Ja'Marr Chase,8.9,WR2,3.9,Courtland Sutton,Michael
 2021,9,Carter,Jared Cook,10.8,TE,10.0,Dan Arnold,Michael
 2021,9,Carter,A.J. Brown,9.2,FLEX,1.8,Jakobi Meyers,Michael
@@ -1769,7 +1769,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,9,Dante,Jalen Hurts,16.68,QB,9.56,Josh Allen,Zach
 2021,9,Dante,Alvin Kamara,20.4,RB1,14.6,Christian McCaffrey,Zach
 2021,9,Dante,Dalvin Cook,15.2,RB2,0.3,Chase Edmonds,Zach
-2021,9,Dante,Diontae Johnson,11.7,WR1,20.6,Marquise Brown,Zach
+2021,9,Dante,Diontae Johnson,11.7,WR1,20.6,Hollywood Brown,Zach
 2021,9,Dante,DJ Moore,7.6,WR2,17.0,Justin Jefferson,Zach
 2021,9,Dante,Kyle Pitts,9.2,TE,9.4,Mike Gesicki,Zach
 2021,9,Dante,Hunter Renfrow,17.9,FLEX,15.7,Myles Gaskin,Zach
@@ -1833,7 +1833,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,10,Nathan,Najee Harris,17.3,RB1,26.1,Christian McCaffrey,Zach
 2021,10,Nathan,D'Andre Swift,16.5,RB2,5.5,Myles Gaskin,Zach
 2021,10,Nathan,Terry McLaurin,11.9,WR1,22.9,Justin Jefferson,Zach
-2021,10,Nathan,Marvin Jones Jr.,5.5,WR2,9.7,Marquise Brown,Zach
+2021,10,Nathan,Marvin Jones Jr.,5.5,WR2,9.7,Hollywood Brown,Zach
 2021,10,Nathan,Travis Kelce,19.9,TE,16.0,George Kittle,Zach
 2021,10,Nathan,Elijah Mitchell,9.1,FLEX,0.0,Mike Gesicki,Zach
 2021,10,Nathan,Steelers D/ST,5.0,D/ST,14.0,Packers D/ST,Zach
@@ -1841,7 +1841,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,10,Noah,Patrick Mahomes,36.24,QB,15.42,Lamar Jackson,Carter
 2021,10,Noah,Josh Jacobs,8.6,RB1,18.4,James Robinson,Carter
 2021,10,Noah,Darrell Henderson Jr.,8.1,RB2,8.7,Zack Moss,Carter
-2021,10,Noah,Tyreek Hill,27.5,WR1,30.3,Deebo Samuel,Carter
+2021,10,Noah,Tyreek Hill,27.5,WR1,30.3,Deebo Samuel Sr.,Carter
 2021,10,Noah,Rashod Bateman,14.0,WR2,17.8,Keenan Allen,Carter
 2021,10,Noah,Darren Waller,6.4,TE,0.0,T.J. Hockenson,Carter
 2021,10,Noah,Melvin Gordon III,9.3,FLEX,12.1,Michael Pittman Jr.,Carter
@@ -1868,7 +1868,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,11,Haris,Dak Prescott,2.64,QB,7.68,Daniel Jones,Carter
 2021,11,Haris,Nick Chubb,22.4,RB1,11.8,James Robinson,Carter
 2021,11,Haris,James Conner,20.9,RB2,7.5,Antonio Gibson,Carter
-2021,11,Haris,Christian Kirk,4.5,WR1,16.4,Deebo Samuel,Carter
+2021,11,Haris,Christian Kirk,4.5,WR1,16.4,Deebo Samuel Sr.,Carter
 2021,11,Haris,CeeDee Lamb,4.4,WR2,13.0,Ja'Marr Chase,Carter
 2021,11,Haris,Hunter Henry,4.5,TE,11.1,T.J. Hockenson,Carter
 2021,11,Haris,Tony Pollard,9.0,FLEX,20.2,Keenan Allen,Carter
@@ -1887,7 +1887,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,11,Zach,Christian McCaffrey,24.9,RB1,12.8,Ezekiel Elliott,Michael
 2021,11,Zach,Myles Gaskin,18.6,RB2,7.5,Damien Harris,Michael
 2021,11,Zach,Justin Jefferson,37.2,WR1,19.2,Chris Godwin,Michael
-2021,11,Zach,Marquise Brown,0.0,WR2,10.1,DeVonta Smith,Michael
+2021,11,Zach,Hollywood Brown,0.0,WR2,10.1,DeVonta Smith,Michael
 2021,11,Zach,George Kittle,13.4,TE,0.0,Dan Arnold,Michael
 2021,11,Zach,Mike Gesicki,10.0,FLEX,15.6,Clyde Edwards-Helaire,Michael
 2021,11,Zach,Patriots D/ST,26.0,D/ST,9.0,Cardinals D/ST,Michael
@@ -1904,7 +1904,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,12,Carter,Lamar Jackson,9.4,QB,19.48,Russell Wilson,McGwire
 2021,12,Carter,Antonio Gibson,23.6,RB1,22.6,J.D. McKissic,McGwire
 2021,12,Carter,James Robinson,12.5,RB2,10.4,David Montgomery,McGwire
-2021,12,Carter,Deebo Samuel,20.8,WR1,20.4,Stefon Diggs,McGwire
+2021,12,Carter,Deebo Samuel Sr.,20.8,WR1,20.4,Stefon Diggs,McGwire
 2021,12,Carter,Ja'Marr Chase,6.9,WR2,18.4,Davante Adams,McGwire
 2021,12,Carter,T.J. Hockenson,12.5,TE,14.0,Pat Freiermuth,McGwire
 2021,12,Carter,Keenan Allen,15.5,FLEX,23.2,Adam Thielen,McGwire
@@ -1914,7 +1914,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,12,Haris,Tony Pollard,16.8,RB1,20.0,AJ Dillon,Dante
 2021,12,Haris,Nick Chubb,5.9,RB2,14.3,Dalvin Cook,Dante
 2021,12,Haris,Cooper Kupp,18.6,WR1,21.6,Hunter Renfrow,Dante
-2021,12,Haris,Cedrick Wilson,17.4,WR2,14.3,DJ Moore,Dante
+2021,12,Haris,Cedrick Wilson Jr.,17.4,WR2,14.3,DJ Moore,Dante
 2021,12,Haris,Hunter Henry,3.6,TE,4.6,Kyle Pitts,Dante
 2021,12,Haris,Kareem Hunt,2.0,FLEX,17.5,Darnell Mooney,Dante
 2021,12,Haris,Cowboys D/ST,0.0,D/ST,6.0,Eagles D/ST,Dante
@@ -1932,7 +1932,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,12,Noah,Josh Jacobs,19.2,RB1,19.2,Myles Gaskin,Zach
 2021,12,Noah,Saquon Barkley,9.3,RB2,3.5,Christian McCaffrey,Zach
 2021,12,Noah,Tee Higgins,23.4,WR1,13.26,Justin Jefferson,Zach
-2021,12,Noah,Rashod Bateman,7.1,WR2,13.1,Marquise Brown,Zach
+2021,12,Noah,Rashod Bateman,7.1,WR2,13.1,Hollywood Brown,Zach
 2021,12,Noah,Darren Waller,5.3,TE,2.3,George Kittle,Zach
 2021,12,Noah,Darrell Henderson Jr.,17.3,FLEX,7.4,Miles Sanders,Zach
 2021,12,Noah,Bears D/ST,6.0,D/ST,12.0,Patriots D/ST,Zach
@@ -1977,7 +1977,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,13,Zach,Miles Sanders,17.2,RB1,19.1,James Conner,Haris
 2021,13,Zach,Myles Gaskin,6.9,RB2,15.4,Tony Pollard,Haris
 2021,13,Zach,Justin Jefferson,35.6,WR1,26.9,Cooper Kupp,Haris
-2021,13,Zach,Marquise Brown,10.5,WR2,19.2,CeeDee Lamb,Haris
+2021,13,Zach,Hollywood Brown,10.5,WR2,19.2,CeeDee Lamb,Haris
 2021,13,Zach,George Kittle,39.6,TE,0.0,Hunter Henry,Haris
 2021,13,Zach,Van Jefferson,16.1,FLEX,6.1,Amari Cooper,Haris
 2021,13,Zach,Vikings D/ST,5.0,D/ST,14.0,Cowboys D/ST,Haris
@@ -1986,7 +1986,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,14,Carter,Antonio Gibson,4.1,RB1,21.5,Aaron Jones,Andrew
 2021,14,Carter,James Robinson,0.4,RB2,16.4,Austin Ekeler,Andrew
 2021,14,Carter,Ja'Marr Chase,25.3,WR1,21.1,Mike Evans,Andrew
-2021,14,Carter,Deebo Samuel,12.9,WR2,11.0,Michael Gallup,Andrew
+2021,14,Carter,Deebo Samuel Sr.,12.9,WR2,11.0,Michael Gallup,Andrew
 2021,14,Carter,T.J. Hockenson,0.0,TE,28.5,Mark Andrews,Andrew
 2021,14,Carter,DK Metcalf,8.3,FLEX,23.2,Leonard Fournette,Andrew
 2021,14,Carter,Bills D/ST,-4.0,D/ST,9.0,Broncos D/ST,Andrew
@@ -2013,7 +2013,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,14,McGwire,David Montgomery,14.1,RB1,9.7,Ty Johnson,Zach
 2021,14,McGwire,Alexander Mattison,2.7,RB2,0.0,Chase Edmonds,Zach
 2021,14,McGwire,Davante Adams,34.1,WR1,20.5,Justin Jefferson,Zach
-2021,14,McGwire,Stefon Diggs,14.4,WR2,9.1,Marquise Brown,Zach
+2021,14,McGwire,Stefon Diggs,14.4,WR2,9.1,Hollywood Brown,Zach
 2021,14,McGwire,Pat Freiermuth,11.2,TE,34.1,George Kittle,Zach
 2021,14,McGwire,Mike Williams,12.1,FLEX,14.8,Van Jefferson,Zach
 2021,14,McGwire,Saints D/ST,8.0,D/ST,4.0,Seahawks D/ST,Zach
@@ -2058,7 +2058,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,15,Nathan,Joe Mixon,7.0,RB1,5.4,Myles Gaskin,Zach
 2021,15,Nathan,Najee Harris,4.6,RB2,5.3,Chase Edmonds,Zach
 2021,15,Nathan,Russell Gage,23.1,WR1,14.7,Justin Jefferson,Zach
-2021,15,Nathan,Diontae Johnson,9.8,WR2,14.3,Marquise Brown,Zach
+2021,15,Nathan,Diontae Johnson,9.8,WR2,14.3,Hollywood Brown,Zach
 2021,15,Nathan,Travis Kelce,41.1,TE,15.3,George Kittle,Zach
 2021,15,Nathan,A.J. Green,10.4,FLEX,5.3,Van Jefferson,Zach
 2021,15,Nathan,Packers D/ST,-1.0,D/ST,10.0,49ers D/ST,Zach
@@ -2078,12 +2078,12 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2021,16,Dante,Hunter Renfrow,13.0,WR1,43.4,Tee Higgins,Noah
 2021,16,Dante,DJ Moore,10.5,WR2,3.9,Tyreek Hill,Noah
 2021,16,Dante,Kyle Pitts,16.2,TE,13.4,Zach Ertz,Noah
-2021,16,Dante,Odell Beckham Jr.,13.7,FLEX,16.1,Ronald Jones II,Noah
+2021,16,Dante,Odell Beckham Jr.,13.7,FLEX,16.1,Ronald Jones,Noah
 2021,16,Dante,Chargers D/ST,-5.0,D/ST,11.0,Chiefs D/ST,Noah
 2021,16,Dante,Matt Gay,12.0,K,6.0,Daniel Carlson,Noah
 2021,17,Andrew,Aaron Rodgers,20.32,QB,20.86,Patrick Mahomes,Noah
 2021,17,Andrew,Austin Ekeler,20.2,RB1,18.0,Josh Jacobs,Noah
-2021,17,Andrew,Aaron Jones,15.6,RB2,3.7,Ronald Jones II,Noah
+2021,17,Andrew,Aaron Jones,15.6,RB2,3.7,Ronald Jones,Noah
 2021,17,Andrew,Brandin Cooks,19.6,WR1,10.2,Tyreek Hill,Noah
 2021,17,Andrew,A.J. Brown,6.1,WR2,9.2,Tee Higgins,Noah
 2021,17,Andrew,Mark Andrews,14.9,TE,11.1,Zach Ertz,Noah
@@ -2103,7 +2103,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,1,Carter,D'Andre Swift,26.5,RB1,21.5,Joe Mixon,Nathan
 2022,1,Carter,David Montgomery,8.0,RB2,13.8,Dalvin Cook,Nathan
 2022,1,Carter,Justin Jefferson,39.4,WR1,3.0,Mike Williams,Nathan
-2022,1,Carter,Terry McLaurin,13.8,WR2,2.2,Allen Robinson II,Nathan
+2022,1,Carter,Terry McLaurin,13.8,WR2,2.2,Allen Robinson,Nathan
 2022,1,Carter,Irv Smith Jr.,0.0,TE,1.1,Mike Gesicki,Nathan
 2022,1,Carter,DeVonta Smith,0.0,FLEX,11.9,JuJu Smith-Schuster,Nathan
 2022,1,Carter,Patriots D/ST,4.0,D/ST,8.0,Browns D/ST,Nathan
@@ -2120,7 +2120,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,1,Ethan,Trey Lance,9.96,QB,24.72,Jalen Hurts,Michael
 2022,1,Ethan,Leonard Fournette,15.7,RB1,27.5,Jonathan Taylor,Michael
 2022,1,Ethan,Derrick Henry,8.2,RB2,0.0,Cam Akers,Michael
-2022,1,Ethan,Brandin Cooks,15.2,WR1,14.3,Marquise Brown,Michael
+2022,1,Ethan,Brandin Cooks,15.2,WR1,14.3,Hollywood Brown,Michael
 2022,1,Ethan,DJ Moore,8.0,WR2,4.7,Tee Higgins,Michael
 2022,1,Ethan,Zach Ertz,11.4,TE,11.9,Darren Waller,Michael
 2022,1,Ethan,Antonio Gibson,20.0,FLEX,17.7,Jaylen Waddle,Michael
@@ -2139,7 +2139,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,1,Zach,Aaron Jones,10.6,RB1,8.5,Travis Etienne Jr.,McGwire
 2022,1,Zach,Rashaad Penny,8.7,RB2,7.6,Alvin Kamara,McGwire
 2022,1,Zach,Jerry Jeudy,20.2,WR1,26.2,Stefon Diggs,McGwire
-2022,1,Zach,Deebo Samuel,12.6,WR2,12.5,Diontae Johnson,McGwire
+2022,1,Zach,Deebo Samuel Sr.,12.6,WR2,12.5,Diontae Johnson,McGwire
 2022,1,Zach,Robert Tonyan,6.6,TE,12.5,Pat Freiermuth,McGwire
 2022,1,Zach,Robert Woods,2.3,FLEX,4.1,Elijah Mitchell,McGwire
 2022,1,Zach,Bills D/ST,18.0,D/ST,9.0,Ravens D/ST,McGwire
@@ -2148,7 +2148,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,2,Kevin,Miles Sanders,11.6,RB1,8.2,Cam Akers,Michael
 2022,2,Kevin,AJ Dillon,7.7,RB2,7.3,Jonathan Taylor,Michael
 2022,2,Kevin,Davante Adams,9.2,WR1,19.1,Tee Higgins,Michael
-2022,2,Kevin,Tyler Boyd,5.7,WR2,12.8,Marquise Brown,Michael
+2022,2,Kevin,Tyler Boyd,5.7,WR2,12.8,Hollywood Brown,Michael
 2022,2,Kevin,Travis Kelce,10.1,TE,17.0,Darren Waller,Michael
 2022,2,Kevin,Melvin Gordon III,6.3,FLEX,40.1,Jaylen Waddle,Michael
 2022,2,Kevin,Bengals D/ST,3.0,D/ST,0.0,Browns D/ST,Michael
@@ -2192,7 +2192,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,2,Zach,Josh Allen,29.68,QB,17.3,Patrick Mahomes,Carter
 2022,2,Zach,Aaron Jones,32.0,RB1,16.7,D'Andre Swift,Carter
 2022,2,Zach,Rashaad Penny,1.5,RB2,15.6,David Montgomery,Carter
-2022,2,Zach,Deebo Samuel,14.7,WR1,12.2,Terry McLaurin,Carter
+2022,2,Zach,Deebo Samuel Sr.,14.7,WR1,12.2,Terry McLaurin,Carter
 2022,2,Zach,Jerry Jeudy,2.2,WR2,10.8,Justin Jefferson,Carter
 2022,2,Zach,Robert Tonyan,3.1,TE,13.2,Dallas Goedert,Carter
 2022,2,Zach,Julio Jones,0.0,FLEX,4.1,Cordarrelle Patterson,Carter
@@ -2210,7 +2210,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,3,Dante,Aaron Rodgers,16.1,QB,26.7,Josh Allen,Zach
 2022,3,Dante,Saquon Barkley,22.6,RB1,7.9,Rashaad Penny,Zach
 2022,3,Dante,Najee Harris,13.1,RB2,5.7,Aaron Jones,Zach
-2022,3,Dante,A.J. Brown,19.5,WR1,12.9,Deebo Samuel,Zach
+2022,3,Dante,A.J. Brown,19.5,WR1,12.9,Deebo Samuel Sr.,Zach
 2022,3,Dante,DK Metcalf,17.4,WR2,3.7,Jerry Jeudy,Zach
 2022,3,Dante,T.J. Hockenson,10.8,TE,6.8,George Kittle,Zach
 2022,3,Dante,Nick Chubb,17.3,FLEX,0.0,Julio Jones,Zach
@@ -2229,7 +2229,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,3,Haris,Clyde Edwards-Helaire,14.9,RB1,13.6,Dalvin Cook,Nathan
 2022,3,Haris,Josh Jacobs,14.7,RB2,6.8,Joe Mixon,Nathan
 2022,3,Haris,Cooper Kupp,16.4,WR1,8.5,Mike Williams,Nathan
-2022,3,Haris,Garrett Wilson,12.0,WR2,4.3,Allen Robinson II,Nathan
+2022,3,Haris,Garrett Wilson,12.0,WR2,4.3,Allen Robinson,Nathan
 2022,3,Haris,Mark Andrews,28.9,TE,4.5,Gerald Everett,Nathan
 2022,3,Haris,Adam Thielen,18.1,FLEX,18.1,Dameon Pierce,Nathan
 2022,3,Haris,Buccaneers D/ST,6.0,D/ST,10.0,Cowboys D/ST,Nathan
@@ -2237,7 +2237,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,3,Michael,Jalen Hurts,27.6,QB,39.42,Lamar Jackson,Noah
 2022,3,Michael,Ezekiel Elliott,14.5,RB1,12.6,Damien Harris,Noah
 2022,3,Michael,Jonathan Taylor,12.1,RB2,9.1,Kareem Hunt,Noah
-2022,3,Michael,Marquise Brown,28.0,WR1,12.7,Ja'Marr Chase,Noah
+2022,3,Michael,Hollywood Brown,28.0,WR1,12.7,Ja'Marr Chase,Noah
 2022,3,Michael,Tee Higgins,14.3,WR2,5.3,Tyreek Hill,Noah
 2022,3,Michael,Darren Waller,5.2,TE,13.7,Kyle Pitts,Noah
 2022,3,Michael,Jaylen Waddle,15.1,FLEX,22.7,CeeDee Lamb,Noah
@@ -2282,7 +2282,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,4,McGwire,Travis Etienne Jr.,3.2,RB1,10.1,Ezekiel Elliott,Michael
 2022,4,McGwire,Alvin Kamara,0.0,RB2,3.3,Jonathan Taylor,Michael
 2022,4,McGwire,Stefon Diggs,10.2,WR1,25.4,Tee Higgins,Michael
-2022,4,McGwire,Diontae Johnson,4.2,WR2,20.8,Marquise Brown,Michael
+2022,4,McGwire,Diontae Johnson,4.2,WR2,20.8,Hollywood Brown,Michael
 2022,4,McGwire,Pat Freiermuth,15.5,TE,5.4,Darren Waller,Michael
 2022,4,McGwire,Rashod Bateman,4.7,FLEX,5.9,Jaylen Waddle,Michael
 2022,4,McGwire,Steelers D/ST,5.0,D/ST,3.0,Browns D/ST,Michael
@@ -2299,7 +2299,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,4,Zach,Josh Allen,23.52,QB,21.1,Justin Herbert,Haris
 2022,4,Zach,Rashaad Penny,28.7,RB1,34.5,Josh Jacobs,Haris
 2022,4,Zach,Aaron Jones,14.5,RB2,10.7,James Conner,Haris
-2022,4,Zach,Deebo Samuel,23.7,WR1,26.2,Cooper Kupp,Haris
+2022,4,Zach,Deebo Samuel Sr.,23.7,WR1,26.2,Cooper Kupp,Haris
 2022,4,Zach,Jerry Jeudy,15.3,WR2,6.1,Garrett Wilson,Haris
 2022,4,Zach,George Kittle,4.4,TE,3.5,Mark Andrews,Haris
 2022,4,Zach,Josh Reynolds,21.1,FLEX,16.7,Chris Olave,Haris
@@ -2326,7 +2326,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,5,Michael,Jalen Hurts,27.66,QB,30.48,Patrick Mahomes,Carter
 2022,5,Michael,Ezekiel Elliott,7.8,RB1,18.2,David Montgomery,Carter
 2022,5,Michael,Rachaad White,7.2,RB2,5.9,James Robinson,Carter
-2022,5,Michael,Marquise Brown,21.8,WR1,30.32,Justin Jefferson,Carter
+2022,5,Michael,Hollywood Brown,21.8,WR1,30.32,Justin Jefferson,Carter
 2022,5,Michael,Tee Higgins,0.0,WR2,12.6,Terry McLaurin,Carter
 2022,5,Michael,Darren Waller,0.0,TE,17.5,Dallas Goedert,Carter
 2022,5,Michael,Jaylen Waddle,5.3,FLEX,18.7,DeVonta Smith,Carter
@@ -2353,7 +2353,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,5,Tyler,Jared Goff,5.86,QB,35.16,Josh Allen,Zach
 2022,5,Tyler,Austin Ekeler,35.9,RB1,19.2,Raheem Mostert,Zach
 2022,5,Tyler,Cam Akers,3.3,RB2,10.0,Aaron Jones,Zach
-2022,5,Tyler,Jakobi Meyers,24.1,WR1,11.2,Deebo Samuel,Zach
+2022,5,Tyler,Jakobi Meyers,24.1,WR1,11.2,Deebo Samuel Sr.,Zach
 2022,5,Tyler,Drake London,7.5,WR2,8.3,Jerry Jeudy,Zach
 2022,5,Tyler,Evan Engram,12.9,TE,7.7,George Kittle,Zach
 2022,5,Tyler,Zay Jones,4.2,FLEX,7.7,Robert Woods,Zach
@@ -2380,7 +2380,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,6,Dante,Aaron Rodgers,11.84,QB,16.9,Jalen Hurts,Michael
 2022,6,Dante,Saquon Barkley,18.5,RB1,15.6,Ezekiel Elliott,Michael
 2022,6,Dante,Nick Chubb,8.0,RB2,5.3,Rachaad White,Michael
-2022,6,Dante,A.J. Brown,17.7,WR1,11.8,Marquise Brown,Michael
+2022,6,Dante,A.J. Brown,17.7,WR1,11.8,Hollywood Brown,Michael
 2022,6,Dante,DK Metcalf,5.4,WR2,10.7,Tee Higgins,Michael
 2022,6,Dante,Dawson Knox,12.7,TE,10.5,Noah Fant,Michael
 2022,6,Dante,Romeo Doubs,6.1,FLEX,3.7,Tyler Lockett,Michael
@@ -2408,7 +2408,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,6,Zach,Aaron Jones,7.4,RB1,16.8,Joe Mixon,Nathan
 2022,6,Zach,Raheem Mostert,5.8,RB2,15.3,Dalvin Cook,Nathan
 2022,6,Zach,Allen Lazard,17.6,WR1,14.4,Amari Cooper,Nathan
-2022,6,Zach,Deebo Samuel,16.0,WR2,3.7,Mike Williams,Nathan
+2022,6,Zach,Deebo Samuel Sr.,16.0,WR2,3.7,Mike Williams,Nathan
 2022,6,Zach,George Kittle,16.3,TE,1.7,Tyler Higbee,Nathan
 2022,6,Zach,Deon Jackson,28.1,FLEX,20.1,Breece Hall,Nathan
 2022,6,Zach,Commanders D/ST,11.0,D/ST,6.0,Cowboys D/ST,Nathan
@@ -2426,7 +2426,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,7,Michael,Ezekiel Elliott,17.7,RB1,36.5,Josh Jacobs,Haris
 2022,7,Michael,Jonathan Taylor,15.5,RB2,9.2,Clyde Edwards-Helaire,Haris
 2022,7,Michael,Tee Higgins,14.3,WR1,17.6,Chris Olave,Haris
-2022,7,Michael,Marquise Brown,0.0,WR2,11.1,Donovan Peoples-Jones,Haris
+2022,7,Michael,Hollywood Brown,0.0,WR2,11.1,Donovan Peoples-Jones,Haris
 2022,7,Michael,Noah Fant,1.7,TE,0.4,Mark Andrews,Haris
 2022,7,Michael,Tyler Lockett,11.5,FLEX,6.4,Garrett Wilson,Haris
 2022,7,Michael,Saints D/ST,1.0,D/ST,1.0,Buccaneers D/ST,Haris
@@ -2462,7 +2462,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,7,Zach,Aaron Jones,28.6,RB1,18.7,Nick Chubb,Kevin
 2022,7,Zach,Raheem Mostert,20.9,RB2,0.5,Kenyan Drake,Kevin
 2022,7,Zach,Allen Lazard,11.5,WR1,17.5,Davante Adams,Kevin
-2022,7,Zach,Deebo Samuel,9.4,WR2,9.8,Michael Pittman Jr.,Kevin
+2022,7,Zach,Deebo Samuel Sr.,9.4,WR2,9.8,Michael Pittman Jr.,Kevin
 2022,7,Zach,George Kittle,21.8,TE,15.8,Travis Kelce,Kevin
 2022,7,Zach,Josh Reynolds,1.8,FLEX,6.7,Alec Pierce,Kevin
 2022,7,Zach,Broncos D/ST,6.0,D/ST,11.0,Dolphins D/ST,Kevin
@@ -2599,14 +2599,14 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,10,Kevin,Davante Adams,27.6,WR1,19.8,DeAndre Hopkins,Dante
 2022,10,Kevin,Michael Pittman Jr.,12.3,WR2,1.7,A.J. Brown,Dante
 2022,10,Kevin,Travis Kelce,20.1,TE,11.5,T.J. Hockenson,Dante
-2022,10,Kevin,Allen Robinson II,8.4,FLEX,13.1,DK Metcalf,Dante
+2022,10,Kevin,Allen Robinson,8.4,FLEX,13.1,DK Metcalf,Dante
 2022,10,Kevin,49ers D/ST,8.0,D/ST,7.0,Eagles D/ST,Dante
 2022,10,Kevin,Younghoe Koo,3.0,K,2.0,Ryan Succop,Dante
 2022,10,Michael,Jalen Hurts,21.8,QB,19.6,Josh Allen,Zach
 2022,10,Michael,Jonathan Taylor,24.3,RB1,23.6,Aaron Jones,Zach
 2022,10,Michael,Jerick McKinnon,11.8,RB2,18.7,Raheem Mostert,Zach
 2022,10,Michael,Tyler Lockett,13.2,WR1,7.5,Allen Lazard,Zach
-2022,10,Michael,Jaylen Waddle,10.6,WR2,7.1,Deebo Samuel,Zach
+2022,10,Michael,Jaylen Waddle,10.6,WR2,7.1,Deebo Samuel Sr.,Zach
 2022,10,Michael,Noah Fant,6.4,TE,3.1,George Kittle,Zach
 2022,10,Michael,Donovan Peoples-Jones,14.9,FLEX,0.0,Jerry Jeudy,Zach
 2022,10,Michael,Titans D/ST,11.0,D/ST,3.0,Bills D/ST,Zach
@@ -2662,7 +2662,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,11,Ethan,Michael Pittman Jr.,13.5,WR1,33.1,Davante Adams,Kevin
 2022,11,Ethan,Brandin Cooks,10.0,WR2,11.8,Gabe Davis,Kevin
 2022,11,Ethan,Tyler Conklin,3.5,TE,35.5,Travis Kelce,Kevin
-2022,11,Ethan,Darnell Mooney,12.9,FLEX,14.7,Allen Robinson II,Kevin
+2022,11,Ethan,Darnell Mooney,12.9,FLEX,14.7,Allen Robinson,Kevin
 2022,11,Ethan,Patriots D/ST,17.0,D/ST,,,
 2022,11,Ethan,Graham Gano,0.0,K,4.0,Greg Zuerlein,Kevin
 2022,11,McGwire,Aaron Rodgers,19.08,QB,22.62,Justin Fields,Nathan
@@ -2677,7 +2677,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,11,Zach,Josh Allen,12.58,QB,15.46,Lamar Jackson,Noah
 2022,11,Zach,Aaron Jones,14.0,RB1,11.9,Cordarrelle Patterson,Noah
 2022,11,Zach,Darrell Henderson Jr.,0.9,RB2,7.2,Dalvin Cook,Noah
-2022,11,Zach,Deebo Samuel,22.4,WR1,9.8,Curtis Samuel,Noah
+2022,11,Zach,Deebo Samuel Sr.,22.4,WR1,9.8,Curtis Samuel,Noah
 2022,11,Zach,Allen Lazard,10.7,WR2,9.5,CeeDee Lamb,Noah
 2022,11,Zach,George Kittle,24.4,TE,7.3,Kyle Pitts,Noah
 2022,11,Zach,Parris Campbell,11.7,FLEX,17.7,Devin Singletary,Noah
@@ -2695,7 +2695,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,12,McGwire,Tom Brady,18.04,QB,29.92,Josh Allen,Zach
 2022,12,McGwire,Alvin Kamara,7.0,RB1,19.3,Samaje Perine,Zach
 2022,12,McGwire,Travis Etienne Jr.,0.3,RB2,18.9,Aaron Jones,Zach
-2022,12,McGwire,Stefon Diggs,21.7,WR1,7.3,Deebo Samuel,Zach
+2022,12,McGwire,Stefon Diggs,21.7,WR1,7.3,Deebo Samuel Sr.,Zach
 2022,12,McGwire,Joshua Palmer,10.6,WR2,4.4,Allen Lazard,Zach
 2022,12,McGwire,Pat Freiermuth,6.9,TE,5.6,George Kittle,Zach
 2022,12,McGwire,Diontae Johnson,9.9,FLEX,3.4,Parris Campbell,Zach
@@ -2749,7 +2749,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,13,Carter,Patrick Mahomes,19.82,QB,16.92,Josh Allen,Zach
 2022,13,Carter,David Montgomery,16.7,RB1,16.8,Zonovan Knight,Zach
 2022,13,Carter,Antonio Gibson,7.9,RB2,10.0,Aaron Jones,Zach
-2022,13,Carter,DeVonta Smith,21.2,WR1,12.3,Deebo Samuel,Zach
+2022,13,Carter,DeVonta Smith,21.2,WR1,12.3,Deebo Samuel Sr.,Zach
 2022,13,Carter,Justin Jefferson,18.6,WR2,11.7,Allen Lazard,Zach
 2022,13,Carter,Logan Thomas,5.0,TE,4.2,George Kittle,Zach
 2022,13,Carter,Terry McLaurin,24.5,FLEX,8.5,Parris Campbell,Zach
@@ -2840,7 +2840,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2022,14,Zach,Zonovan Knight,15.7,RB1,28.5,Miles Sanders,Dante
 2022,14,Zach,Raheem Mostert,5.4,RB2,6.8,Saquon Barkley,Dante
 2022,14,Zach,Jerry Jeudy,33.3,WR1,17.0,A.J. Brown,Dante
-2022,14,Zach,Deebo Samuel,14.4,WR2,12.9,DeAndre Hopkins,Dante
+2022,14,Zach,Deebo Samuel Sr.,14.4,WR2,12.9,DeAndre Hopkins,Dante
 2022,14,Zach,George Kittle,6.8,TE,11.7,T.J. Hockenson,Dante
 2022,14,Zach,Samaje Perine,9.4,FLEX,18.1,DK Metcalf,Dante
 2022,14,Zach,Bills D/ST,11.0,D/ST,9.0,Eagles D/ST,Dante
@@ -2930,7 +2930,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,1,Haris,Tony Pollard,22.2,RB1,26.4,Austin Ekeler,Noah
 2023,1,Haris,Ezekiel Elliott,7.3,RB2,10.3,Joe Mixon,Noah
 2023,1,Haris,CeeDee Lamb,11.7,WR1,24.1,Calvin Ridley,Noah
-2023,1,Haris,Deebo Samuel,11.3,WR2,4.5,DJ Moore,Noah
+2023,1,Haris,Deebo Samuel Sr.,11.3,WR2,4.5,DJ Moore,Noah
 2023,1,Haris,Isaiah Likely,1.4,TE,6.6,Darren Waller,Noah
 2023,1,Haris,Mike Williams,8.5,FLEX,5.1,Terry McLaurin,Noah
 2023,1,Haris,Cowboys D/ST,35.0,D/ST,12.0,Commanders D/ST,Noah
@@ -3011,7 +3011,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,2,Zach,Bijan Robinson,21.2,RB1,19.9,Tony Pollard,Haris
 2023,2,Zach,Jahmyr Gibbs,12.6,RB2,1.3,Ezekiel Elliott,Haris
 2023,2,Zach,A.J. Brown,6.9,WR1,25.3,CeeDee Lamb,Haris
-2023,2,Zach,Zay Jones,0.0,WR2,22.1,Deebo Samuel,Haris
+2023,2,Zach,Zay Jones,0.0,WR2,22.1,Deebo Samuel Sr.,Haris
 2023,2,Zach,Tyler Higbee,4.2,TE,15.5,Mark Andrews,Haris
 2023,2,Zach,Tyler Lockett,25.9,FLEX,16.6,Mike Williams,Haris
 2023,2,Zach,49ers D/ST,4.0,D/ST,16.0,Cowboys D/ST,Haris
@@ -3037,7 +3037,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,3,Haris,Trevor Lawrence,14.36,QB,19.88,Jalen Hurts,Nathan
 2023,3,Haris,Tony Pollard,15.1,RB1,11.0,Josh Jacobs,Nathan
 2023,3,Haris,Ezekiel Elliott,9.7,RB2,7.2,Rhamondre Stevenson,Nathan
-2023,3,Haris,Deebo Samuel,25.1,WR1,8.2,Chris Godwin,Nathan
+2023,3,Haris,Deebo Samuel Sr.,25.1,WR1,8.2,Chris Godwin,Nathan
 2023,3,Haris,CeeDee Lamb,10.2,WR2,5.1,Drake London,Nathan
 2023,3,Haris,Mark Andrews,7.5,TE,19.9,Travis Kelce,Nathan
 2023,3,Haris,Mike Williams,25.1,FLEX,3.9,DeVante Parker,Nathan
@@ -3092,7 +3092,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,4,Haris,De'Von Achane,27.0,RB1,48.7,Christian McCaffrey,Kevin
 2023,4,Haris,Tony Pollard,9.0,RB2,10.8,Rachaad White,Kevin
 2023,4,Haris,CeeDee Lamb,14.8,WR1,8.6,Jaylen Waddle,Kevin
-2023,4,Haris,Deebo Samuel,0.6,WR2,1.4,Chris Olave,Kevin
+2023,4,Haris,Deebo Samuel Sr.,0.6,WR2,1.4,Chris Olave,Kevin
 2023,4,Haris,Mark Andrews,25.0,TE,4.1,Kyle Pitts,Kevin
 2023,4,Haris,Christian Kirk,16.4,FLEX,10.7,Joshua Palmer,Kevin
 2023,4,Haris,Cowboys D/ST,26.0,D/ST,21.0,Jaguars D/ST,Kevin
@@ -3153,7 +3153,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,5,Michael,Patrick Mahomes,19.24,QB,15.7,Trevor Lawrence,Haris
 2023,5,Michael,Travis Etienne Jr.,36.4,RB1,21.5,De'Von Achane,Haris
 2023,5,Michael,Kyren Williams,7.7,RB2,8.4,Tony Pollard,Haris
-2023,5,Michael,Tyler Boyd,9.9,WR1,11.5,Deebo Samuel,Haris
+2023,5,Michael,Tyler Boyd,9.9,WR1,11.5,Deebo Samuel Sr.,Haris
 2023,5,Michael,Justin Jefferson,5.8,WR2,8.9,CeeDee Lamb,Haris
 2023,5,Michael,Evan Engram,6.8,TE,12.5,Mark Andrews,Haris
 2023,5,Michael,Miles Sanders,1.2,FLEX,14.4,Christian Kirk,Haris
@@ -3165,7 +3165,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,5,Noah,Calvin Ridley,20.6,WR1,18.7,A.J. Brown,Zach
 2023,5,Noah,Michael Pittman Jr.,10.2,WR2,11.6,Christian Watson,Zach
 2023,5,Noah,Darren Waller,16.6,TE,4.0,Tyler Higbee,Zach
-2023,5,Noah,Adam Thielen,27.7,FLEX,16.1,Marquise Brown,Zach
+2023,5,Noah,Adam Thielen,27.7,FLEX,16.1,Hollywood Brown,Zach
 2023,5,Noah,Packers D/ST,11.0,D/ST,-5.0,Commanders D/ST,Zach
 2023,5,Noah,Brett Maher,2.0,K,6.0,Riley Patterson,Zach
 2023,5,Tyler,Lamar Jackson,9.94,QB,27.76,Josh Allen,Andrew
@@ -3181,7 +3181,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,6,Andrew,D'Andre Swift,17.8,RB1,13.0,Bijan Robinson,Zach
 2023,6,Andrew,Isiah Pacheco,15.8,RB2,2.7,Emari Demercado,Zach
 2023,6,Andrew,Ja'Marr Chase,14.0,WR1,20.1,A.J. Brown,Zach
-2023,6,Andrew,DeAndre Hopkins,3.0,WR2,7.4,Marquise Brown,Zach
+2023,6,Andrew,DeAndre Hopkins,3.0,WR2,7.4,Hollywood Brown,Zach
 2023,6,Andrew,T.J. Hockenson,11.0,TE,3.8,Tyler Higbee,Zach
 2023,6,Andrew,DK Metcalf,10.9,FLEX,15.4,Tyler Lockett,Zach
 2023,6,Andrew,Saints D/ST,6.0,D/ST,6.0,49ers D/ST,Zach
@@ -3208,7 +3208,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,6,Haris,Tony Pollard,17.0,RB1,19.3,Derrick Henry,Carter
 2023,6,Haris,Gus Edwards,6.3,RB2,13.8,Saquon Barkley,Carter
 2023,6,Haris,CeeDee Lamb,18.7,WR1,21.5,Keenan Allen,Carter
-2023,6,Haris,Deebo Samuel,1.1,WR2,8.9,Mike Evans,Carter
+2023,6,Haris,Deebo Samuel Sr.,1.1,WR2,8.9,Mike Evans,Carter
 2023,6,Haris,Mark Andrews,10.9,TE,7.6,Sam LaPorta,Carter
 2023,6,Haris,Christian Kirk,13.9,FLEX,6.6,Puka Nacua,Carter
 2023,6,Haris,Cowboys D/ST,6.0,D/ST,7.0,Dolphins D/ST,Carter
@@ -3280,7 +3280,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,7,Zach,Jahmyr Gibbs,27.6,RB1,33.0,D'Onta Foreman,Nathan
 2023,7,Zach,Bijan Robinson,0.3,RB2,5.1,Josh Jacobs,Nathan
 2023,7,Zach,A.J. Brown,29.7,WR1,12.6,Chris Godwin,Nathan
-2023,7,Zach,Marquise Brown,7.9,WR2,11.4,Drake London,Nathan
+2023,7,Zach,Hollywood Brown,7.9,WR2,11.4,Drake London,Nathan
 2023,7,Zach,Tyler Higbee,1.7,TE,35.9,Travis Kelce,Nathan
 2023,7,Zach,Tyler Lockett,7.8,FLEX,12.3,Jaylen Waddle,Nathan
 2023,7,Zach,49ers D/ST,-3.0,D/ST,3.0,Buccaneers D/ST,Nathan
@@ -3316,7 +3316,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,8,Kevin,Rachaad White,17.9,RB1,29.9,Jahmyr Gibbs,Zach
 2023,8,Kevin,Rhamondre Stevenson,7.0,RB2,12.2,Bijan Robinson,Zach
 2023,8,Kevin,Diontae Johnson,16.5,WR1,33.0,A.J. Brown,Zach
-2023,8,Kevin,DJ Moore,9.5,WR2,15.3,Marquise Brown,Zach
+2023,8,Kevin,DJ Moore,9.5,WR2,15.3,Hollywood Brown,Zach
 2023,8,Kevin,Dalton Schultz,2.5,TE,25.5,Trey McBride,Zach
 2023,8,Kevin,Chris Olave,9.6,FLEX,6.3,Christian Watson,Zach
 2023,8,Kevin,Jets D/ST,10.0,D/ST,1.0,49ers D/ST,Zach
@@ -3388,7 +3388,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,9,Zach,Jerome Ford,12.7,RB1,6.8,Cam Akers,Michael
 2023,9,Zach,Bijan Robinson,5.9,RB2,5.3,AJ Dillon,Michael
 2023,9,Zach,A.J. Brown,19.6,WR1,24.9,Amari Cooper,Michael
-2023,9,Zach,Marquise Brown,6.4,WR2,3.4,Elijah Moore,Michael
+2023,9,Zach,Hollywood Brown,6.4,WR2,3.4,Elijah Moore,Michael
 2023,9,Zach,Trey McBride,5.2,TE,23.0,Cade Otton,Michael
 2023,9,Zach,Tyler Lockett,6.2,FLEX,8.6,Tyler Boyd,Michael
 2023,9,Zach,Patriots D/ST,4.0,D/ST,0.0,Bills D/ST,Michael
@@ -3406,7 +3406,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,10,Carter,Saquon Barkley,7.1,RB1,26.2,Jahmyr Gibbs,Zach
 2023,10,Carter,Derrick Henry,3.0,RB2,11.9,Jerome Ford,Zach
 2023,10,Carter,Keenan Allen,40.5,WR1,23.2,Tyler Lockett,Zach
-2023,10,Carter,Mike Evans,26.3,WR2,3.8,Marquise Brown,Zach
+2023,10,Carter,Mike Evans,26.3,WR2,3.8,Hollywood Brown,Zach
 2023,10,Carter,Sam LaPorta,8.0,TE,4.3,Taysom Hill,Zach
 2023,10,Carter,Aaron Jones,9.4,FLEX,14.5,Brandon Aiyuk,Zach
 2023,10,Carter,Steelers D/ST,6.0,D/ST,19.0,49ers D/ST,Zach
@@ -3417,7 +3417,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,10,Dante,Garrett Wilson,18.3,WR1,39.5,CeeDee Lamb,Haris
 2023,10,Dante,Stefon Diggs,6.4,WR2,14.4,Christian Kirk,Haris
 2023,10,Dante,Jake Ferguson,12.6,TE,6.4,Mark Andrews,Haris
-2023,10,Dante,Bijan Robinson,17.6,FLEX,15.9,Deebo Samuel,Haris
+2023,10,Dante,Bijan Robinson,17.6,FLEX,15.9,Deebo Samuel Sr.,Haris
 2023,10,Dante,Packers D/ST,1.0,D/ST,11.0,Cowboys D/ST,Haris
 2023,10,Dante,Brandon Aubrey,7.0,K,21.0,Jason Myers,Haris
 2023,10,McGwire,Jordan Love,16.66,QB,18.32,Baker Mayfield,Ethan
@@ -3469,7 +3469,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,11,Haris,Tony Pollard,18.0,RB1,10.3,Raheem Mostert,McGwire
 2023,11,Haris,De'Von Achane,1.5,RB2,4.6,Najee Harris,McGwire
 2023,11,Haris,CeeDee Lamb,16.5,WR1,8.0,Zay Flowers,McGwire
-2023,11,Haris,Deebo Samuel,9.2,WR2,2.1,Cooper Kupp,McGwire
+2023,11,Haris,Deebo Samuel Sr.,9.2,WR2,2.1,Cooper Kupp,McGwire
 2023,11,Haris,Mark Andrews,4.3,TE,12.6,David Njoku,McGwire
 2023,11,Haris,Christian Kirk,7.8,FLEX,4.6,Tyjae Spears,McGwire
 2023,11,Haris,Cowboys D/ST,23.0,D/ST,7.0,Ravens D/ST,McGwire
@@ -3531,7 +3531,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,12,Noah,Baker Mayfield,13.36,QB,14.98,Lamar Jackson,Haris
 2023,12,Noah,Christian McCaffrey,30.9,RB1,22.3,Tony Pollard,Haris
 2023,12,Noah,Austin Ekeler,9.4,RB2,10.9,Keaton Mitchell,Haris
-2023,12,Noah,Michael Pittman Jr.,20.7,WR1,22.4,Deebo Samuel,Haris
+2023,12,Noah,Michael Pittman Jr.,20.7,WR1,22.4,Deebo Samuel Sr.,Haris
 2023,12,Noah,Adam Thielen,1.2,WR2,17.3,CeeDee Lamb,Haris
 2023,12,Noah,Kyle Pitts,4.2,TE,13.0,Trey McBride,Haris
 2023,12,Noah,Calvin Ridley,21.9,FLEX,12.9,Christian Kirk,Haris
@@ -3567,10 +3567,10 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,13,Haris,Will Levis,11.46,QB,7.98,Justin Herbert,Zach
 2023,13,Haris,De'Von Achane,25.3,RB1,14.2,Jerome Ford,Zach
 2023,13,Haris,Tony Pollard,17.3,RB2,6.4,Jahmyr Gibbs,Zach
-2023,13,Haris,Deebo Samuel,35.8,WR1,19.4,A.J. Brown,Zach
+2023,13,Haris,Deebo Samuel Sr.,35.8,WR1,19.4,A.J. Brown,Zach
 2023,13,Haris,CeeDee Lamb,32.6,WR2,15.6,Brandon Aiyuk,Zach
 2023,13,Haris,Trey McBride,22.9,TE,15.4,Taysom Hill,Zach
-2023,13,Haris,Christian Kirk,3.6,FLEX,0.0,Marquise Brown,Zach
+2023,13,Haris,Christian Kirk,3.6,FLEX,0.0,Hollywood Brown,Zach
 2023,13,Haris,Cowboys D/ST,-3.0,D/ST,16.0,Falcons D/ST,Zach
 2023,13,Haris,Jake Elliott,7.0,K,10.0,Jason Sanders,Zach
 2023,13,Kevin,Dak Prescott,28.26,QB,25.12,Trevor Lawrence,Tyler
@@ -3578,7 +3578,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,13,Kevin,Rachaad White,19.6,RB2,5.3,Brian Robinson Jr.,Tyler
 2023,13,Kevin,Chris Olave,16.9,WR1,15.7,Courtland Sutton,Tyler
 2023,13,Kevin,Terry McLaurin,0.0,WR2,5.6,Jayden Reed,Tyler
-2023,13,Kevin,Chigoziem Okonkwo,9.4,TE,10.8,George Kittle,Tyler
+2023,13,Kevin,Chig Okonkwo,9.4,TE,10.8,George Kittle,Tyler
 2023,13,Kevin,Rhamondre Stevenson,2.9,FLEX,4.3,Jahan Dotson,Tyler
 2023,13,Kevin,Jets D/ST,13.0,D/ST,12.0,Texans D/ST,Tyler
 2023,13,Kevin,Wil Lutz,5.0,K,9.0,Nick Folk,Tyler
@@ -3621,14 +3621,14 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,14,Ethan,Kenneth Walker III,9.4,RB2,21.5,Joe Mixon,Kevin
 2023,14,Ethan,Tyreek Hill,10.1,WR1,26.8,DJ Moore,Kevin
 2023,14,Ethan,Amon-Ra St. Brown,5.1,WR2,12.8,Chris Olave,Kevin
-2023,14,Ethan,Isaiah Likely,19.3,TE,9.6,Chigoziem Okonkwo,Kevin
+2023,14,Ethan,Isaiah Likely,19.3,TE,9.6,Chig Okonkwo,Kevin
 2023,14,Ethan,Nico Collins,2.3,FLEX,14.7,Diontae Johnson,Kevin
 2023,14,Ethan,Buccaneers D/ST,6.0,D/ST,17.0,Vikings D/ST,Kevin
 2023,14,Ethan,Younghoe Koo,3.0,K,12.0,Justin Tucker,Kevin
 2023,14,Nathan,Jalen Hurts,8.88,QB,31.64,Lamar Jackson,Haris
 2023,14,Nathan,Josh Jacobs,7.0,RB1,16.6,Tony Pollard,Haris
 2023,14,Nathan,Roschon Johnson,0.6,RB2,12.1,De'Von Achane,Haris
-2023,14,Nathan,Jaylen Waddle,13.9,WR1,34.0,Deebo Samuel,Haris
+2023,14,Nathan,Jaylen Waddle,13.9,WR1,34.0,Deebo Samuel Sr.,Haris
 2023,14,Nathan,Chris Godwin,10.3,WR2,19.1,CeeDee Lamb,Haris
 2023,14,Nathan,Travis Kelce,14.3,TE,9.6,Cade Otton,Haris
 2023,14,Nathan,Rashee Rice,18.2,FLEX,0.0,Gabe Davis,Haris
@@ -3683,7 +3683,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,15,Haris,Lamar Jackson,18.54,QB,,,
 2023,15,Haris,De'Von Achane,9.2,RB1,,,
 2023,15,Haris,Tony Pollard,7.7,RB2,,,
-2023,15,Haris,Deebo Samuel,21.9,WR1,,,
+2023,15,Haris,Deebo Samuel Sr.,21.9,WR1,,,
 2023,15,Haris,CeeDee Lamb,18.6,WR2,,,
 2023,15,Haris,Trey McBride,20.2,TE,,,
 2023,15,Haris,Keaton Mitchell,10.8,FLEX,,,
@@ -3702,7 +3702,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,16,Haris,Tony Pollard,5.3,RB1,22.2,James Conner,Andrew
 2023,16,Haris,De'Von Achane,4.1,RB2,10.6,Isiah Pacheco,Andrew
 2023,16,Haris,CeeDee Lamb,25.2,WR1,15.6,DK Metcalf,Andrew
-2023,16,Haris,Deebo Samuel,9.4,WR2,4.0,DeAndre Hopkins,Andrew
+2023,16,Haris,Deebo Samuel Sr.,9.4,WR2,4.0,DeAndre Hopkins,Andrew
 2023,16,Haris,Trey McBride,9.1,TE,9.8,T.J. Hockenson,Andrew
 2023,16,Haris,Jaxon Smith-Njigba,12.1,FLEX,12.1,Chuba Hubbard,Andrew
 2023,16,Haris,Browns D/ST,9.0,D/ST,0.0,Packers D/ST,Andrew
@@ -3711,7 +3711,7 @@ Year,Week,Home Team,Home Player,Home Player Points,Position,Away Player Points,A
 2023,17,Haris,De'Von Achane,23.7,RB1,8.8,Saquon Barkley,Carter
 2023,17,Haris,Tony Pollard,5.9,RB2,4.2,Derrick Henry,Carter
 2023,17,Haris,CeeDee Lamb,40.2,WR1,18.7,Puka Nacua,Carter
-2023,17,Haris,Deebo Samuel,18.2,WR2,10.0,Mike Evans,Carter
+2023,17,Haris,Deebo Samuel Sr.,18.2,WR2,10.0,Mike Evans,Carter
 2023,17,Haris,Trey McBride,10.8,TE,15.4,Sam LaPorta,Carter
 2023,17,Haris,Jaxon Smith-Njigba,8.2,FLEX,14.0,Aaron Jones,Carter
 2023,17,Haris,Browns D/ST,14.0,D/ST,2.0,Steelers D/ST,Carter

@@ -463,7 +463,7 @@ def df_to_svg(
 
     if chart_type == 'line':
         line = write_path(x_points, y_points)
-        line_path = path(d=line.args['d'], fill='none', stroke='black')
+        line_path = path(d=line, fill='none', stroke='black')
         outer_group.add(line_path)
 
     if chart_type in ['scatter','line']:
