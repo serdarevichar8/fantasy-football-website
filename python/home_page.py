@@ -16,7 +16,7 @@ def home_content() -> div:
 
     draft_order_df = pd.DataFrame(
         {
-            'Team':['Nathan','Andrew','Noah','Haris','Stolarz','McGwire','Dante','Ethan','Michael','Kevin','Carter','Tyler'],
+            'Team':['Andrew','Dante','Noah','Haris','Stolarz','McGwire','Nathan','Ethan','Michael','Kevin','Carter','Tyler'],
             'Pick':[1,2,3,4,5,6,7,8,9,10,11,12]
         }
     )
