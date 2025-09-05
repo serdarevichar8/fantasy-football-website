@@ -1,6 +1,6 @@
 import uuid
-
 import pandas as pd
+from python import secret
 
 NAMESPACE = uuid.UUID('05859822-9e6e-4612-91ff-c714fa7e40f6')
 
@@ -15,8 +15,8 @@ YEARS = GAME_DATA['Year'].unique()
 YEARS_WEEKS = [(year, GAME_DATA.loc[(GAME_DATA['Year'] == year) & (GAME_DATA['Playoff Flag'] == False), 'Week'].max()) for year in YEARS]
 
 LEAGUE_ID = 565994
-ESPN_S2 = None
-SWID = None
+ESPN_S2 = secret.ESPN_S2
+SWID = secret.SWID
 
 DEFAULT_POSITION_MAP = {
     1: "QB",
