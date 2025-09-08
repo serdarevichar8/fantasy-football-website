@@ -1,5 +1,6 @@
 import uuid
 import pandas as pd
+
 from python import secret
 
 NAMESPACE = uuid.UUID('05859822-9e6e-4612-91ff-c714fa7e40f6')
