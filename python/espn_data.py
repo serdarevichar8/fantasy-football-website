@@ -252,6 +252,7 @@ def construct_dataframes(version: int) -> dict[str, pd.DataFrame]:
                                 'team_id':str(uuid.uuid5(constants.NAMESPACE, name=home_team)),
                                 'player_id':str(uuid.uuid5(constants.NAMESPACE, name=str(player.playerId))),
                                 'points':player.points,
+                                'projected_points':player.projected_points,
                                 'slot_position':player.slot_position,
                                 'active_status':player.active_status,
                                 'bye_week_flag':player.on_bye_week
@@ -267,6 +268,7 @@ def construct_dataframes(version: int) -> dict[str, pd.DataFrame]:
                                 'team_id':str(uuid.uuid5(constants.NAMESPACE, name=away_team)),
                                 'player_id':str(uuid.uuid5(constants.NAMESPACE, name=str(player.playerId))),
                                 'points':player.points,
+                                'projected_points':player.projected_points,
                                 'slot_position':player.slot_position,
                                 'active_status':player.active_status,
                                 'bye_week_flag':player.on_bye_week
@@ -444,6 +446,32 @@ def database_views() -> None:
     '''
     c.execute(player_matchup_view)
 
+    c.execute('DROP VIEW IF EXISTS player_game_data')
+    player_game_view = '''
+        CREATE VIEW player_game_data AS
+            SELECT
+                m.year AS "Year",
+                m.week AS "Week",
+                t.team_name AS "Team",
+                p.player_name AS "Player",
+                p.position AS "Position",
+                pg.slot_position AS "Slot Position",
+                pg.points AS "Points",
+                pg.projected_points AS "Projected Points"
+                
+        FROM player_games AS pg
+
+        LEFT JOIN matchups AS m
+        ON m.matchup_id = pg.matchup_id
+
+        LEFT JOIN players AS p
+        ON p.player_id = pg.player_id
+
+        LEFT JOIN teams AS t
+        ON t.team_id = pg.team_id
+    '''
+    c.execute(player_game_view)
+
     conn.commit()
     conn.close()
 
@@ -456,6 +484,7 @@ def write_csvs() -> None:
     pd.read_sql('SELECT * FROM teams', con=conn).to_csv('database/fantasy-football-team-data.csv', index=False)
     pd.read_sql('SELECT * FROM draft_data', con=conn).to_csv('database/fantasy-football-draft-data.csv', index=False)
     pd.read_sql('SELECT * FROM player_matchup_data', con=conn).to_csv('database/fantasy-football-player-matchup-data.csv', index=False)
+    pd.read_sql('SELECT * FROM player_game_data', con=conn).to_csv('database/fantasy-football-player-game-data.csv', index=False)
 
     conn.commit()
     conn.close()

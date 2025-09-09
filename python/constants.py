@@ -11,6 +11,7 @@ MATCHUP_DATA = pd.read_csv('database/fantasy-football-matchup-data.csv')
 GAME_DATA = pd.read_csv('database/fantasy-football-game-data.csv')
 DRAFT_DATA = pd.read_csv('database/fantasy-football-draft-data.csv')
 PLAYER_MATCHUP_DATA = pd.read_csv('database/fantasy-football-player-matchup-data.csv')
+PLAYER_GAME_DATA = pd.read_csv('database/fantasy-football-player-game-data.csv')
 TEAMS = pd.read_csv('database/fantasy-football-team-data.csv')['team_name'].values
 YEARS = GAME_DATA['Year'].unique()
 YEARS_WEEKS = [(year, GAME_DATA.loc[(GAME_DATA['Year'] == year) & (GAME_DATA['Playoff Flag'] == False), 'Week'].max()) for year in YEARS]
