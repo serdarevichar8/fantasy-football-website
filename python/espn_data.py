@@ -77,7 +77,7 @@ def fetch_new_data(
     players = league.espn_request.get_pro_players()
 
     matchups = {}
-    for week in range(1, league.current_week + 1):
+    for week in range(1, league.current_week):
         box_scores = league.box_scores(week)
         matchups[week] = box_scores
 

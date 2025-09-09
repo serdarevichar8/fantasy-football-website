@@ -182,7 +182,10 @@ def summary_table(data: pd.DataFrame, year: int, week: int = None) -> pd.DataFra
     temp['Luck Score'] = temp[['Opp Luck Score','Your Luck Score','Close Luck Score']].sum(axis=1)
 
     champ_week = data.loc[data['Year'] == year, 'Week'].max()
-    champ = data.loc[(data['Year'] == year) & (data['Week'] == champ_week) & (data['Win'] == 1), 'Team'].item()
+    if champ_week > 14:
+        champ = data.loc[(data['Year'] == year) & (data['Week'] == champ_week) & (data['Win'] == 1), 'Team'].item()
+    else:
+        champ = None
 
     league_pfpg = round(temp['Score'].mean(), 2)
 

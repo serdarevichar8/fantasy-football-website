@@ -223,7 +223,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2019,Andrew,Jared Cook,TE,6,2,62
 2019,Zach,Kenny Golladay,WR,6,3,63
 2019,Nathan,Hunter Henry,TE,6,4,64
-2019,Michael,Aaron Jones,RB,6,5,65
+2019,Michael,Aaron Jones Sr.,RB,6,5,65
 2019,Haris,Baker Mayfield,QB,6,6,66
 2019,Carter,Derrius Guice,RB,6,7,67
 2019,Noah,Lamar Miller,RB,6,8,68
@@ -238,7 +238,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2019,Noah,Matt Ryan,QB,7,5,77
 2019,Carter,Cam Newton,QB,7,6,78
 2019,Haris,Dak Prescott,QB,7,7,79
-2019,Michael,Chris Godwin,WR,7,8,80
+2019,Michael,Chris Godwin Jr.,WR,7,8,80
 2019,Nathan,Austin Ekeler,RB,7,9,81
 2019,Zach,LeSean McCoy,RB,7,10,82
 2019,Andrew,Sammy Watkins,WR,7,11,83
@@ -261,7 +261,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2019,McGwire,Devin Funchess,WR,9,4,100
 2019,Noah,Sterling Shepard,WR,9,5,101
 2019,Carter,Kyler Murray,QB,9,6,102
-2019,Haris,Nyheim Hines,RB,9,7,103
+2019,Haris,Nyheim Miller-Hines,RB,9,7,103
 2019,Michael,Rashaad Penny,RB,9,8,104
 2019,Nathan,Latavius Murray,RB,9,9,105
 2019,Zach,Jimmy Graham,TE,9,10,106
@@ -348,7 +348,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2019,Carter,Zay Jones,WR,16,7,187
 2019,Noah,Lamar Jackson,QB,16,8,188
 2019,McGwire,J.J. Arcega-Whiteside,WR,16,9,189
-2019,Klapp,DJ Chark Jr.,WR,16,10,190
+2019,Klapp,DJ Chark,WR,16,10,190
 2019,Ethan,Mohamed Sanu,WR,16,11,191
 2019,Dante,Tre'Quan Smith,WR,16,12,192
 2020,Andrew,Dalvin Cook,RB,1,1,1
@@ -361,7 +361,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2020,Haris,Ezekiel Elliott,RB,1,8,8
 2020,Carter,Saquon Barkley,RB,1,9,9
 2020,Dante,Nick Chubb,RB,1,10,10
-2020,Dante,Aaron Jones,RB,2,1,11
+2020,Dante,Aaron Jones Sr.,RB,2,1,11
 2020,Carter,James Conner,RB,2,2,12
 2020,Haris,Julio Jones,WR,2,3,13
 2020,Noah,Davante Adams,WR,2,4,14
@@ -379,7 +379,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2020,McGwire,Zach Ertz,TE,3,6,26
 2020,Noah,Adam Thielen,WR,3,7,27
 2020,Haris,Patrick Mahomes,QB,3,8,28
-2020,Carter,Chris Godwin,WR,3,9,29
+2020,Carter,Chris Godwin Jr.,WR,3,9,29
 2020,Dante,Courtland Sutton,WR,3,10,30
 2020,Dante,Cooper Kupp,WR,4,1,31
 2020,Carter,Kyler Murray,QB,4,2,32
@@ -413,7 +413,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2020,Andrew,Evan Engram,TE,6,10,60
 2020,Andrew,Kareem Hunt,RB,7,1,61
 2020,Ethan,Terry McLaurin,WR,7,2,62
-2020,Nathan,DJ Chark Jr.,WR,7,3,63
+2020,Nathan,DJ Chark,WR,7,3,63
 2020,Zach,Rob Gronkowski,TE,7,4,64
 2020,Michael,DeVante Parker,WR,7,5,65
 2020,McGwire,Mark Ingram II,RB,7,6,66
@@ -430,7 +430,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2020,Zach,Tom Brady,QB,8,7,77
 2020,Nathan,Stefon Diggs,WR,8,8,78
 2020,Ethan,Drew Brees,QB,8,9,79
-2020,Andrew,Deebo Samuel Sr.,WR,8,10,80
+2020,Andrew,Deebo Samuel,WR,8,10,80
 2020,Andrew,Tarik Cohen,RB,9,1,81
 2020,Ethan,Jarvis Landry,WR,9,2,82
 2020,Nathan,Tyler Boyd,WR,9,3,83
@@ -521,7 +521,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2021,Nathan,Travis Kelce,TE,1,8,8
 2021,Haris,Nick Chubb,RB,1,9,9
 2021,Andrew,Austin Ekeler,RB,1,10,10
-2021,Andrew,Aaron Jones,RB,2,1,11
+2021,Andrew,Aaron Jones Sr.,RB,2,1,11
 2021,Haris,Jonathan Taylor,RB,2,2,12
 2021,Nathan,Najee Harris,RB,2,3,13
 2021,Ethan,Antonio Gibson,RB,2,4,14
@@ -549,7 +549,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2021,Carter,James Robinson,RB,4,6,36
 2021,McGwire,Chris Carson,RB,4,7,37
 2021,Dante,Tyler Lockett,WR,4,8,38
-2021,Michael,Chris Godwin,WR,4,9,39
+2021,Michael,Chris Godwin Jr.,WR,4,9,39
 2021,Zach,Julio Jones,WR,4,10,40
 2021,Zach,Josh Allen,QB,5,1,41
 2021,Michael,Kyler Murray,QB,5,2,42
@@ -564,7 +564,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2021,Andrew,Aaron Rodgers,QB,6,1,51
 2021,Haris,Cooper Kupp,WR,6,2,52
 2021,Nathan,D'Andre Swift,RB,6,3,53
-2021,Ethan,Kyle Pitts,TE,6,4,54
+2021,Ethan,Kyle Pitts Sr.,TE,6,4,54
 2021,Noah,Kareem Hunt,RB,6,5,55
 2021,Carter,T.J. Hockenson,TE,6,6,56
 2021,McGwire,Russell Wilson,QB,6,7,57
@@ -599,14 +599,14 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2021,Noah,Darrell Henderson Jr.,RB,9,6,86
 2021,Ethan,Raheem Mostert,RB,9,7,87
 2021,Nathan,Antonio Brown,WR,9,8,88
-2021,Haris,DJ Chark Jr.,WR,9,9,89
+2021,Haris,DJ Chark,WR,9,9,89
 2021,Andrew,Michael Gallup,WR,9,10,90
 2021,Andrew,Leonard Fournette,RB,10,1,91
 2021,Haris,Kenyan Drake,RB,10,2,92
 2021,Nathan,Michael Carter,RB,10,3,93
 2021,Ethan,Buccaneers D/ST,D/ST,10,4,94
 2021,Noah,Corey Davis,WR,10,5,95
-2021,Carter,Deebo Samuel Sr.,WR,10,6,96
+2021,Carter,Deebo Samuel,WR,10,6,96
 2021,McGwire,Ravens D/ST,D/ST,10,7,97
 2021,Dante,AJ Dillon,RB,10,8,98
 2021,Michael,Rams D/ST,D/ST,10,9,99
@@ -631,7 +631,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2021,Dante,Ryan Tannehill,QB,12,8,118
 2021,Michael,Jamaal Williams,RB,12,9,119
 2021,Zach,Mike Gesicki,TE,12,10,120
-2021,Zach,Nyheim Hines,RB,13,1,121
+2021,Zach,Nyheim Miller-Hines,RB,13,1,121
 2021,Michael,Cole Beasley,WR,13,2,122
 2021,Dante,Elijah Moore,WR,13,3,123
 2021,McGwire,Jameis Winston,QB,13,4,124
@@ -677,7 +677,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2022,Dante,Najee Harris,RB,1,4,4
 2022,Carter,Justin Jefferson,WR,1,5,5
 2022,Andrew,Christian McCaffrey,RB,1,6,6
-2022,Zach,Deebo Samuel Sr.,WR,1,7,7
+2022,Zach,Deebo Samuel,WR,1,7,7
 2022,Noah,Ja'Marr Chase,WR,1,8,8
 2022,Kevin,Davante Adams,WR,1,9,9
 2022,Ethan,Derrick Henry,RB,1,10,10
@@ -688,7 +688,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2022,Ethan,Leonard Fournette,RB,2,3,15
 2022,Kevin,Travis Kelce,TE,2,4,16
 2022,Noah,CeeDee Lamb,WR,2,5,17
-2022,Zach,Aaron Jones,RB,2,6,18
+2022,Zach,Aaron Jones Sr.,RB,2,6,18
 2022,Andrew,Javonte Williams,RB,2,7,19
 2022,Carter,D'Andre Swift,RB,2,8,20
 2022,Dante,Saquon Barkley,RB,2,9,21
@@ -711,7 +711,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2022,Nathan,Mike Williams,WR,4,2,38
 2022,Ethan,Brandin Cooks,WR,4,3,39
 2022,Kevin,J.K. Dobbins,RB,4,4,40
-2022,Noah,Kyle Pitts,TE,4,5,41
+2022,Noah,Kyle Pitts Sr.,TE,4,5,41
 2022,Zach,George Kittle,TE,4,6,42
 2022,Andrew,Amon-Ra St. Brown,WR,4,7,43
 2022,Carter,Terry McLaurin,WR,4,8,44
@@ -728,7 +728,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2022,Zach,Jerry Jeudy,WR,5,7,55
 2022,Noah,Lamar Jackson,QB,5,8,56
 2022,Kevin,Miles Sanders,RB,5,9,57
-2022,Ethan,Chris Godwin,WR,5,10,58
+2022,Ethan,Chris Godwin Jr.,WR,5,10,58
 2022,Nathan,Allen Robinson,WR,5,11,59
 2022,McGwire,Elijah Mitchell,RB,5,12,60
 2022,McGwire,Michael Thomas,WR,6,1,61
@@ -787,7 +787,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2022,Zach,Evan McPherson,K,10,6,114
 2022,Andrew,James Cook,RB,10,7,115
 2022,Carter,James Robinson,RB,10,8,116
-2022,Dante,Nyheim Hines,RB,10,9,117
+2022,Dante,Nyheim Miller-Hines,RB,10,9,117
 2022,Haris,Skyy Moore,WR,10,10,118
 2022,Tyler,Russell Wilson,QB,10,11,119
 2022,Michael,Jakobi Meyers,WR,10,12,120
@@ -797,7 +797,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2022,Dante,George Pickens,WR,11,4,124
 2022,Carter,Matt Gay,K,11,5,125
 2022,Andrew,Hunter Henry,TE,11,6,126
-2022,Zach,DJ Chark Jr.,WR,11,7,127
+2022,Zach,DJ Chark,WR,11,7,127
 2022,Noah,Treylon Burks,WR,11,8,128
 2022,Kevin,Kirk Cousins,QB,11,9,129
 2022,Ethan,Robbie Chosen,WR,11,10,130
@@ -813,7 +813,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2022,Carter,Tua Tagovailoa,QB,12,8,140
 2022,Dante,Dawson Knox,TE,12,9,141
 2022,Haris,Joshua Palmer,WR,12,10,142
-2022,Tyler,Russell Gage,WR,12,11,143
+2022,Tyler,Russell Gage Jr.,WR,12,11,143
 2022,Michael,Noah Fant,TE,12,12,144
 2022,Michael,Jalen Tolbert,WR,13,1,145
 2022,Tyler,Cole Kmet,TE,13,2,146
@@ -860,7 +860,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2022,Andrew,Rex Burkhead,RB,16,7,187
 2022,Carter,Patriots D/ST,D/ST,16,8,188
 2022,Dante,Eagles D/ST,D/ST,16,9,189
-2022,Haris,Albert Okwuegbunam Jr.,TE,16,10,190
+2022,Haris,Albert Okwuegbunam,TE,16,10,190
 2022,Tyler,Khalil Herbert,RB,16,11,191
 2022,Michael,Deshaun Watson,QB,16,12,192
 2023,Michael,Justin Jefferson,WR,1,1,1
@@ -897,9 +897,9 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2023,Zach,Jahmyr Gibbs,RB,3,8,32
 2023,Dante,DeVonta Smith,WR,3,9,33
 2023,Tyler,Lamar Jackson,QB,3,10,34
-2023,Carter,Aaron Jones,RB,3,11,35
+2023,Carter,Aaron Jones Sr.,RB,3,11,35
 2023,Haris,Mark Andrews,TE,3,12,36
-2023,Haris,Deebo Samuel Sr.,WR,4,1,37
+2023,Haris,Deebo Samuel,WR,4,1,37
 2023,Carter,Keenan Allen,WR,4,2,38
 2023,Tyler,DeAndre Hopkins,WR,4,3,39
 2023,Dante,Alvin Kamara,RB,4,4,40
@@ -929,17 +929,17 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2023,Dante,Dallas Goedert,TE,6,4,64
 2023,Zach,Tyler Lockett,WR,6,5,65
 2023,Ethan,Hollywood Brown,WR,6,6,66
-2023,Nathan,Chris Godwin,WR,6,7,67
+2023,Nathan,Chris Godwin Jr.,WR,6,7,67
 2023,McGwire,Pat Freiermuth,TE,6,8,68
 2023,Noah,DJ Moore,WR,6,9,69
-2023,Kevin,Kyle Pitts,TE,6,10,70
+2023,Kevin,Kyle Pitts Sr.,TE,6,10,70
 2023,Andrew,Javonte Williams,RB,6,11,71
 2023,Michael,Evan Engram,TE,6,12,72
 2023,Michael,Cam Akers,RB,7,1,73
 2023,Andrew,Isiah Pacheco,RB,7,2,74
 2023,Kevin,Dak Prescott,QB,7,3,75
 2023,Noah,Terry McLaurin,WR,7,4,76
-2023,McGwire,Anthony Richardson,QB,7,5,77
+2023,McGwire,Anthony Richardson Sr.,QB,7,5,77
 2023,Nathan,Drake London,WR,7,6,78
 2023,Ethan,David Montgomery,RB,7,7,79
 2023,Zach,Brandin Cooks,WR,7,8,80
@@ -980,7 +980,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2023,Nathan,Treylon Burks,WR,10,7,115
 2023,McGwire,Aaron Rodgers,QB,10,8,116
 2023,Noah,Samaje Perine,RB,10,9,117
-2023,Kevin,DJ Chark Jr.,WR,10,10,118
+2023,Kevin,DJ Chark,WR,10,10,118
 2023,Andrew,Rondale Moore,WR,10,11,119
 2023,Michael,Younghoe Koo,K,10,12,120
 2023,Michael,Elijah Moore,WR,11,1,121
@@ -1097,7 +1097,7 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2024,Michael,Brandon Aiyuk,WR,4,4,40
 2024,Zach,DJ Moore,WR,4,5,41
 2024,Tyler,Rachaad White,RB,4,6,42
-2024,Kevin,Deebo Samuel Sr.,WR,4,7,43
+2024,Kevin,Deebo Samuel,WR,4,7,43
 2024,Andrew,Trey McBride,TE,4,8,44
 2024,McGwire,C.J. Stroud,QB,4,9,45
 2024,Haris,Patrick Mahomes,QB,4,10,46
@@ -1114,19 +1114,19 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2024,Michael,Dalton Kincaid,TE,5,9,57
 2024,Dante,Evan Engram,TE,5,10,58
 2024,Carter,David Montgomery,RB,5,11,59
-2024,Ethan,Kyle Pitts,TE,5,12,60
+2024,Ethan,Kyle Pitts Sr.,TE,5,12,60
 2024,Ethan,Zamir White,RB,6,1,61
-2024,Carter,Aaron Jones,RB,6,2,62
+2024,Carter,Aaron Jones Sr.,RB,6,2,62
 2024,Dante,D'Andre Swift,RB,6,3,63
 2024,Michael,James Conner,RB,6,4,64
 2024,Zach,Tank Dell,WR,6,5,65
 2024,Tyler,Jayden Reed,WR,6,6,66
-2024,Kevin,Chris Godwin,WR,6,7,67
+2024,Kevin,Chris Godwin Jr.,WR,6,7,67
 2024,Andrew,George Pickens,WR,6,8,68
 2024,McGwire,Keenan Allen,WR,6,9,69
 2024,Haris,Rashee Rice,WR,6,10,70
 2024,Noah,Amari Cooper,WR,6,11,71
-2024,Nathan,Anthony Richardson,QB,6,12,72
+2024,Nathan,Anthony Richardson Sr.,QB,6,12,72
 2024,Nathan,Terry McLaurin,WR,7,1,73
 2024,Noah,Jaxon Smith-Njigba,WR,7,2,74
 2024,Haris,Rome Odunze,WR,7,3,75
@@ -1247,3 +1247,195 @@ Year,Team,Player,Position,Round,Pick,Overall Pick
 2024,Haris,Snoop Conner,RB,16,10,190
 2024,Noah,Vikings D/ST,D/ST,16,11,191
 2024,Nathan,Jake Bates,K,16,12,192
+2025,Andrew,Ja'Marr Chase,WR,1,1,1
+2025,Dante,Bijan Robinson,RB,1,2,2
+2025,Noah,Saquon Barkley,RB,1,3,3
+2025,Haris,Jahmyr Gibbs,RB,1,4,4
+2025,Zach,Christian McCaffrey,RB,1,5,5
+2025,McGwire,Justin Jefferson,WR,1,6,6
+2025,Nathan,Ashton Jeanty,RB,1,7,7
+2025,Ethan,CeeDee Lamb,WR,1,8,8
+2025,Michael,Amon-Ra St. Brown,WR,1,9,9
+2025,Kevin,Malik Nabers,WR,1,10,10
+2025,Carter,De'Von Achane,RB,1,11,11
+2025,Tyler,Puka Nacua,WR,1,12,12
+2025,Tyler,Nico Collins,WR,2,1,13
+2025,Carter,Brian Thomas Jr.,WR,2,2,14
+2025,Kevin,Josh Jacobs,RB,2,3,15
+2025,Michael,Jonathan Taylor,RB,2,4,16
+2025,Ethan,Derrick Henry,RB,2,5,17
+2025,Nathan,A.J. Brown,WR,2,6,18
+2025,McGwire,Bucky Irving,RB,2,7,19
+2025,Zach,Brock Bowers,TE,2,8,20
+2025,Haris,Drake London,WR,2,9,21
+2025,Noah,Chase Brown,RB,2,10,22
+2025,Dante,Lamar Jackson,QB,2,11,23
+2025,Andrew,Trey McBride,TE,2,12,24
+2025,Andrew,Josh Allen,QB,3,1,25
+2025,Dante,Kyren Williams,RB,3,2,26
+2025,Noah,Tyreek Hill,WR,3,3,27
+2025,Haris,James Cook,RB,3,4,28
+2025,Zach,Tee Higgins,WR,3,5,29
+2025,McGwire,Jayden Daniels,QB,3,6,30
+2025,Nathan,Omarion Hampton,RB,3,7,31
+2025,Ethan,Jalen Hurts,QB,3,8,32
+2025,Michael,Ladd McConkey,WR,3,9,33
+2025,Kevin,Davante Adams,WR,3,10,34
+2025,Carter,Terry McLaurin,WR,3,11,35
+2025,Tyler,Alvin Kamara,RB,3,12,36
+2025,Tyler,Joe Burrow,QB,4,1,37
+2025,Carter,Chuba Hubbard,RB,4,2,38
+2025,Kevin,Jaxon Smith-Njigba,WR,4,3,39
+2025,Michael,Kenneth Walker III,RB,4,4,40
+2025,Ethan,George Kittle,TE,4,5,41
+2025,Nathan,TreVeyon Henderson,RB,4,6,42
+2025,McGwire,James Conner,RB,4,7,43
+2025,Zach,Garrett Wilson,WR,4,8,44
+2025,Haris,Tetairoa McMillan,WR,4,9,45
+2025,Noah,Mike Evans,WR,4,10,46
+2025,Dante,Marvin Harrison Jr.,WR,4,11,47
+2025,Andrew,Breece Hall,RB,4,12,48
+2025,Andrew,Xavier Worthy,WR,5,1,49
+2025,Dante,Courtland Sutton,WR,5,2,50
+2025,Noah,Sam LaPorta,TE,5,3,51
+2025,Haris,DeVonta Smith,WR,5,4,52
+2025,Zach,D'Andre Swift,RB,5,5,53
+2025,McGwire,T.J. Hockenson,TE,5,6,54
+2025,Nathan,DK Metcalf,WR,5,7,55
+2025,Ethan,Zay Flowers,WR,5,8,56
+2025,Michael,Jaylen Waddle,WR,5,9,57
+2025,Kevin,David Montgomery,RB,5,10,58
+2025,Carter,Patrick Mahomes,QB,5,11,59
+2025,Tyler,DJ Moore,WR,5,12,60
+2025,Tyler,RJ Harvey,RB,6,1,61
+2025,Carter,Rome Odunze,WR,6,2,62
+2025,Kevin,David Njoku,TE,6,3,63
+2025,Michael,Tony Pollard,RB,6,4,64
+2025,Ethan,Jameson Williams,WR,6,5,65
+2025,Nathan,Baker Mayfield,QB,6,6,66
+2025,McGwire,Jerry Jeudy,WR,6,7,67
+2025,Zach,Aaron Jones Sr.,RB,6,8,68
+2025,Haris,Emeka Egbuka,WR,6,9,69
+2025,Noah,George Pickens,WR,6,10,70
+2025,Dante,Matthew Golden,WR,6,11,71
+2025,Andrew,Isiah Pacheco,RB,6,12,72
+2025,Andrew,Jacory Croskey-Merritt,RB,7,1,73
+2025,Dante,Jakobi Meyers,WR,7,2,74
+2025,Noah,Tyrone Tracy Jr.,RB,7,3,75
+2025,Haris,Bo Nix,QB,7,4,76
+2025,Zach,Justin Herbert,QB,7,5,77
+2025,McGwire,Calvin Ridley,WR,7,6,78
+2025,Nathan,Rashee Rice,WR,7,7,79
+2025,Ethan,Jaylen Warren,RB,7,8,80
+2025,Michael,Travis Kelce,TE,7,9,81
+2025,Kevin,Michael Pittman Jr.,WR,7,10,82
+2025,Carter,Mark Andrews,TE,7,11,83
+2025,Tyler,Evan Engram,TE,7,12,84
+2025,Tyler,Rhamondre Stevenson,RB,8,1,85
+2025,Carter,Kaleb Johnson,RB,8,2,86
+2025,Kevin,Kyler Murray,QB,8,3,87
+2025,Michael,Brock Purdy,QB,8,4,88
+2025,Ethan,Jauan Jennings,WR,8,5,89
+2025,Nathan,Tyler Warren,TE,8,6,90
+2025,McGwire,Cooper Kupp,WR,8,7,91
+2025,Zach,Chris Olave,WR,8,8,92
+2025,Haris,Cam Skattebo,RB,8,9,93
+2025,Noah,Ricky Pearsall,WR,8,10,94
+2025,Dante,Travis Hunter,WR,8,11,95
+2025,Andrew,Jordan Addison,WR,8,12,96
+2025,Andrew,Stefon Diggs,WR,9,1,97
+2025,Dante,J.K. Dobbins,RB,9,2,98
+2025,Noah,Austin Ekeler,RB,9,3,99
+2025,Haris,Colston Loveland,TE,9,4,100
+2025,Zach,Javonte Williams,RB,9,5,101
+2025,McGwire,Joe Mixon,RB,9,6,102
+2025,Nathan,Deebo Samuel,WR,9,7,103
+2025,Ethan,Keon Coleman,WR,9,8,104
+2025,Michael,Chris Godwin Jr.,WR,9,9,105
+2025,Kevin,Jordan Mason,RB,9,10,106
+2025,Carter,Caleb Williams,QB,9,11,107
+2025,Tyler,Rashid Shaheed,WR,9,12,108
+2025,Tyler,Keenan Allen,WR,10,1,109
+2025,Carter,Xavier Legette,WR,10,2,110
+2025,Kevin,Justin Fields,QB,10,3,111
+2025,Michael,Khalil Shakir,WR,10,4,112
+2025,Ethan,Travis Etienne Jr.,RB,10,5,113
+2025,Nathan,Jayden Reed,WR,10,6,114
+2025,McGwire,Nick Chubb,RB,10,7,115
+2025,Zach,Darnell Mooney,WR,10,8,116
+2025,Haris,Bhayshul Tuten,RB,10,9,117
+2025,Noah,Dak Prescott,QB,10,10,118
+2025,Dante,Zach Charbonnet,RB,10,11,119
+2025,Andrew,Jerome Ford,RB,10,12,120
+2025,Andrew,Drake Maye,QB,11,1,121
+2025,Dante,Jake Ferguson,TE,11,2,122
+2025,Noah,Josh Downs,WR,11,3,123
+2025,Haris,C.J. Stroud,QB,11,4,124
+2025,Zach,Kyle Pitts Sr.,TE,11,5,125
+2025,McGwire,Quinshon Judkins,RB,11,6,126
+2025,Nathan,Tank Bigsby,RB,11,7,127
+2025,Ethan,Jayden Higgins,WR,11,8,128
+2025,Michael,Rachaad White,RB,11,9,129
+2025,Kevin,Broncos D/ST,D/ST,11,10,130
+2025,Carter,Tucker Kraft,TE,11,11,131
+2025,Tyler,Jordan Love,QB,11,12,132
+2025,Tyler,Steelers D/ST,D/ST,12,1,133
+2025,Carter,Trey Benson,RB,12,2,134
+2025,Kevin,Brandon Aubrey,K,12,3,135
+2025,Michael,Lions D/ST,D/ST,12,4,136
+2025,Ethan,Dalton Kincaid,TE,12,5,137
+2025,Nathan,Eagles D/ST,D/ST,12,6,138
+2025,McGwire,Brandon Aiyuk,WR,12,7,139
+2025,Zach,J.J. McCarthy,QB,12,8,140
+2025,Haris,Ollie Gordon II,RB,12,9,141
+2025,Noah,Dallas Goedert,TE,12,10,142
+2025,Dante,Tyler Allgeier,RB,12,11,143
+2025,Andrew,Texans D/ST,D/ST,12,12,144
+2025,Andrew,Jake Bates,K,13,1,145
+2025,Dante,Jake Elliott,K,13,2,146
+2025,Noah,Jaydon Blue,RB,13,3,147
+2025,Haris,Ravens D/ST,D/ST,13,4,148
+2025,Zach,Braelon Allen,RB,13,5,149
+2025,McGwire,Cameron Dicker,K,13,6,150
+2025,Nathan,Ray Davis,RB,13,7,151
+2025,Ethan,Chase McLaughlin,K,13,8,152
+2025,Michael,Chris Boswell,K,13,9,153
+2025,Kevin,Cedric Tillman,WR,13,10,154
+2025,Carter,Vikings D/ST,D/ST,13,11,155
+2025,Tyler,Will Shipley,RB,13,12,156
+2025,Tyler,Tyler Bass,K,14,1,157
+2025,Carter,Younghoe Koo,K,14,2,158
+2025,Kevin,Brian Robinson Jr.,RB,14,3,159
+2025,Michael,Hunter Henry,TE,14,4,160
+2025,Ethan,Jared Goff,QB,14,5,161
+2025,Nathan,Adam Thielen,WR,14,6,162
+2025,McGwire,Bills D/ST,D/ST,14,7,163
+2025,Zach,Seahawks D/ST,D/ST,14,8,164
+2025,Haris,Harrison Butker,K,14,9,165
+2025,Noah,Najee Harris,RB,14,10,166
+2025,Dante,Cardinals D/ST,D/ST,14,11,167
+2025,Andrew,Brenton Strange,TE,14,12,168
+2025,Andrew,Dylan Sampson,RB,15,1,169
+2025,Dante,Cam Ward,QB,15,2,170
+2025,Noah,Patriots D/ST,D/ST,15,3,171
+2025,Haris,Chig Okonkwo,TE,15,4,172
+2025,Zach,Ka'imi Fairbairn,K,15,5,173
+2025,McGwire,Zach Ertz,TE,15,6,174
+2025,Nathan,Cairo Santos,K,15,7,175
+2025,Ethan,Hollywood Brown,WR,15,8,176
+2025,Michael,Matthew Stafford,QB,15,9,177
+2025,Kevin,Michael Wilson,WR,15,10,178
+2025,Carter,Marvin Mims Jr.,WR,15,11,179
+2025,Tyler,Darren Waller,TE,15,12,180
+2025,Tyler,Rashod Bateman,WR,16,1,181
+2025,Carter,Jameis Winston,QB,16,2,182
+2025,Kevin,Dalton Schultz,TE,16,3,183
+2025,Michael,Romeo Doubs,WR,16,4,184
+2025,Ethan,Packers D/ST,D/ST,16,5,185
+2025,Nathan,Jaxson Dart,QB,16,6,186
+2025,McGwire,Justin Tucker,K,16,7,187
+2025,Zach,Wan'Dale Robinson,WR,16,8,188
+2025,Haris,Efton Chism III,WR,16,9,189
+2025,Noah,Matt Gay,K,16,10,190
+2025,Dante,Amari Cooper,WR,16,11,191
+2025,Andrew,Luther Burden III,WR,16,12,192
