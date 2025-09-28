@@ -32,37 +32,39 @@ def year_content(year: int) -> div:
         content=summary_table
     )
 
-    playoff_matchups = constants.MATCHUP_DATA.loc[(constants.MATCHUP_DATA['Year'] == year) & (constants.MATCHUP_DATA['Playoff Flag'])].copy()
-    playoff_matchups['Playoff Round'] = (playoff_matchups['Week'] % playoff_matchups['Week'].min()) + 1
+    # playoff_matchups = constants.MATCHUP_DATA.loc[(constants.MATCHUP_DATA['Year'] == year) & (constants.MATCHUP_DATA['Playoff Flag'])].copy()
+    # playoff_matchups['Playoff Round'] = (playoff_matchups['Week'] % playoff_matchups['Week'].min()) + 1
 
-    bracket = main(_id='playoff-bracket')
+    # bracket = main(_id='playoff-bracket')
 
-    rounds = []
+    # rounds = []
 
-    for round in playoff_matchups['Playoff Round'].unique():
-        _ul = ul(_class=f'round round-{round}')
-        _ul.add(li(dominate.util.raw('&nbsp;'), _class='spacer'))
+    # for round in playoff_matchups['Playoff Round'].unique():
+    #     _ul = ul(_class=f'round round-{round}')
+    #     _ul.add(li(dominate.util.raw('&nbsp;'), _class='spacer'))
 
-        for team1, score1, team2, score2 in playoff_matchups.loc[playoff_matchups['Playoff Round'] == round, ['Home Team','Home Score','Away Team','Away Score']].values:
+    #     for team1, score1, team2, score2 in playoff_matchups.loc[playoff_matchups['Playoff Round'] == round, ['Home Team','Home Score','Away Team','Away Score']].values:
 
-            top_team = li(team1, _class='game game-top')
-            if team1 != 'Bye':
-                top_team.add(span(score1))
+    #         top_team = li(team1, _class='game game-top')
+    #         if team1 != 'Bye':
+    #             top_team.add(span(score1))
 
-            bot_team = li(team2, _class='game game-bottom')
-            if team2 != 'Bye':
-                bot_team.add(span(score2))
+    #         bot_team = li(team2, _class='game game-bottom')
+    #         if team2 != 'Bye':
+    #             bot_team.add(span(score2))
 
-            _ul.add(top_team)
-            _ul.add(li(dominate.util.raw('&nbsp;'), _class='game game-spacer'))
-            _ul.add(bot_team)
-            _ul.add(li(dominate.util.raw('&nbsp;'), _class='spacer'))
+    #         _ul.add(top_team)
+    #         _ul.add(li(dominate.util.raw('&nbsp;'), _class='game game-spacer'))
+    #         _ul.add(bot_team)
+    #         _ul.add(li(dominate.util.raw('&nbsp;'), _class='spacer'))
 
-        rounds.append(_ul)
+    #     rounds.append(_ul)
 
-    bracket.add(rounds)
+    # bracket.add(rounds)
 
-    bracket_div = functions.content_container(title='Playoff Bracket', content=bracket)
+    if year < 2025:
+        bracket = functions.playoff_bracket_svg(constants.MATCHUP_DATA, year=year)
+        bracket_div = functions.content_container(title='Playoff Bracket', content=bracket)
 
     draft_data = constants.DRAFT_DATA.loc[constants.DRAFT_DATA['Year'] == year].copy()
     draft_table = functions.df_to_table(
@@ -80,7 +82,8 @@ def year_content(year: int) -> div:
 
     container.add(summary_div)
     container.add(scatter_div)
-    container.add(bracket_div)
+    if year < 2025:
+        container.add(bracket_div)
     container.add(draft_div)
 
     return container
