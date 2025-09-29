@@ -39,6 +39,7 @@ def champion_page():
     doc.add(page_header.page_header(active_year='champion'))
 
     doc.add(champion_content())
+    doc.add(script(src=f'{constants.ROOT}script.js'))
 
     with open('champion.html','w') as file:
         file.write(doc.render())

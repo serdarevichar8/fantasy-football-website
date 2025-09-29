@@ -6,6 +6,17 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #BBBBBB;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas:
+    "header header"
+    "sidenav content";
+    transition: grid-template-columns 0.3s ease;
+}
+
+body.collapsed {
+    grid-template-columns: 0 1fr;
 }
 
 body div {
@@ -14,23 +25,49 @@ body div {
 }
 
 .header {
-    /* display: flex;
-    flex-direction: column;
+    position: relative;
+    grid-area: header;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center; */
     background-color: cornflowerblue;
-    /*padding: 20px;*/
-    padding-bottom: 20px;
-    padding-top: 20px;
-    text-align: center;
+
     border-radius: 0;
 }
 
+.header .logo {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    height: 85px;
+}
+
+.header .menu-btn {
+    position: absolute;
+    left: 25px;
+    background: none;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    padding: 0;
+    font-size: 4rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
 .topnav {
-    background-color: #444444;
-    /* overflow: hidden; */
+    grid-area: sidenav;
     display: flex;
-    margin: 0px 5%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #444444;
+    border-radius: 0;
+    padding-top: 8px;
+}
+
+.topnav.collapsed {
+    overflow: hidden;
 }
 
 .topnav .active {
@@ -38,14 +75,14 @@ body div {
 }
 
 .topnav a {
-    padding: 20px 20px;
+    padding: 16px 20px;
     background-color: inherit;
     color: white;
     font-size: 16px;
     text-align: center;
-    /* float: left; */
     display: block;
     text-decoration: none;
+    border-radius: 20px;
 }
 
 .topnav a:hover {
@@ -54,11 +91,11 @@ body div {
 }
 
 .dropdown {
-    /* overflow: hidden; */
     position: relative;
     box-shadow: none;
-    border-radius: 0;
-    width: 12.5%;
+    /* border-radius: 0; */
+    width: 90%;
+    margin: 4px 0;
 }
 
 .dropdown a {
@@ -68,8 +105,9 @@ body div {
 .dropdown-content {
     display: none;
     position: absolute;
-    top: 100%;
-    background-color: #444444;
+    top: 0;
+    left: 100%;
+    background-color: #555555;
     z-index: 1;
     width: 100%;
 }
@@ -91,6 +129,7 @@ body div {
 }
 
 .content {
+    grid-area: content;
     display: flex;
     flex-direction: column;
     align-items: center;

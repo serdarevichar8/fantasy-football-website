@@ -59,6 +59,7 @@ def home_page(week: int):
     doc.add(page_header.page_header(active_year='home'))
 
     doc.add(home_content(week=week))
+    doc.add(script(src=f'{constants.ROOT}script.js'))
 
     with open('index.html','w') as file:
         file.write(doc.render())
