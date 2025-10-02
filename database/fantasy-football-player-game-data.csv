@@ -8254,7 +8254,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,1,Haris,Buccaneers D/ST,D/ST,D/ST,12.0,4.96
 2022,1,Haris,Matt Prater,K,K,1.0,8.12
 2022,1,Haris,Wan'Dale Robinson,WR,BE,1.5,8.77
-2022,1,Haris,Albert Okwuegbunam,TE,BE,8.3,8.19
+2022,1,Haris,Albert Okwuegbunam Jr.,TE,BE,8.3,8.19
 2022,1,Kevin,Davante Adams,WR,WR,30.1,17.32
 2022,1,Kevin,Travis Kelce,TE,TE,26.1,14.26
 2022,1,Kevin,Michael Pittman Jr.,WR,WR,27.1,14.88
@@ -8491,7 +8491,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,2,Haris,Kenny Golladay,WR,BE,0.0,8.77
 2022,2,Haris,Buccaneers D/ST,D/ST,D/ST,25.0,7.1
 2022,2,Haris,Matt Prater,K,K,1.0,7.73
-2022,2,Haris,Albert Okwuegbunam,TE,BE,0.0,8.82
+2022,2,Haris,Albert Okwuegbunam Jr.,TE,BE,0.0,8.82
 2022,2,Haris,Ben Skowronek,WR,BE,3.6,7.38
 2022,2,Haris,Carson Wentz,QB,BE,27.78,18.33
 2022,2,Noah,Ja'Marr Chase,WR,WR,10.8,16.8
@@ -8693,7 +8693,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,3,Haris,Chris Olave,WR,BE,23.7,9.43
 2022,3,Haris,Garrett Wilson,WR,WR,12.0,12.67
 2022,3,Haris,Buccaneers D/ST,D/ST,D/ST,6.0,6.46
-2022,3,Haris,Albert Okwuegbunam,TE,BE,2.2,7.44
+2022,3,Haris,Albert Okwuegbunam Jr.,TE,BE,2.2,7.44
 2022,3,Haris,Carson Wentz,QB,BE,8.64,16.88
 2022,3,Haris,Dustin Hopkins,K,K,4.0,8.1
 2022,3,Haris,Nelson Agholor,WR,BE,4.1,11.01
@@ -8931,7 +8931,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,4,Haris,Chris Olave,WR,RB/WR/TE,16.7,12.14
 2022,4,Haris,Garrett Wilson,WR,WR,6.1,13.32
 2022,4,Haris,Buccaneers D/ST,D/ST,BE,-1.0,3.02
-2022,4,Haris,Albert Okwuegbunam,TE,BE,0.0,6.17
+2022,4,Haris,Albert Okwuegbunam Jr.,TE,BE,0.0,6.17
 2022,4,Haris,Carson Wentz,QB,BE,7.3,15.87
 2022,4,Haris,Dustin Hopkins,K,K,10.0,7.6
 2022,4,Haris,Nelson Agholor,WR,BE,7.6,10.13
@@ -9139,7 +9139,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,5,Haris,Chris Olave,WR,BE,15.4,13.75
 2022,5,Haris,Garrett Wilson,WR,RB/WR/TE,5.7,13.0
 2022,5,Haris,Buccaneers D/ST,D/ST,D/ST,8.0,7.0
-2022,5,Haris,Albert Okwuegbunam,TE,BE,1.5,1.76
+2022,5,Haris,Albert Okwuegbunam Jr.,TE,BE,1.5,1.76
 2022,5,Haris,Carson Wentz,QB,BE,21.86,17.11
 2022,5,Haris,Dustin Hopkins,K,K,0.0,0.0
 2022,5,Haris,Nelson Agholor,WR,BE,0.0,7.2
@@ -18495,3 +18495,194 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2025,3,Carter,Tyler Loop,K,K,7.0,8.64
 2025,3,Carter,Hunter Renfrow,WR,BE,2.6,8.54
 2025,3,Carter,Kenneth Gainwell,RB,BE,9.6,10.66
+2025,4,Ethan,CeeDee Lamb,WR,BE,0.0,0.0
+2025,4,Ethan,Derrick Henry,RB,RB,7.8,16.85
+2025,4,Ethan,Jalen Hurts,QB,QB,19.4,20.46
+2025,4,Ethan,George Kittle,TE,BE,0.0,0.0
+2025,4,Ethan,Zay Flowers,WR,WR,14.4,14.35
+2025,4,Ethan,Jameson Williams,WR,BE,5.7,10.66
+2025,4,Ethan,Jaylen Warren,RB,RB,0.0,0.0
+2025,4,Ethan,Jauan Jennings,WR,WR,6.4,9.8
+2025,4,Ethan,Keon Coleman,WR,BE,7.5,10.47
+2025,4,Ethan,Travis Etienne Jr.,RB,RB/WR/TE,19.5,11.07
+2025,4,Ethan,Dalton Kincaid,TE,TE,9.8,9.15
+2025,4,Ethan,Chase McLaughlin,K,K,17.0,8.05
+2025,4,Ethan,Jared Goff,QB,BE,12.72,15.11
+2025,4,Ethan,Hollywood Brown,WR,BE,12.8,9.04
+2025,4,Ethan,Packers D/ST,D/ST,D/ST,-5.0,6.8
+2025,4,Ethan,Daniel Jones,QB,BE,10.38,17.63
+2025,4,Noah,Saquon Barkley,RB,RB,17.4,18.36
+2025,4,Noah,Chase Brown,RB,RB,10.1,13.98
+2025,4,Noah,Tyreek Hill,WR,WR,12.7,14.72
+2025,4,Noah,Mike Evans,WR,BE,0.0,0.0
+2025,4,Noah,Sam LaPorta,TE,TE,6.9,9.73
+2025,4,Noah,George Pickens,WR,WR,33.4,14.5
+2025,4,Noah,Tyrone Tracy Jr.,RB,BE,0.0,0.0
+2025,4,Noah,Ricky Pearsall,WR,BE,8.6,12.95
+2025,4,Noah,Dak Prescott,QB,QB,30.96,14.08
+2025,4,Noah,Josh Downs,WR,BE,6.4,8.56
+2025,4,Noah,Jaydon Blue,RB,BE,0.0,0.0
+2025,4,Noah,Matt Prater,K,K,7.0,8.77
+2025,4,Noah,Kayshon Boutte,WR,BE,2.8,7.02
+2025,4,Noah,Tre Tucker,WR,RB/WR/TE,4.2,11.2
+2025,4,Noah,Chargers D/ST,D/ST,D/ST,8.0,7.62
+2025,4,Noah,Woody Marks,RB,BE,27.9,8.72
+2025,4,Nathan,Ashton Jeanty,RB,RB,33.5,15.46
+2025,4,Nathan,A.J. Brown,WR,WR,2.7,15.08
+2025,4,Nathan,Omarion Hampton,RB,RB,27.5,16.74
+2025,4,Nathan,TreVeyon Henderson,RB,BE,12.6,7.46
+2025,4,Nathan,DK Metcalf,WR,BE,23.6,12.39
+2025,4,Nathan,Baker Mayfield,QB,QB,18.86,17.51
+2025,4,Nathan,Rashee Rice,WR,BE,0.0,0.0
+2025,4,Nathan,Tyler Warren,TE,BE,18.3,11.95
+2025,4,Nathan,Deebo Samuel,WR,RB/WR/TE,20.1,13.99
+2025,4,Nathan,Eagles D/ST,D/ST,BE,13.0,5.05
+2025,4,Nathan,Quentin Johnston,WR,WR,23.8,13.85
+2025,4,Nathan,Juwan Johnson,TE,TE,5.8,11.1
+2025,4,Nathan,Brandon McManus,K,K,11.0,8.16
+2025,4,Nathan,Rams D/ST,D/ST,D/ST,6.0,5.71
+2025,4,Nathan,Troy Franklin,WR,BE,9.5,10.36
+2025,4,Andrew,Ja'Marr Chase,WR,WR,7.3,16.6
+2025,4,Andrew,Trey McBride,TE,TE,12.2,15.29
+2025,4,Andrew,Josh Allen,QB,QB,24.86,22.67
+2025,4,Andrew,Breece Hall,RB,RB,16.1,16.1
+2025,4,Andrew,Xavier Worthy,WR,RB/WR/TE,17.1,12.03
+2025,4,Andrew,Isiah Pacheco,RB,BE,12.8,9.19
+2025,4,Andrew,Jacory Croskey-Merritt,RB,RB,7.7,8.02
+2025,4,Andrew,Jordan Addison,WR,WR,15.4,10.76
+2025,4,Andrew,Stefon Diggs,WR,BE,16.1,7.79
+2025,4,Andrew,Jerome Ford,RB,BE,1.3,6.49
+2025,4,Andrew,Drake Maye,QB,BE,23.22,17.25
+2025,4,Andrew,Texans D/ST,D/ST,D/ST,15.0,7.28
+2025,4,Andrew,Jake Bates,K,K,13.0,8.45
+2025,4,Andrew,Brenton Strange,TE,BE,10.5,8.38
+2025,4,Andrew,Dylan Sampson,RB,BE,-0.2,2.72
+2025,4,Andrew,Luther Burden III,WR,BE,1.6,5.78
+2025,4,Dante,Bijan Robinson,RB,RB,28.1,19.76
+2025,4,Dante,Lamar Jackson,QB,QB,10.68,22.76
+2025,4,Dante,Kyren Williams,RB,RB,10.4,16.5
+2025,4,Dante,Marvin Harrison Jr.,WR,BE,18.6,11.31
+2025,4,Dante,Courtland Sutton,WR,WR,19.1,13.72
+2025,4,Dante,Matthew Golden,WR,BE,11.3,10.82
+2025,4,Dante,Jakobi Meyers,WR,WR,7.0,14.96
+2025,4,Dante,Travis Hunter,WR,BE,7.2,10.11
+2025,4,Dante,J.K. Dobbins,RB,RB/WR/TE,11.5,16.14
+2025,4,Dante,Zach Charbonnet,RB,BE,12.4,9.29
+2025,4,Dante,Jake Ferguson,TE,TE,17.0,11.64
+2025,4,Dante,Tyler Allgeier,RB,BE,11.1,6.49
+2025,4,Dante,Harold Fannin Jr.,TE,BE,4.5,7.47
+2025,4,Dante,Falcons D/ST,D/ST,D/ST,6.0,5.77
+2025,4,Dante,Elic Ayomanor,WR,BE,6.4,9.03
+2025,4,Dante,Spencer Shrader,K,K,10.0,7.93
+2025,4,Tyler,Puka Nacua,WR,WR,36.0,21.8
+2025,4,Tyler,Nico Collins,WR,WR,11.9,17.79
+2025,4,Tyler,Alvin Kamara,RB,RB,11.2,14.17
+2025,4,Tyler,Joe Burrow,QB,BE,0.0,0.0
+2025,4,Tyler,DJ Moore,WR,BE,7.8,12.83
+2025,4,Tyler,RJ Harvey,RB,BE,19.8,7.92
+2025,4,Tyler,Evan Engram,TE,BE,6.9,6.24
+2025,4,Tyler,Rhamondre Stevenson,RB,RB,5.1,11.08
+2025,4,Tyler,Rashid Shaheed,WR,BE,9.2,9.65
+2025,4,Tyler,Keenan Allen,WR,RB/WR/TE,8.7,13.57
+2025,4,Tyler,Jordan Love,QB,QB,26.28,18.6
+2025,4,Tyler,Steelers D/ST,D/ST,D/ST,9.0,7.63
+2025,4,Tyler,Cam Little,K,K,8.0,7.78
+2025,4,Tyler,Jonnu Smith,TE,TE,2.6,7.97
+2025,4,Tyler,Dontayvion Wicks,WR,BE,3.9,9.44
+2025,4,Tyler,Pat Freiermuth,TE,BE,0.0,5.92
+2025,4,Michael,Amon-Ra St. Brown,WR,WR,26.0,17.41
+2025,4,Michael,Jonathan Taylor,RB,RB,14.6,18.95
+2025,4,Michael,Ladd McConkey,WR,WR,2.1,12.17
+2025,4,Michael,Kenneth Walker III,RB,RB/WR/TE,12.0,12.73
+2025,4,Michael,Jaylen Waddle,WR,BE,7.8,12.32
+2025,4,Michael,Tony Pollard,RB,RB,10.6,13.67
+2025,4,Michael,Travis Kelce,TE,TE,9.8,11.34
+2025,4,Michael,Brock Purdy,QB,QB,17.66,17.3
+2025,4,Michael,Chris Godwin Jr.,WR,BE,5.6,10.71
+2025,4,Michael,Khalil Shakir,WR,BE,17.9,9.17
+2025,4,Michael,Lions D/ST,D/ST,D/ST,20.0,7.29
+2025,4,Michael,Chris Boswell,K,K,5.0,7.85
+2025,4,Michael,Matthew Stafford,QB,BE,27.4,16.0
+2025,4,Michael,Romeo Doubs,WR,BE,29.8,10.54
+2025,4,Michael,Dallas Goedert,TE,BE,19.7,8.54
+2025,4,Michael,Colts D/ST,D/ST,BE,0.0,4.49
+2025,4,Kevin,Malik Nabers,WR,WR,4.0,17.58
+2025,4,Kevin,Josh Jacobs,RB,RB,31.7,18.48
+2025,4,Kevin,Davante Adams,WR,WR,15.6,17.26
+2025,4,Kevin,Jaxon Smith-Njigba,WR,RB/WR/TE,13.0,16.45
+2025,4,Kevin,David Montgomery,RB,BE,1.2,12.27
+2025,4,Kevin,David Njoku,TE,TE,3.1,9.27
+2025,4,Kevin,Michael Pittman Jr.,WR,BE,15.1,11.63
+2025,4,Kevin,Kyler Murray,QB,QB,16.1,16.31
+2025,4,Kevin,Jordan Mason,RB,RB,10.2,13.94
+2025,4,Kevin,Justin Fields,QB,BE,27.14,19.52
+2025,4,Kevin,Broncos D/ST,D/ST,D/ST,10.0,7.99
+2025,4,Kevin,Brandon Aubrey,K,K,8.0,7.98
+2025,4,Kevin,Cedric Tillman,WR,BE,1.6,8.48
+2025,4,Kevin,Brian Robinson Jr.,RB,BE,2.1,5.2
+2025,4,Kevin,Michael Wilson,WR,BE,4.5,6.16
+2025,4,Kevin,Dalton Schultz,TE,BE,8.0,9.01
+2025,4,Carter,De'Von Achane,RB,RB,17.1,19.77
+2025,4,Carter,Brian Thomas Jr.,WR,WR,10.6,14.66
+2025,4,Carter,Terry McLaurin,WR,BE,0.0,0.0
+2025,4,Carter,Chuba Hubbard,RB,RB/WR/TE,9.9,13.5
+2025,4,Carter,Patrick Mahomes,QB,QB,27.3,19.3
+2025,4,Carter,Rome Odunze,WR,WR,16.9,15.43
+2025,4,Carter,Mark Andrews,TE,BE,10.0,9.19
+2025,4,Carter,Caleb Williams,QB,BE,11.78,19.58
+2025,4,Carter,Tucker Kraft,TE,TE,10.6,11.86
+2025,4,Carter,Trey Benson,RB,RB,10.4,13.72
+2025,4,Carter,Vikings D/ST,D/ST,D/ST,4.0,7.57
+2025,4,Carter,Marvin Mims Jr.,WR,BE,20.5,7.76
+2025,4,Carter,Dont'e Thornton Jr.,WR,BE,0.0,8.02
+2025,4,Carter,Tyler Loop,K,K,9.0,8.4
+2025,4,Carter,Hunter Renfrow,WR,BE,3.0,8.62
+2025,4,Carter,Kenneth Gainwell,RB,BE,31.4,11.45
+2025,4,Zach,Christian McCaffrey,RB,RB,26.1,22.19
+2025,4,Zach,Brock Bowers,TE,TE,9.6,14.5
+2025,4,Zach,Tee Higgins,WR,BE,6.2,11.4
+2025,4,Zach,Garrett Wilson,WR,WR,20.2,15.66
+2025,4,Zach,D'Andre Swift,RB,RB,16.0,15.22
+2025,4,Zach,Aaron Jones Sr.,RB,BE,0.0,0.0
+2025,4,Zach,Justin Herbert,QB,QB,12.52,18.62
+2025,4,Zach,Chris Olave,WR,WR,9.0,15.09
+2025,4,Zach,Javonte Williams,RB,RB/WR/TE,19.0,13.88
+2025,4,Zach,Darnell Mooney,WR,BE,2.5,10.63
+2025,4,Zach,Kyle Pitts Sr.,TE,BE,18.0,8.71
+2025,4,Zach,J.J. McCarthy,QB,BE,0.0,0.0
+2025,4,Zach,Seahawks D/ST,D/ST,D/ST,12.0,6.85
+2025,4,Zach,Ka'imi Fairbairn,K,K,9.0,7.89
+2025,4,Zach,Wan'Dale Robinson,WR,BE,4.4,9.58
+2025,4,Zach,49ers D/ST,D/ST,BE,0.0,5.54
+2025,4,Haris,Jahmyr Gibbs,RB,RB,17.7,19.05
+2025,4,Haris,Drake London,WR,WR,25.0,14.58
+2025,4,Haris,James Cook,RB,RB,22.5,18.02
+2025,4,Haris,Tetairoa McMillan,WR,WR,10.2,14.2
+2025,4,Haris,DeVonta Smith,WR,BE,4.9,11.8
+2025,4,Haris,Emeka Egbuka,WR,RB/WR/TE,20.1,14.89
+2025,4,Haris,Bo Nix,QB,QB,25.74,18.16
+2025,4,Haris,Cam Skattebo,RB,BE,13.0,14.04
+2025,4,Haris,Bhayshul Tuten,RB,BE,3.2,5.26
+2025,4,Haris,C.J. Stroud,QB,BE,18.42,17.37
+2025,4,Haris,Ollie Gordon II,RB,BE,1.0,5.93
+2025,4,Haris,Ravens D/ST,D/ST,BE,-3.0,4.13
+2025,4,Haris,Harrison Butker,K,K,12.0,7.82
+2025,4,Haris,Chig Okonkwo,TE,BE,1.4,9.08
+2025,4,Haris,Hunter Henry,TE,TE,11.9,11.17
+2025,4,Haris,Patriots D/ST,D/ST,D/ST,10.0,6.46
+2025,4,McGwire,Justin Jefferson,WR,WR,22.6,16.68
+2025,4,McGwire,Bucky Irving,RB,RB,25.5,17.46
+2025,4,McGwire,Jayden Daniels,QB,BE,0.0,0.0
+2025,4,McGwire,James Conner,RB,BE,0.0,0.0
+2025,4,McGwire,T.J. Hockenson,TE,TE,7.9,10.12
+2025,4,McGwire,Jerry Jeudy,WR,WR,7.8,11.27
+2025,4,McGwire,Calvin Ridley,WR,BE,5.0,11.21
+2025,4,McGwire,Cooper Kupp,WR,BE,6.6,10.61
+2025,4,McGwire,Joe Mixon,RB,BE,0.0,0.0
+2025,4,McGwire,Nick Chubb,RB,RB/WR/TE,8.2,12.82
+2025,4,McGwire,Quinshon Judkins,RB,RB,21.5,13.98
+2025,4,McGwire,Brandon Aiyuk,WR,BE,0.0,0.0
+2025,4,McGwire,Cameron Dicker,K,K,5.0,8.63
+2025,4,McGwire,Bills D/ST,D/ST,D/ST,7.0,7.24
+2025,4,McGwire,Zach Ertz,TE,BE,6.1,9.79
+2025,4,McGwire,Geno Smith,QB,QB,9.78,17.51

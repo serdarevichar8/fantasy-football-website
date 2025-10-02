@@ -476,3 +476,82 @@ def df_to_svg(
         outer_group.add(bars_group)
 
     return d_svg
+
+def playoff_bracket_svg(data: pd.DataFrame, year: int) -> svg:
+    playoff_matchups = data.loc[(data['Year'] == year) & (data['Playoff Flag'])].copy()
+    playoff_matchups['Playoff Round'] = (playoff_matchups['Week'] % playoff_matchups['Week'].min()) + 1
+
+    round_count = playoff_matchups['Playoff Round'].max()
+
+    width, height = 500, 300
+    m_x, m_y = 30, 10
+
+    round_width = (width - 2 * m_x) / round_count
+
+    playoff_bracket = svg(xmlns='http://www.w3.org/2000/svg', width=width, height=height, viewBox=f'0 0 {width} {height}')
+
+    border = path(d=write_path([0, width, width, 0], [0, 0, height, height], close=True), fill='white')
+    team_label_group = g(font_size=12, font_family='Arial', text_anchor='start')
+    score_label_group = g(font_size=12, font_family='Arial', text_anchor='end')
+
+    playoff_bracket.add(border, team_label_group, score_label_group)
+
+    spacing_y = (height - 2 * m_y) / (len(playoff_matchups.loc[playoff_matchups['Playoff Round'] == 1]) * 2 + 1)
+
+    for round in range(round_count):
+        round_matchups = playoff_matchups.loc[playoff_matchups['Playoff Round'] == round + 1].reset_index(drop=True)
+        round_height = spacing_y * (2 ** round)
+        offset_y = (round_height * 0.5) + (spacing_y * 0.5)
+        padding_x, padding_y = 10, 2
+
+        round_d = []
+
+        for matchup, row in round_matchups.iterrows():
+            if row['Home Team'] == 'Bye' or row['Away Team'] == 'Bye':
+                continue
+
+            top_team = 'Home Team'
+            top_score = 'Home Score'
+            bot_team = 'Away Team'
+            bot_score = 'Away Score'
+
+            if round == 1 and matchup == 1:
+                top_team, bot_team = bot_team, top_team
+                top_score, bot_score = bot_score, top_score
+
+            round_d.append(
+                write_path(
+                    [
+                        m_x + round * round_width,
+                        m_x + (round + 1) * round_width,
+                        m_x + (round + 1) * round_width,
+                        m_x + round * round_width
+                    ],
+                    [
+                        m_y + offset_y + 2 * round_height * matchup,
+                        m_y + offset_y + 2 * round_height * matchup,
+                        m_y + offset_y + 2 * round_height * matchup + round_height,
+                        m_y + offset_y + 2 * round_height * matchup + round_height
+                    ]
+                )
+            )
+
+            home_team = text(row[top_team], x=padding_x + m_x + round * round_width, y=-padding_y + m_y + offset_y + 2 * round_height * matchup)
+            away_team = text(row[bot_team], x=padding_x + m_x + round * round_width, y=-padding_y + m_y + offset_y + 2 * round_height * matchup + round_height)
+
+            home_score = text(row[top_score], x=-padding_x + m_x + (round + 1) * round_width, y=-padding_y + m_y + offset_y + 2 * round_height * matchup)
+            away_score = text(row[bot_score], x=-padding_x + m_x + (round + 1) * round_width, y=-padding_y + m_y + offset_y + 2 * round_height * matchup + round_height)
+
+            if row[top_score] > row[bot_score]:
+                home_team.set_attribute('font-weight', 'bold')
+                home_score.set_attribute('font-weight', 'bold')
+            else:
+                away_team.set_attribute('font-weight', 'bold')
+                away_score.set_attribute('font-weight', 'bold')
+
+            team_label_group.add(home_team, away_team)
+            score_label_group.add(home_score, away_score)
+
+        playoff_bracket.add(path(d=' '.join(round_d), stroke='black', fill='none'))
+
+    return playoff_bracket

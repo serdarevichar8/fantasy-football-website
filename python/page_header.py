@@ -1,4 +1,4 @@
-import dominate
+import numpy as np
 from dominate.tags import *
 
 from python import constants
@@ -20,17 +20,19 @@ def page_header(active_year: int = None) -> div:
         div container for the entire header
     '''
     container = div(_class='header')
-    logo = img(src=f'{constants.ROOT}Assets/Fantasy-Football-App-LOGO.png', height=85, style='float: left;padding: 0px 20px')
+    logo = img(src=f'{constants.ROOT}Assets/Fantasy-Football-App-LOGO.png', _class='logo')
     heading = h1('Fantasy Football Luck Scores')
+    menu_button = button('☰', _id='toggle', _class='menu-btn')
 
     navbar = topnav(active_year=active_year)
     
     container.add(logo)
     container.add(heading)
-    container.add(br())
-    container.add(navbar)
+    container.add(menu_button)
+    # container.add(br())
+    # container.add(navbar)
 
-    return container
+    return container, navbar
 
 
 def topnav(active_year: int = None) -> div:
@@ -80,7 +82,7 @@ def topnav(active_year: int = None) -> div:
     team_dropdown.add(team_dropdown_button)
 
     team_dropdown_content = div(_class='dropdown-content')
-    for team in constants.TEAMS:
+    for team in np.sort(constants.TEAMS):
         _a = a(f'{team}', href=f'{constants.ROOT}teams/{team}.html')
 
         team_dropdown_content.add(_a)

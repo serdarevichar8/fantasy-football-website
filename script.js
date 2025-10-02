@@ -31,6 +31,11 @@ function findFilters() {
   })
 }
 
+document.getElementById('toggle').addEventListener('click', () => {
+  document.body.classList.toggle('collapsed')
+  document.getElementsByClassName('topnav')[0].classList.toggle('collapsed')
+})
+
 document.addEventListener('DOMContentLoaded', () => {
   findFilters()
 });
