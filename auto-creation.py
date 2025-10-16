@@ -9,7 +9,7 @@ from python import functions, constants, home_page, team_page, year_page, champi
 # espn_data.write_csvs()
 
 # Call the constructing functions
-# home_page.home_page(week=4)
+# home_page.home_page(week=6)
 # champion_page.champion_page()
 # week_page.week_pages()
 # team_page.team_pages()
