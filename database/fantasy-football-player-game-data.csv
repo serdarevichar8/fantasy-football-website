@@ -134,7 +134,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2019,1,Haris,Baker Mayfield,QB,BE,9.4,16.58
 2019,1,Haris,Dak Prescott,QB,QB,33.4,21.22
 2019,1,Haris,Austin Hooper,TE,TE,16.7,9.33
-2019,1,Haris,Nyheim Miller-Hines,RB,BE,5.7,7.51
+2019,1,Haris,Nyheim Hines,RB,BE,5.7,7.51
 2019,1,Haris,Alexander Mattison,RB,BE,4.9,3.3
 2019,1,Haris,Royce Freeman,RB,BE,7.1,9.74
 2019,1,Haris,Benny Snell Jr.,RB,BE,0.0,2.11
@@ -374,7 +374,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2019,2,Haris,Baker Mayfield,QB,BE,15.0,17.78
 2019,2,Haris,Dak Prescott,QB,QB,27.66,19.46
 2019,2,Haris,Austin Hooper,TE,TE,7.4,9.77
-2019,2,Haris,Nyheim Miller-Hines,RB,BE,2.4,7.35
+2019,2,Haris,Nyheim Hines,RB,BE,2.4,7.35
 2019,2,Haris,Alexander Mattison,RB,BE,2.5,3.26
 2019,2,Haris,Royce Freeman,RB,BE,15.2,9.67
 2019,2,Haris,Benny Snell Jr.,RB,BE,2.3,2.67
@@ -1335,7 +1335,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2019,7,Justin,Greg Olsen,TE,BE,0.0,0.0
 2019,7,Justin,Mohamed Sanu,WR,BE,1.3,10.06
 2019,7,Justin,Jack Doyle,TE,TE,5.1,6.36
-2019,7,Justin,Nyheim Miller-Hines,RB,RB,2.6,7.39
+2019,7,Justin,Nyheim Hines,RB,RB,2.6,7.39
 2019,7,Justin,Kirk Cousins,QB,BE,29.22,14.43
 2019,8,Klapp,Todd Gurley II,RB,RB,10.4,17.3
 2019,8,Klapp,Tyreek Hill,WR,WR,14.1,14.95
@@ -1479,7 +1479,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2019,8,Justin,Greg Olsen,TE,TE,3.3,9.24
 2019,8,Justin,Mohamed Sanu,WR,BE,4.3,10.75
 2019,8,Justin,Jack Doyle,TE,BE,10.1,6.41
-2019,8,Justin,Nyheim Miller-Hines,RB,BE,7.6,6.64
+2019,8,Justin,Nyheim Hines,RB,BE,7.6,6.64
 2019,8,Justin,Kirk Cousins,QB,QB,11.6,16.03
 2019,8,Carter,DeAndre Hopkins,WR,WR,21.9,17.56
 2019,8,Carter,Josh Jacobs,RB,RB,10.1,14.5
@@ -2223,7 +2223,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2019,12,Andrew,Matt Prater,K,BE,10.0,6.88
 2019,12,Andrew,Josh Hill,TE,BE,2.2,3.22
 2019,12,Andrew,Tom Brady,QB,BE,11.3,16.79
-2019,12,Andrew,Nyheim Miller-Hines,RB,RB,8.1,9.76
+2019,12,Andrew,Nyheim Hines,RB,RB,8.1,9.76
 2019,12,Andrew,Rex Burkhead,RB,RB,3.7,9.3
 2019,12,Ethan,JuJu Smith-Schuster,WR,BE,0.0,0.0
 2019,12,Ethan,Derrick Henry,RB,RB,28.5,19.01
@@ -2431,7 +2431,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2019,13,Andrew,Matt Prater,K,K,8.0,6.62
 2019,13,Andrew,Josh Hill,TE,BE,1.2,2.72
 2019,13,Andrew,Tom Brady,QB,BE,24.34,17.65
-2019,13,Andrew,Nyheim Miller-Hines,RB,RB,12.0,9.49
+2019,13,Andrew,Nyheim Hines,RB,RB,12.0,9.49
 2019,13,Andrew,Rex Burkhead,RB,BE,1.5,8.55
 2019,13,Nathan,Julio Jones,WR,WR,0.0,0.0
 2019,13,Nathan,Antonio Brown,WR,BE,0.0,0.0
@@ -2606,7 +2606,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2019,14,Andrew,Matt Prater,K,K,0.0,5.72
 2019,14,Andrew,Josh Hill,TE,BE,8.4,2.34
 2019,14,Andrew,Tom Brady,QB,BE,10.76,17.26
-2019,14,Andrew,Nyheim Miller-Hines,RB,RB,4.5,8.48
+2019,14,Andrew,Nyheim Hines,RB,RB,4.5,8.48
 2019,14,Andrew,Rex Burkhead,RB,BE,1.5,7.63
 2019,14,Nathan,Julio Jones,WR,WR,11.6,16.9
 2019,14,Nathan,Antonio Brown,WR,BE,0.0,0.0
@@ -2812,7 +2812,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2019,15,Andrew,Matt Prater,K,K,6.0,7.56
 2019,15,Andrew,Josh Hill,TE,TE,7.5,2.75
 2019,15,Andrew,Tom Brady,QB,BE,12.92,17.07
-2019,15,Andrew,Nyheim Miller-Hines,RB,RB,3.2,8.99
+2019,15,Andrew,Nyheim Hines,RB,RB,3.2,8.99
 2019,15,Andrew,Rex Burkhead,RB,BE,13.9,7.33
 2019,15,McGwire,Saquon Barkley,RB,RB,30.3,20.07
 2019,15,McGwire,Adam Thielen,WR,WR,6.0,15.8
@@ -3031,7 +3031,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2019,16,Andrew,Matt Prater,K,K,5.0,4.13
 2019,16,Andrew,Josh Hill,TE,BE,0.0,2.89
 2019,16,Andrew,Tom Brady,QB,BE,17.24,15.68
-2019,16,Andrew,Nyheim Miller-Hines,RB,RB,13.6,8.62
+2019,16,Andrew,Nyheim Hines,RB,RB,13.6,8.62
 2019,16,Andrew,Rex Burkhead,RB,BE,17.7,6.45
 2019,16,Ethan,JuJu Smith-Schuster,WR,BE,4.2,11.01
 2019,16,Ethan,Derrick Henry,RB,BE,0.0,0.0
@@ -3224,7 +3224,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2020,2,Carter,Cam Newton,QB,BE,34.58,17.51
 2020,2,Carter,Jared Cook,TE,TE,9.3,10.38
 2020,2,Carter,Chris Boswell,K,K,6.0,8.0
-2020,2,Carter,Nyheim Miller-Hines,RB,RB,1.4,10.52
+2020,2,Carter,Nyheim Hines,RB,RB,1.4,10.52
 2020,2,Ethan,Christian McCaffrey,RB,RB,24.8,22.36
 2020,2,Ethan,Joe Mixon,RB,RB,12.6,14.86
 2020,2,Ethan,Travis Kelce,TE,TE,24.0,15.62
@@ -3399,7 +3399,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2020,3,Carter,Cam Newton,QB,BE,11.18,20.84
 2020,3,Carter,Jared Cook,TE,TE,4.1,9.91
 2020,3,Carter,Chris Boswell,K,K,8.0,7.82
-2020,3,Carter,Nyheim Miller-Hines,RB,BE,10.1,8.42
+2020,3,Carter,Nyheim Hines,RB,BE,10.1,8.42
 2020,3,Carter,Rex Burkhead,RB,RB,34.8,12.44
 2020,3,Ethan,Christian McCaffrey,RB,BE,0.0,0.0
 2020,3,Ethan,Joe Mixon,RB,RB,8.5,15.04
@@ -3539,7 +3539,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2020,4,Carter,Gardner Minshew,QB,BE,20.94,18.55
 2020,4,Carter,Cam Newton,QB,BE,0.0,0.0
 2020,4,Carter,Jared Cook,TE,BE,0.0,0.0
-2020,4,Carter,Nyheim Miller-Hines,RB,RB,6.2,10.37
+2020,4,Carter,Nyheim Hines,RB,RB,6.2,10.37
 2020,4,Carter,Justin Jefferson,WR,BE,14.3,10.47
 2020,4,Carter,Russell Gage Jr.,WR,RB/WR/TE,4.0,12.56
 2020,4,Carter,Jerick McKinnon,RB,RB,22.7,13.5
@@ -3714,7 +3714,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2020,5,Carter,Gardner Minshew,QB,BE,19.84,19.35
 2020,5,Carter,Cam Newton,QB,BE,0.0,0.0
 2020,5,Carter,Jared Cook,TE,BE,13.2,8.73
-2020,5,Carter,Nyheim Miller-Hines,RB,BE,5.0,11.11
+2020,5,Carter,Nyheim Hines,RB,BE,5.0,11.11
 2020,5,Carter,Justin Jefferson,WR,RB/WR/TE,5.3,12.61
 2020,5,Carter,Russell Gage Jr.,WR,BE,3.6,10.2
 2020,5,Carter,Jerick McKinnon,RB,RB,2.5,12.28
@@ -3856,7 +3856,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2020,6,Carter,Gardner Minshew,QB,BE,18.12,19.33
 2020,6,Carter,Cam Newton,QB,BE,18.48,18.71
 2020,6,Carter,Jared Cook,TE,BE,0.0,0.0
-2020,6,Carter,Nyheim Miller-Hines,RB,BE,7.7,9.35
+2020,6,Carter,Nyheim Hines,RB,BE,7.7,9.35
 2020,6,Carter,Justin Jefferson,WR,BE,39.6,11.43
 2020,6,Carter,Russell Gage Jr.,WR,BE,10.5,8.51
 2020,6,Carter,Jerick McKinnon,RB,RB,4.8,9.51
@@ -4031,7 +4031,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2020,7,Carter,49ers D/ST,D/ST,D/ST,16.0,6.7
 2020,7,Carter,Gardner Minshew,QB,BE,19.02,16.95
 2020,7,Carter,Jared Cook,TE,BE,12.2,9.79
-2020,7,Carter,Nyheim Miller-Hines,RB,BE,0.0,0.0
+2020,7,Carter,Nyheim Hines,RB,BE,0.0,0.0
 2020,7,Carter,Justin Jefferson,WR,BE,0.0,0.0
 2020,7,Carter,Russell Gage Jr.,WR,BE,11.4,7.81
 2020,7,Carter,Jerick McKinnon,RB,RB,-0.1,15.01
@@ -4764,7 +4764,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2020,11,Dante,Dolphins D/ST,D/ST,D/ST,-1.0,7.11
 2020,11,Dante,Duke Johnson,RB,BE,6.5,14.52
 2020,11,Dante,Jarvis Landry,WR,BE,4.6,11.55
-2020,11,Dante,Nyheim Miller-Hines,RB,BE,8.3,12.39
+2020,11,Dante,Nyheim Hines,RB,BE,8.3,12.39
 2020,11,Zach,Michael Thomas,WR,WR,19.4,13.04
 2020,11,Zach,Miles Sanders,RB,RB,9.1,17.25
 2020,11,Zach,Mike Evans,WR,BE,15.9,12.8
@@ -4870,7 +4870,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2020,12,Dante,Leonard Fournette,RB,BE,5.0,12.03
 2020,12,Dante,Dolphins D/ST,D/ST,D/ST,13.0,8.03
 2020,12,Dante,Duke Johnson,RB,BE,17.0,14.53
-2020,12,Dante,Nyheim Miller-Hines,RB,BE,17.5,16.04
+2020,12,Dante,Nyheim Hines,RB,BE,17.5,16.04
 2020,12,Dante,Cole Beasley,WR,BE,9.3,13.0
 2020,12,Dante,Robbie Chosen,WR,WR,19.4,15.26
 2020,12,Dante,Michael Thomas,WR,RB/WR/TE,9.1,14.1
@@ -5011,7 +5011,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2020,13,Dante,Leonard Fournette,RB,BE,0.0,0.0
 2020,13,Dante,Dolphins D/ST,D/ST,D/ST,16.0,7.73
 2020,13,Dante,Duke Johnson,RB,BE,9.2,6.87
-2020,13,Dante,Nyheim Miller-Hines,RB,BE,12.2,12.14
+2020,13,Dante,Nyheim Hines,RB,BE,12.2,12.14
 2020,13,Dante,Cole Beasley,WR,BE,28.0,12.41
 2020,13,Dante,Robbie Chosen,WR,BE,0.0,0.0
 2020,13,Dante,Michael Thomas,WR,WR,19.5,16.17
@@ -5170,7 +5170,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2020,14,Dante,Wil Lutz,K,K,1.0,7.38
 2020,14,Dante,Leonard Fournette,RB,BE,0.0,0.0
 2020,14,Dante,Dolphins D/ST,D/ST,BE,7.0,3.63
-2020,14,Dante,Nyheim Miller-Hines,RB,BE,11.5,12.48
+2020,14,Dante,Nyheim Hines,RB,BE,11.5,12.48
 2020,14,Dante,Cole Beasley,WR,BE,9.1,13.2
 2020,14,Dante,Robbie Chosen,WR,RB/WR/TE,17.7,15.26
 2020,14,Dante,Michael Thomas,WR,WR,16.4,15.95
@@ -5329,7 +5329,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2020,15,Dante,Raheem Mostert,RB,BE,6.8,12.94
 2020,15,Dante,Wil Lutz,K,K,3.0,7.87
 2020,15,Dante,Dolphins D/ST,D/ST,D/ST,8.0,7.45
-2020,15,Dante,Nyheim Miller-Hines,RB,BE,7.4,12.68
+2020,15,Dante,Nyheim Hines,RB,BE,7.4,12.68
 2020,15,Dante,Cole Beasley,WR,RB/WR/TE,19.2,14.0
 2020,15,Dante,Robbie Chosen,WR,BE,4.0,15.34
 2020,15,Dante,Michael Thomas,WR,BE,0.0,0.0
@@ -5472,7 +5472,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2020,16,Dante,Raheem Mostert,RB,BE,0.0,0.0
 2020,16,Dante,Wil Lutz,K,K,10.0,7.75
 2020,16,Dante,Dolphins D/ST,D/ST,D/ST,2.0,5.47
-2020,16,Dante,Nyheim Miller-Hines,RB,BE,10.4,11.04
+2020,16,Dante,Nyheim Hines,RB,BE,10.4,11.04
 2020,16,Dante,Cole Beasley,WR,WR,4.7,11.62
 2020,16,Dante,Robbie Chosen,WR,BE,16.9,13.84
 2020,16,Dante,Michael Thomas,WR,BE,0.0,0.0
@@ -5573,7 +5573,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2021,1,Zach,Sony Michel,RB,BE,0.2,8.15
 2021,1,Zach,Hollywood Brown,WR,BE,19.4,12.13
 2021,1,Zach,Mike Gesicki,TE,BE,0.0,8.22
-2021,1,Zach,Nyheim Miller-Hines,RB,BE,14.2,9.47
+2021,1,Zach,Nyheim Hines,RB,BE,14.2,9.47
 2021,1,Zach,49ers D/ST,D/ST,D/ST,7.0,6.78
 2021,1,Zach,Jason Sanders,K,K,6.0,7.82
 2021,1,Zach,Todd Gurley II,RB,BE,0.0,0.0
@@ -5780,7 +5780,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2021,2,Zach,Sony Michel,RB,BE,4.6,6.53
 2021,2,Zach,Hollywood Brown,WR,BE,23.3,11.73
 2021,2,Zach,Mike Gesicki,TE,BE,7.1,7.05
-2021,2,Zach,Nyheim Miller-Hines,RB,RB/WR/TE,3.2,11.33
+2021,2,Zach,Nyheim Hines,RB,RB/WR/TE,3.2,11.33
 2021,2,Zach,49ers D/ST,D/ST,D/ST,7.0,5.52
 2021,2,Zach,Robbie Gould,K,K,6.0,7.45
 2021,2,Zach,Browns D/ST,D/ST,BE,5.0,7.37
@@ -5956,7 +5956,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2021,3,Zach,Sony Michel,RB,BE,10.9,13.97
 2021,3,Zach,Hollywood Brown,WR,RB/WR/TE,8.3,14.73
 2021,3,Zach,Mike Gesicki,TE,BE,18.6,7.51
-2021,3,Zach,Nyheim Miller-Hines,RB,BE,18.9,10.08
+2021,3,Zach,Nyheim Hines,RB,BE,18.9,10.08
 2021,3,Zach,49ers D/ST,D/ST,BE,-1.0,5.46
 2021,3,Zach,Robbie Gould,K,K,4.0,7.88
 2021,3,Zach,Browns D/ST,D/ST,D/ST,18.0,7.18
@@ -6162,7 +6162,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2021,4,Zach,Sony Michel,RB,BE,-0.9,6.62
 2021,4,Zach,Hollywood Brown,WR,WR,19.1,13.02
 2021,4,Zach,Mike Gesicki,TE,BE,16.7,7.87
-2021,4,Zach,Nyheim Miller-Hines,RB,RB,1.1,11.14
+2021,4,Zach,Nyheim Hines,RB,RB,1.1,11.14
 2021,4,Zach,49ers D/ST,D/ST,BE,4.0,4.47
 2021,4,Zach,Robbie Gould,K,K,0.0,8.05
 2021,4,Zach,Bengals D/ST,D/ST,D/ST,1.0,8.0
@@ -8312,7 +8312,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,1,Dante,T.J. Hockenson,TE,TE,7.8,10.37
 2022,1,Dante,Aaron Rodgers,QB,QB,3.7,19.66
 2022,1,Dante,Chase Edmonds,RB,BE,10.5,10.65
-2022,1,Dante,Nyheim Miller-Hines,RB,BE,11.4,8.26
+2022,1,Dante,Nyheim Hines,RB,BE,11.4,8.26
 2022,1,Dante,George Pickens,WR,BE,1.3,8.57
 2022,1,Dante,Dawson Knox,TE,BE,1.5,9.36
 2022,1,Dante,Jamaal Williams,RB,BE,16.0,7.81
@@ -8551,7 +8551,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,2,Dante,T.J. Hockenson,TE,TE,5.6,10.46
 2022,2,Dante,Aaron Rodgers,QB,QB,16.36,19.6
 2022,2,Dante,Chase Edmonds,RB,BE,5.1,12.93
-2022,2,Dante,Nyheim Miller-Hines,RB,BE,7.7,9.56
+2022,2,Dante,Nyheim Hines,RB,BE,7.7,9.56
 2022,2,Dante,George Pickens,WR,BE,3.3,8.76
 2022,2,Dante,Dawson Knox,TE,BE,8.1,8.62
 2022,2,Dante,Jamaal Williams,RB,BE,7.0,9.66
@@ -8755,7 +8755,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,3,Dante,T.J. Hockenson,TE,TE,10.8,11.38
 2022,3,Dante,Aaron Rodgers,QB,QB,16.1,16.21
 2022,3,Dante,Chase Edmonds,RB,BE,15.7,11.41
-2022,3,Dante,Nyheim Miller-Hines,RB,BE,8.0,9.15
+2022,3,Dante,Nyheim Hines,RB,BE,8.0,9.15
 2022,3,Dante,George Pickens,WR,BE,6.9,7.03
 2022,3,Dante,Dawson Knox,TE,BE,6.5,8.84
 2022,3,Dante,Jamaal Williams,RB,BE,24.7,8.1
@@ -8994,7 +8994,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,4,Dante,T.J. Hockenson,TE,TE,39.9,10.79
 2022,4,Dante,Aaron Rodgers,QB,QB,16.14,16.77
 2022,4,Dante,Chase Edmonds,RB,BE,10.0,11.23
-2022,4,Dante,Nyheim Miller-Hines,RB,BE,2.3,9.46
+2022,4,Dante,Nyheim Hines,RB,BE,2.3,9.46
 2022,4,Dante,Dawson Knox,TE,BE,7.0,8.55
 2022,4,Dante,Jamaal Williams,RB,RB,23.9,14.06
 2022,4,Dante,Romeo Doubs,WR,BE,13.7,10.98
@@ -9186,7 +9186,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,5,Dante,T.J. Hockenson,TE,TE,1.6,13.06
 2022,5,Dante,Aaron Rodgers,QB,QB,16.88,16.06
 2022,5,Dante,Chase Edmonds,RB,BE,0.1,9.33
-2022,5,Dante,Nyheim Miller-Hines,RB,BE,1.8,12.49
+2022,5,Dante,Nyheim Hines,RB,BE,1.8,12.49
 2022,5,Dante,Dawson Knox,TE,BE,0.0,0.0
 2022,5,Dante,Jamaal Williams,RB,RB,5.6,15.97
 2022,5,Dante,Romeo Doubs,WR,BE,5.9,12.19
@@ -9328,7 +9328,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,6,Dante,Hunter Renfrow,WR,BE,0.0,0.0
 2022,6,Dante,T.J. Hockenson,TE,BE,0.0,0.0
 2022,6,Dante,Aaron Rodgers,QB,QB,11.84,16.41
-2022,6,Dante,Nyheim Miller-Hines,RB,BE,0.0,0.0
+2022,6,Dante,Nyheim Hines,RB,BE,0.0,0.0
 2022,6,Dante,Dawson Knox,TE,TE,12.7,9.32
 2022,6,Dante,Jamaal Williams,RB,BE,0.0,0.0
 2022,6,Dante,Romeo Doubs,WR,RB/WR/TE,6.1,11.74
@@ -9745,7 +9745,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,8,Michael,Titans D/ST,D/ST,D/ST,11.0,6.16
 2022,8,Michael,Melvin Gordon III,RB,BE,14.2,10.0
 2022,8,Michael,Donovan Peoples-Jones,WR,BE,12.1,9.16
-2022,8,Michael,Nyheim Miller-Hines,RB,RB,12.9,8.46
+2022,8,Michael,Nyheim Hines,RB,RB,12.9,8.46
 2022,8,Tyler,Austin Ekeler,RB,BE,0.0,0.0
 2022,8,Tyler,Keenan Allen,WR,BE,0.0,0.0
 2022,8,Tyler,Nick Folk,K,K,21.0,7.09
@@ -9918,7 +9918,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,9,Michael,Titans D/ST,D/ST,D/ST,1.0,2.88
 2022,9,Michael,Melvin Gordon III,RB,BE,0.0,0.0
 2022,9,Michael,Donovan Peoples-Jones,WR,BE,0.0,0.0
-2022,9,Michael,Nyheim Miller-Hines,RB,RB,0.0,7.4
+2022,9,Michael,Nyheim Hines,RB,RB,0.0,7.4
 2022,9,Noah,Ja'Marr Chase,WR,BE,0.0,0.0
 2022,9,Noah,CeeDee Lamb,WR,BE,0.0,0.0
 2022,9,Noah,Kyle Pitts Sr.,TE,TE,4.7,10.36
@@ -10059,7 +10059,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,10,Michael,Titans D/ST,D/ST,D/ST,11.0,6.22
 2022,10,Michael,Melvin Gordon III,RB,BE,11.0,7.28
 2022,10,Michael,Donovan Peoples-Jones,WR,RB/WR/TE,14.9,10.04
-2022,10,Michael,Nyheim Miller-Hines,RB,BE,1.9,5.83
+2022,10,Michael,Nyheim Hines,RB,BE,1.9,5.83
 2022,10,Zach,Deebo Samuel,WR,WR,7.1,15.35
 2022,10,Zach,Aaron Jones Sr.,RB,RB,23.6,14.45
 2022,10,Zach,Josh Allen,QB,QB,19.6,24.2
@@ -10231,7 +10231,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,11,Michael,Titans D/ST,D/ST,D/ST,6.0,5.15
 2022,11,Michael,Melvin Gordon III,RB,BE,12.0,9.68
 2022,11,Michael,Donovan Peoples-Jones,WR,RB/WR/TE,17.1,9.74
-2022,11,Michael,Nyheim Miller-Hines,RB,BE,-0.8,3.08
+2022,11,Michael,Nyheim Hines,RB,BE,-0.8,3.08
 2022,11,Michael,Michael Gallup,WR,WR,7.1,9.86
 2022,11,Michael,Tre' McKitty,TE,TE,0.0,7.11
 2022,11,Carter,Justin Jefferson,WR,WR,6.3,21.38
@@ -10374,7 +10374,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,12,Michael,Titans D/ST,D/ST,D/ST,0.0,5.85
 2022,12,Michael,Melvin Gordon III,RB,BE,0.0,0.0
 2022,12,Michael,Donovan Peoples-Jones,WR,BE,3.6,9.73
-2022,12,Michael,Nyheim Miller-Hines,RB,BE,0.3,3.29
+2022,12,Michael,Nyheim Hines,RB,BE,0.3,3.29
 2022,12,Michael,Michael Gallup,WR,BE,11.3,8.59
 2022,12,Michael,Tyler Conklin,TE,TE,8.0,7.7
 2022,12,Ethan,Derrick Henry,RB,RB,14.7,17.6
@@ -10532,7 +10532,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,13,Michael,Ezekiel Elliott,RB,RB,18.1,10.62
 2022,13,Michael,Melvin Gordon III,RB,BE,0.0,0.0
 2022,13,Michael,Donovan Peoples-Jones,WR,BE,13.4,10.73
-2022,13,Michael,Nyheim Miller-Hines,RB,BE,2.8,2.51
+2022,13,Michael,Nyheim Hines,RB,BE,2.8,2.51
 2022,13,Michael,Michael Gallup,WR,BE,18.3,9.17
 2022,13,Michael,Tyler Conklin,TE,TE,2.9,7.78
 2022,13,Michael,Dolphins D/ST,D/ST,D/ST,5.0,4.96
@@ -10771,7 +10771,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,14,Michael,Ezekiel Elliott,RB,RB,17.1,13.71
 2022,14,Michael,Melvin Gordon III,RB,BE,0.0,0.0
 2022,14,Michael,Donovan Peoples-Jones,WR,BE,19.4,9.53
-2022,14,Michael,Nyheim Miller-Hines,RB,BE,1.7,3.24
+2022,14,Michael,Nyheim Hines,RB,BE,1.7,3.24
 2022,14,Michael,Michael Gallup,WR,BE,6.0,10.43
 2022,14,Michael,Tyler Conklin,TE,TE,7.8,7.71
 2022,14,Michael,Raiders D/ST,D/ST,D/ST,9.0,6.79
@@ -11027,7 +11027,7 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2022,15,Michael,Ezekiel Elliott,RB,RB,15.1,13.9
 2022,15,Michael,Melvin Gordon III,RB,BE,0.0,0.0
 2022,15,Michael,Donovan Peoples-Jones,WR,BE,13.1,10.24
-2022,15,Michael,Nyheim Miller-Hines,RB,BE,8.0,3.41
+2022,15,Michael,Nyheim Hines,RB,BE,8.0,3.41
 2022,15,Michael,Michael Gallup,WR,BE,1.2,10.38
 2022,15,Michael,Tyler Conklin,TE,TE,1.9,7.39
 2022,15,Michael,Raiders D/ST,D/ST,D/ST,10.0,6.45
@@ -19068,3 +19068,193 @@ Year,Week,Team,Player,Position,Slot Position,Points,Projected Points
 2025,6,Kevin,JuJu Smith-Schuster,WR,BE,8.7,6.65
 2025,6,Kevin,Colts D/ST,D/ST,BE,1.0,7.12
 2025,6,Kevin,Trevor Lawrence,QB,QB,19.22,17.94
+2025,7,Michael,Amon-Ra St. Brown,WR,RB/WR/TE,20.6,20.15
+2025,7,Michael,Jonathan Taylor,RB,RB,34.2,24.37
+2025,7,Michael,Ladd McConkey,WR,WR,15.7,14.02
+2025,7,Michael,Kenneth Walker III,RB,RB,6.6,11.03
+2025,7,Michael,Jaylen Waddle,WR,WR,2.5,14.42
+2025,7,Michael,Tony Pollard,RB,BE,12.1,10.04
+2025,7,Michael,Travis Kelce,TE,BE,8.4,10.76
+2025,7,Michael,Brock Purdy,QB,BE,0.0,0.0
+2025,7,Michael,Chris Godwin Jr.,WR,BE,0.0,0.0
+2025,7,Michael,Khalil Shakir,WR,BE,0.0,0.0
+2025,7,Michael,Lions D/ST,D/ST,BE,13.0,3.97
+2025,7,Michael,Chris Boswell,K,K,8.0,8.95
+2025,7,Michael,Matthew Stafford,QB,QB,27.38,17.15
+2025,7,Michael,Romeo Doubs,WR,BE,13.2,12.44
+2025,7,Michael,Dallas Goedert,TE,TE,4.8,11.69
+2025,7,Michael,Chiefs D/ST,D/ST,D/ST,16.0,7.49
+2025,7,Ethan,CeeDee Lamb,WR,WR,22.0,19.41
+2025,7,Ethan,Derrick Henry,RB,BE,0.0,0.0
+2025,7,Ethan,Jalen Hurts,QB,QB,24.04,19.85
+2025,7,Ethan,George Kittle,TE,TE,0.0,13.0
+2025,7,Ethan,Zay Flowers,WR,BE,0.0,0.0
+2025,7,Ethan,Jameson Williams,WR,WR,0.0,13.2
+2025,7,Ethan,Jaylen Warren,RB,RB,19.8,16.56
+2025,7,Ethan,Jauan Jennings,WR,BE,7.1,8.89
+2025,7,Ethan,Keon Coleman,WR,BE,0.0,0.0
+2025,7,Ethan,Travis Etienne Jr.,RB,RB,6.5,13.37
+2025,7,Ethan,Dalton Kincaid,TE,BE,0.0,0.0
+2025,7,Ethan,Chase McLaughlin,K,K,5.0,8.5
+2025,7,Ethan,Packers D/ST,D/ST,D/ST,8.0,5.98
+2025,7,Ethan,Daniel Jones,QB,BE,22.22,18.38
+2025,7,Ethan,Browns D/ST,D/ST,BE,24.0,5.63
+2025,7,Ethan,Zach Ertz,TE,RB/WR/TE,12.7,11.21
+2025,7,Dante,Bijan Robinson,RB,RB,21.2,22.73
+2025,7,Dante,Lamar Jackson,QB,BE,0.0,0.0
+2025,7,Dante,Kyren Williams,RB,RB,8.5,16.54
+2025,7,Dante,Marvin Harrison Jr.,WR,BE,7.8,12.49
+2025,7,Dante,Courtland Sutton,WR,WR,16.7,12.75
+2025,7,Dante,Matthew Golden,WR,BE,7.7,11.66
+2025,7,Dante,Travis Hunter,WR,BE,24.1,9.88
+2025,7,Dante,J.K. Dobbins,RB,RB/WR/TE,9.0,12.8
+2025,7,Dante,Jake Ferguson,TE,TE,21.9,13.77
+2025,7,Dante,Tyler Allgeier,RB,BE,1.6,7.05
+2025,7,Dante,Harold Fannin Jr.,TE,BE,7.6,11.72
+2025,7,Dante,Elic Ayomanor,WR,BE,4.9,10.35
+2025,7,Dante,Jared Goff,QB,QB,10.34,16.83
+2025,7,Dante,DK Metcalf,WR,WR,8.0,15.83
+2025,7,Dante,Patriots D/ST,D/ST,D/ST,20.0,6.8
+2025,7,Dante,Jason Myers,K,K,9.0,7.97
+2025,7,Carter,De'Von Achane,RB,RB,12.8,21.54
+2025,7,Carter,Brian Thomas Jr.,WR,WR,6.1,13.94
+2025,7,Carter,Terry McLaurin,WR,BE,0.0,0.0
+2025,7,Carter,Chuba Hubbard,RB,BE,7.5,8.55
+2025,7,Carter,Patrick Mahomes,QB,QB,26.24,22.03
+2025,7,Carter,Rome Odunze,WR,WR,5.1,14.18
+2025,7,Carter,Mark Andrews,TE,BE,0.0,0.0
+2025,7,Carter,Caleb Williams,QB,BE,4.68,19.07
+2025,7,Carter,Tucker Kraft,TE,TE,16.8,9.4
+2025,7,Carter,Vikings D/ST,D/ST,D/ST,2.0,6.11
+2025,7,Carter,Marvin Mims Jr.,WR,BE,15.8,7.2
+2025,7,Carter,Kenneth Gainwell,RB,RB/WR/TE,3.5,13.06
+2025,7,Carter,Rico Dowdle,RB,RB,10.6,14.64
+2025,7,Carter,Matt Gay,K,K,2.0,8.35
+2025,7,Carter,Tyjae Spears,RB,BE,7.0,7.83
+2025,7,Carter,Calvin Ridley,WR,BE,0.0,0.0
+2025,7,Nathan,Ashton Jeanty,RB,RB,4.4,16.41
+2025,7,Nathan,A.J. Brown,WR,RB/WR/TE,28.1,14.9
+2025,7,Nathan,Omarion Hampton,RB,BE,0.0,0.0
+2025,7,Nathan,TreVeyon Henderson,RB,RB,0.5,11.55
+2025,7,Nathan,Baker Mayfield,QB,QB,11.12,19.32
+2025,7,Nathan,Rashee Rice,WR,WR,23.2,13.73
+2025,7,Nathan,Tyler Warren,TE,TE,16.9,12.45
+2025,7,Nathan,Deebo Samuel,WR,BE,0.0,0.0
+2025,7,Nathan,Eagles D/ST,D/ST,D/ST,11.0,6.84
+2025,7,Nathan,Quentin Johnston,WR,WR,11.0,14.9
+2025,7,Nathan,Juwan Johnson,TE,BE,12.9,7.5
+2025,7,Nathan,Rams D/ST,D/ST,BE,9.0,6.77
+2025,7,Nathan,Troy Franklin,WR,BE,12.9,8.32
+2025,7,Nathan,Zach Charbonnet,RB,BE,19.5,9.7
+2025,7,Nathan,Jakobi Meyers,WR,BE,0.0,0.0
+2025,7,Nathan,Eddy Pineiro,K,K,11.0,8.0
+2025,7,Haris,Jahmyr Gibbs,RB,RB,36.8,18.22
+2025,7,Haris,Drake London,WR,RB/WR/TE,8.2,16.77
+2025,7,Haris,James Cook III,RB,BE,0.0,0.0
+2025,7,Haris,Tetairoa McMillan,WR,WR,6.3,12.5
+2025,7,Haris,DeVonta Smith,WR,WR,33.3,12.46
+2025,7,Haris,Emeka Egbuka,WR,BE,9.8,12.8
+2025,7,Haris,Bo Nix,QB,QB,39.96,16.69
+2025,7,Haris,Cam Skattebo,RB,RB,18.4,14.02
+2025,7,Haris,Bhayshul Tuten,RB,BE,2.2,4.02
+2025,7,Haris,C.J. Stroud,QB,BE,13.66,17.73
+2025,7,Haris,Ravens D/ST,D/ST,BE,0.0,0.0
+2025,7,Haris,Harrison Butker,K,K,7.0,8.57
+2025,7,Haris,Chig Okonkwo,TE,BE,0.0,8.92
+2025,7,Haris,Hunter Henry,TE,TE,7.3,9.35
+2025,7,Haris,Bryce Young,QB,BE,10.52,15.27
+2025,7,Haris,Jets D/ST,D/ST,D/ST,5.0,5.16
+2025,7,Noah,Saquon Barkley,RB,RB,5.2,16.09
+2025,7,Noah,Chase Brown,RB,RB,12.0,11.41
+2025,7,Noah,Mike Evans,WR,WR,0.0,14.0
+2025,7,Noah,Sam LaPorta,TE,TE,4.5,12.99
+2025,7,Noah,George Pickens,WR,WR,12.2,15.76
+2025,7,Noah,Ricky Pearsall,WR,BE,0.0,0.0
+2025,7,Noah,Dak Prescott,QB,QB,23.26,21.79
+2025,7,Noah,Jaydon Blue,RB,BE,4.4,4.2
+2025,7,Noah,Kayshon Boutte,WR,BE,13.5,8.59
+2025,7,Noah,Tre Tucker,WR,BE,8.3,12.19
+2025,7,Noah,Woody Marks,RB,BE,12.5,9.12
+2025,7,Noah,Michael Carter,RB,BE,5.6,11.12
+2025,7,Noah,Kimani Vidal,RB,RB/WR/TE,7.5,12.2
+2025,7,Noah,Michael Badgley,K,K,5.0,8.3
+2025,7,Noah,Dolphins D/ST,D/ST,D/ST,4.0,4.72
+2025,7,Noah,Tez Johnson,WR,BE,15.8,6.06
+2025,7,McGwire,Bucky Irving,RB,BE,0.0,0.0
+2025,7,McGwire,Jayden Daniels,QB,QB,17.74,23.57
+2025,7,McGwire,T.J. Hockenson,TE,BE,10.3,9.48
+2025,7,McGwire,Jerry Jeudy,WR,BE,3.7,11.7
+2025,7,McGwire,Cooper Kupp,WR,WR,2.2,10.72
+2025,7,McGwire,Joe Mixon,RB,BE,0.0,0.0
+2025,7,McGwire,Nick Chubb,RB,BE,2.1,9.43
+2025,7,McGwire,Quinshon Judkins,RB,RB,26.4,16.3
+2025,7,McGwire,Brandon Aiyuk,WR,BE,0.0,0.0
+2025,7,McGwire,Cameron Dicker,K,K,7.0,8.12
+2025,7,McGwire,Rachaad White,RB,RB,8.4,18.0
+2025,7,McGwire,Mason Taylor,TE,TE,6.1,9.43
+2025,7,McGwire,Kendrick Bourne,WR,WR,3.4,10.2
+2025,7,McGwire,Bears D/ST,D/ST,D/ST,15.0,5.09
+2025,7,McGwire,Javonte Williams,RB,RB/WR/TE,18.8,17.64
+2025,7,McGwire,Garrett Wilson,WR,BE,0.0,0.0
+2025,7,Andrew,Ja'Marr Chase,WR,WR,38.1,16.14
+2025,7,Andrew,Trey McBride,TE,TE,29.4,16.28
+2025,7,Andrew,Josh Allen,QB,BE,0.0,0.0
+2025,7,Andrew,Breece Hall,RB,RB,7.2,16.23
+2025,7,Andrew,Xavier Worthy,WR,WR,7.8,13.42
+2025,7,Andrew,Jacory Croskey-Merritt,RB,RB/WR/TE,4.2,16.07
+2025,7,Andrew,Jordan Addison,WR,BE,21.8,11.92
+2025,7,Andrew,Stefon Diggs,WR,BE,13.9,13.63
+2025,7,Andrew,Texans D/ST,D/ST,BE,18.0,5.3
+2025,7,Andrew,Jake Bates,K,K,7.0,8.72
+2025,7,Andrew,Alvin Kamara,RB,RB,5.9,15.42
+2025,7,Andrew,Jaxson Dart,QB,QB,28.42,13.78
+2025,7,Andrew,Kendre Miller,RB,BE,0.7,6.59
+2025,7,Andrew,Panthers D/ST,D/ST,D/ST,16.0,6.64
+2025,7,Andrew,AJ Barner,TE,BE,1.9,7.68
+2025,7,Andrew,Bam Knight,RB,BE,9.4,9.9
+2025,7,Zach,Christian McCaffrey,RB,RB,39.1,22.63
+2025,7,Zach,Brock Bowers,TE,BE,0.0,0.0
+2025,7,Zach,Tee Higgins,WR,BE,21.6,10.99
+2025,7,Zach,D'Andre Swift,RB,RB,20.8,15.7
+2025,7,Zach,Aaron Jones Sr.,RB,BE,0.0,0.0
+2025,7,Zach,Justin Herbert,QB,QB,27.9,17.76
+2025,7,Zach,Chris Olave,WR,WR,26.8,15.6
+2025,7,Zach,Kyle Pitts Sr.,TE,BE,13.2,8.74
+2025,7,Zach,Seahawks D/ST,D/ST,D/ST,10.0,5.89
+2025,7,Zach,Ka'imi Fairbairn,K,BE,8.0,7.88
+2025,7,Zach,Wan'Dale Robinson,WR,WR,15.5,11.35
+2025,7,Zach,Darren Waller,TE,TE,0.0,8.57
+2025,7,Zach,Ryan Fitzgerald,K,K,7.0,8.01
+2025,7,Zach,Justin Jefferson,WR,RB/WR/TE,12.9,18.17
+2025,7,Tyler,Puka Nacua,WR,BE,0.0,0.0
+2025,7,Tyler,Nico Collins,WR,RB/WR/TE,6.7,17.66
+2025,7,Tyler,Joe Burrow,QB,BE,0.0,0.0
+2025,7,Tyler,DJ Moore,WR,BE,8.2,10.52
+2025,7,Tyler,RJ Harvey,RB,BE,7.2,8.04
+2025,7,Tyler,Evan Engram,TE,TE,9.2,9.3
+2025,7,Tyler,Rhamondre Stevenson,RB,RB,16.8,13.25
+2025,7,Tyler,Rashid Shaheed,WR,WR,8.0,11.28
+2025,7,Tyler,Keenan Allen,WR,WR,28.9,13.52
+2025,7,Tyler,Jordan Love,QB,BE,13.36,17.36
+2025,7,Tyler,Steelers D/ST,D/ST,D/ST,-4.0,7.93
+2025,7,Tyler,Cam Little,K,K,0.0,7.45
+2025,7,Tyler,Jonnu Smith,TE,BE,11.8,7.44
+2025,7,Tyler,Drake Maye,QB,QB,23.08,19.94
+2025,7,Tyler,Isiah Pacheco,RB,RB,12.4,11.49
+2025,7,Tyler,Giants D/ST,D/ST,BE,-2.0,4.81
+2025,7,Kevin,Josh Jacobs,RB,RB,18.8,19.25
+2025,7,Kevin,Davante Adams,WR,WR,26.5,19.27
+2025,7,Kevin,Jaxon Smith-Njigba,WR,WR,26.3,20.04
+2025,7,Kevin,David Montgomery,RB,RB/WR/TE,5.9,11.8
+2025,7,Kevin,David Njoku,TE,BE,0.0,0.0
+2025,7,Kevin,Michael Pittman Jr.,WR,BE,20.8,12.74
+2025,7,Kevin,Kyler Murray,QB,BE,0.0,0.0
+2025,7,Kevin,Jordan Mason,RB,RB,11.7,14.11
+2025,7,Kevin,Justin Fields,QB,QB,4.04,18.33
+2025,7,Kevin,Broncos D/ST,D/ST,D/ST,4.0,7.37
+2025,7,Kevin,Brandon Aubrey,K,K,18.0,9.13
+2025,7,Kevin,Brian Robinson Jr.,RB,BE,3.6,4.41
+2025,7,Kevin,Dalton Schultz,TE,TE,18.8,8.99
+2025,7,Kevin,JuJu Smith-Schuster,WR,BE,6.5,2.29
+2025,7,Kevin,Colts D/ST,D/ST,BE,4.0,5.71
+2025,7,Kevin,Trevor Lawrence,QB,BE,17.64,15.08
